@@ -1,0 +1,132 @@
+.proejct-head {
+  max-width: 850px;
+  margin: 120px auto 0px;
+  padding: 90px 100px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.proejct-head h2 {
+  font-size: 1.75em;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 39px;
+}
+
+.proejct-head span {
+  font-size: 14px;
+  display: block;
+  line-height: 25px;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.experiencurbian-min h2 {
+  font-weight: bold;
+  position: relative;
+}
+
+.bred-page {
+  position: relative;
+  z-index: 3;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.bred-page em {
+  font-style: normal;
+  position: relative;
+  z-index: 3;
+}
+
+.bred-page:before, .fBuaLH.is-active:before {
+  content: '';
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  background-color: yellow;
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+.fBuaLH.is-active {
+  color: #111314 !important;
+  position: relative;
+  z-index: 3;
+}
+
+.fBuaLH.is-active:before {
+  bottom: 9px;
+}
+
+header nav a {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+header nav a:hover {
+  color: #111314 !important;
+}
+
+header nav a.lgJjuq:before {
+  content: '';
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  left: 0px;
+  bottom: 9px;
+  background-color: yellow;
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+.readinss-diagnostic h4 {
+  font-size: 1.75em;
+  padding-top: 1.76em;
+  font-weight: 700;
+}
+
+.readinss-diagnostic p {
+  font-size: 1.10em;
+  padding-top: 20px;
+}
+
+.readinss-diagnostic ul {
+  padding-left: 20px;
+}
+
+.readinss-diagnostic li {
+  padding-top: 10px;
+  font-size: 1.10em;
+  list-style: disc;
+}
+
+.will-run img {
+  width: 122px;
+  border-radius: 100px;
+}
+
+.will-run {
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+}
+
+.will-run h6 {
+  font-size: 1.22em;
+  font-weight: 600;
+  display: block;
+  padding-top: 6px;
+  margin-bottom: 0px;
+}
+
+.will-run span {
+  font-size: 1em;
+}

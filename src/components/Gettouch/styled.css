@@ -1,0 +1,71 @@
+.getintouch-min {
+  width: 100%;
+  background: #fefc66;
+  padding: 80px 0;
+  color: #000;
+}
+
+.get-touch {
+  max-width: 850px;
+  margin: 0px auto;
+}
+
+.get-touch h2 {
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 38px;
+}
+
+.get-touch ul {
+  width: 45%;
+}
+
+.get-touch ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 15px;
+  color: rgb(17, 19, 20);
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+.get-touch ul li::before {
+  content: '- ';
+  position: absolute;
+  left: 0px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 55px;
+}
+
+a.iUBhrC {
+  color: rgb(17, 19, 20);
+  font-weight: 700;
+}
+
+.fRPwvC {
+  margin-left: 0.5em;
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  -webkit-transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.iUBhrC:hover .styled__Arrow-fdeFVt {
+  -webkit-transform: translateX(0.25em);
+  -ms-transform: translateX(0.25em);
+  transform: translateX(0.25em);
+}

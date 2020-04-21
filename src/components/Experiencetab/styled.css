@@ -1,0 +1,105 @@
+.experiencurbian-tab {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.react-tabs__tab-list {
+  border: 0px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-tabs__tab--selected {
+  border: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border-radius: 0px !important;
+  position: relative;
+  bottom: 0px !important;
+}
+
+.react-tabs__tab--selected:before {
+  content: '';
+  background-color: #000;
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: -11px;
+  left: 0px;
+  border: 1px solid #000;
+}
+
+.react-tabs__tab {
+  border-color: #000 !important;
+  border-bottom: 1px solid #000 !important;
+  width: 19%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tab-top-sect {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.tab-top-sect h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.tab-top-sect span {
+  font-size: 1.05em;
+  display: block;
+}
+
+.card, .card-img, .card-img-top {
+  border-radius: 0px !important;
+}
+
+.card-title {
+  columns: #000000;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.card, .card-footer {
+  border: 0px !important;
+  background-color: #fff;
+}
+
+.card span {
+  font-size: 1.15em;
+  display: block;
+}
+
+.card b {
+  font-size: 1.15em;
+  display: block;
+  margin-top: 17px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  list-style: disc;
+  padding-top: 2px;
+}
+
+.fRPwvC {
+  margin-left: 0.5em;
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  -webkit-transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.iUBhrC:hover .styled__Arrow-fdeFVt {
+  -webkit-transform: translateX(0.25em);
+  -ms-transform: translateX(0.25em);
+  transform: translateX(0.25em);
+}

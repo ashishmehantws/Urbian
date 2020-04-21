@@ -1,0 +1,16 @@
+export {
+  Huge,
+  Display,
+  displayStyle,
+  Title,
+  titleStyle,
+  SmallTitle,
+  smallTitleStyle,
+  Big,
+  bigStyle,
+  Text,
+  textStyle,
+  Label,
+  labelStyle,
+  Small,
+} from './styled'
