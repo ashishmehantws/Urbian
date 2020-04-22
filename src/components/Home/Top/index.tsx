@@ -1,9 +1,9 @@
 import React from 'react'
-import { motion } from 'framer-motion'
-
-import RecentProjects from './RecentProjects'
+// import { motion } from 'framer-motion'
+import { Link } from 'gatsby'
 
 import * as S from './styled'
+import './styles.css'
 
 interface ITop {
   headline: string
@@ -17,28 +17,62 @@ const SPRING_TRANSITION = {
 }
 
 const Top: React.FC<ITop> = ({ headline, tagline }) => (
-  <>
+  <div className="home-top">
     <S.Wrapper>
-      <S.Info>
-        <motion.div
-          animate={{ y: 0, opacity: 1 }}
-          initial={{ y: 30, opacity: 0 }}
-          transition={{ ...SPRING_TRANSITION, delay: 0.1 }}
+      <h1>
+        We{' '}
+        <Link className="styled__Link-lfEBUk iUBhrC" to="#">
+          desgin, develop and ship digital products
+          <svg
+            className="styled__Arrow-fdeFVt fRPwvC"
+            width="14"
+            height="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g stroke="#111314" fill="none" fillRule="evenodd">
+              <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+              <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+            </g>
+          </svg>
+        </Link>
+      </h1>
+      <span>
+        for{' '}
+        <Link className="styled__Link-lfEBUk iUBhrC" to="#">
+          transformational companies
+          <svg
+            className="styled__Arrow-fdeFVt fRPwvC"
+            width="14"
+            height="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g stroke="#111314" fill="none" fillRule="evenodd">
+              <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+              <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+            </g>
+          </svg>
+        </Link>
+      </span>
+      <span className="mb-3">embracing the economy of the future.</span>
+      <Link
+        className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
+        to="/experienceurbian"
+      >
+        Experience us first hand
+        <svg
+          className="styled__Arrow-fdeFVt fRPwvC"
+          width="14"
+          height="10"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <S.Huge>{headline}</S.Huge>
-        </motion.div>
-        <motion.div
-          animate={{ y: 0, opacity: 1 }}
-          initial={{ y: 30, opacity: 0 }}
-          transition={{ ...SPRING_TRANSITION, delay: 0.2 }}
-        >
-          <S.SmallTitle>{tagline}</S.SmallTitle>
-        </motion.div>
-      </S.Info>
+          <g stroke="#111314" fill="none" fillRule="evenodd">
+            <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+            <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+          </g>
+        </svg>
+      </Link>
     </S.Wrapper>
-
-    <RecentProjects />
-  </>
+  </div>
 )
 
 export default Top

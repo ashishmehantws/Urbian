@@ -1,5 +1,6 @@
 import React from 'react'
 import { RightContent, Big } from '../UI/'
+import { Link } from 'gatsby'
 import './styled.css'
 class Gettouch extends React.Component {
   render() {
@@ -38,7 +39,7 @@ class Gettouch extends React.Component {
             </ul>
           </div>
           <div className="text-center mt-4">
-            <a className="styled__Link-lfEBUk iUBhrC" href="/contact">
+            <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
               Get in touch
               <svg
                 className="styled__Arrow-fdeFVt fRPwvC"
@@ -51,7 +52,7 @@ class Gettouch extends React.Component {
                   <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                 </g>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

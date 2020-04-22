@@ -9,7 +9,8 @@ import SEO from '../components/SEO'
 import { Top, Services, Careers } from '../components/Home/'
 import FromTheBlog from '../components/FromTheBlog'
 import Gettouch from '../components/Gettouch'
-
+import Hometopimage from '../components/Hometopimage'
+import Homecovid from '../components/Homecovid'
 export interface IServicesContent {
   title: string
   text: string
@@ -54,6 +55,8 @@ const IndexPage: React.FC<IIndexPage> = ({ data }) => {
       <SEO />
 
       <Top headline={content.headline} tagline={content.tagline} />
+      <Hometopimage></Hometopimage>
+      <Homecovid></Homecovid>
       <Services {...content.services} />
       <Theme theme="dark">
         <FromTheBlog />

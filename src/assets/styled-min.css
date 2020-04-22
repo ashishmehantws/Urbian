@@ -42,7 +42,8 @@
   z-index: 3;
 }
 
-.bred-page:before, .fBuaLH.is-active:before {
+.bred-page:before,
+.fBuaLH.is-active:before {
   content: '';
   position: absolute;
   height: 9px;
@@ -94,7 +95,7 @@ header nav a.lgJjuq:before {
 }
 
 .readinss-diagnostic p {
-  font-size: 1.10em;
+  font-size: 1.1em;
   padding-top: 20px;
 }
 
@@ -104,7 +105,7 @@ header nav a.lgJjuq:before {
 
 .readinss-diagnostic li {
   padding-top: 10px;
-  font-size: 1.10em;
+  font-size: 1.1em;
   list-style: disc;
 }
 

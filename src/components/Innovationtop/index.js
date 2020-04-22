@@ -2,6 +2,7 @@ import React from 'react'
 import { RightContent, Big } from '../UI/'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'gatsby'
 import './styled.css'
 import onehour from '../../assets/images/1hour.jpg'
 import clockicon from '../../assets/images/clock-icon.jpg'
@@ -37,7 +38,7 @@ class Innovationtop extends React.Component {
                   Video call
                 </li>
               </ul>
-              <a
+              <Link
                 className="styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
                 href="/experienceurbian"
               >
@@ -53,7 +54,7 @@ class Innovationtop extends React.Component {
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
                 </svg>
-              </a>
+              </Link>
             </Col>
             <Col md="6">
               <img className="img-fluid" src={onehour} alt="1 hour" />

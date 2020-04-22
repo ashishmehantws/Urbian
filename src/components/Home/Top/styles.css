@@ -1,0 +1,38 @@
+.home-top .gfeMbr {
+  min-height: 300px !important;
+}
+
+.home-top h1, .home-top span {
+  font-size: 2.30em;
+  font-weight: bold;
+}
+
+.home-top h1 a, .home-top span a {
+  color: #212529;
+  ;
+  position: relative;
+  z-index: 2;
+  font-size: 1em;
+  padding-right: 10px;
+}
+
+.home-top h1 a:before, .home-top span a:before {
+  content: '';
+  position: absolute;
+  height: 19px;
+  width: 100%;
+  left: 0px;
+  bottom: -3px;
+  background-color: #ffff0082;
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+.home-top span a:before {
+  background-color: #c3f1ff;
+}
+
+.home-top h1 a .fRPwvC, .home-top span .fRPwvC {
+  margin-top: 10px;
+}

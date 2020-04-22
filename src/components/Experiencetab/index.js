@@ -2,6 +2,7 @@ import React from 'react'
 import { RightContent, Big } from '../UI/'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'gatsby'
 import './styled.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
@@ -61,7 +62,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -80,7 +81,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -110,7 +111,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -129,7 +130,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -159,7 +160,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -178,7 +179,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -221,7 +222,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -240,7 +241,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -270,7 +271,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -289,7 +290,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -319,7 +320,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -338,7 +339,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -381,7 +382,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -400,7 +401,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -430,7 +431,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/Innovationreadinessdiagnostic"
                         >
@@ -449,7 +450,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -479,7 +480,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -498,7 +499,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -541,7 +542,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -560,7 +561,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -590,7 +591,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -609,7 +610,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -639,7 +640,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -658,7 +659,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -701,7 +702,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -720,7 +721,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -750,7 +751,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -769,7 +770,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
@@ -799,7 +800,7 @@ class Experiencetab extends React.Component {
                         </ul>
                       </Card.Body>
                       <Card.Footer>
-                        <a
+                        <Link
                           className="styled__Link-lfEBUk iUBhrC"
                           href="/contact"
                         >
@@ -818,7 +819,7 @@ class Experiencetab extends React.Component {
                               ></path>
                             </g>
                           </svg>
-                        </a>
+                        </Link>
                       </Card.Footer>
                     </Card>
                   </Col>
