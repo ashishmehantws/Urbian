@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import * as S from './styled'
 import { Small, Link, Segg, Social } from '../../UI/'
-
+import foterlogo from '../../../assets/images/footer-logo.png'
 interface IItemType {
   label: string
   link: string
@@ -43,17 +43,16 @@ class FooterNav extends React.Component<{}, {}> {
     return columns.map(({ node: { id, title, type, items } }) => {
       if (title === 'Contact') {
         return (
-          <div key={id}>
+          <div key={id} className="footer-logo">
             <S.LogoLink to="/" title="Go to homepage">
-              <Segg />
+              {/* <Segg /> */}
+              <img src={foterlogo} alt="foterlogo" width="50px" />
             </S.LogoLink>
 
-            <S.ContactColumn>{this.renderItems(items)}</S.ContactColumn>
+            {/* <S.ContactColumn>{this.renderItems(items)}</S.ContactColumn> */}
 
-            <Small>
-              <Link to="/legal">Legal</Link>&nbsp;©&nbsp;
-              {new Date().getFullYear()}
-            </Small>
+            <Small>&copy;{new Date().getFullYear()} Urbian Group.</Small>
+            <Link to="">Privacy Policy</Link>
           </div>
         )
       }

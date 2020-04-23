@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { FluidObject } from 'gatsby-image'
-import { Theme } from '@theme'
+// import { Theme } from '@theme'
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -9,8 +9,13 @@ import SEO from '../components/SEO'
 import { Top, Services, Careers } from '../components/Home/'
 import FromTheBlog from '../components/FromTheBlog'
 import Gettouch from '../components/Gettouch'
-import Hometopimage from '../components/Hometopimage'
+import Homevideo from '../components/Homevideo'
 import Homecovid from '../components/Homecovid'
+import Testimonials from '../components/Testimonials'
+import Homecomplexproblems from '../components/Homecomplexproblems'
+import Homeclientlogo from '../components/Homeclientlogo'
+import Casestudiescarousel from '../components/Casestudiescarousel'
+import COVIDbanner from '../components/COVIDbanner'
 export interface IServicesContent {
   title: string
   text: string
@@ -51,19 +56,26 @@ const IndexPage: React.FC<IIndexPage> = ({ data }) => {
   const content = data.homeYaml
 
   return (
-    <Layout>
-      <SEO />
+    <div className="home-page">
+      <COVIDbanner></COVIDbanner>
+      <Layout>
+        <SEO />
+        <Top headline={content.headline} tagline={content.tagline} />
+        <Homevideo></Homevideo>
+        <Homecovid></Homecovid>
+        <Testimonials></Testimonials>
+        <Homecomplexproblems></Homecomplexproblems>
+        <Homeclientlogo></Homeclientlogo>
+        <Casestudiescarousel></Casestudiescarousel>
+        <Services {...content.services} />
 
-      <Top headline={content.headline} tagline={content.tagline} />
-      <Hometopimage></Hometopimage>
-      <Homecovid></Homecovid>
-      <Services {...content.services} />
-      <Theme theme="dark">
-        <FromTheBlog />
-      </Theme>
-      <Careers {...content.careers} />
-      <Gettouch></Gettouch>
-    </Layout>
+        <div className="fromblog">
+          <FromTheBlog />
+        </div>
+        <Careers {...content.careers} />
+        <Gettouch></Gettouch>
+      </Layout>
+    </div>
   )
 }
 

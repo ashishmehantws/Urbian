@@ -1,6 +1,6 @@
 import React, { RefObject } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-
+import { Link } from 'gatsby'
 import * as S from './styled'
 import { NavLink } from '../../UI/'
 
@@ -69,7 +69,28 @@ class Navigation extends React.Component<
                 itemsHeight={this.getItemsHeight()}
                 ref={this.menuWrapperRef}
               >
-                {this.renderLinks(items)}
+                <Link to="/showcase" activeClassName="active">
+                  Work
+                </Link>
+                <Link to="/clienr" activeClassName="active">
+                  Clients
+                </Link>
+                <Link to="/services" activeClassName="active">
+                  Services
+                </Link>
+                <Link to="/about" activeClassName="active">
+                  About
+                </Link>
+                <Link to="/careers" activeClassName="active">
+                  Careers
+                </Link>
+                <Link to="/blog" activeClassName="active">
+                  Read
+                </Link>
+                <Link to="/contact" activeClassName="active">
+                  Contact
+                </Link>
+                {/* {this.renderLinks(items)} */}
               </S.NavWrapper>
             )
           }}

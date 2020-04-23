@@ -129,7 +129,7 @@ export const NavWrapper = styled.nav`
       color: ${({ theme }) => theme.colors.foreground};
 
       &:last-child {
-        padding-bottom: 3rem;
+        padding-bottom: 0rem;
       }
     }
   }

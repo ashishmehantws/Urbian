@@ -1,0 +1,81 @@
+.Casestudiescarousel {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.Casestudiescarousel h4 {
+  font-size: 1.85em;
+  font-weight: bold;
+  max-width: 400px;
+  width: 100%;
+  padding-bottom: 120px;
+}
+
+.Casestudiescarousel a {
+  color: #000;
+  font-weight: 600 !important;
+}
+
+.carousel-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Casestudiescarousel .carousel-indicators li {
+  background-color: #bdbbbb;
+  width: 11px;
+  height: 11px;
+  border-radius: 100px;
+  border: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.Casestudiescarousel .carousel-indicators .active {
+  background-color: #ffff0082;
+}
+
+.Casestudiescarousel .carousel-indicators {
+  bottom: -70px;
+  margin-bottom: 0px;
+}
+
+.Casestudiescarousel span {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.Casestudiescarousel h5 {
+  font-size: 1.75em;
+  font-weight: 600;
+  padding-bottom: 28px;
+}
+
+.Casestudiescarousel p {
+  font-size: 1.15em;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 62px;
+}
+
+.Casestudiescarousel .carousel-control-prev {
+  left: -65px
+}
+
+.Casestudiescarousel .carousel-control-next {
+  right: -65px
+}
+
+.Casestudiescarousel .carousel-control-next-icon {
+  background: url(../../assets/images/arrow-right.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.Casestudiescarousel .carousel-control-prev-icon {
+  background: url(../../assets/images/arrow-left.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+  left: -124px;
+}

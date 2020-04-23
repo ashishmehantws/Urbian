@@ -52,7 +52,7 @@ const FromTheBlog: React.FC<{}> = () => {
                     <S.ListItem key={i}>
                       <S.Link href={postLink}>
                         <Big>{post.data.title}</Big>
-                        <S.More>{post.data.teaser}</S.More>
+                        {/* <S.More>{post.data.teaser}</S.More> */}
                       </S.Link>
                       <S.Author>
                         <AuthorBox

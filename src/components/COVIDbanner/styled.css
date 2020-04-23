@@ -1,0 +1,15 @@
+.Homecovid-banner {
+  background-color: #ffcecc;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  padding: 10px 0;
+}
+
+.Homecovid-banner a {
+  color: #ab210d;
+  font-size: 1em;
+}

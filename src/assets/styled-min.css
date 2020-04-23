@@ -41,9 +41,11 @@
   position: relative;
   z-index: 3;
 }
-
+header a {
+  color: #000;
+}
 .bred-page:before,
-.fBuaLH.is-active:before {
+header a.active:before {
   content: '';
   position: absolute;
   height: 9px;
@@ -56,7 +58,7 @@
   z-index: -2;
 }
 
-.fBuaLH.is-active {
+header a.active {
   color: #111314 !important;
   position: relative;
   z-index: 3;
@@ -130,4 +132,51 @@ header nav a.lgJjuq:before {
 
 .will-run span {
   font-size: 1em;
+}
+
+.fromblog .gueQTJ {
+  background-color: #fefddf;
+  border-color: #fefddf;
+  padding: 5px 0;
+}
+
+.fromblog p {
+  margin-bottom: 0px;
+}
+
+.fromblog .cMbCbI {
+  font-size: 0.47rem;
+  width: 100%;
+  min-width: 59px;
+  max-width: 59px;
+  min-height: 59px;
+  max-height: 59px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 2em;
+}
+
+.fromblog .cMbCbI .gatsby-image-wrapper,
+.cMbCbI img {
+  width: 59px;
+  height: 59px;
+}
+
+.fromblog .fMCkUL {
+  color: #000;
+}
+
+.fromblog .kapeNq {
+  border-color: #dbdabf;
+}
+
+.fromblog .NDCre,
+.fMqvyh {
+  font-weight: bold;
+}
+
+.footer-logo small {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }

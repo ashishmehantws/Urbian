@@ -64,7 +64,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -113,7 +113,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -162,7 +162,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -224,7 +224,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -273,7 +273,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -322,7 +322,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -384,7 +384,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -433,7 +433,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/Innovationreadinessdiagnostic"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -482,7 +482,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -544,7 +544,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -593,7 +593,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -642,7 +642,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -704,7 +704,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -753,7 +753,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg
@@ -802,7 +802,7 @@ class Experiencetab extends React.Component {
                       <Card.Footer>
                         <Link
                           className="styled__Link-lfEBUk iUBhrC"
-                          href="/contact"
+                          to="/Innovationreadinessdiagnostic"
                         >
                           Book Now
                           <svg

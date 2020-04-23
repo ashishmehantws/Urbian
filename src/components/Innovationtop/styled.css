@@ -5,6 +5,7 @@
   padding-bottom: 60px;
   display: block;
 }
+
 .innovationtop span {
   background-color: #fff;
   padding: 8px 17px;
@@ -17,36 +18,44 @@
   font-weight: 600;
   font-size: 2.52em;
 }
+
 .innovationtop h6 {
   padding-top: 18px;
   font-weight: 400;
   font-size: 1.62em;
   letter-spacing: 1px;
 }
+
 .innovationtop ul {
   margin-top: 45px;
 }
+
 .innovationtop li img {
   margin-right: 8px;
   float: left;
 }
+
 .innovationtop li {
   margin-top: 20px;
   font-weight: bold;
 }
+
 .innovationtop a {
   color: #fff;
   margin-top: 60px;
 }
+
 .innovationtop .fAxqDr .styled__Arrow-d87459-0 {
   margin-left: 0px;
   margin-right: 0.5em;
   transform: rotate(180deg);
 }
+
 .bQLhSh {
   margin-left: 0.5em;
   transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1) 0s;
 }
+
 .fAxqDr {
   display: inline-flex;
   -moz-box-align: center;
@@ -58,13 +67,16 @@
   transition: color 200ms ease-in-out 0s;
   flex-direction: row-reverse;
 }
+
 .fAxqDr:hover {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
 .fAxqDr:hover .styled__Arrow-d87459-0 {
   transform: rotate(180deg) translateX(0.25em);
 }
+
 a {
   text-decoration: none;
 }
