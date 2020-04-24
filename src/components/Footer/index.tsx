@@ -28,16 +28,16 @@ const Footer: React.FC<{}> = () => (
       <div>
         <h4 className="jgCqLu">Who we are</h4>
         <div className="cjuRPA">
-          <Link className="dbKpCb" href="/about">
+          <Link className="dbKpCb" to="/about">
             About
           </Link>
-          <Link className="dbKpCb" href="">
+          <Link className="dbKpCb" to="/clients">
             Client
           </Link>
-          <Link className="dbKpCb" href="/careers">
+          <Link className="dbKpCb" to="/careers">
             Careers
           </Link>
-          <Link className="dbKpCb" href="/contact">
+          <Link className="dbKpCb" to="/contact">
             Contact
           </Link>
         </div>
@@ -45,16 +45,16 @@ const Footer: React.FC<{}> = () => (
       <div>
         <h4 className="jgCqLu">Things we do</h4>
         <div className="cjuRPA">
-          <Link className="dbKpCb" href="/services">
+          <Link className="dbKpCb" to="/services">
             Services
           </Link>
-          <Link className="dbKpCb" href="/showcase">
+          <Link className="dbKpCb" to="/showcase">
             Work
           </Link>
-          <Link className="dbKpCb" href="/blog">
+          <Link className="dbKpCb" to="/blog">
             Read
           </Link>
-          <Link className="dbKpCb" href="/handbook">
+          <Link className="dbKpCb" to="/handbook">
             Handbook
           </Link>
         </div>
@@ -63,27 +63,27 @@ const Footer: React.FC<{}> = () => (
         <h4 className="jgCqLu">Email us</h4>
         <div className="cjuRPA">
           <Link
-            to="#combine-output"
+            to="#"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
           >
             New Business
           </Link>
           <Link
-            to=""
+            to="#"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
             target="_blank"
           >
             Press enquiries
           </Link>
           <Link
-            to=""
+            to="#"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
             target="_blank"
           >
             General enquireis
           </Link>
           <Link
-            to=""
+            to="#"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
             target="_blank"
           >

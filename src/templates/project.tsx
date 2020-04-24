@@ -9,7 +9,9 @@ import { IProject } from './project.types'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { Meta, Hero, Section, Next, Navigation } from '../components/Projects'
+
 import ConditionalWrap from '../components/utils/ConditionalWrap'
+import { Topimage, Projectdescription } from '../components/Casestudy'
 
 interface IProjectProps {
   data: {
@@ -38,9 +40,9 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
 
   return (
     <Layout
-      theme={getProjectTheme(project.main_theme, project.themes)}
-      headerTheme={getProjectTheme(project.hero_theme, project.themes)}
-      footerTheme="light"
+    // theme={getProjectTheme(project.main_theme, project.themes)}
+    // headerTheme={getProjectTheme(project.hero_theme, project.themes)}
+    // footerTheme="light"
     >
       <SEO
         title={project.seo_title}
@@ -51,17 +53,19 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
 
       <div>
         {/* Hero */}
-        <Theme theme={getProjectTheme(project.hero_theme, project.themes)}>
+        <Topimage></Topimage>
+        <Projectdescription></Projectdescription>
+        {/* <Theme theme={getProjectTheme(project.hero_theme, project.themes)}>
           <Hero
             title={project.project_title}
             tagline={project.tagline}
             fluid={project.hero_image.fluid}
             src={project.hero_image.url}
           />
-        </Theme>
+        </Theme> */}
 
         {/* Project description */}
-        <Meta
+        {/* <Meta
           description={project.description}
           client={project.client}
           services={project.services.map((s: { service: string }) => s.service)}
@@ -74,7 +78,7 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
               linkText: l.link_text,
             })
           )}
-        />
+        /> */}
 
         {/* Navigation */}
         <ConditionalWrap

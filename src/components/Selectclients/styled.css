@@ -1,0 +1,47 @@
+.Selectclients {
+    background-color: #fefc66;
+    padding: 130px 0;
+    color: #000;
+}
+
+.Selectclients h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #000;
+}
+
+.Selectclients span {
+    font-size: 1.40em;
+    padding-top: 25px;
+    line-height: 35px;
+    display: block;
+}
+
+.Selectclients h4 {
+    font-size: 2.35em;
+    font-weight: 600;
+    padding-top: 120px;
+    display: block;
+    height: 210px;
+}
+
+.Selectclients h6 {
+    font-size: 2.35em;
+    font-weight: 500;
+    padding-top: 180px;
+    display: block;
+    max-width: 750px;
+    margin: 0px auto;
+}
+
+.Selectclients p {
+    font-size: 1.15em;
+    padding-top: 10px;
+    line-height: 35x;
+}
+
+.Selectclients small {
+    padding-top: 40px;
+    font-size: 1.05em;
+    display: block;
+}

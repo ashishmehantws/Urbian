@@ -4,7 +4,7 @@ import { Provider, Theme, colorArgumentType } from '@theme'
 import Header from '../Header'
 import Footer from '../Footer'
 import ConditionalWrap from '../utils/ConditionalWrap'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 interface ILayoutProps {
   children: React.ReactNode
   theme?: colorArgumentType

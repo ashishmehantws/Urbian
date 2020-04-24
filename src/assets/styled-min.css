@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'Inter', sans-serif !important;
+  line-height: 1.5 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+em,
+pre,
+small,
+sub,
+sup,
+b,
+strong,
+i {
+  font-family: 'Inter', sans-serif !important;
+}
+address,
+dl,
+ol,
+ul {
+  margin-bottom: 1rem !important;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box !important;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem !important;
+  font-weight: 500;
+  line-height: 1.2 !important;
+}
+p {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.4;
+}
 .proejct-head {
   max-width: 850px;
   margin: 120px auto 0px;
@@ -41,9 +97,11 @@
   position: relative;
   z-index: 3;
 }
+
 header a {
   color: #000;
 }
+
 .bred-page:before,
 header a.active:before {
   content: '';
@@ -134,7 +192,8 @@ header nav a.lgJjuq:before {
   font-size: 1em;
 }
 
-.fromblog .gueQTJ {
+.fromblog .gueQTJ,
+.fromblog .cmDES {
   background-color: #fefddf;
   border-color: #fefddf;
   padding: 5px 0;
@@ -144,22 +203,23 @@ header nav a.lgJjuq:before {
   margin-bottom: 0px;
 }
 
-.fromblog .cMbCbI {
+.fromblog .cMbCbI,
+.fromblog .fdnxvr {
   font-size: 0.47rem;
   width: 100%;
-  min-width: 59px;
-  max-width: 59px;
-  min-height: 59px;
-  max-height: 59px;
-  border-radius: 100px;
+  min-width: 59px !important;
+  max-width: 59px !important;
+  min-height: 59px !important;
+  max-height: 59px !important;
+  border-radius: 100px !important;
   overflow: hidden;
   margin-right: 2em;
 }
 
-.fromblog .cMbCbI .gatsby-image-wrapper,
+.fromblog .gatsby-image-wrapper,
 .cMbCbI img {
-  width: 59px;
-  height: 59px;
+  width: 59px !important;
+  height: 59px !important;
 }
 
 .fromblog .fMCkUL {
@@ -179,4 +239,33 @@ header nav a.lgJjuq:before {
   display: block;
   padding-top: 15px;
   padding-bottom: 10px;
+}
+
+.innovation_min header {
+  background-color: #4a0053;
+}
+
+.innovation_min header a svg g {
+  fill: #fff !important;
+}
+
+.innovation_min header nav {
+  display: none;
+}
+
+.clients-div header {
+  background-color: #fefc66;
+}
+
+.clients-div header a.active:before {
+  content: '';
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
 }

@@ -72,7 +72,7 @@ class Navigation extends React.Component<
                 <Link to="/showcase" activeClassName="active">
                   Work
                 </Link>
-                <Link to="/clienr" activeClassName="active">
+                <Link to="/clients" activeClassName="active">
                   Clients
                 </Link>
                 <Link to="/services" activeClassName="active">

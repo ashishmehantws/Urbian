@@ -1,5 +1,5 @@
 export { default as Hero } from './Hero'
+export { default as Navigation } from './Navigation'
 export { default as Meta } from './Meta'
 export { default as Section } from './Section'
 export { default as Next } from './Next'
-export { default as Navigation } from './Navigation'
