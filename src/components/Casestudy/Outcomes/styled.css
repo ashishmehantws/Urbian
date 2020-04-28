@@ -1,0 +1,19 @@
+.Outcomes-min strong {
+  font-size: 6em;
+  display: block;
+  font-weight: 600;
+}
+
+.Outcomes-min span {
+  font-size: 1.1em;
+}
+
+.Outcomes-min h4 {
+  font-size: 1.85em;
+  font-weight: 700;
+  padding-top: 45px;
+}
+
+.Outcomes-min {
+  padding-bottom: 45px;
+}

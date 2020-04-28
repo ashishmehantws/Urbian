@@ -10,8 +10,14 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { Meta, Hero, Section, Next, Navigation } from '../components/Projects'
 
-import ConditionalWrap from '../components/utils/ConditionalWrap'
-import { Topimage, Projectdescription } from '../components/Casestudy'
+// import ConditionalWrap from '../components/utils/ConditionalWrap'
+import {
+  Topimage,
+  Projectdescription,
+  Outcomes,
+  Contentwrap,
+} from '../components/Casestudy'
+import Gettouch from '../components/Gettouch'
 
 interface IProjectProps {
   data: {
@@ -55,6 +61,8 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
         {/* Hero */}
         <Topimage></Topimage>
         <Projectdescription></Projectdescription>
+        <Outcomes></Outcomes>
+        <Contentwrap></Contentwrap>
         {/* <Theme theme={getProjectTheme(project.hero_theme, project.themes)}>
           <Hero
             title={project.project_title}
@@ -81,7 +89,7 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
         /> */}
 
         {/* Navigation */}
-        <ConditionalWrap
+        {/* <ConditionalWrap
           condition={!!project.navigation_theme}
           wrap={children => (
             <Theme
@@ -92,10 +100,10 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
           )}
         >
           <Navigation content={project.body} />
-        </ConditionalWrap>
+        </ConditionalWrap> */}
 
         {/* Content */}
-        {project.body.map((section, i) => {
+        {/* {project.body.map((section, i) => {
           if (section.slice_type === 'section') {
             sectionName.current = section.primary.title
           }
@@ -108,7 +116,7 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
               themes={project.themes}
             />
           )
-        })}
+        })} */}
 
         {/* Next  project */}
         <Theme
@@ -123,6 +131,7 @@ const ProjectPage = ({ data: staticData }: IProjectProps) => {
             link={project.next_project.document.url}
           />
         </Theme>
+        <Gettouch></Gettouch>
       </div>
     </Layout>
   )

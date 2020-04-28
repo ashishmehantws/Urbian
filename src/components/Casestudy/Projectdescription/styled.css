@@ -1,27 +1,44 @@
-.topimage {
-  padding: 100px 0;
+.project-desp {
+  padding: 70px 0;
 }
-.topimage a {
-  border: 1px solid #000;
-  padding: 8px 15px;
-  color: #000;
-  font-size: 0.75em;
-  display: inline-block;
+.project-desp strong {
+  display: block;
+  padding-bottom: 25px;
+  font-size: 1em;
 }
 
-.topimage h1 {
-  font-size: 2.1em;
-  font-weight: bold;
-  color: #000;
-  padding-top: 25px;
+.project-desp span {
+  display: block;
+  font-size: 0.85em;
 }
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+.project-desp p {
+  line-height: 35px;
+  font-size: 1.15em;
 }
 
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
+.project-desp h6 {
+  font-size: 1em;
+}
+
+.project-desp ul {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.project-desp li {
+  font-size: 0.85em;
+  list-style-type: disc;
+}
+.project-desp h5 {
+  font-size: 2.35em;
+  font-weight: 300;
+  padding-top: 100px;
+  display: block;
+  max-width: 750px;
+  margin: 0px auto;
+}
+.project-desp small {
+  padding-top: 40px;
+  font-size: 1.05em;
+  display: block;
 }

@@ -1,0 +1,44 @@
+.service-item strong {
+    font-weight: 600;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.service-item ul {
+    padding-left: 15px;
+}
+
+.service-item li {
+    padding-left: 0px;
+    list-style-type: disc;
+    padding-top: 3px;
+}
+
+.colorblack {
+    color: #000;
+    font-weight: 500;
+}
+
+.fYDdlr {
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.125rem;
+    line-height: 1;
+    transition: color 200ms ease-in-out 0s;
+}
+
+.fYDdlr {
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.bQLhSh {
+    margin-left: 0.5em;
+    transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1) 0s;
+}
+
+.fYDdlr:hover .styled__Arrow-d87459-0 {
+    transform: translateX(0.25em);
+}

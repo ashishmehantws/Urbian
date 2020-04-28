@@ -1,0 +1,15 @@
+.content-wrap {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-wrap h4 {
+  font-weight: bold;
+  font-size: 1.85em;
+  padding-bottom: 30px;
+}
+
+.content-wrap p {
+  font-size: 1.05em;
+  line-height: 32px;
+}

@@ -27,7 +27,7 @@ class Homecomplexproblems extends React.Component {
               className="text-center flex-container pb-5 padding-right border-r border-bottom"
             >
               <Link to="#">
-                <div className="flex-item">
+                <div className="flex-item fill">
                   <strong>2,050</strong>
                   <span>
                     entrerprenuers served through the Diageo Social Tech
@@ -55,7 +55,7 @@ class Homecomplexproblems extends React.Component {
               className="text-center flex-container pb-5 padding-left border-bottom"
             >
               <Link to="#">
-                <div className="flex-item">
+                <div className="flex-item fill">
                   <h5>
                     6 monthsto clear a 9 year feature backlog.
                     <svg
