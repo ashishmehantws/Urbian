@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 import Gettouch from '../components/Gettouch'
 import Selectclients from '../components/Selectclients'
-import Startupinvestements from '../components/startupinvestements'
+import Startupinvestements from '../components/Startupinvestements'
 class client extends React.Component {
   render() {
     return (
