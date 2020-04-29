@@ -1,14 +1,10 @@
 import React from 'components/homecovid/node_modules/react'
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {
-  Container,
-  Row,
-  Col,
-} from 'components/homecovid/node_modules/react-bootstrap'
+import { Container, Row, Col } from '../../../node_modules/react-bootstrap'
 
 import './styled.css'
-import { Link } from 'components/homecovid/node_modules/gatsby'
+import { Link } from 'gatsby'
 class Homecovid extends React.Component {
   render() {
     return (
