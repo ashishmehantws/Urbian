@@ -1,6 +1,6 @@
 import React from 'components/homecovid/node_modules/react'
 
-import 'components/homecovid/node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {
   Container,
   Row,
