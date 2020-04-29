@@ -7,7 +7,6 @@ import img1 from '../../../assets/images/EJ6C4565-9668.jpg'
 import img2 from '../../../assets/images/CPT_SE-30626_Diageo765-9684.jpg'
 import img3 from '../../../assets/images/CPT_SE-30626_Diageo674-9680.jpg'
 import img4 from '../../../assets/images/CPT_SE-30626_Diageo752-9703.jpg'
-import img5 from '../../../assets/images/DSC01836-9700.jpg'
 import img6 from '../../../assets/images/dasborad.jpg'
 import img7 from '../../../assets/images/Screens2020.png'
 class Contentwrap extends React.Component {
@@ -39,7 +38,7 @@ class Contentwrap extends React.Component {
           </Col>
           <Col md="4">
             <img src={img4} className="img-fluid " alt="#" />
-            <img src={img5} className="img-fluid" alt="#" />
+            <img src={img4} className="img-fluid" alt="#" />
           </Col>
         </Row>
         <Row>
