@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Experiencetab from '../components/Experiencetab'
@@ -9,6 +9,7 @@ import Meeting from '../components/Meeting'
 import Innovationtop from '../components/Innovationtop'
 import Louisbester from '../assets/images/Louis-bester.jpg'
 import Stephangrobler from '../assets/images/Stephan-grobler.jpg'
+
 class Innovationreadinessdiagnostic extends React.Component {
   render() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 import Gettouch from '../components/Gettouch'
 import Selectclients from '../components/Selectclients'
