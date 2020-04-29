@@ -8,7 +8,7 @@ class Gettouch extends React.Component {
       <div className="getintouch-min">
         <div className="get-touch">
           <h2>We can help you</h2>
-          <div className="d-flex">
+          <div className="d-flex flex-wrap">
             <ul>
               <li>
                 Lorem Ipsum is simply dummy text of the printing and typesetting

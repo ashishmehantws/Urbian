@@ -69,3 +69,13 @@ a.iUBhrC {
   -ms-transform: translateX(0.25em);
   transform: translateX(0.25em);
 }
+
+@media (max-width: 768px) {
+  .get-touch {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .get-touch ul {
+    width: 100%;
+  }
+}
