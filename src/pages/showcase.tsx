@@ -40,20 +40,18 @@ interface Showcase {
         linkText: string
       }
     }
-    allPrismicProject: {
-      nodes: Project[]
-    }
   }
 }
 
 const Showcase: React.FC<Showcase> = ({ data }) => {
+  const projects = []
   return (
     <Layout>
       <SEO
         title={data.showcaseYaml.seo.title}
         description={data.showcaseYaml.seo.description}
       />
-      <Projects projects={data.allPrismicProject.nodes} />
+      <Projects projects={projects} />
       {/* <CallToAction {...data.showcaseYaml.cta} /> */}
       <div className="proejct-head">
         <h2>
@@ -85,31 +83,6 @@ export const query = graphql`
         text
         link
         linkText
-      }
-    }
-
-    allPrismicProject(sort: { fields: first_publication_date, order: DESC }) {
-      nodes {
-        url
-        uid
-        data {
-          hero_theme
-          themes {
-            name
-            background
-          }
-          project_title
-          tagline
-          services {
-            service
-          }
-          thumb_image {
-            alt
-            fluid(maxWidth: 1000) {
-              ...GatsbyPrismicImageFluid_noBase64
-            }
-          }
-        }
       }
     }
   }

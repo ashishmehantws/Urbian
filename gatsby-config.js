@@ -86,14 +86,5 @@ module.exports = {
         icon: 'src/assets/images/icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-s3`,
-      options: {
-        bucketName: `significa.co`,
-        region: `eu-west-1`,
-        protocol: `https`,
-        hostname: `significa.co`,
-      },
-    },
   ],
 }

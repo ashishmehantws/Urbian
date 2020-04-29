@@ -1,8 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { media } from '@theme'
 
-import Img from '../../PrismicImage'
-
 import { Display, Big, Small } from '../../UI'
 
 export const Wrapper = styled.div`
@@ -17,21 +15,6 @@ export const Wrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-`
-
-export const Image = styled(Img)`
-  position: relative;
-
-  max-width: 22rem;
-  width: 100%;
-  height: auto;
-
-  margin-left: 3rem;
-  margin-right: -2rem;
-
-  ${media.medium} {
-    margin: 0;
   }
 `
 

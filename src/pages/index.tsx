@@ -7,7 +7,6 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
 import { Top, Services, Careers } from '../components/Home/'
-import FromTheBlog from '../components/FromTheBlog'
 import Gettouch from '../components/Gettouch'
 import Homevideo from '../components/Homevideo'
 import Homecovid from '../components/Homecovid'
@@ -69,9 +68,6 @@ const IndexPage: React.FC<IIndexPage> = ({ data }) => {
         <Casestudiescarousel></Casestudiescarousel>
         <Services {...content.services} />
 
-        <div className="fromblog">
-          <FromTheBlog />
-        </div>
         <Careers {...content.careers} />
         <Gettouch></Gettouch>
       </Layout>

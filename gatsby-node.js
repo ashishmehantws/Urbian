@@ -48,8 +48,6 @@ exports.createPages = async ({ graphql, actions }) => {
     redirectInBrowser: true,
   })
 
-  
-
   // Authors
   // TODO: uncomment when templates/blog-author.tsx is ready
 
