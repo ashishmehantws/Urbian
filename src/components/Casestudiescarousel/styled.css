@@ -49,10 +49,12 @@
   font-size: 1.75em;
   font-weight: 600;
   padding-bottom: 28px;
+  letter-spacing: 0.5px;
 }
 
 .Casestudiescarousel p {
-  font-size: 1.15em;
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
 }
 
 .carousel-control-next, .carousel-control-prev {

@@ -11,8 +11,13 @@
 
 .Homecovid-min p {
   font-size: 1.15em;
+  letter-spacing: 0.5px;
 }
 
 .Homecovid-min a {
   color: #ff0018;
+}
+
+.Homecovid-min .mt-3 {
+  margin-top: 35px !important;
 }

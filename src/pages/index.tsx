@@ -15,6 +15,8 @@ import Homecomplexproblems from '../components/Homecomplexproblems'
 import Homeclientlogo from '../components/Homeclientlogo'
 import Casestudiescarousel from '../components/Casestudiescarousel'
 import COVIDbanner from '../components/COVIDbanner'
+import FromTheBlog from '../components/FromTheBlog'
+
 export interface IServicesContent {
   title: string
   text: string
@@ -67,7 +69,9 @@ const IndexPage: React.FC<IIndexPage> = ({ data }) => {
         <Homeclientlogo></Homeclientlogo>
         <Casestudiescarousel></Casestudiescarousel>
         <Services {...content.services} />
-
+        <div className="fromblog">
+          <FromTheBlog />
+        </div>
         <Careers {...content.careers} />
         <Gettouch></Gettouch>
       </Layout>

@@ -19,7 +19,7 @@ const Careers: React.FC<ICareersContent> = ({
   link,
   photos,
 }) => (
-  <div>
+  <div className="careerPage">
     <S.Container>
       <S.Left>
         <S.Title>
@@ -34,14 +34,14 @@ const Careers: React.FC<ICareersContent> = ({
           Hey, <br /> We're hiring.
         </S.Title>
       </S.Left>
-      <S.Right>
+      <S.Right className="career">
         <S.Big>
           We are an open-minded, open-hearted team that loves the thrill of
           creating exciting new projects. Drop us a line if you're passionate
           and talented to do everything you set your mind to.
         </S.Big>
         <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/careers">
-          View careers
+          View current openings
           <svg
             className="styled__Arrow-d87459-0 bQLhSh"
             width="14"

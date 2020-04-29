@@ -20,12 +20,12 @@ class Homecovid extends React.Component {
                 your work and team remote due to the COVID-19 outbreak, please
                 reach out.
               </p>
-              <p>
+              <p className="mt-3">
                 If you're an organization struggling with the impact of moviing
                 your work and team remote due to the COVID-19 outbreak, please
                 reach out.
               </p>
-              <p>
+              <p className="mt-3">
                 If you're an organization struggling with the impact of moviing
                 your work and team remote due to the COVID-19 outbreak, please
                 reach out. If you're an organization struggling with the impact
@@ -33,7 +33,7 @@ class Homecovid extends React.Component {
                 outbreak, please reach out.
               </p>
               <Link
-                className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
+                className="styled__Link-lfEBUk iUBhrC float-left font-weight-normal mt-3"
                 to="/experienceurbian"
               >
                 Read more on our Covid-19 service offering

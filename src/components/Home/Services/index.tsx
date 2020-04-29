@@ -44,7 +44,7 @@ const Services: React.FC<IServicesContent> = ({
       We're one of the few agencies in the world that can take a product idea
       from end to end. From the first discovery meeting to a real shipped
       product. Have a great new product idea and nobody to start building it?
-      We're yout team.
+      <mark class="yellowBackground">We're your team.</mark>
     </S.TextContent>
     <S.Columns>
       <div className="col-sm-12 service-item">
@@ -76,7 +76,7 @@ const Services: React.FC<IServicesContent> = ({
     </S.Columns>
     <S.Bottom>
       <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/services">
-        View services
+        More on our services
         <svg
           className="styled__Arrow-d87459-0 bQLhSh"
           width="14"

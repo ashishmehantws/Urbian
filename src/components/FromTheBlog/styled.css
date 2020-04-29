@@ -1,0 +1,41 @@
+.homeblog-list {
+    background-color: #fefddf;
+    border-color: #fefddf;
+    padding: 25px 0 120px !important;
+}
+
+.homeblog-list strong {
+    font-size: 1.15em;
+    padding-bottom: 20px;
+    display: block;
+    font-weight: 600;
+}
+
+.auther-img {
+    width: 59px;
+    height: 59px;
+    border-radius: 100px;
+    margin-right: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.auther-img img {
+    width: 59px;
+    height: 59px;
+    border-radius: 100px;
+}
+
+.homeblog-list span {
+    margin-bottom: 15px;
+}
+
+.homeblog-list h4 {
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 1.85em;
+}
+
+.homeblog-list li {
+    padding-top: 60px;
+} 
