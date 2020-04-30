@@ -1,0 +1,18 @@
+.Recognition-min {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Recognition-min h4 {
+  font-size: 1.85em;
+  font-weight: bold;
+}
+
+.Recognition-min strong {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.Recognition-min a {
+  font-weight: normal;
+}

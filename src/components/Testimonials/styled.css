@@ -7,7 +7,9 @@
 }
 
 .Testimonials-slider h2 {
-  font-size: 2.35em;
+  font-size: 2.01em;
+  font-weight: normal;
+  line-height: 40px;
 }
 
 .Testimonials-slider span {
@@ -35,16 +37,17 @@
   margin-bottom: 0px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   width: 62px;
 }
 
 .Testimonials-slider .carousel-control-prev {
-  left: -65px
+  left: -65px;
 }
 
 .Testimonials-slider .carousel-control-next {
-  right: -65px
+  right: -65px;
 }
 
 .Testimonials-slider .carousel-control-next-icon {
@@ -61,7 +64,8 @@
 }
 
 @media (max-width: 990px) {
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     display: none;
   }
 }

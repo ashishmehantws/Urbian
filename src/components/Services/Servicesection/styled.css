@@ -1,0 +1,48 @@
+.servicesection {
+  padding-top: 170px;
+  padding-bottom: 100px;
+}
+
+.servicesection h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  display: inline-block;
+  max-width: 600px;
+  width: 100%;
+  margin: 0px auto;
+}
+.servicesection h2 a {
+  display: inline-block;
+  color: #212529;
+  font-size: 1em;
+  position: relative;
+  z-index: 2;
+}
+.servicesection h2 a::before {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 100%;
+  left: 0px;
+  bottom: -3px;
+  background-color: #ffff0082;
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+.w-90 {
+  width: 90%;
+}
+
+.servicesection h6 {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-bottom: 18px;
+}
+.servicesection a.servcclink {
+  font-size: 1em;
+  margin-top: 15px;
+}
+.servicesection p {
+  line-height: 30px;
+}

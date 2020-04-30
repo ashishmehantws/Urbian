@@ -4,9 +4,16 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
-import { Hero, Sections, Network } from '../components/Services'
+import {
+  Hero,
+  Sections,
+  Network,
+  Topsection,
+  Worksection,
+  Servicesection,
+} from '../components/Services'
 import { CallToAction } from '../components/UI'
-
+import Testimonials from '../components/Testimonials'
 interface IContent {
   data: {
     servicesYaml: {
@@ -32,6 +39,10 @@ const Contact: React.FC<IContent> = ({
   return (
     <Layout>
       <SEO title={seo.title} description={seo.description} />
+      <Topsection></Topsection>
+      <Testimonials></Testimonials>
+      <Worksection></Worksection>
+      <Servicesection></Servicesection>
       <Hero />
       <Sections />
       <Network />

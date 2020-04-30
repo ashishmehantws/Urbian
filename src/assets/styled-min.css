@@ -100,6 +100,7 @@ p {
 
 header a {
   color: #000;
+  font-weight: 500;
 }
 
 .bred-page:before,
@@ -110,7 +111,7 @@ header a.active:before {
   width: 100%;
   left: 0px;
   bottom: 0px;
-  background-color: yellow;
+  background-color: #ffff0082;
   transform: skew(-30deg);
   border: 0px;
   z-index: -2;
@@ -234,7 +235,9 @@ header nav a.lgJjuq:before {
 .fMqvyh {
   font-weight: bold;
 }
-.careerPage .jiZxJS { margin-bottom: 1em; }
+.careerPage .jiZxJS {
+  margin-bottom: 1em;
+}
 .footer-logo small {
   display: block;
   padding-top: 15px;
@@ -270,13 +273,27 @@ header nav a.lgJjuq:before {
   z-index: -2;
 }
 
-.yellowBackground { position: relative; z-index:2; }
-.yellowBackground:before { content: ''; position: absolute; height: 8px; width:100%; left: 0px; top:16px;
-background-color: #ffff0082;
--webkit-transform: skew(-30deg);
-transform: skew(-30deg);
-border: 0px;
-z-index: -2; }
-.styled__Title-hfnBqu { font-weight: bold; }
-.career p { font-size: 1.05em; letter-spacing: 0.5px; }
-
+.yellowBackground {
+  position: relative;
+  z-index: 2;
+}
+.yellowBackground:before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  left: 0px;
+  top: 16px;
+  background-color: #ffff0082;
+  -webkit-transform: skew(-30deg);
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+.styled__Title-hfnBqu {
+  font-weight: bold;
+}
+.career p {
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
+}

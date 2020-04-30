@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import './styled.css'
-import img1 from '../../../assets/images/EJ6C4565-9668.jpg'
+import img1 from '../../../assets/images/imgc-1.jpg'
 import img2 from '../../../assets/images/CPT_SE-30626_Diageo765-9684.jpg'
 import img3 from '../../../assets/images/CPT_SE-30626_Diageo674-9680.jpg'
 import img4 from '../../../assets/images/CPT_SE-30626_Diageo752-9703.jpg'

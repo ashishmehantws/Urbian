@@ -5,6 +5,9 @@ import {
   Projectdescription,
   Outcomes,
   Contentwrap,
+  Demoday,
+  Recognition,
+  Getintouch,
 } from '../components/Casestudy'
 import Gettouch from '../components/Gettouch'
 import Startup from '../components/Casestudy/Startup'
@@ -18,6 +21,9 @@ class casestudy extends React.Component {
         <Outcomes></Outcomes>
         <Contentwrap></Contentwrap>
         <Startup></Startup>
+        <Demoday></Demoday>
+        <Recognition></Recognition>
+        <Getintouch></Getintouch>
         <Gettouch></Gettouch>
       </Layout>
     )

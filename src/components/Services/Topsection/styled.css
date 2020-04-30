@@ -1,0 +1,11 @@
+.Topsection_min h1 {
+  font-size: 2.4em;
+  padding-top: 75px;
+  font-weight: 700;
+}
+
+.Topsection_min p {
+  font-size: 1.3em;
+  padding-top: 40px;
+  line-height: 35px;
+}

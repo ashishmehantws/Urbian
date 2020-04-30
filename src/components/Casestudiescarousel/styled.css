@@ -55,18 +55,22 @@
 .Casestudiescarousel p {
   font-size: 1.05em;
   letter-spacing: 0.5px;
+  padding-bottom: 30px;
+  padding-right: 9%;
+  line-height: 34px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   width: 62px;
 }
 
 .Casestudiescarousel .carousel-control-prev {
-  left: -65px
+  left: -65px;
 }
 
 .Casestudiescarousel .carousel-control-next {
-  right: -65px
+  right: -65px;
 }
 
 .Casestudiescarousel .carousel-control-next-icon {
@@ -83,7 +87,8 @@
 }
 
 @media (max-width: 990px) {
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     display: none;
   }
 }

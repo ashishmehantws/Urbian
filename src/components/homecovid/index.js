@@ -11,10 +11,10 @@ class Homecovid extends React.Component {
       <div className="Homecovid-min">
         <Container>
           <Row>
-            <Col md="5">
+            <Col md="4">
               <h3>Important</h3>
             </Col>
-            <Col md="7">
+            <Col md="6">
               <p>
                 If you're an organization struggling with the impact of moviing
                 your work and team remote due to the COVID-19 outbreak, please
@@ -50,6 +50,7 @@ class Homecovid extends React.Component {
                 </svg>
               </Link>
             </Col>
+            <Col md="2"></Col>
           </Row>
         </Container>
       </div>
