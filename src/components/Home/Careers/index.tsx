@@ -20,7 +20,7 @@ const Careers: React.FC<ICareersContent> = ({
   photos,
 }) => (
   <div className="careerPage">
-    <S.Container>
+    <S.Container className="mb-0">
       <S.Left>
         <S.Title>
           {/* {textByLine(title).map(l => {
@@ -55,15 +55,8 @@ const Careers: React.FC<ICareersContent> = ({
           </svg>
         </Link>
       </S.Right>
-      <S.Photos>
-        {/* {photos.map((photo, i) => ( */}
-        {/* <div key={i}>
-            <Img fluid={photo.childImageSharp.fluid} />
-          </div> */}
-        {/* ))} */}
-      </S.Photos>
     </S.Container>
-    <Container className="mb-5 pb-5">
+    <Container className=" pb-5">
       <Row className="mb-md-5 pb-md-5">
         <Col sm="4" className="mb-4">
           {' '}
