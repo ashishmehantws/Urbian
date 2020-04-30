@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './styled.css'
 import teamimg1 from '../../../assets/images/team-image1.jpg'
 import teamimg2 from '../../../assets/images/team-image2.jpg'
-import teamimg3 from '../../../assets/images/team-image3.jpg'
 class Worksection extends React.Component {
   render() {
     return (
@@ -22,7 +21,7 @@ class Worksection extends React.Component {
               <img src={teamimg2} className="img-fluid mt3" alt="Team" />
             </Col>
             <Col sm="4">
-              <img src={teamimg3} className="img-fluid mt3" alt="Team" />
+              <img src={teamimg2} className="img-fluid mt3" alt="Team" />
             </Col>
           </Row>
         </Container>
