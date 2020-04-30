@@ -23,19 +23,23 @@
 
 .get-touch ul li {
   position: relative;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-top: 15px;
   color: rgb(17, 19, 20);
   font-weight: 400;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.5;
   letter-spacing: 0px;
 }
 
 .get-touch ul li::before {
-  content: '- ';
+  content: ' ';
   position: absolute;
+  background: url(../../assets/images/checkmark-icon.png) no-repeat;
+  width: 20px;
+  height: 20px;
   left: 0px;
+  top: 7px;
 }
 
 .d-flex {
