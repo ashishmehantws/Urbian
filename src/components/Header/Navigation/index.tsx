@@ -69,7 +69,7 @@ class Navigation extends React.Component<
                 itemsHeight={this.getItemsHeight()}
                 ref={this.menuWrapperRef}
               >
-                <Link to="/showcase" activeClassName="active">
+                <Link to="/work" activeClassName="active">
                   Work
                 </Link>
                 <Link to="/clients" activeClassName="active">

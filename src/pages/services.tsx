@@ -5,14 +5,12 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
 import {
-  Hero,
-  Sections,
-  Network,
   Topsection,
   Worksection,
   Servicesection,
+  Projecthead,
 } from '../components/Services'
-import { CallToAction } from '../components/UI'
+import Gettouch from '../components/Gettouch'
 import Testimonials from '../components/Testimonials'
 interface IContent {
   data: {
@@ -43,15 +41,8 @@ const Contact: React.FC<IContent> = ({
       <Testimonials></Testimonials>
       <Worksection></Worksection>
       <Servicesection></Servicesection>
-      <Hero />
-      <Sections />
-      <Network />
-      <CallToAction
-        title={cta.title}
-        text={cta.text}
-        link={cta.link}
-        linkText={cta.linkText}
-      />
+      <Projecthead></Projecthead>
+      <Gettouch></Gettouch>
     </Layout>
   )
 }

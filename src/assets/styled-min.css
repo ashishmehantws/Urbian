@@ -300,6 +300,13 @@ header nav a.lgJjuq:before {
 header nav a:hover {
   text-decoration: none;
 }
+.digitaltransformation {
+  background-color: #f6f5f7;
+}
+.digitaltransformation .headroom-wrapper,
+.digitaltransformation .header {
+  background-color: #f6f5f7;
+}
 @media (max-width: 768px) {
   header nav a {
     display: block;

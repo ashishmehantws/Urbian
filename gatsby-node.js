@@ -34,12 +34,12 @@ exports.createPages = async ({ graphql, actions }) => {
     redirectInBrowser: true,
   })
 
-  createRedirect({
-    fromPath: '/work',
-    toPath: '/showcase',
-    isPermanent: true,
-    redirectInBrowser: true,
-  })
+  // createRedirect({
+  //   fromPath: '/work',
+  //   toPath: '/showcase',
+  //   isPermanent: true,
+  //   redirectInBrowser: true,
+  // })
 
   createRedirect({
     fromPath: '/labs/css-only-slider',
