@@ -11,9 +11,12 @@
   padding: 8px 17px 7px;
   color: #4a0053;
   font-weight: 600;
+  float: left;
 }
 .innovationtop span img {
-  margin-top: -3px;
+  margin-top: 3px;
+  float: left;
+  margin-right: 10px;
 }
 .innovationtop h1 {
   padding-top: 30px;

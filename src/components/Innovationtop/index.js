@@ -19,6 +19,7 @@ class Innovationtop extends React.Component {
               <span>
                 <img src={clockicon} alt="1 hour" /> 1 hour
               </span>
+              <div className="clearfix"></div>
               <h1>Innvation readiness diagnostic.</h1>
               <h6>
                 Is your company set up to take ideas into actual production fast
