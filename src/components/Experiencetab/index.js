@@ -13,7 +13,7 @@ import Image3 from '../../assets/images/img3.jpg'
 class Experiencetab extends React.Component {
   render() {
     return (
-      <Container>
+      <Container className="mb-5">
         <Row class="experiencurbian-tab">
           <Col>
             <Tabs>

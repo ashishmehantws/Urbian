@@ -8,11 +8,13 @@
 
 .innovationtop span {
   background-color: #fff;
-  padding: 8px 17px;
+  padding: 8px 17px 7px;
   color: #4a0053;
   font-weight: 600;
 }
-
+.innovationtop span img {
+  margin-top: -3px;
+}
 .innovationtop h1 {
   padding-top: 30px;
   font-weight: 600;
@@ -43,6 +45,7 @@
 .innovationtop a {
   color: #fff;
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .innovationtop .fAxqDr .styled__Arrow-d87459-0 {

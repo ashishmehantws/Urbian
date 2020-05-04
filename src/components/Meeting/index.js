@@ -56,6 +56,7 @@ class Meeting extends React.Component {
                 feedback="You must agree before submitting."
               />
             </Form.Group>
+
             <button className="styled__Button-ksqKNN iyLmoo styled__Button-kGpwPX dQtCFI">
               Send
               <svg

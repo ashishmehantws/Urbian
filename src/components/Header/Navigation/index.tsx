@@ -57,7 +57,7 @@ class Navigation extends React.Component<
 
   render() {
     return (
-      <S.Wrapper>
+      <S.Wrapper className="nav-wrp">
         <StaticQuery
           query={navigationQuery}
           render={(data: INavigationQuery) => {

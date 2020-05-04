@@ -14,7 +14,7 @@ class Innovationtop extends React.Component {
     return (
       <div className="innovationtop">
         <Container>
-          <Row>
+          <Row className="align-items-center">
             <Col md="6">
               <span>
                 <img src={clockicon} alt="1 hour" /> 1 hour

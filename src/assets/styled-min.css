@@ -88,6 +88,8 @@ p {
 .experiencurbian-min h2 {
   font-weight: bold;
   position: relative;
+  font-size: 2.2em;
+  padding-bottom: 45px;
 }
 
 .bred-page {
@@ -251,7 +253,8 @@ header nav a.lgJjuq:before {
   padding-bottom: 10px;
 }
 
-.innovation_min header {
+.innovation_min header,
+.innovation_min .headroom-wrapper {
   background-color: #4a0053;
 }
 
@@ -259,7 +262,7 @@ header nav a.lgJjuq:before {
   fill: #fff !important;
 }
 
-.innovation_min header nav {
+.innovation_min header .nav-wrp {
   display: none;
 }
 
@@ -312,12 +315,15 @@ header nav a:hover {
   text-decoration: none;
 }
 
-.digitaltransformation {
+.digitaltransformation,
+.experienceurbian {
   background-color: #f6f5f7;
 }
 
 .digitaltransformation .headroom-wrapper,
-.digitaltransformation header {
+.digitaltransformation header,
+.experienceurbian .headroom-wrapper,
+.experienceurbian header {
   background-color: #f6f5f7;
 }
 

@@ -36,35 +36,41 @@
   width: 19%;
   box-sizing: border-box;
   text-align: center;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .tab-top-sect {
   background-color: #000;
   color: #fff;
-  padding: 30px;
+  padding: 55px 30px;
   box-sizing: border-box;
 }
 
 .tab-top-sect h2 {
-  font-size: 1.75em;
-  font-weight: bold;
+  font-size: 1.85em;
+  font-weight: 600;
+  padding-bottom: 7px;
 }
 
 .tab-top-sect span {
-  font-size: 1.05em;
+  font-size: 1.2em;
   display: block;
 }
-
+.card {
+  margin-top: 20px;
+}
 .card,
 .card-img,
 .card-img-top {
   border-radius: 0px !important;
 }
 
-.card-title {
-  columns: #000000;
-  font-weight: bold;
-  margin-bottom: 4px;
+.card-title.h5 {
+  columns: #000000 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
 }
 
 .card,
@@ -74,12 +80,13 @@
 }
 
 .card span {
-  font-size: 1.15em;
+  font-size: 1.12em;
   display: block;
+  font-weight: normal;
 }
 
 .card b {
-  font-size: 1.15em;
+  font-size: 1.05em;
   display: block;
   margin-top: 17px;
   font-weight: 600;
