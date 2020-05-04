@@ -44,7 +44,7 @@
 @media (max-width: 1025px) {
   .home-top .homebanner {
     height: 100% !important;
-    min-height: 320px;
+    min-height: 320px !important;
   }
 }
 
@@ -67,7 +67,7 @@
   }
   .home-top .homebanner {
     height: 100% !important;
-    min-height: 260px;
+    min-height: 260px !important;
   }
 }
 
@@ -79,6 +79,6 @@
   }
   .home-top .homebanner {
     height: 100% !important;
-    min-height: 300px;
+    min-height: 300px !important;
   }
 }

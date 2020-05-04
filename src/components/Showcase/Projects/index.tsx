@@ -33,11 +33,11 @@ const Projects: React.FC<Projects> = ({ projects }) => {
           <Col>
             {' '}
             <h1>Our work.</h1>
-            <p>
+            <span>
               For over a decade we've helped ambitious companies re-imagine
               customer experiences, create new models for growth and build new
               capbilities.
-            </p>
+            </span>
           </Col>
         </Row>
       </Container>
@@ -60,7 +60,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
       </S.Container> */}
       <Container>
         <Row>
-          <Col sm="6" className="mt-5">
+          <Col sm="6" className="mt-5 pr-sm-5">
             <Link to="">
               <div className="project-img">
                 <img
@@ -77,7 +77,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5">
+          <Col sm="6" className="mt-5 pl-sm-6">
             <Link to="">
               <div className="project-img">
                 <img
@@ -94,7 +94,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5">
+          <Col sm="6" className="mt-5  pr-sm-5">
             <Link to="">
               <div className="project-img">
                 <img
@@ -111,7 +111,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5">
+          <Col sm="6" className="mt-5  pl-sm-5">
             <Link to="">
               <div className="project-img">
                 <img
