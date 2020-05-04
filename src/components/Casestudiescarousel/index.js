@@ -15,7 +15,7 @@ class Casestudiescarousel extends React.Component {
           <Row>
             <Carousel>
               <Carousel.Item>
-                <Row>
+                <Row className="align-items-center">
                   <Col sm="7">
                     <img className="img-fluid" src={Casestudies1} alt="#" />
                   </Col>
@@ -23,10 +23,13 @@ class Casestudiescarousel extends React.Component {
                     <span>Digital Transformation</span>
                     <h5>Liberty Insurance Direct</h5>
                     <p>
-                      <mark class="yellowBackground">Ongoing transformation </mark> of the Liberty Direct Insurance
-                      digital self-service customerfacing and employee-facing
-                      products, all enabled by us launching their first ever
-                      <mark class="yellowBackground"> insurance API.</mark>
+                      <mark className="yellowBackground">
+                        Ongoing transformation{' '}
+                      </mark>{' '}
+                      of the Liberty Direct Insurance digital self-service
+                      customerfacing and employee-facing products, all enabled
+                      by us launching their first ever
+                      <mark className="yellowBackground"> insurance API.</mark>
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
@@ -49,7 +52,7 @@ class Casestudiescarousel extends React.Component {
                 </Row>
               </Carousel.Item>
               <Carousel.Item>
-                <Row>
+                <Row className="align-items-center">
                   <Col sm="7">
                     <img className="img-fluid" src={Casestudies1} alt="#" />
                   </Col>
@@ -57,10 +60,13 @@ class Casestudiescarousel extends React.Component {
                     <span>Digital Transformation</span>
                     <h5>Liberty Insurance Direct</h5>
                     <p>
-                      <mark class="yellowBackground">Ongoing transformation </mark> of the Liberty Direct Insurance
-                      digital self-service customerfacing and employee-facing
-                      products, all enabled by us launching their first ever
-                      <mark class="yellowBackground">insurance API.</mark>
+                      <mark className="yellowBackground">
+                        Ongoing transformation{' '}
+                      </mark>{' '}
+                      of the Liberty Direct Insurance digital self-service
+                      customerfacing and employee-facing products, all enabled
+                      by us launching their first ever
+                      <mark className="yellowBackground">insurance API.</mark>
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"

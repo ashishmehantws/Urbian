@@ -81,7 +81,7 @@ class Navigation extends React.Component<
                 <Link to="/about" activeClassName="active">
                   About
                 </Link>
-                <Link to="/careers" activeClassName="active">
+                <Link to="/career" activeClassName="active">
                   Careers
                 </Link>
                 <Link to="/blog" activeClassName="active">

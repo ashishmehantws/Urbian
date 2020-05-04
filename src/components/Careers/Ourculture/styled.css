@@ -1,0 +1,34 @@
+.Ourculture_min {
+  padding: 0px 0 100px;
+}
+
+.Ourculture_min a {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.Ourculture_min h4 {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.Ourculture_min p {
+  font-size: 1.1em;
+  line-height: 30px !important;
+}
+
+.Ourculture_min strong {
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: block;
+}
+
+.yellowBackground:before {
+  background-color: #c9f9ff;
+}

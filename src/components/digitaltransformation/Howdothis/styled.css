@@ -1,0 +1,24 @@
+.howdo_this {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.howdo_this h2 {
+  font-weight: 600;
+}
+.howdo_this h4 {
+  display: block;
+  padding-bottom: 32px;
+  font-size: 2.2em;
+  font-weight: 500;
+  color: #000;
+}
+.howdo_this p {
+  line-height: 28px;
+}
+.pright {
+  padding-right: 15%;
+}
+.pleft {
+  padding-left: 13%;
+}

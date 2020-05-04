@@ -1,5 +1,6 @@
 .home-top .gfeMbr {
-  min-height: 300px !important;
+  height: 50vh;
+  min-height: 182px !important;
 }
 
 .home-top h1,
@@ -40,6 +41,13 @@
   margin-top: 10px;
 }
 
+@media (max-width: 1025px) {
+  .home-top .homebanner {
+    height: 100% !important;
+    min-height: 320px;
+  }
+}
+
 @media (max-width: 990px) {
   .home-top h1,
   .home-top span {
@@ -57,12 +65,20 @@
     font-size: 1.55em;
     display: inline;
   }
+  .home-top .homebanner {
+    height: 100% !important;
+    min-height: 260px;
+  }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 572px) {
   .home-top h1,
   .home-top span {
-    font-size: 1.55em;
+    font-size: 1.3em;
     display: inline;
+  }
+  .home-top .homebanner {
+    height: 100% !important;
+    min-height: 300px;
   }
 }

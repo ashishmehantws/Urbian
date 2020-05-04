@@ -6,11 +6,14 @@
 
 .complex-problems a {
   color: #000;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 .complex-problems h3 {
   font-weight: bold;
   padding-bottom: 80px;
+  font-size: 2.30em;
 }
 
 .complex-problems strong {
@@ -23,14 +26,14 @@
 .complex-problems span {
   font-size: 1.35em;
   display: block;
-  padding: 0px 30px 60px;
+  padding: 0px 17% 60px;
 }
 
 .complex-problems h5 {
   font-size: 2.74em;
   font-weight: 600;
-  padding-left: 37px;
-  padding-right: 37px;
+  padding-left: 17%;
+  padding-right: 17%;
   padding-top: 40px;
 }
 
@@ -94,5 +97,8 @@
 @media (max-width: 768px) {
   .padding-right {
     padding-right: 15px;
+  }
+  .complex-problems h3 {
+    font-size: 1.85em;
   }
 }

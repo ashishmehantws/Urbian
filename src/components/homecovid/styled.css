@@ -1,12 +1,13 @@
 .Homecovid-min {
   background-color: #ffe2e0;
-  padding: 70px 0 100px;
+  padding: 100px 0 100px;
 }
 
 .Homecovid-min h3 {
   color: #ff0018;
   font-weight: bold;
   font-size: 2em;
+  padding-bottom: 20px;
 }
 
 .Homecovid-min p {
@@ -20,4 +21,10 @@
 
 .Homecovid-min .mt-3 {
   margin-top: 35px !important;
+}
+
+@media (max-width: 568px) {
+  .Homecovid-min a {
+    font-size: 13px;
+  }
 }

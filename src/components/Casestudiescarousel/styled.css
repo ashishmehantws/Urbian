@@ -60,8 +60,7 @@
   line-height: 34px;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
   width: 62px;
 }
 
@@ -87,8 +86,11 @@
 }
 
 @media (max-width: 990px) {
-  .carousel-control-next,
-  .carousel-control-prev {
+  .Casestudiescarousel .carousel-control-next, .Casestudiescarousel .carousel-control-prev {
     display: none;
+  }
+  .Casestudiescarousel span {
+    display: block;
+    padding-top: 45px;
   }
 }

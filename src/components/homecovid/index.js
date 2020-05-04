@@ -11,7 +11,7 @@ class Homecovid extends React.Component {
       <div className="Homecovid-min">
         <Container>
           <Row>
-            <Col md="4">
+            <Col md="4" className="mb-4">
               <h3>Important</h3>
             </Col>
             <Col md="6">
@@ -43,7 +43,7 @@ class Homecovid extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#ab210d" fill="none" fillRule="evenodd">
+                  <g stroke="#ff0018" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>

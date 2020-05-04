@@ -26,7 +26,7 @@ class Homecomplexproblems extends React.Component {
               md="6"
               className="text-center flex-container pb-5 padding-right border-r border-bottom"
             >
-              <Link to="#">
+              <Link to="#" className="styled__Link-lfEBUk iUBhrC">
                 <div className="flex-item fill">
                   <strong>2,050</strong>
                   <span>
@@ -54,13 +54,13 @@ class Homecomplexproblems extends React.Component {
               md="6"
               className="text-center flex-container pb-5 padding-left border-bottom"
             >
-              <Link to="#">
+              <Link to="#" className="styled__Link-lfEBUk iUBhrC">
                 <div className="flex-item fill">
                   <h5>
                     6 monthsto clear a 9 year feature backlog.
                     <svg
                       className="styled__Arrow-fdeFVt fRPwvC"
-                      width="14"
+                      width="25"
                       height="10"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -83,7 +83,7 @@ class Homecomplexproblems extends React.Component {
               className="text-center flex-container pb-5 padding-right border-bottom border-r"
             >
               {' '}
-              <Link to="#">
+              <Link to="#" className="styled__Link-lfEBUk iUBhrC">
                 <div className="flex-item">
                   <h5>
                     Over R50 million of new revenue generated in under 90 days
@@ -114,7 +114,7 @@ class Homecomplexproblems extends React.Component {
               md="6"
               className="text-center flex-container pb-5 padding-left border-bottom"
             >
-              <Link to="#">
+              <Link to="#" className="styled__Link-lfEBUk iUBhrC">
                 <div className="flex-item">
                   <strong>153%</strong>
                   <span>

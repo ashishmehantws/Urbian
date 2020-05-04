@@ -18,7 +18,7 @@ const SPRING_TRANSITION = {
 
 const Top: React.FC<ITop> = ({ headline, tagline }) => (
   <div className="home-top">
-    <S.Wrapper>
+    <S.Wrapper className="homebanner">
       <h1>
         We{' '}
         <Link className="styled__Link-lfEBUk iUBhrC" to="#">

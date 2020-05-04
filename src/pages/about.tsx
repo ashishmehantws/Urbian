@@ -12,7 +12,8 @@ import {
   Team,
   Services,
 } from '../components/About'
-
+import Gettouch from '../components/Gettouch'
+import Projecthead from '../components/Services/Projecthead'
 interface IAbout {
   data: {
     aboutYaml: {
@@ -49,6 +50,8 @@ const Contact: React.FC<IAbout> = ({ data }) => {
       <Careers />
       <Team />
       <Services />
+      <Projecthead></Projecthead>
+      <Gettouch></Gettouch>
     </Layout>
   )
 }

@@ -8,6 +8,8 @@
 .get-touch {
   max-width: 850px;
   margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .get-touch h2 {
@@ -74,7 +76,7 @@ a.iUBhrC {
   transform: translateX(0.25em);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .get-touch {
     padding-left: 15px;
     padding-right: 15px;

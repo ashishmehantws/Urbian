@@ -55,11 +55,11 @@ export const Columns = styled.div`
   grid-template: auto / repeat(3, 1fr);
   grid-column-gap: 3em;
 
-  ${media.medium} {
-    grid-template-columns: repeat(1, auto);
-    grid-row-gap: 2em;
-  }
-`
+//   ${media.medium} {
+//     grid-template-columns: repeat(1, auto);
+//     grid-row-gap: 2em;
+//   }
+// `
 
 export const Bottom = styled.div`
   grid-area: b;

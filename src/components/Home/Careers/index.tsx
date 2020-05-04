@@ -22,7 +22,7 @@ const Careers: React.FC<ICareersContent> = ({
   <div className="careerPage">
     <S.Container className="mb-5">
       <S.Left>
-        <S.Title>
+        <S.Title className="career-title-h">
           {/* {textByLine(title).map(l => {
             return (
               <React.Fragment key={l}>
@@ -36,9 +36,11 @@ const Careers: React.FC<ICareersContent> = ({
       </S.Left>
       <S.Right className="career">
         <S.Big>
-          We are an open-minded, open-hearted team that loves the thrill of
-          creating exciting new projects. Drop us a line if you're passionate
-          and talented to do everything you set your mind to.
+          <p className="fz-2">
+            We are an open-minded, open-hearted team that loves the thrill of
+            creating exciting new projects. Drop us a line if you're passionate
+            and talented to do everything you set your mind to.
+          </p>
         </S.Big>
         <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/careers">
           View current openings

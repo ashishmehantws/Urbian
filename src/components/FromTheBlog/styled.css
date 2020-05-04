@@ -36,6 +36,10 @@
     font-size: 1.85em;
 }
 
+.homeblog-list ul {
+    padding-bottom: 50px;
+}
+
 .homeblog-list li {
     padding-top: 60px;
-} 
+}
