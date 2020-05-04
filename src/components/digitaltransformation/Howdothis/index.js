@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import img1 from '../../../assets/images/DC3A3854-12750.jpg'
+// import img1 from '../../../assets/images/DC3A3854-12750.jpg'
 import img2 from '../../../assets/images/pasted-image-12762.jpg'
 import img3 from '../../../assets/images/IMG_0079-12780.jpg'
 // import { Link } from 'gatsby'
@@ -28,7 +28,7 @@ class Howdothis extends React.Component {
             </p>
           </Col>
           <Col md="6" className="mt-5">
-            <img src={img1} className="img-fluid" alt="img1" />
+            <img src={img2} className="img-fluid" alt="img1" />
           </Col>
         </Row>
         <Row className="mb-5 pb-5 pt-5">
