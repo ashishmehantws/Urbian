@@ -13,7 +13,7 @@
 .complex-problems h3 {
   font-weight: bold;
   padding-bottom: 80px;
-  font-size: 2.30em;
+  font-size: 2.3em;
 }
 
 .complex-problems strong {
@@ -54,17 +54,14 @@
 
 .flex-item {
   -webkit-flex: 0 1 auto !important;
-  -ms-flex: 0 1 auto!important;
-  flex: 0 1 auto!important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
 }
 
 .fill {
-  -webkit-flex: 1!important;
-  ;
-  -ms-flex: 1!important;
-  ;
-  flex: 1!important;
-  ;
+  -webkit-flex: 1 !important;
+  -ms-flex: 1 !important;
+  flex: 1 !important;
 }
 
 .padding-right {
@@ -100,5 +97,11 @@
   }
   .complex-problems h3 {
     font-size: 1.85em;
+  }
+  .complex-problems h5,
+  .complex-problems span {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.34em;
   }
 }

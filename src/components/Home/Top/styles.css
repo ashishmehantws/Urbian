@@ -1,6 +1,6 @@
-.home-top .gfeMbr {
-  height: 50vh;
-  min-height: 182px !important;
+.home-top .homebanner {
+  height: 100% !important;
+  min-height: 340px !important;
 }
 
 .home-top h1,
