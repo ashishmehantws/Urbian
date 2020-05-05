@@ -369,7 +369,26 @@ class Servicesection extends React.Component {
               <Col md="6"></Col>
               <Col md="6" className="mt-5 pt-4">
                 <span>Case Study</span>
-                <h6>Clearing a 9 year old feature backlog in 6 months.</h6>
+                <h6 className="mb-5">
+                  Clearing a 9 year old feature backlog in 6 months.
+                </h6>
+                <Link
+                  className="styled__Link-lfEBUk iUBhrC font-weight-normal"
+                  to="/casestudy"
+                >
+                  View case study
+                  <svg
+                    className="styled__Arrow-fdeFVt fRPwvC"
+                    width="14"
+                    height="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g stroke="#fff" fill="none" fillRule="evenodd">
+                      <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+                      <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+                    </g>
+                  </svg>
+                </Link>
               </Col>
             </Row>
           </Container>

@@ -266,7 +266,8 @@ header nav a.lgJjuq:before {
   display: none;
 }
 
-.clients-div header {
+.clients-div header,
+.clients-div .headroom-wrapper {
   background-color: #fefc66;
 }
 
