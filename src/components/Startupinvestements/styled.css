@@ -1,51 +1,51 @@
 .startupinvestements {
-    background-color: #000;
-    padding: 130px 0;
-    color: #fff;
+  background-color: #000;
+  padding: 130px 0;
+  color: #fff;
 }
 
 .startupinvestements h2 {
-    font-size: 2.15em;
-    font-weight: 600;
-    color: #fff;
+  font-size: 2.15em;
+  font-weight: 600;
+  color: #fff;
 }
 
 .startupinvestements span {
-    font-size: 1.15em;
-    padding-top: 25px;
-    line-height: 35px;
-    display: block;
+  font-size: 1.15em;
+  padding-top: 25px;
+  line-height: 1.7em;
+  display: block;
 }
 
 .startupinvestements h4 {
-    font-size: 2.35em;
-    font-weight: 600;
-    padding-top: 120px;
-    display: block;
-    height: 210px;
+  font-size: 2.35em;
+  font-weight: 500;
+  padding-top: 120px;
+  display: block;
+  height: 210px;
 }
 
 .startupinvestements h6 {
-    font-size: 2.35em;
-    font-weight: 400;
-    padding-top: 180px;
-    display: block;
-    max-width: 750px;
-    margin: 0px auto;
+  font-size: 2.35em;
+  font-weight: 400;
+  padding-top: 180px;
+  display: block;
+  max-width: 750px;
+  margin: 0px auto;
 }
 
 .startupinvestements p {
-    font-size: 1.15em;
-    padding-top: 10px;
-    line-height: 35x;
+  font-size: 1.15em;
+  padding-top: 10px;
+  padding-right: 17%;
 }
 
 .startupinvestements small {
-    padding-top: 40px;
-    font-size: 1.05em;
-    display: block;
+  padding-top: 40px;
+  font-size: 1.05em;
+  display: block;
 }
 
 .startupinvestements a {
-    color: #fff;
+  color: #fff;
 }

@@ -16,27 +16,27 @@ class Homeclientlogo extends React.Component {
         <Container className="clearfix pt-4 pb-4 border-bottom">
           <Row>
             <ul className="d-flex flex-wrap w-100 justify-content-around align-items-center mb-0">
-              <li className="p-1">
+              <li className="p-lg-1 p-3">
                 <Link to="#">
                   <img src={storage} alt="#" />
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-lg-1 p-3">
                 <Link to="#">
                   <img src={standardbank} alt="#" />
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-lg-1 p-3">
                 <Link to="#">
                   <img src={vital} alt="#" />
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-lg-1 p-3">
                 <Link to="#">
                   <img src={santa} alt="#" />
                 </Link>
               </li>
-              <li className="p-1">
+              <li className="p-lg-1 p-3">
                 <Link to="#">
                   <img src={santam} alt="#" />
                 </Link>

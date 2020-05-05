@@ -18,11 +18,11 @@
   flex-wrap: wrap;
 }
 
-.ljPvsn> :first-child {
+.ljPvsn > :first-child {
   min-width: calc(35%);
 }
 
-.ljPvsn>* {
+.ljPvsn > * {
   flex: 1 1 0%;
   margin-bottom: 4em;
 }
@@ -90,15 +90,17 @@ footer a.privacy-link {
 .dQBbqc {
   transition: opacity 200ms ease-in-out 0s;
 }
-
+.cls-1 {
+  fill: #ecfa00;
+}
 @media (max-width: 768px) {
-  .ljPvsn> :first-child {
+  .ljPvsn > :first-child {
     min-width: 100%;
   }
 }
 
 @media (max-width: 568px) {
-  .ljPvsn>* {
+  .ljPvsn > * {
     flex: 1 1 0%;
     min-width: 100%;
   }

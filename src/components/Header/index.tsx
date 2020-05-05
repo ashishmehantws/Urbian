@@ -38,7 +38,7 @@ const Header: React.FC<{ isBlogPage?: boolean; children: React.ReactNode }> = ({
   return (
     <S.Header upTolerance={50} onUnpin={() => setShouldClose(true)}>
       <S.Wrapper>
-        <S.Container>
+        <S.Container className="nav-container">
           <div>
             <S.LogoLink to="/" title="Go to homepage">
               <Logo />

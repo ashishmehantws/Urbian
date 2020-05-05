@@ -89,7 +89,7 @@ p {
   font-weight: bold;
   position: relative;
   font-size: 2.2em;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
 }
 
 .bred-page {
@@ -345,13 +345,34 @@ header nav a:hover {
     padding: 0.75em 0px;
     text-decoration: none;
   }
+  .nav-wrp button:before {
+    top: 1.25em !important;
+  }
+
+  header .nav-wrp:before {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  header a.active {
+    display: inline;
+  }
+  .clients-div header a.active::before,
+  header a.active::before {
+    background-color: #fefc66;
+    bottom: 15px;
+  }
+  header .nav-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media (max-width: 568px) {
-  .proejct-head {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .proejct-head h2 {
     font-size: 1.3em;
+  }
+  a,
+  .fYDdlr {
+    font-size: 13px;
   }
 }

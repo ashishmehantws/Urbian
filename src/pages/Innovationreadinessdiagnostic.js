@@ -18,7 +18,7 @@ class Innovationreadinessdiagnostic extends React.Component {
           <Innovationtop></Innovationtop>
           <Container className="pt-3 mb-4 pb-4 readinss-diagnostic">
             <Row className="">
-              <Col md="6">
+              <Col lg="6">
                 <h4 className="mt-4">What is it?</h4>
                 <p>
                   In a one hour checkup, we'll take the temperature of your
@@ -66,7 +66,7 @@ class Innovationreadinessdiagnostic extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col md="6">
+              <Col lg="6">
                 <Meeting></Meeting>
               </Col>
             </Row>

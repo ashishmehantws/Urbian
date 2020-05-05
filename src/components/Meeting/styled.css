@@ -115,7 +115,7 @@
 }
 @media (max-width: 768px) {
   .meeting-min small {
-    padding-top: 30px;
+    padding-top: 10px;
   }
   .meeting-min {
     padding-left: 15px;

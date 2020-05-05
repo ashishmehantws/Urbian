@@ -15,7 +15,7 @@ class Experiencetab extends React.Component {
     return (
       <Container className="mb-5">
         <Row class="experiencurbian-tab">
-          <Col>
+          <Col className="pl-0 pr-0">
             <Tabs>
               <TabList>
                 <Tab>1 hour</Tab>

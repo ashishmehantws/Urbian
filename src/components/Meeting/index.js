@@ -47,18 +47,18 @@ class Meeting extends React.Component {
               required
             />
           </Form.Group>
-          <div className="mt-4 d-flex justify-content-between align-items-center checkbox-d">
+          <div className="mt-4 d-flex justify-content-between align-items-center checkbox-d ">
             {['checkbox'].map(type => (
-              <div key={`custom-${type}`} className="mb-3">
+              <div key={`custom-${type}`} className=" font-weight-bold mb-3">
                 <Form.Check
                   custom
                   type={type}
                   id={`custom-${type}`}
-                  label={`I want to get ongoing communication ${type}`}
+                  label={`I want to get ongoing communication `}
                 />
               </div>
             ))}
-            <button className="styled__Button-ksqKNN iyLmoo styled__Button-kGpwPX dQtCFI">
+            <button className="styled__Button-ksqKNN iyLmoo styled__Button-kGpwPX dQtCFI mb-3">
               Send
               <svg
                 className="Arrow__Svg-gllSXh SARKW styled__Arrow-ihTfeJ cFLifL"

@@ -209,10 +209,27 @@ class Servicesection extends React.Component {
                 <li>Post-launch capacity building</li>
               </ul>
               <span>Case Study</span>
-              <h6>
+              <h6 className="pb-5">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
+              <Link
+                className="styled__Link-lfEBUk iUBhrC font-weight-normal"
+                to="/casestudy"
+              >
+                View case study
+                <svg
+                  className="styled__Arrow-fdeFVt fRPwvC"
+                  width="14"
+                  height="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                    <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+                    <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+                  </g>
+                </svg>
+              </Link>
             </Col>
           </Row>
           <Row className="pb-5 mt-5 pt-5">
@@ -247,10 +264,27 @@ class Servicesection extends React.Component {
                 <li>Illustration </li>
               </ul>
               <span>Case Study</span>
-              <h6>
+              <h6 className="pb-5">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
+              <Link
+                className="styled__Link-lfEBUk iUBhrC font-weight-normal"
+                to="/casestudy"
+              >
+                View case study
+                <svg
+                  className="styled__Arrow-fdeFVt fRPwvC"
+                  width="14"
+                  height="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                    <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+                    <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+                  </g>
+                </svg>
+              </Link>
             </Col>
             <Col md="6" className="mt-5">
               <img

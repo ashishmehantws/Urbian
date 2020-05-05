@@ -5,19 +5,30 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './styled.css'
 import onehour from '../../assets/images/1hour.jpg'
-import clockicon from '../../assets/images/clock-icon.jpg'
-import poundicon from '../../assets/images/pound-icon.jpg'
-import infoicon from '../../assets/images/info-icon.jpg'
-import mappinicon from '../../assets/images/mappin-icon.jpg'
+// import clockicon from '../../assets/images/clock-icon.jpg'
+// import poundicon from '../../assets/images/pound-icon.jpg'
+// import infoicon from '../../assets/images/info-icon.jpg'
+// import mappinicon from '../../assets/images/mappin-icon.jpg'
 class Innovationtop extends React.Component {
   render() {
     return (
       <div className="innovationtop">
         <Container>
           <Row className="align-items-center">
-            <Col md="6">
+            <Col lg="6">
               <span>
-                <img src={clockicon} alt="1 hour" /> 1 hour
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 172.92 173.01"
+                  width="18px"
+                >
+                  <g id="Layer_2" data-name="Layer 2">
+                    <g id="Layer_1-2" fill="#4a0053" data-name="Layer 1">
+                      <path d="M0,86.46C0,39.15,39.06,0,86.46,0s86.46,39.15,86.46,86.46S133.86,173,86.46,173,0,133.86,0,86.46Zm160.5,0a74,74,0,1,0-74,74A73.93,73.93,0,0,0,160.5,86.46ZM35.44,90a5.1,5.1,0,0,1,5.16-5.16H81.29v-54a5.17,5.17,0,0,1,10.33,0V90a5.11,5.11,0,0,1-5.16,5.17H40.6A5.11,5.11,0,0,1,35.44,90Z" />
+                    </g>
+                  </g>
+                </svg>
+                &nbsp;&nbsp;1 hour
               </span>
               <div className="clearfix"></div>
               <h1>Innvation readiness diagnostic.</h1>
@@ -87,7 +98,7 @@ class Innovationtop extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="6">
+            <Col lg="6">
               <img className="img-fluid" src={onehour} alt="1 hour" />
             </Col>
           </Row>

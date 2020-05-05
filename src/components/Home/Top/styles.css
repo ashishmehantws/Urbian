@@ -69,8 +69,34 @@
     height: 100% !important;
     min-height: 260px !important;
   }
-}
 
+  .home-top h1 a:before,
+  .home-top span a:before {
+    display: none;
+  }
+
+  .home-top span a {
+    background-color: #c3f1ff;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .home-top h1 a {
+    background-color: #fdfb66;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .home-top h1 a .fRPwvC,
+  .home-top span .fRPwvC {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 769px) {
+  .home-top .homebanner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media (max-width: 572px) {
   .home-top h1,
   .home-top span {

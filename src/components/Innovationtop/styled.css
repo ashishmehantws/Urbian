@@ -13,10 +13,9 @@
   font-weight: 600;
   float: left;
 }
-.innovationtop span img {
+.innovationtop span svg {
   margin-top: 3px;
   float: left;
-  margin-right: 10px;
 }
 .innovationtop h1 {
   padding-top: 30px;
@@ -85,4 +84,10 @@
 
 a {
   text-decoration: none;
+}
+@media (max-width: 769px) {
+  /* .innovationtop {
+    padding-left: 15px;
+    padding-right: 15px;
+  } */
 }
