@@ -101,6 +101,18 @@
   -ms-transform: translateX(0.25em);
   transform: translateX(0.25em);
 }
+.checkbox-d .custom-control-label::before {
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 0px;
+  top: 0.15rem;
+}
+.checkbox-d .custom-control-label::after {
+  width: 1.2em;
+  height: 1.2em;
+  top: 0.25rem;
+  background: no-repeat 70%/70% 70%;
+}
 @media (max-width: 768px) {
   .meeting-min small {
     padding-top: 30px;

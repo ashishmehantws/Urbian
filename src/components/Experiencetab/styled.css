@@ -114,3 +114,16 @@
   -ms-transform: translateX(0.25em);
   transform: translateX(0.25em);
 }
+
+@media (max-width: 480px) {
+  .react-tabs__tab-list {
+    flex-wrap: wrap;
+  }
+  .react-tabs__tab {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+  .react-tabs__tab--selected::before {
+    display: none;
+  }
+}
