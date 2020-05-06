@@ -6,20 +6,25 @@
   max-width: 650px;
   margin: 0px auto;
 }
+
 .how-deliver {
   padding-bottom: 90px;
 }
+
 .how-deliver p {
   font-size: 1em;
   padding-top: 8px;
 }
+
 .how-deliver {
   padding-top: 100px;
 }
+
 .how-deliver h3 {
   font-size: 1.98em;
   font-weight: 700;
 }
+
 .how-deliver strong {
   font-size: 1.2em;
 }

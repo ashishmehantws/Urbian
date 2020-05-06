@@ -48,11 +48,11 @@
 }
 
 .Testimonials-slider .carousel-control-prev {
-  left: -139px;
+  left: -205px;
 }
 
 .Testimonials-slider .carousel-control-next {
-  right: -139px;
+  right: -205px;
 }
 
 .Testimonials-slider .carousel-control-next-icon {
@@ -66,6 +66,18 @@
   width: 62px;
   height: 62px;
   left: -124px;
+}
+
+.services_min .Testimonials-slider .carousel-control-next-icon {
+  background: url(../../assets/images/arrow-right2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.services_min .Testimonials-slider .carousel-control-prev-icon {
+  background: url(../../assets/images/arrow-left2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
 }
 
 @media (max-width: 1025px) {

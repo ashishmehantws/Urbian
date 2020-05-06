@@ -157,21 +157,26 @@ class Servicesection extends React.Component {
             <Col md="1"></Col>
             <Col md="10" className="d-flex flex-wrap justify-content-md-around">
               <div className=" service-item mt-5">
-                <strong>PM & Strategy </strong>
+                <strong>PM &amp; Strategy </strong>
                 <ul>
                   <li>Product strategy</li>
                   <li>Brand strategy</li>
                   <li>Business strategy</li>
                   <li>Product management</li>
+                  <li>Post-launch capacity building</li>
                 </ul>
               </div>
               <div className=" service-item mt-5">
                 <strong>Product Design</strong>
                 <ul>
-                  <li>UX research & testing</li>
+                  <li>UX research &amp; testing</li>
                   <li>Rapid prototyping</li>
                   <li>User experience</li>
                   <li>User interface</li>
+                  <li>Brand development</li>
+                  <li>Content &amp; Writing</li>
+                  <li>Illustration</li>
+                  <li>Motion &amp; Video</li>
                 </ul>
               </div>
               <div className=" service-item mt-5">
@@ -180,6 +185,10 @@ class Servicesection extends React.Component {
                   <li>Technical architecture</li>
                   <li>Front-end engineering</li>
                   <li>Web-App development</li>
+                  <li>Mobile App Development</li>
+                  <li>API &amp; CMS Development</li>
+                  <li>Code auditing &amp; QA</li>
+                  <li>DevOps</li>
                 </ul>
               </div>
             </Col>

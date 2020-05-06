@@ -35,15 +35,17 @@ const Contact: React.FC<IContent> = ({
   },
 }) => {
   return (
-    <Layout>
-      <SEO title={seo.title} description={seo.description} />
-      <Topsection></Topsection>
-      <Testimonials></Testimonials>
-      <Worksection></Worksection>
-      <Servicesection></Servicesection>
-      <Projecthead></Projecthead>
-      <Gettouch></Gettouch>
-    </Layout>
+    <div className="services_min">
+      <Layout>
+        <SEO title={seo.title} description={seo.description} />
+        <Topsection></Topsection>
+        <Testimonials></Testimonials>
+        <Worksection></Worksection>
+        <Servicesection></Servicesection>
+        <Projecthead></Projecthead>
+        <Gettouch></Gettouch>
+      </Layout>
+    </div>
   )
 }
 
