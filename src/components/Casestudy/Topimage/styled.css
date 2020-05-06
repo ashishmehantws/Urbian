@@ -29,3 +29,9 @@
   top: 0;
   left: 0;
 }
+
+@media (max-width: 572px) {
+  .topimage {
+    padding-top: 0px
+  }
+}

@@ -15,7 +15,7 @@ class Homecomplexproblems extends React.Component {
       <div>
         <Container className="complex-problems clearfix">
           <Row>
-            <Col md="12 text-center">
+            <Col md="12 text-center pb-5 mb-5">
               <h3>
                 We solve complex Problems <br /> and deliver real impact.
               </h3>

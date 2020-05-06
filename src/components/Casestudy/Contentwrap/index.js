@@ -15,7 +15,7 @@ class Contentwrap extends React.Component {
       <Container className="content-wrap border-top mt-5 clearfix">
         <Row>
           <Col md="3"></Col>
-          <Col md="6">
+          <Col md="6" className="mb-4">
             <h4>Asoftware-based people led accelerator program.</h4>
             <p>
               The entire program was run from end-to-end on online cloud-based
@@ -29,16 +29,16 @@ class Contentwrap extends React.Component {
           <Col md="3"></Col>
         </Row>
         <Row className="asoftware-img">
-          <Col md="4">
-            <img src={img1} className="img-fluid " alt="#" />
-            <img src={img2} className="img-fluid " alt="#" />
+          <Col md="4" className="mt-4">
+            <img src={img1} className="img-fluid mt-4" alt="#" />
+            <img src={img2} className="img-fluid  mt-4" alt="#" />
           </Col>
-          <Col md="4">
+          <Col md="4" className="mt-4">
             <img src={img3} className="img-fluid " alt="#" />
           </Col>
-          <Col md="4">
-            <img src={img4} className="img-fluid " alt="#" />
-            <img src={img4} className="img-fluid" alt="#" />
+          <Col md="4" className="mt-4">
+            <img src={img4} className="img-fluid  mt-4" alt="#" />
+            <img src={img4} className="img-fluid  mt-4" alt="#" />
           </Col>
         </Row>
         <Row>

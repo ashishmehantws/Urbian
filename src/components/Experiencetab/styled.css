@@ -58,12 +58,16 @@
   font-size: 1.2em;
   display: block;
 }
-.card {
-  margin-top: 20px;
+
+.card-deck {
+  padding-bottom: 10px;
 }
-.card,
-.card-img,
-.card-img-top {
+
+.card {
+  margin-top: 50px;
+}
+
+.card, .card-img, .card-img-top {
   border-radius: 0px !important;
 }
 
@@ -73,8 +77,7 @@
   margin-bottom: 0px !important;
 }
 
-.card,
-.card-footer {
+.card, .card-footer {
   border: 0px !important;
   background-color: #fff;
 }

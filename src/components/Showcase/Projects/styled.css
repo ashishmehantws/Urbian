@@ -53,6 +53,7 @@
 
 .work-min p {
   font-size: 15px;
+  color: rgb(17, 19, 20);
 }
 
 .work-min:hover p, .work-min:hover small, .work-min:hover h6 {
@@ -97,9 +98,9 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1025px) {
   .work-min {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 

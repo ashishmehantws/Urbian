@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Experiencetab from '../components/Experiencetab'
 import Gettouch from '../components/Gettouch'
 import Headinfo from '../components/Headinfo'
+
 class experienceurbian extends React.Component {
   render() {
     return (
@@ -12,14 +13,14 @@ class experienceurbian extends React.Component {
         <Layout>
           <Container className="mt-sm-4 pt-sm-3 mb-4 experiencurbian-min">
             <Row>
-              <Col sm="12">
+              <Col sm="12" className="">
                 <span className="bred-page">
                   <em>Experience Urbian</em>
                 </span>
               </Col>
             </Row>
             <Row className="pt-4">
-              <Col sm="12">
+              <Col sm="12" className="">
                 <h2>How munch time do you have ?</h2>
               </Col>
             </Row>

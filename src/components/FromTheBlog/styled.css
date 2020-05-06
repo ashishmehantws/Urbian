@@ -43,3 +43,9 @@
 .homeblog-list li {
     padding-top: 60px;
 }
+
+@media (max-width: 572px) {
+    .homeblog-list {
+        padding: 0px 0 70px !important
+    }
+}

@@ -26,6 +26,10 @@ address, dl, ol, ul {
   line-height: 1.2 !important;
 }
 
+a {
+  font-size: 1.1em;
+}
+
 p {
   margin-top: 0 !important;
   margin-bottom: 1rem !important;
@@ -108,6 +112,12 @@ header a.active {
 
 .headroom header::after {
   width: auto;
+}
+
+.nav-container {
+  max-width: 1200px!important;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
 }
 
 header nav a {
@@ -296,7 +306,7 @@ header nav a:hover {
 
 .career-title-h {
   font-weight: 600 !important;
-  font-size: 2.3em !important;
+  font-size: 2.2em !important;
 }
 
 .fz-2 {
@@ -305,6 +315,27 @@ header nav a:hover {
 
 .border-top, .border-bottom {
   border-color: #d4d3d4 !important
+}
+
+.pl-pr {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (max-width: 1025px) {
+  header .nav-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 990px) {
+  nav {
+    grid-gap: 1em;
+  }
+  nav a {
+    font-size: 0.95em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -332,9 +363,11 @@ header nav a:hover {
     background-color: #fefc66;
     bottom: 15px;
   }
-  header .nav-container {
-    padding-left: 15px;
-    padding-right: 15px;
+}
+
+@media (max-width: 568px) {
+  .headroom-wrapper header {
+    padding-bottom: 60px;
   }
 }
 

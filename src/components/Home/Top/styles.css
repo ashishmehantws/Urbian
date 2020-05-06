@@ -1,6 +1,8 @@
 .home-top .homebanner {
   height: 100% !important;
   min-height: 340px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
 }
 
 .home-top h1, .home-top span {
