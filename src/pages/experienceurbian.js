@@ -21,7 +21,7 @@ class experienceurbian extends React.Component {
             </Row>
             <Row className="pt-4">
               <Col sm="12" className="">
-                <h2>How munch time do you have ?</h2>
+                <h2>How much time do you have ?</h2>
               </Col>
             </Row>
           </Container>
