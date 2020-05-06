@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p, span, em, pre, small, sub, sup, b, strong, i {
 }
 
 b, strong {
-  font-weight: bold;
+  font-weight: 700 !important;
 }
 
 address, dl, ol, ul {
@@ -301,6 +301,10 @@ header nav a:hover {
 
 .fz-2 {
   font-size: 1.2em !important;
+}
+
+.border-top, .border-bottom {
+  border-color: #d4d3d4 !important
 }
 
 @media (max-width: 768px) {

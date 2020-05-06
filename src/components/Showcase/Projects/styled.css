@@ -54,16 +54,17 @@
 .work-min p {
   font-size: 15px;
 }
-.work-min:hover p,
-.work-min:hover small,
-.work-min:hover h6 {
+
+.work-min:hover p, .work-min:hover small, .work-min:hover h6 {
   opacity: 0.6;
   transition: opacity 200ms ease-in-out 0s;
 }
+
 .work-min a {
   transition: opacity 200ms ease-in-out 0s;
   will-change: opacity;
 }
+
 .work-min a:hover .project-img {
   transform: scale(1.03);
   -webkit-transition: all 0.5s;
@@ -71,15 +72,12 @@
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .project-img {
-  box-shadow: rgba(0, 0, 0, 0.016) 0px 2.8px 2.2px,
-    rgba(0, 0, 0, 0.02) 0px 6.7px 5.3px, rgba(0, 0, 0, 0.024) 0px 12.5px 10px,
-    rgba(0, 0, 0, 0.03) 0px 22.3px 17.9px,
-    rgba(0, 0, 0, 0.035) 0px 41.8px 33.4px, rgba(0, 0, 0, 0.05) 0px 100px 80px;
+  box-shadow: rgba(0, 0, 0, 0.016) 0px 2.8px 2.2px, rgba(0, 0, 0, 0.02) 0px 6.7px 5.3px, rgba(0, 0, 0, 0.024) 0px 12.5px 10px, rgba(0, 0, 0, 0.03) 0px 22.3px 17.9px, rgba(0, 0, 0, 0.035) 0px 41.8px 33.4px, rgba(0, 0, 0, 0.05) 0px 100px 80px;
   transition: transform 0.7s cubic-bezier(0.2, 1, 0.2, 1) 0s;
   position: relative;
   overflow: hidden;
-
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -102,5 +100,11 @@
 @media (max-width: 769px) {
   .work-min {
     padding-top: 80px;
+  }
+}
+
+@media (max-width: 572px) {
+  .work-min {
+    padding-top: 0px;
   }
 }

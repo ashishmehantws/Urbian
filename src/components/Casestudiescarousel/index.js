@@ -66,7 +66,7 @@ class Casestudiescarousel extends React.Component {
                       of the Liberty Direct Insurance digital self-service
                       customer-facing and employee-facing products, all enabled
                       by us launching their first ever
-                      <mark className="yellowBackground">insurance API.</mark>
+                      <mark className="yellowBackground"> insurance API.</mark>
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"

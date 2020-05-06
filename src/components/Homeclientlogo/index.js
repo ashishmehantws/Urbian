@@ -19,6 +19,7 @@ class Homeclientlogo extends React.Component {
               <li className="p-lg-1 p-3">
                 <Link to="#">
                   <svg
+                    width="150px"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 182.65 57.35"
                   >
@@ -60,6 +61,7 @@ class Homeclientlogo extends React.Component {
               <li className="p-lg-1 p-3">
                 <Link to="#">
                   <svg
+                    width="140px"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 203.41 45.99"
                   >

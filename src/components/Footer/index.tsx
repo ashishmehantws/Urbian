@@ -114,7 +114,7 @@ const Footer: React.FC<{}> = () => (
           </Link>
           <Link
             to="telto:+27(0)21 461 0185"
-            className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
+            className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb text-decoration-none"
             target="_blank"
           >
             +27(0)21 461 0185

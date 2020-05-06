@@ -22,7 +22,7 @@ class Innovationreadinessdiagnostic extends React.Component {
                 <h4 className="mt-4">What is it?</h4>
                 <p>
                   In a one hour checkup, we'll take the temperature of your
-                  organisation, asking:How innovation ready are you? What's
+                  organisation, asking: How innovation ready are you? What's
                   going well? What's feeling tricky? And what's blocking you?
                 </p>
                 <p>

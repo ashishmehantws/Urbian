@@ -92,9 +92,11 @@
 @media (max-width: 990px) {
   .Testimonials-slider {
     max-width: 600px;
+    padding-bottom: 100px;
   }
   .Testimonials-slider h2 {
     font-size: 1.4em;
+    line-height: 1.8em !important;
   }
   .Testimonials-slider .carousel-control-prev {
     left: -69px;

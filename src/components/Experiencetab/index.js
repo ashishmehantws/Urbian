@@ -89,24 +89,24 @@ class Experiencetab extends React.Component {
                     <Card>
                       <Card.Img variant="top" src={Image2} alt="Image" />
                       <Card.Body>
-                        <Card.Title>Innovation health diagnostic</Card.Title>
-                        <span>learn over a lunchtime</span>
+                        <Card.Title>Delivery at scale</Card.Title>
+                        <span>Learn over a lunchtime</span>
                         <b>
-                          Is your company set up to get ideas into production
-                          fast ?
+                          What to meet someone who has delivered large scale
+                          projects?
                         </b>
                         <ul>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a.
+                            Discover how every part of your organisation can
+                            work together to support innnovation efforts
                           </li>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of.
+                            Healthcheck each of your departments to understand
+                            how ready you really are for fast innovation
                           </li>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley.
+                            Learn how to use evidence to remove blockers between
+                            departments and stakeholder
                           </li>
                         </ul>
                       </Card.Body>
@@ -138,24 +138,24 @@ class Experiencetab extends React.Component {
                     <Card>
                       <Card.Img variant="top" src={Image3} alt="Image" />
                       <Card.Body>
-                        <Card.Title>Innovation health diagnostic</Card.Title>
-                        <span>learn over a lunchtime</span>
+                        <Card.Title>Buy vs Build</Card.Title>
+                        <span>Learn over a lunchtime</span>
                         <b>
-                          Is your company set up to get ideas into production
-                          fast ?
+                          Struggling with whether to build something from
+                          scratch or buy 'off-the-shelf' software?
                         </b>
                         <ul>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a.
+                            Discover how every part of your organisation can
+                            work together to support your innovation efforts
                           </li>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of.
+                            Healthcheck each of your departments to understand
+                            how ready you really are for fast innovation
                           </li>
                           <li>
-                            standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley.
+                            Learn how to use evidence to remove blockers between
+                            departments and stakeholder
                           </li>
                         </ul>
                       </Card.Body>

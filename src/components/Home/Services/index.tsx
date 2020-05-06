@@ -46,12 +46,12 @@ const Services: React.FC<IServicesContent> = ({
           </S.Title>
         </Col>
         <Col sm="7" className="pt-4">
-          <p className="fz-2">
+          <p className="fz-2 d-inline">
             We're one of the few agencies in the world that can take a product
             idea from end to end. From the first discovery meeting to a real
             shipped product. Have a great new product idea and nobody to start
             building it?
-            <mark className="yellowBackground">We're your team.</mark>
+            <mark className="yellowBackground d-inline">We're your team.</mark>
           </p>
         </Col>
       </Row>

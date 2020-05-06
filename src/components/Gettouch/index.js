@@ -12,7 +12,9 @@ class Gettouch extends React.Component {
             <ul>
               <li>Create &amp; Validate new ideas</li>
               <li>Be bold with technology</li>
-              <li>Improve efficiency with lean practics</li>
+              <li>
+                Improve efficiency with lean <br /> practics
+              </li>
               <li>Build capability &amp; confidence</li>
             </ul>
             <ul>

@@ -45,6 +45,7 @@
   font-size: 1.05em;
   display: block;
 }
+
 @media (max-width: 769px) {
   .Selectclients {
     padding-top: 80px;
@@ -57,8 +58,15 @@
     padding-right: 10px;
   }
 }
+
 @media (max-width: 768px) {
   .Selectclients h4 {
     padding-top: 70px;
+  }
+}
+
+@media (max-width: 572px) {
+  .Selectclients {
+    padding-top: 0px;
   }
 }

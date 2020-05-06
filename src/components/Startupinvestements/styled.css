@@ -49,3 +49,10 @@
 .startupinvestements a {
   color: #fff;
 }
+
+@media (max-width: 572px) {
+  .startupinvestements h4 {
+    height: auto;
+    padding-top: 70px;
+  }
+}

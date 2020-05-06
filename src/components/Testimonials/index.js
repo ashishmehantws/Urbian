@@ -20,7 +20,7 @@ class Testimonials extends React.Component {
                   that l've seen a transformation actually look like it might
                   succeed."
                 </h2>
-                <span>- Strategic Projects Lead Sanlam Private Wealth</span>
+                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
               </Carousel.Item>
               <Carousel.Item>
                 <h2>
@@ -31,7 +31,7 @@ class Testimonials extends React.Component {
                   that l've seen a transformation actually look like it might
                   succeed."
                 </h2>
-                <span>- Strategic Projects Lead Sanlam Private Wealth</span>
+                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
               </Carousel.Item>
               <Carousel.Item>
                 <h2>
@@ -42,7 +42,7 @@ class Testimonials extends React.Component {
                   that l've seen a transformation actually look like it might
                   succeed."
                 </h2>
-                <span>- Strategic Projects Lead Sanlam Private Wealth</span>
+                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
               </Carousel.Item>
             </Carousel>
           </Row>

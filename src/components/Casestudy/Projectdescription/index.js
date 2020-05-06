@@ -15,20 +15,24 @@ class Projectdescription extends React.Component {
             <span>Diageo Empowerment Trust</span>
             <span>South Africa</span>
             <strong className="mt-5">View Project</strong>
-            <span>Socialtechstartup.co.za</span>
+            <span>
+              <mark className="yellowBackground">Socialtechstartup.co.za</mark>
+            </span>
           </Col>
           <Col sm="6" className="pt-2">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's Lorem Ipsum is simply
+              We were approached to relaunch the Diageo Empowerment Trust South
+              Africa's "Social Tech" incubation programme. The programe needed
+              new vision in order to reach it's objective of becoming a
+              significant contributor to the african start ecosystem. The
+              program had to attract, empower and reward deserving South African
+              Social Tech enterpreneurs. By helping them refine, and ultimately
+              launch their startups to market.
             </p>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum is simply
+              The sharp edge of the wedge was choosing to laser focus on
+              startups with deep social impact using technology to be profitable
+              and scaleable.
             </p>
           </Col>
         </Row>
@@ -37,7 +41,7 @@ class Projectdescription extends React.Component {
             <h6>Technologies</h6>
             <ul>
               <li>Webflow</li>
-              <li>Python & Django</li>
+              <li>Python &amp; Django</li>
               <li>Wagtail</li>
               <li>SQL</li>
             </ul>
@@ -50,7 +54,7 @@ class Projectdescription extends React.Component {
               <li>Product Management</li>
               <li>Rapid prototyping</li>
               <li>Brand development</li>
-              <li>UX & UI</li>
+              <li>UX &amp; UI</li>
               <li>Full-Stack development</li>
             </ul>
           </Col>
@@ -73,17 +77,23 @@ class Projectdescription extends React.Component {
               <li>Wadzi - Program Manager</li>
               <li>Stephan - Product Owner</li>
               <li>Claire - Product Designer</li>
+              <li>Heinrich - Lead Developer</li>
+              <li>Jason - UX Developer</li>
+              <li>Charl - Content &amp; PR</li>
+              <li>Mumtaaz - Social Media</li>
+              <li>Howie - Video Content</li>
             </ul>
           </Col>
         </Row>
         <Row className="">
           <Col className="text-center border-top d-block mt-5 ">
             <h5>
-              "The secret to their success is there ability to assemble talented
-              teams of people that care. I think of Urbian as a critical member
-              of my team, not some outsourced function."
+              "They bring a sense of genius and of machiavallian change in terms
+              of driving everything that we do. It's just been an absolute
+              honour to work with them and we look forward to continue working
+              with them in the future."
             </h5>
-            <small>Keith Elliott, CEO Of Met-S Care</small>
+            <small>- Sinethemba Mafanya, GM Diageo Empowerment Trust SA</small>
           </Col>
         </Row>
       </Container>

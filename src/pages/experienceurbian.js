@@ -10,7 +10,7 @@ class experienceurbian extends React.Component {
     return (
       <div className="experienceurbian">
         <Layout>
-          <Container className="mt-4 pt-3 mb-4 experiencurbian-min">
+          <Container className="mt-sm-4 pt-sm-3 mb-4 experiencurbian-min">
             <Row>
               <Col sm="12">
                 <span className="bred-page">

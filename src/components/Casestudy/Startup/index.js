@@ -32,7 +32,7 @@ class Startup extends React.Component {
           <Row className="mt-5 mb-5 pt-5">
             <Col md="1"></Col>
             <Col md="5" className="mt-5">
-              <span>Startup 1 0f 5</span>
+              <span>Startup 1 of 5</span>
               <h6>Skillshift</h6>
               <p>
                 Skillshift takes the hassle out of finding and managing skilled
@@ -40,11 +40,11 @@ class Startup extends React.Component {
               </p>
               <strong>What we did:</strong>
               <p>
-                Content & Video, Rapid Prototyping, Branding, UX/UI Design &
-                Fullstack Development.
+                Content &amp; Video, Rapid Prototyping, Branding, UX/UI Design
+                &amp; Fullstack Development.
               </p>
               <strong>Techstack we used:</strong>
-              <p>CSS, Django, Python, Wagtail CMS</p>
+              <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
             <Col md="5" className="mt-5">
               <img
@@ -65,7 +65,7 @@ class Startup extends React.Component {
               />
             </Col>
             <Col md="5" className="mt-5">
-              <span>Startup 2 0f 5</span>
+              <span>Startup 2 of 5</span>
               <h6>Foonda</h6>
               <p>
                 Foonda makers applying to every bursary university, and
@@ -73,8 +73,8 @@ class Startup extends React.Component {
               </p>
               <strong>What we did:</strong>
               <p>
-                Content & Video, Rapid Prototyping, Branding, UX/UI Design &
-                Fullstack Development.
+                Content &amp; Video, Rapid Prototyping, Branding, UX/UI Design
+                &amp; Fullstack Development.
               </p>
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python, Wagtail CMS</p>
@@ -84,7 +84,7 @@ class Startup extends React.Component {
           <Row className="mt-5 mb-5 pt-5">
             <Col md="1"></Col>
             <Col md="5" className="mt-5">
-              <span>Startup 3 0f 5</span>
+              <span>Startup 3 of 5</span>
               <h6>Balltalent</h6>
               <p>
                 Balltalent is a soccer talent discovery tool helping scouts find
@@ -92,11 +92,11 @@ class Startup extends React.Component {
               </p>
               <strong>What we did:</strong>
               <p>
-                content & video,Rapid Prototyping,Branding,UX/UI Design $
-                FullstackDevelopment.
+                Content &amp; Video, Rapid Prototyping, Branding, UX/UI Design
+                &amp; Fullstack Development.
               </p>
               <strong>Techstack we used:</strong>
-              <p>CSS ,Django,Python,Wagtail CMS.</p>
+              <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
             <Col md="5" className="mt-5">
               <img
@@ -117,15 +117,15 @@ class Startup extends React.Component {
               />
             </Col>
             <Col md="5" className="mt-5">
-              <span>Startup 4 0f 5</span>
+              <span>Startup 4 of 5</span>
               <h6>Jonga</h6>
               <p>
                 Jonga provides community-based security to low-income families.
               </p>
               <strong>What we did:</strong>
               <p>
-                content & video,Rapid Prototyping,Branding,UX/UI Design $
-                FullstackDevelopment.
+                Content &amp; Video, Rapid Prototyping, Branding, UX/UI Design
+                &amp; Fullstack Development.
               </p>
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python.</p>
@@ -135,7 +135,7 @@ class Startup extends React.Component {
           <Row className="mt-5 mb-5 pt-5">
             <Col md="1"></Col>
             <Col md="5" className="mt-5">
-              <span>Startup 5 0f 5</span>
+              <span>Startup 5 of 5</span>
               <h6>Ispani</h6>
               <p>
                 Ispani provides micro-jobbing for emerging markets through data
@@ -143,11 +143,11 @@ class Startup extends React.Component {
               </p>
               <strong>What we did:</strong>
               <p>
-                content & video,Rapid Prototyping,Branding,UX/UI Design $
-                FullstackDevelopment.
+                Content &amp; Video, Rapid Prototyping, Branding, UX/UI Design
+                &amp; Fullstack Development.
               </p>
               <strong>Techstack we used:</strong>
-              <p>CSS ,Django,Python, Wagtail CMS.</p>
+              <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
             <Col md="5" className="mt-5">
               <img
