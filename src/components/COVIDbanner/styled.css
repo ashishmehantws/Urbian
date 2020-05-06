@@ -11,8 +11,9 @@
 
 .Homecovid-banner a {
   color: #ab210d;
-  font-size: 1em;
+  font-size: 0.89em;
 }
+
 @media (max-width: 568px) {
   .Homecovid-banner a {
     font-size: 13px;

@@ -10,32 +10,16 @@ class Gettouch extends React.Component {
           <h2>We can help you</h2>
           <div className="d-flex flex-wrap">
             <ul>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
+              <li>Create &amp; Validate new ideas</li>
+              <li>Be bold with technology</li>
+              <li>Improve efficiency with lean practics</li>
+              <li>Build capability &amp; confidence</li>
             </ul>
             <ul>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
-              <li>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </li>
+              <li>Be more customer centric</li>
+              <li>Increase speed of market</li>
+              <li>Deliver great quality products &amp; services, fast</li>
+              <li>Build capability &amp; confidence</li>
             </ul>
           </div>
           <div className="text-center mt-4">

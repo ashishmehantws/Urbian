@@ -27,7 +27,7 @@ class Casestudiescarousel extends React.Component {
                         Ongoing transformation{' '}
                       </mark>{' '}
                       of the Liberty Direct Insurance digital self-service
-                      customerfacing and employee-facing products, all enabled
+                      customer-facing and employee-facing products, all enabled
                       by us launching their first ever
                       <mark className="yellowBackground"> insurance API.</mark>
                     </p>
@@ -64,7 +64,7 @@ class Casestudiescarousel extends React.Component {
                         Ongoing transformation{' '}
                       </mark>{' '}
                       of the Liberty Direct Insurance digital self-service
-                      customerfacing and employee-facing products, all enabled
+                      customer-facing and employee-facing products, all enabled
                       by us launching their first ever
                       <mark className="yellowBackground">insurance API.</mark>
                     </p>

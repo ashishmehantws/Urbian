@@ -40,7 +40,7 @@ class Meeting extends React.Component {
             />
           </Form.Group>
           <Form.Group controlId="formBasicPassword">
-            <Form.Label>Phone uumber</Form.Label>
+            <Form.Label>Phone Number</Form.Label>
             <Form.Control
               type="text"
               placeholder="Mobile number if possible please"

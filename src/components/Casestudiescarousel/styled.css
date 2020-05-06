@@ -85,6 +85,12 @@
   left: -124px;
 }
 
+@media (max-width: 1100px) {
+  .Casestudiescarousel .carousel-control-next, .Casestudiescarousel .carousel-control-prev {
+    display: none;
+  }
+}
+
 @media (max-width: 990px) {
   .Casestudiescarousel .carousel-control-next, .Casestudiescarousel .carousel-control-prev {
     display: none;

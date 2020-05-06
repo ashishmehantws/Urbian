@@ -91,6 +91,10 @@
   flex: 1;
 }
 
+.letter-s1 {
+  letter-spacing: 2px;
+}
+
 @media (max-width: 768px) {
   .padding-right {
     padding-right: 15px;
@@ -98,10 +102,13 @@
   .complex-problems h3 {
     font-size: 1.85em;
   }
-  .complex-problems h5,
-  .complex-problems span {
-    padding-left: 15px;
-    padding-right: 15px;
+  .complex-problems h5, .complex-problems span {
     font-size: 1.34em;
+  }
+}
+
+@media (max-width: 568px) {
+  .flex-container {
+    flex: 1 auto;
   }
 }

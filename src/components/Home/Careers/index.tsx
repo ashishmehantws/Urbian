@@ -37,9 +37,8 @@ const Careers: React.FC<ICareersContent> = ({
       <S.Right className="career">
         <S.Big>
           <p className="fz-2">
-            We are an open-minded, open-hearted team that loves the thrill of
-            creating exciting new projects. Drop us a line if you're passionate
-            and talented to do everything you set your mind to.
+            Do more than design and buid incredible products. Help ship them,
+            too. Because for us, work is only as good as its impact in the wild.
           </p>
         </S.Big>
         <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/careers">

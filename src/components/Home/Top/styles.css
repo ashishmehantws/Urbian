@@ -3,14 +3,12 @@
   min-height: 340px !important;
 }
 
-.home-top h1,
-.home-top span {
+.home-top h1, .home-top span {
   font-size: 2.3em;
   font-weight: bold;
 }
 
-.home-top h1 a,
-.home-top span a {
+.home-top h1 a, .home-top span a {
   color: #212529;
   position: relative;
   z-index: 2;
@@ -18,8 +16,7 @@
   padding-right: 10px;
 }
 
-.home-top h1 a:before,
-.home-top span a:before {
+.home-top h1 a:before, .home-top span a:before {
   content: '';
   position: absolute;
   height: 19px;
@@ -36,9 +33,12 @@
   background-color: #c3f1ff;
 }
 
-.home-top h1 a .fRPwvC,
-.home-top span .fRPwvC {
+.home-top h1 a .fRPwvC, .home-top span .fRPwvC {
   margin-top: 10px;
+}
+
+.experic-a {
+  width: 218px !important;
 }
 
 @media (max-width: 1025px) {
@@ -49,8 +49,7 @@
 }
 
 @media (max-width: 990px) {
-  .home-top h1,
-  .home-top span {
+  .home-top h1, .home-top span {
     font-size: 1.85em;
     display: inline;
   }
@@ -60,8 +59,7 @@
 }
 
 @media (max-width: 769px) {
-  .home-top h1,
-  .home-top span {
+  .home-top h1, .home-top span {
     font-size: 1.55em;
     display: inline;
   }
@@ -69,42 +67,38 @@
     height: 100% !important;
     min-height: 260px !important;
   }
-
-  .home-top h1 a:before,
-  .home-top span a:before {
+  .home-top h1 a:before, .home-top span a:before {
     display: none;
   }
-
   .home-top span a {
     background-color: #c3f1ff;
     padding-left: 5px;
     padding-right: 5px;
   }
-
   .home-top h1 a {
     background-color: #fdfb66;
     padding-left: 5px;
     padding-right: 5px;
   }
-  .home-top h1 a .fRPwvC,
-  .home-top span .fRPwvC {
+  .home-top h1 a .fRPwvC, .home-top span .fRPwvC {
     margin-top: 0px;
   }
 }
+
 @media (max-width: 769px) {
   .home-top .homebanner {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
 @media (max-width: 572px) {
-  .home-top h1,
-  .home-top span {
-    font-size: 1.3em;
+  .home-top h1, .home-top span {
+    font-size: 1.7em;
     display: inline;
   }
   .home-top .homebanner {
     height: 100% !important;
-    min-height: 300px !important;
+    min-height: 350px !important;
   }
 }

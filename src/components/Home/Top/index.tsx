@@ -55,7 +55,7 @@ const Top: React.FC<ITop> = ({ headline, tagline }) => (
       </span>
       <span className="mb-3">embracing the economy of the future.</span>
       <Link
-        className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
+        className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5 experic-a"
         to="/experienceurbian"
       >
         Experience us first hand

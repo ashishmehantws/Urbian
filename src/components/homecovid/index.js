@@ -21,16 +21,15 @@ class Homecovid extends React.Component {
                 reach out.
               </p>
               <p className="mt-3">
-                If you're an organization struggling with the impact of moviing
-                your work and team remote due to the COVID-19 outbreak, please
-                reach out.
+                We can help you minimize the impact of sudden remote work due to
+                COVID-19 on internal business operations.
               </p>
               <p className="mt-3">
-                If you're an organization struggling with the impact of moviing
-                your work and team remote due to the COVID-19 outbreak, please
-                reach out. If you're an organization struggling with the impact
-                of moviing your work and team remote due to the COVID-19
-                outbreak, please reach out.
+                As an organization, we've been working remotely for over ten
+                years and have experience delivering high velocity and
+                high-quality remote work for product, design, engineering and
+                testing teams. We can help you immediately manage the
+                transition.
               </p>
               <Link
                 className="styled__Link-lfEBUk iUBhrC float-left font-weight-normal mt-3"
@@ -43,7 +42,7 @@ class Homecovid extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#ff0018" fill="none" fillRule="evenodd">
+                  <g stroke="#a71400" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>

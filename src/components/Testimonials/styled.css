@@ -2,7 +2,7 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 140px;
-  max-width: 1000px;
+  max-width: 850px;
   width: 90%;
   margin: 0px auto;
 }
@@ -13,9 +13,9 @@
 }
 
 .Testimonials-slider h2 {
-  font-size: 2.01em;
+  font-size: 2.04em;
   font-weight: normal;
-  line-height: 40px;
+  line-height: 48px !important;
 }
 
 .Testimonials-slider span {
@@ -43,8 +43,7 @@
   margin-bottom: 0px;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
   width: 62px;
 }
 
@@ -88,15 +87,13 @@
   .Testimonials-slider .carousel-control-prev {
     left: -69px;
   }
-
   .Testimonials-slider .carousel-control-next {
     right: -69px;
   }
 }
 
 @media (max-width: 767px) {
-  .carousel-control-next,
-  .carousel-control-prev {
+  .carousel-control-next, .carousel-control-prev {
     display: none;
   }
 }

@@ -31,7 +31,7 @@ class Innovationtop extends React.Component {
                 &nbsp;&nbsp;1 hour
               </span>
               <div className="clearfix"></div>
-              <h1>Innvation readiness diagnostic.</h1>
+              <h1>Innovation readiness diagnostic.</h1>
               <h6>
                 Is your company set up to take ideas into actual production fast
                 ?

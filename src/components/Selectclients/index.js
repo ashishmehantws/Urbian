@@ -20,7 +20,7 @@ class Selectclients extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Sanlam</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -29,7 +29,7 @@ class Selectclients extends React.Component {
                 containing
               </p>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Sanlam Private Wealth </h4>
               <p>
                 Why do we use it? It is a long established fact that a reader
@@ -52,7 +52,7 @@ class Selectclients extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Santam</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -61,9 +61,8 @@ class Selectclients extends React.Component {
                 containing
               </p>
             </Col>
-          </Row>
-          <Row>
-            <Col md="4">
+
+            <Col lg="4" md="6">
               <h4>Distel</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -72,7 +71,7 @@ class Selectclients extends React.Component {
                 containing
               </p>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Investec</h4>
               <p>
                 Why do we use it? It is a long established fact that a reader
@@ -95,7 +94,7 @@ class Selectclients extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Liberty Direct Insurance</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -118,9 +117,8 @@ class Selectclients extends React.Component {
                 </svg>
               </Link>
             </Col>
-          </Row>
-          <Row>
-            <Col md="4">
+
+            <Col lg="4" md="6">
               <h4>
                 Diageo Trust <br /> South Africa
               </h4>
@@ -145,7 +143,7 @@ class Selectclients extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Stor-age</h4>
               <p>
                 Why do we use it? It is a long established fact that a reader
@@ -154,7 +152,7 @@ class Selectclients extends React.Component {
                 has a more-or-less normal distribution of letters,
               </p>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Barclays</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -177,9 +175,8 @@ class Selectclients extends React.Component {
                 </svg>
               </Link>
             </Col>
-          </Row>
-          <Row>
-            <Col md="4">
+
+            <Col lg="4" md="6">
               <h4>SantaShoebox</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
@@ -188,7 +185,7 @@ class Selectclients extends React.Component {
                 containing
               </p>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Vital Health Foods</h4>
               <p>
                 Why do we use it? It is a long established fact that a reader
@@ -197,7 +194,7 @@ class Selectclients extends React.Component {
                 has a more-or-less normal distribution of letters,
               </p>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6">
               <h4>Babylonstoren</h4>
               <p>
                 It has survived not only five centuries, but also the leap into
