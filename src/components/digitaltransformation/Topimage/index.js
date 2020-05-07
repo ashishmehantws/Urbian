@@ -44,7 +44,7 @@ class Topimage extends React.Component {
         </Row>
         <Row className="mt-5 pt-5 pb-5 border-bottom">
           <Col md="2"></Col>
-          <Col md="8" className="text-center proejcthead pb-5">
+          <Col md="8" className="text-center proejct_head pb-5">
             <h2>
               "The secret to their success is there ability to assemble talented
               teams of people that care. I think of Urbian as a critical member

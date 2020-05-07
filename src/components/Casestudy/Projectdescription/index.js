@@ -1,10 +1,10 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import './styled.css'
 
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 class Projectdescription extends React.Component {
   render() {
     return (
@@ -36,7 +36,7 @@ class Projectdescription extends React.Component {
             </p>
           </Col>
         </Row>
-        <Row className="border-top pt-5 mt-5 mb-5">
+        <Row className="border-top pt-md-5 mt-md-5 mb-5">
           <Col lg="3" md="6" className="pt-5">
             <h6>Technologies</h6>
             <ul>
@@ -86,7 +86,7 @@ class Projectdescription extends React.Component {
           </Col>
         </Row>
         <Row className="">
-          <Col className="text-center border-top d-block mt-5 ">
+          <Col className="text-center border-top d-block mt-lg-5 ">
             <h5>
               "They bring a sense of genius and of machiavallian change in terms
               of driving everything that we do. It's just been an absolute

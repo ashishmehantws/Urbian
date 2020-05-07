@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 
-.proejcthead h2 {
+.proejct_head h2 {
   font-size: 1.9em;
   font-weight: 400;
   text-align: center;
@@ -62,7 +62,7 @@
   line-height: 45px !important;
 }
 
-.proejcthead span {
+.proejct_head span {
   font-size: 14px;
   display: block;
   line-height: 25px;
@@ -85,7 +85,7 @@
   .top-image {
     padding-top: 0px;
   }
-  .proejcthead h2 {
+  .proejct_head h2 {
     font-size: 1.2em;
     line-height: 1.7em!important;
   }

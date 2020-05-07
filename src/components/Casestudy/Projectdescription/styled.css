@@ -48,3 +48,11 @@
   font-size: 1.05em;
   display: block;
 }
+
+@media (max-width: 568px) {
+  .project-desp h5 {
+    font-size: 1.2em;
+    line-height: 1.7em!important;
+    padding-top: 50px;
+  }
+}
