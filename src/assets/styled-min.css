@@ -322,6 +322,10 @@ header nav a:hover {
   padding-right: 0px;
 }
 
+.headroom-wrapper {
+  height: auto !important;
+}
+
 @media (max-width: 1025px) {
   header .nav-container {
     padding-left: 15px;
@@ -369,9 +373,6 @@ header nav a:hover {
   .headroom-wrapper header {
     padding-bottom: 60px;
   }
-}
-
-@media (max-width: 568px) {
   .proejct-head h2 {
     font-size: 1.3em;
   }

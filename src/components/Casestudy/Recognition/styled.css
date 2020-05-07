@@ -16,3 +16,10 @@
 .Recognition-min a {
   font-weight: normal;
 }
+
+@media (max-width: 769px) {
+  .Recognition-min {
+    padding-bottom: 0px;
+    padding-top: 60px;
+  }
+}

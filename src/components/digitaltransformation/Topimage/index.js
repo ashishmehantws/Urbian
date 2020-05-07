@@ -9,7 +9,7 @@ class Topimage extends React.Component {
     return (
       <Container className="top-image position-relative">
         <Row>
-          <Col sm="6">
+          <Col lg="6">
             <Link
               className="styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
               href="/services"

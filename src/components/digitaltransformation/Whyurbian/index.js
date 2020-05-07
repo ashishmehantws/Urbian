@@ -8,12 +8,12 @@ class Whyurbian extends React.Component {
     return (
       <Container className="why-urbian position-relative">
         <Row>
-          <Col md="4">
+          <Col lg="4" className="pb-4">
             <h2>Why use Urbian?</h2>
           </Col>
-          <Col md="8">
+          <Col lg="8">
             <Row>
-              <Col sm="4">
+              <Col md="4">
                 <strong>Truly Agile</strong>
                 <p>
                   We don't pay lip service to Agile methodologies: we live and
@@ -25,7 +25,7 @@ class Whyurbian extends React.Component {
                   organisations.
                 </p>
               </Col>
-              <Col sm="4">
+              <Col md="4">
                 <strong>Teaching by Doing</strong>
                 <p>
                   We bring our clients on the product journey: from executive
@@ -35,7 +35,7 @@ class Whyurbian extends React.Component {
                   organisations moving to being fully 'digital'.
                 </p>
               </Col>
-              <Col sm="4">
+              <Col md="4">
                 <strong>Practice</strong>
                 <p>
                   Long before it became popular, we embraced agile and blended

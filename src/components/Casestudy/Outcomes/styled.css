@@ -1,7 +1,7 @@
 .Outcomes-min strong {
   font-size: 6em;
   display: block;
-  font-weight: 600;
+  font-weight: 500 !important;
 }
 
 .Outcomes-min span {

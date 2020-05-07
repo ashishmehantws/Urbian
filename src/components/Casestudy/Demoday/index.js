@@ -16,8 +16,8 @@ class Demoday extends React.Component {
     return (
       <Container className="Demoday-min mt-5 pt-5 clearfix">
         <Row>
-          <Col md="3"></Col>
-          <Col md="6" className="mt-5">
+          <Col lg="3" md="1"></Col>
+          <Col lg="6" md="10" className="mt-5">
             <h4>
               Keeping stakeholders informed throughout the program journey.
             </h4>
@@ -27,23 +27,25 @@ class Demoday extends React.Component {
               program to provide as much accountability as possible.
             </p>
           </Col>
-          <Col md="3"></Col>
+          <Col lg="3" md="1"></Col>
         </Row>
         <Row>
           <Col className="mt-5 mb-5">
-            <img
-              src={img7}
-              className="img-fluid mt-5 mb-3 boxshadow position-relative"
-              alt="#"
-            />
-            <span className="img-text">
-              We are here at the social tech workshop.
-            </span>
+            <div className="position-relative">
+              <img
+                src={img7}
+                className="img-fluid mt-5 mb-3 boxshadow position-relative"
+                alt="#"
+              />
+              <span className="img-text">
+                We are here at the social tech workshop.
+              </span>
+            </div>
           </Col>
         </Row>
         <Row>
-          <Col md="3"></Col>
-          <Col md="6" className="mt-5">
+          <Col lg="3" md="1"></Col>
+          <Col lg="6" md="10" className="mt-5">
             <h4>Demo Day.</h4>
             <p className="mb-4">
               18 months of had work culmintated the final pitch day. 15 of the
@@ -52,7 +54,10 @@ class Demoday extends React.Component {
               pitched their hearts out for a share of the R5 million investment
               capital.
             </p>
-            <Link className="styled__Link-lfEBUk iUBhrC " to="/contact">
+            <Link
+              className="styled__Link-lfEBUk iUBhrC font-weight-normal"
+              to="/contact"
+            >
               Visit the website to see the results
               <svg
                 className="styled__Arrow-fdeFVt fRPwvC"
@@ -67,27 +72,27 @@ class Demoday extends React.Component {
               </svg>
             </Link>
           </Col>
-          <Col md="3"></Col>
+          <Col lg="3" md="1"></Col>
         </Row>
-        <Row>
-          <Col sm="4">
+        <Row className="mt-5">
+          <Col sm="4" className="mt-5">
             <img
               src={img1}
-              className="img-fluid mt-5 mb-3  position-relative"
+              className="img-fluid mt-5 mb-0  position-relative"
               alt="#"
             />
             <Row>
               <Col sm="5">
                 <img
                   src={img5}
-                  className="img-fluid mt-5 mb-3  position-relative"
+                  className="img-fluid mt-5 mb-0  position-relative"
                   alt="#"
                 />
               </Col>
               <Col sm="7">
                 <img
                   src={img6}
-                  className="img-fluid mt-5 mb-3  position-relative"
+                  className="img-fluid mt-5 mb-0  position-relative"
                   alt="#"
                 />
               </Col>
@@ -100,19 +105,19 @@ class Demoday extends React.Component {
               alt="#"
             />
           </Col>
-          <Col sm="4">
+          <Col sm="4" className="mt-5">
             <img
               src={img3}
-              className="img-fluid mt-5 mb-3  position-relative"
+              className="img-fluid mt-5 mb-0  position-relative"
               alt="#"
             />
             <img
               src={img4}
-              className="img-fluid mt-5 mb-3  position-relative"
+              className="img-fluid mt-5 mb-0  position-relative"
               alt="#"
             />
           </Col>
-          <Col sm="12" className="mt-4 pt-2">
+          <Col sm="12" className="mt-5 pt-2">
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"

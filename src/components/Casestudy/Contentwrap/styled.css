@@ -23,17 +23,24 @@
   transition: transform 0.7s cubic-bezier(0.2, 1, 0.2, 1) 0s;
 }
 
-.img-text {
+span.img-text {
   background-color: rgba(0, 0, 0, 0.85);
   font-size: 1.65em;
   text-align: center;
   color: #fff;
   position: absolute;
-  bottom: 17px;
+  bottom: 37px;
   left: 0px;
   right: 0px;
   margin: 0px auto;
   padding: 10px 20px;
-  max-width: 555px;
+  max-width: 615px;
   box-sizing: border-box;
+  font-weight: 700;
+}
+
+@media (max-width:572px) {
+  span.img-text {
+    font-size: 0.80em;
+  }
 }

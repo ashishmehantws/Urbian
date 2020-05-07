@@ -49,3 +49,9 @@
   font-size: 14px;
   color: #000;
 }
+
+@media (max-width: 769px) {
+  .Casestudies-s {
+    padding: 60px 0;
+  }
+}

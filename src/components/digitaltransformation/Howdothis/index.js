@@ -15,8 +15,11 @@ class Howdothis extends React.Component {
             <h2>How we do this</h2>
           </Col>
         </Row>
-        <Row className="mb-5 pb-5">
-          <Col md="6" className="mt-5 pright">
+        <Row className="mb-lg-5 pb-5">
+          <Col lg="6" className="mt-5 order-lg-6">
+            <img src={img2} className="img-fluid" alt="img1" />
+          </Col>
+          <Col lg="6" className="mt-5 pright">
             <h4>Prople First</h4>
             <p className="">
               Empowered prople and well-functioning teams are the foundation for
@@ -27,15 +30,12 @@ class Howdothis extends React.Component {
               overlooked dimension in Agile and software development.
             </p>
           </Col>
-          <Col md="6" className="mt-5">
-            <img src={img2} className="img-fluid" alt="img1" />
-          </Col>
         </Row>
-        <Row className="mb-5 pb-5 pt-5">
-          <Col md="6" className="mt-5">
+        <Row className="mb-lg-5 pb-5 pt-lg-5">
+          <Col lg="6" className="mt-5">
             <img src={img2} className="img-fluid" alt="img1" />
           </Col>
-          <Col md="6" className="mt-5 pleft">
+          <Col lg="6" className="mt-5 pleft">
             <h4>One Team</h4>
             <p className="">
               We seamlessly fuse with our clients across disciplines, roles, and
@@ -47,8 +47,11 @@ class Howdothis extends React.Component {
             </p>
           </Col>
         </Row>
-        <Row className="mb-5 pb-5 pt-5">
-          <Col md="6" className="mt-5 pright">
+        <Row className="mb-lg-5 pb-5 pt-lg-5">
+          <Col lg="6" className="mt-5 order-lg-6">
+            <img src={img3} className="img-fluid" alt="img1" />
+          </Col>
+          <Col lg="6" className="mt-5 pright">
             <h4>Digtial Capability</h4>
             <p className="">
               Every company is at a different stage in their digital journey.We
@@ -61,9 +64,6 @@ class Howdothis extends React.Component {
               create unique ways of working that will inspire yours
               organisation.
             </p>
-          </Col>
-          <Col md="6" className="mt-5">
-            <img src={img3} className="img-fluid" alt="img1" />
           </Col>
         </Row>
       </Container>

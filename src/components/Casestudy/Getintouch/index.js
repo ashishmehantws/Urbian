@@ -11,10 +11,10 @@ class Getintouch extends React.Component {
       <div className="Getintouch_min">
         <Container className="Getintouch border-top clearfix">
           <Row>
-            <Col sm="6">
+            <Col lg="6">
               <h4>Get in touch</h4>
             </Col>
-            <Col sm="6">
+            <Col lg="6">
               <p>
                 Intersted in learning more about the Social Tech Startup
                 Challenge or any other projects?
@@ -35,7 +35,7 @@ class Getintouch extends React.Component {
               <Col sm="12">
                 <span>Next up</span>
               </Col>
-              <Col sm="6">
+              <Col lg="6">
                 <h5>Clearing a 9-year old feature backlog in 6 months.</h5>
                 <p>
                   An agile development process was the key to delivering an
@@ -43,7 +43,7 @@ class Getintouch extends React.Component {
                   leads or sell insurance directly to their client.
                 </p>
               </Col>
-              <Col sm="6">
+              <Col lg="6">
                 <div className="form-div">
                   <p>Stay in the loop with our</p>
                   <p>quarterly newsletter </p>

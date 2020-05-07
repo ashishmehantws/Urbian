@@ -27,10 +27,10 @@ class Worksection extends React.Component {
         </Container>
         <Container className="how-deliver">
           <Row>
-            <Col md="4" className="mt-5">
+            <Col lg="4" className="mt-5">
               <h3>How we deliver</h3>
             </Col>
-            <Col md="8">
+            <Col lg="8">
               <Row>
                 <Col sm="6" className="mt-5">
                   <strong>Small, senior teams</strong>

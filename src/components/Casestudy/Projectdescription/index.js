@@ -37,7 +37,7 @@ class Projectdescription extends React.Component {
           </Col>
         </Row>
         <Row className="border-top pt-5 mt-5 mb-5">
-          <Col sm="3" className="pt-5">
+          <Col lg="3" md="6" className="pt-5">
             <h6>Technologies</h6>
             <ul>
               <li>Webflow</li>
@@ -46,7 +46,7 @@ class Projectdescription extends React.Component {
               <li>SQL</li>
             </ul>
           </Col>
-          <Col sm="3" className="pt-5">
+          <Col lg="3" md="6" className="pt-5">
             <h6>Services</h6>
             <ul>
               <li>Program Management</li>
@@ -58,7 +58,7 @@ class Projectdescription extends React.Component {
               <li>Full-Stack development</li>
             </ul>
           </Col>
-          <Col sm="3" className="pt-5">
+          <Col lg="3" md="6" className="pt-5">
             <h6>What we did</h6>
             <ul>
               <li>Innovation Program Strategy</li>
@@ -70,7 +70,7 @@ class Projectdescription extends React.Component {
               <li>5 MVP's Launched in Market</li>
             </ul>
           </Col>
-          <Col sm="3" className="pt-5">
+          <Col lg="3" md="6" className="pt-5">
             <h6>Team</h6>
             <ul>
               <li>Anton - Partner</li>

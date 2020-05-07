@@ -8,7 +8,7 @@ import {
   Articles,
 } from '../components/digitaltransformation'
 import Gettouch from '../components/Gettouch'
-import Projecthead from '../components/Services/Projecthead'
+import Headinfo from '../components/Headinfo'
 class digitaltransformation extends React.Component {
   render() {
     return (
@@ -19,7 +19,7 @@ class digitaltransformation extends React.Component {
           <Howdothis></Howdothis>
           <Casestudies></Casestudies>
           <Articles></Articles>
-          <Projecthead></Projecthead>
+          <Headinfo></Headinfo>
           <Gettouch></Gettouch>
         </Layout>
       </div>

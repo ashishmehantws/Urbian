@@ -188,12 +188,15 @@
   color: #fff;
 }
 
+@media (max-width: 769px) {
+  .servicesection {
+    padding-top: 90px;
+  }
+}
+
 @media (max-width: 568px) {
   .servicesection h4 {
     padding-right: 0px;
-  }
-  .servicesection {
-    padding-top: 0px;
   }
   .how-deliver {
     padding-top: 20px;

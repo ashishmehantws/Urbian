@@ -11,14 +11,14 @@ class Recognition extends React.Component {
     return (
       <Container className="Recognition-min border-top mt-5 clearfix">
         <Row>
-          <Col sm="6">
-            <h4>Recognition</h4>
+          <Col lg="6">
+            <h4 className="mb-4">Recognition</h4>
           </Col>
-          <Col sm="6">
+          <Col lg="6">
             <div className="border-bottom pb-5 mb-5">
               <img
                 src={img1}
-                className="img-fluid mt-5 mb-3  position-relative"
+                className="img-fluid mt-1 mb-3  position-relative"
                 alt="#"
               />
               <strong>

@@ -10,13 +10,13 @@ class Topimage extends React.Component {
     return (
       <Container className="topimage position-relative">
         <Row>
-          <Col sm="6">
+          <Col lg="6">
             <Link to="">Incubators & Accelerators</Link>
             <h1>
               Re-vitalising an african-centric social tech incubator program.
             </h1>
           </Col>
-          <Col sm="12" className="mt-5 pt-5">
+          <Col sm="12" className="mt-lg-5 pt-5">
             <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"

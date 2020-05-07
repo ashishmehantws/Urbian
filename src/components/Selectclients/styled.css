@@ -46,10 +46,13 @@
   display: block;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1025px) {
   .Selectclients {
-    padding-top: 80px;
+    padding-top: 60px;
   }
+}
+
+@media (max-width: 769px) {
   .Selectclients h4 {
     height: auto;
     font-size: 2.2em;

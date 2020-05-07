@@ -28,3 +28,14 @@
 .how-deliver strong {
   font-size: 1.2em;
 }
+
+@media (max-width:769px) {
+  .Worksection h2 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .how-deliver {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}

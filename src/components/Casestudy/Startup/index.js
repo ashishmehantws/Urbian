@@ -14,8 +14,8 @@ class Startup extends React.Component {
       <div className="Startup-min">
         <Container className="mt-5 clearfix">
           <Row>
-            <Col md="3"></Col>
-            <Col md="6">
+            <Col lg="3" md="1"></Col>
+            <Col lg="6" md="10">
               <h4>
                 We designed, developed and launched 5 MVP's in market which
                 resulthed in a startup going live every 2 months.
@@ -27,11 +27,11 @@ class Startup extends React.Component {
                 precious time was spent on essential features only.
               </p>
             </Col>
-            <Col md="3"></Col>
+            <Col lg="3" md="1"></Col>
           </Row>
           <Row className="mt-5 mb-5 pt-5">
-            <Col md="1"></Col>
-            <Col md="5" className="mt-5">
+            <Col lg="1"></Col>
+            <Col lg="5" md="6" className="mt-5">
               <span>Startup 1 of 5</span>
               <h6>Skillshift</h6>
               <p>
@@ -46,25 +46,25 @@ class Startup extends React.Component {
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
-            <Col md="5" className="mt-5">
+            <Col lg="5" md="6" className="mt-5">
               <img
                 src={startup1}
                 className="w75 img-fluid mt-1 mb-3 float-md-right"
                 alt="#"
               />
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
           <Row className="mt-5 mb-5 pt-5">
-            <Col md="1"></Col>
-            <Col md="5" className="mt-5">
+            <Col lg="1"></Col>
+            <Col lg="5" md="6" className="mt-5">
               <img
                 src={startup2}
                 className="w75 img-fluid mt-1 mb-3 float-md-left"
                 alt="#"
               />
             </Col>
-            <Col md="5" className="mt-5">
+            <Col lg="5" md="6" className="mt-5">
               <span>Startup 2 of 5</span>
               <h6>Foonda</h6>
               <p>
@@ -79,11 +79,11 @@ class Startup extends React.Component {
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python, Wagtail CMS</p>
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
           <Row className="mt-5 mb-5 pt-5">
-            <Col md="1"></Col>
-            <Col md="5" className="mt-5">
+            <Col lg="1"></Col>
+            <Col lg="5" md="6" className="mt-5">
               <span>Startup 3 of 5</span>
               <h6>Balltalent</h6>
               <p>
@@ -98,25 +98,25 @@ class Startup extends React.Component {
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
-            <Col md="5" className="mt-5">
+            <Col lg="5" md="6" className="mt-5">
               <img
                 src={startup3}
                 className="w75 img-fluid mt-1 mb-3 float-md-right"
                 alt="#"
               />
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
           <Row className="mt-5 mb-5 pt-5">
-            <Col md="1"></Col>
-            <Col md="5" className="mt-5">
+            <Col lg="1"></Col>
+            <Col lg="5" md="6" className="mt-5">
               <img
                 src={startup4}
                 className="w-75 img-fluid mt-1 mb-3 float-md-left"
                 alt="#"
               />
             </Col>
-            <Col md="5" className="mt-5">
+            <Col lg="5" md="6" className="mt-5">
               <span>Startup 4 of 5</span>
               <h6>Jonga</h6>
               <p>
@@ -130,11 +130,11 @@ class Startup extends React.Component {
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python.</p>
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
           <Row className="mt-5 mb-5 pt-5">
-            <Col md="1"></Col>
-            <Col md="5" className="mt-5">
+            <Col lg="1"></Col>
+            <Col lg="5" md="6" className="mt-5">
               <span>Startup 5 of 5</span>
               <h6>Ispani</h6>
               <p>
@@ -149,14 +149,14 @@ class Startup extends React.Component {
               <strong>Techstack we used:</strong>
               <p>CSS, Django, Python, Wagtail CMS.</p>
             </Col>
-            <Col md="5" className="mt-5">
+            <Col lg="5" md="6" className="mt-5">
               <img
                 src={startup5}
                 className="w75 img-fluid mt-1 mb-3 float-md-right"
                 alt="#"
               />
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
         </Container>
       </div>

@@ -4,14 +4,23 @@
 }
 
 .why-urbian h2 {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.8em;
 }
+
 .why-urbian strong {
   display: block;
   padding-bottom: 25px;
   font-size: 1.2em;
   font-weight: 600;
 }
+
 .why-urbian p {
   line-height: 26px;
+}
+
+@media (max-width: 769px) {
+  .why-urbian {
+    padding-bottom: 60px;
+  }
 }

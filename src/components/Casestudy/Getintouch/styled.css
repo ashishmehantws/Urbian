@@ -20,6 +20,7 @@
   position: relative;
   z-index: 3;
 }
+
 .Getintouch_min a:before {
   content: '';
   position: absolute;
@@ -38,6 +39,7 @@
   padding: 110px 0;
   color: #fff;
 }
+
 .nextup span {
   display: block;
   padding-bottom: 50px;
@@ -53,19 +55,23 @@
   font-size: 1em;
   line-height: 28px;
 }
+
 .form-div {
   width: 80%;
   float: right;
 }
+
 .nextup form {
   border-bottom: 1px solid #434343;
   display: flex;
   justify-content: space-between;
 }
+
 .nextup .form-group {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+
 .nextup input[type='email'] {
   background-color: transparent;
   border: 0px;
@@ -73,14 +79,17 @@
   padding: 0px;
   color: #ffffff !important;
 }
+
 .nextup .form-control {
   color: #fff !important;
 }
+
 .nextup button {
   background-color: transparent;
   border: 0px;
   color: #fff;
 }
+
 input::-webkit-input-placeholder {
   color: #ffffff !important;
 }
@@ -97,4 +106,18 @@ input::-moz-placeholder {
 
 input:-ms-input-placeholder {
   color: #ffffff !important;
+}
+
+@media (max-width: 769px) {
+  .form-div {
+    float: left;
+  }
+  .Getintouch {
+    border-top: 0px !important;
+    padding-top: 50px;
+  }
+  .nextup {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
 }

@@ -1,6 +1,6 @@
 .Articles_s {
   background-color: transparent;
-  padding: 150px 0;
+  padding: 150px 15px 100px;
 }
 
 .Articles_s h4 {
@@ -29,10 +29,10 @@
 }
 
 .Articles_s h6 {
-  font-size: 1.98em;
+  font-size: 1.75em;
   color: rgb(17, 19, 20);
   display: block;
-  margin-top: 9px;
+  margin-top: 0px;
   margin-bottom: 16px;
   font-weight: 700;
 }
@@ -41,4 +41,11 @@
   font-size: 1.10em;
   color: #000;
   padding-top: 10px;
+}
+
+@media (max-width: 769px) {
+  .Articles_s {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }

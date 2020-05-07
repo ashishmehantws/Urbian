@@ -23,7 +23,7 @@
   line-height: 25px;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 572px) {
   .proejct-head2 h2 {
     font-size: 1.2em;
     line-height: 1.7em!important;

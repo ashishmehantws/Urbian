@@ -9,12 +9,12 @@ class Articles extends React.Component {
   render() {
     return (
       <div className=" ">
-        <Container className="border-bottom Articles_s">
+        <Container className="Articles_s">
           <Row>
-            <Col sm="12">
+            <Col sm="12" className="pb-lg-5">
               <h4>Articles</h4>
             </Col>
-            <Col sm="6" className="mt-5">
+            <Col sm="6" className="mt-5 pr-sm-4">
               <Link to="">
                 <div className="Articles-img mb-5">
                   <img className="img-fluid" src={Articles1} alt="#" />
@@ -26,7 +26,7 @@ class Articles extends React.Component {
                 </p>
               </Link>
             </Col>
-            <Col sm="6" className="mt-5">
+            <Col sm="6" className="mt-5 pl-sm-4">
               <Link to="">
                 <div className="Articles-img mb-5">
                   <img className="img-fluid" src={Articles2} alt="#" />
