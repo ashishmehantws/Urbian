@@ -10,12 +10,12 @@ class Startupinvestements extends React.Component {
       <div className="startupinvestements">
         <Container>
           <Row>
-            <Col sm="6">
+            <Col lg="6">
               <h2>
                 Startup <br /> Investements
               </h2>
             </Col>
-            <Col sm="6">
+            <Col lg="6">
               <span>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

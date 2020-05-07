@@ -10,7 +10,7 @@ class Selectclients extends React.Component {
       <div className="Selectclients">
         <Container>
           <Row>
-            <Col sm="6">
+            <Col lg="6">
               <h1>Select clients.</h1>
               <span>
                 Our clients treat us like partners because we consistently show

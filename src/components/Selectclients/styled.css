@@ -72,4 +72,9 @@
   .Selectclients {
     padding-top: 0px;
   }
+  .Selectclients h6 {
+    font-size: 1.2em;
+    line-height: 1.7em!important;
+    padding-top: 80px;
+  }
 }

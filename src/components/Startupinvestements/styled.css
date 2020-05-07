@@ -22,7 +22,6 @@
   font-weight: 500;
   padding-top: 120px;
   display: block;
-  height: 210px;
 }
 
 .startupinvestements h6 {
@@ -36,7 +35,7 @@
 
 .startupinvestements p {
   font-size: 1.15em;
-  padding-top: 10px;
+  padding-top: 70px;
   padding-right: 17%;
 }
 
@@ -50,9 +49,19 @@
   color: #fff;
 }
 
-@media (max-width: 572px) {
+@media (max-width: 769px) {
   .startupinvestements h4 {
-    height: auto;
     padding-top: 70px;
+  }
+  .startupinvestements p {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 572px) {
+  .startupinvestements h6 {
+    font-size: 1.2em;
+    line-height: 1.7em!important;
+    padding-top: 80px;
   }
 }
