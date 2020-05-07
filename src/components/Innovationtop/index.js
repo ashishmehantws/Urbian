@@ -84,7 +84,7 @@ class Innovationtop extends React.Component {
                 className="styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
                 href="/experienceurbian"
               >
-                Back to experiences
+                All experiences
                 <svg
                   className="styled__Arrow-d87459-0 bQLhSh"
                   width="14"

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 // import * as S from './styled'
 // import FooterNav from './FooterNav'
-import foterlogo from '../../assets/images/footer-logo.png'
+// import foterlogo from '../../assets/images/footer-logo.png'
 import './styles.css'
 const Footer: React.FC<{}> = () => (
   // <S.Footer>
@@ -113,7 +113,7 @@ const Footer: React.FC<{}> = () => (
             Joint our team
           </Link>
           <Link
-            to="telto:+27(0)21 461 0185"
+            to="tel:+27(0)21 461 0185"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb text-decoration-none"
             target="_blank"
           >
@@ -125,7 +125,7 @@ const Footer: React.FC<{}> = () => (
         <h4 className="jgCqLu">Follow us</h4>
         <div className="styled__Row-clzZZy oCRAR">
           <Link
-            to="https://instagram.com/significadesign"
+            to="#"
             title="Go to instagram"
             target="_blank"
             rel="noopener noreferrer"
@@ -148,7 +148,7 @@ const Footer: React.FC<{}> = () => (
             </svg>
           </Link>
           <Link
-            to="https://dribbble.com/significa/"
+            to="#"
             title="Go to dribbble"
             target="_blank"
             rel="noopener noreferrer"
@@ -169,7 +169,7 @@ const Footer: React.FC<{}> = () => (
               </g>
             </svg>
           </Link>
-          <Link to="" title="Twitter" target="_blank" className="">
+          <Link to="#" title="Twitter" target="_blank" className="">
             <svg
               id="Bold"
               enableBackground="new 0 0 24 24"

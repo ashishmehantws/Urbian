@@ -34,7 +34,7 @@
 }
 
 .work-min h6 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: rgb(17, 19, 20);
   display: block;
   margin-top: 9px;
@@ -43,12 +43,24 @@
 }
 
 .work-min small {
-  font-size: 15px;
+  font-size: 13px;
   color: blue;
   font-weight: 600;
   padding-top: 30px;
   display: block;
   text-transform: uppercase;
+}
+
+.light-blue {
+  color: #368cff !important;
+}
+
+.light-pink {
+  color: #e9b0a4 !important;
+}
+
+.pink {
+  color: #d15186 !important;
 }
 
 .work-min p {

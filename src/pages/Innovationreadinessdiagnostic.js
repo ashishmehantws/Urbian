@@ -43,12 +43,12 @@ class Innovationreadinessdiagnostic extends React.Component {
                     together to support your innovation efforts
                   </li>
                   <li>
-                    Discover how every part of your organisation can work
-                    together to support your innovation efforts
+                    Healthcheck each of your departments to understand how ready
+                    you really are for fast innovation
                   </li>
                   <li>
-                    Discover how every part of your organisation can work
-                    together to support your innovation efforts
+                    Learn how to use evidence to remove blockers between
+                    departments and stakeholders
                   </li>
                 </ul>
                 <h4>Who will run it?</h4>
@@ -60,9 +60,9 @@ class Innovationreadinessdiagnostic extends React.Component {
                     <span>Product Owner</span>
                   </div>
                   <div className="will-run mt-4 ">
-                    <img src={Stephangrobler} alt="Louis bester" />
-                    <h6>Louis bester</h6>
-                    <span>Product Owner</span>
+                    <img src={Stephangrobler} alt="Stephan Grobler" />
+                    <h6>Stephan Grobler</h6>
+                    <span>Delivery Lead</span>
                   </div>
                 </div>
               </Col>

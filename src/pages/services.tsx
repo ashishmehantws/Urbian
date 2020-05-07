@@ -4,14 +4,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
-import {
-  Topsection,
-  Worksection,
-  Servicesection,
-  Projecthead,
-} from '../components/Services'
+import { Topsection, Worksection, Servicesection } from '../components/Services'
 import Gettouch from '../components/Gettouch'
 import Testimonials from '../components/Testimonials'
+import Headinfo from '../components/Headinfo'
 interface IContent {
   data: {
     servicesYaml: {
@@ -42,7 +38,7 @@ const Contact: React.FC<IContent> = ({
         <Testimonials></Testimonials>
         <Worksection></Worksection>
         <Servicesection></Servicesection>
-        <Projecthead></Projecthead>
+        <Headinfo></Headinfo>
         <Gettouch></Gettouch>
       </Layout>
     </div>

@@ -9,6 +9,10 @@ import getThumbBgColor from '../../../utils/getThumbBgColor'
 import './styled.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import Work1 from '../../../assets/images/Screenshot-2020.jpg'
+import work2 from '../../../assets/images/296562873-copy-10498.jpg'
+import work3 from '../../../assets/images/Foonda_Website_2.0.jpg'
+import work4 from '../../../assets/images/DSC2108-10790.jpg'
 interface Projects {
   projects: Project[]
 }
@@ -58,73 +62,65 @@ const Projects: React.FC<Projects> = ({ projects }) => {
         </ThumbHolder>
 
       </S.Container> */}
-      <Container>
+      <Container className="pb-5">
         <Row>
           <Col sm="6" className="mt-5 pr-sm-5">
             <Link to="">
               <div className="project-img">
-                <img
-                  className="img-fluid"
-                  src="https://images.prismic.io/significa/7eb033b2-cbae-4632-8cef-06ab2d198825_Thumbnail+800x800.png?w=1000&h=1000&fit=max&q=50&auto=compress%2Cformat"
-                  alt="#"
-                />
+                <img className="img-fluid" src={Work1} alt="#" />
               </div>
-              <small>Cimple</small>
-              <h6>Public procurement made simple.</h6>
+              <small className="light-blue">Sanlam Private wealth</small>
+              <h6>
+                A design system led now brand home generates a 10x increase in
+                business leads.
+              </h6>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
               </p>
             </Link>
           </Col>
           <Col sm="6" className="mt-5 pl-sm-6">
             <Link to="">
               <div className="project-img">
-                <img
-                  className="img-fluid"
-                  src="https://images.prismic.io/significa/7eb033b2-cbae-4632-8cef-06ab2d198825_Thumbnail+800x800.png?w=1000&h=1000&fit=max&q=50&auto=compress%2Cformat"
-                  alt="#"
-                />
+                <img className="img-fluid" src={work2} alt="#" />
               </div>
-              <small>Cimple</small>
-              <h6>Public procurement made simple.</h6>
+              <small>Standard Bank</small>
+              <h6>Clearing a 9-year old feature backlog in 6 months.</h6>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
               </p>
             </Link>
           </Col>
           <Col sm="6" className="mt-5  pr-sm-5">
             <Link to="">
               <div className="project-img">
-                <img
-                  className="img-fluid"
-                  src="https://images.prismic.io/significa/7eb033b2-cbae-4632-8cef-06ab2d198825_Thumbnail+800x800.png?w=1000&h=1000&fit=max&q=50&auto=compress%2Cformat"
-                  alt="#"
-                />
+                <img className="img-fluid" src={work3} alt="#" />
               </div>
-              <small>Cimple</small>
-              <h6>Public procurement made simple.</h6>
+              <small className="light-pink">Foonda</small>
+              <h6>
+                A new education funding platform venture launched in market in 3
+                months.
+              </h6>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
               </p>
             </Link>
           </Col>
           <Col sm="6" className="mt-5  pl-sm-5">
             <Link to="">
               <div className="project-img">
-                <img
-                  className="img-fluid"
-                  src="https://images.prismic.io/significa/7eb033b2-cbae-4632-8cef-06ab2d198825_Thumbnail+800x800.png?w=1000&h=1000&fit=max&q=50&auto=compress%2Cformat"
-                  alt="#"
-                />
+                <img className="img-fluid" src={work4} alt="#" />
               </div>
-              <small>Cimple</small>
-              <h6>Public procurement made simple.</h6>
+              <small className="pink">Diageo empowerment trust sa</small>
+              <h6>
+                Re-vitalising an african-centric social tech incubator program.
+              </h6>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
               </p>
             </Link>
           </Col>

@@ -82,6 +82,15 @@
   height: 62px;
 }
 
+@media (max-width: 1200px) {
+  .Testimonials-slider .carousel-control-prev {
+    left: -70px;
+  }
+  .Testimonials-slider .carousel-control-next {
+    right: -70px;
+  }
+}
+
 @media (max-width: 1025px) {
   .Testimonials-slider {
     max-width: 700px;

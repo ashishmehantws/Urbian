@@ -7,14 +7,14 @@ import serviceimg from '../../../assets/images/service-img.png'
 import serviceimg2 from '../../../assets/images/S-2020.png'
 import serviceimg3 from '../../../assets/images/desgin-layer.png'
 import serviceimg4 from '../../../assets/images/Software.png'
-import Reactjsicon from '../../../assets/images/react-icon.jpg'
-import Graphqlicon from '../../../assets/images/GraphQL-icon.png'
-import PythonDjangoicon from '../../../assets/images/Python-Django-icon.png'
-import ElasticSearchicon from '../../../assets/images/ElasticSearch-icon.png'
-import AWSicon from '../../../assets/images/AWS-icon.png'
-import GCPicon from '../../../assets/images/GCP-icon.jpg'
-import Wagtailicon from '../../../assets/images/Wagtail-icon.png'
-import Pandasicon from '../../../assets/images/Pandas-icon.jpg'
+import Reactjsicon from '../../../assets/images/react.svg'
+import Graphqlicon from '../../../assets/images/graphql.svg'
+import PythonDjangoicon from '../../../assets/images/python.svg'
+import ElasticSearchicon from '../../../assets/images/elastic.svg'
+import AWSicon from '../../../assets/images/aws.svg'
+import GCPicon from '../../../assets/images/gcp.svg'
+import Wagtailicon from '../../../assets/images/wagtail.svg'
+import Pandasicon from '../../../assets/images/pandas.svg'
 class Servicesection extends React.Component {
   render() {
     return (
@@ -50,7 +50,7 @@ class Servicesection extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col md="3" className="mt-5">
+            <Col lg="3" md="6" className="mt-5">
               <h6>Incubators, Accelerators, Programs & Labs</h6>
               <p>
                 The return on Accelerators Incubators, Innovation Programs and
@@ -73,7 +73,7 @@ class Servicesection extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="3" className="mt-5">
+            <Col lg="3" md="6" className="mt-5">
               <h6>Digital Product Innovation </h6>
               <p>
                 Whether you're looking to launch a consumer facing product or
@@ -96,7 +96,7 @@ class Servicesection extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="3" className="mt-5">
+            <Col lg="3" md="6" className="mt-5">
               <h6>Digital Transformations</h6>
               <p>
                 We work alongside your teams to tackle the toughest challenges
@@ -117,7 +117,7 @@ class Servicesection extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="3" className="mt-5">
+            <Col lg="3" md="6" className="mt-5">
               <h6>New capabilities.</h6>
               <p>
                 We have built long-lasting capability inside copmanies through
@@ -197,10 +197,10 @@ class Servicesection extends React.Component {
         </Container>
         <Container className="Producstrategy">
           <Row className="pb-5 ">
-            <Col md="6" className="mt-5">
+            <Col lg="6" className="mt-5">
               <img src={serviceimg2} className="w-75 " alt="service" />
             </Col>
-            <Col md="6" className="mt-5">
+            <Col lg="6" className="mt-5">
               <h4>Product Strategy</h4>
               <p>
                 We focus on digital products that meet real customer needs, open
@@ -242,7 +242,7 @@ class Servicesection extends React.Component {
             </Col>
           </Row>
           <Row className="pb-5 mt-5 pt-5">
-            <Col md="6" className="mt-5">
+            <Col lg="6" className="mt-5">
               <h4>Product Design</h4>
               <div className="position-relative">
                 <p>
@@ -295,7 +295,7 @@ class Servicesection extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col md="6" className="mt-5">
+            <Col lg="6" className="mt-5">
               <img
                 src={serviceimg3}
                 className="w-75 float-right img-fluid"
@@ -307,10 +307,10 @@ class Servicesection extends React.Component {
         <div className="Softwaredevelopment ">
           <Container>
             <Row className="pb-5">
-              <Col md="6" className="mt-5">
+              <Col lg="6" className="mt-5">
                 <img src={serviceimg4} className="w-75 " alt="service" />
               </Col>
-              <Col md="6" className="mt-5">
+              <Col lg="6" className="mt-5">
                 <h4>Software Development</h4>
                 <p>
                   There's an obsession with detail when it comes to developing
@@ -339,37 +339,37 @@ class Servicesection extends React.Component {
               </Col>
             </Row>
             <Row className="text-center ">
-              <Col sm="3" className="mt-5 mb-3">
+              <Col sm="3" xs="6" className="mt-5 mb-3">
                 <img src={Reactjsicon} alt="React React Native" />
                 <em>React + React Native</em>
               </Col>
-              <Col sm="3" className="mt-5 mb-3">
+              <Col sm="3" xs="6" className="mt-5 mb-3">
                 <img src={Graphqlicon} alt="GraphQL" />
                 <em>GraphQL</em>
               </Col>
-              <Col sm="3" className="mt-5 mb-3">
+              <Col sm="3" xs="6" className="mt-5 mb-3">
                 <img src={PythonDjangoicon} alt="Python  Django" />
                 <em>Python + Django</em>
               </Col>
-              <Col sm="3" className="mt-5 mb-3">
+              <Col sm="3" xs="6" className="mt-5 mb-3">
                 <img src={ElasticSearchicon} alt="Elastic Search" />
                 <em>Elastic Search</em>
               </Col>
             </Row>
             <Row className="text-center">
-              <Col sm="3" className="mt-5">
+              <Col sm="3" xs="6" className="mt-5">
                 <img src={AWSicon} alt="AWS" />
                 <em>AWS</em>
               </Col>
-              <Col sm="3" className="mt-5">
+              <Col sm="3" xs="6" className="mt-5">
                 <img src={GCPicon} alt="GCP" />
                 <em>GCP</em>
               </Col>
-              <Col sm="3" className="mt-5">
+              <Col sm="3" xs="6" className="mt-5">
                 <img src={Wagtailicon} alt="Wagtail" />
                 <em>Wagtail</em>
               </Col>
-              <Col sm="3" className="mt-5">
+              <Col sm="3" xs="6" className="mt-5">
                 <img src={Pandasicon} alt="Pandas" />
                 <em>Pandas</em>
               </Col>
