@@ -27,7 +27,7 @@ class Topimage extends React.Component {
                 </g>
               </svg>
             </Link>
-            <h1>Digital Transformation</h1>
+            <h1 className="h1">Digital Transformation</h1>
             <p>
               We work alongside your teams to tackle the toughest challenges
               head on. The result is one combined team making things the right
@@ -43,8 +43,7 @@ class Topimage extends React.Component {
           </Col>
         </Row>
         <Row className="mt-5 pt-5 pb-5 border-bottom">
-          <Col md="2"></Col>
-          <Col md="8" className="text-center proejct_head pb-5">
+          <Col className="text-center proejct_head pb-5">
             <h2>
               "The secret to their success is there ability to assemble talented
               teams of people that care. I think of Urbian as a critical member
@@ -52,7 +51,6 @@ class Topimage extends React.Component {
             </h2>
             <span>Keith Elliott, CEO of Met-S Care</span>
           </Col>
-          <Col md="2"></Col>
         </Row>
       </Container>
     )

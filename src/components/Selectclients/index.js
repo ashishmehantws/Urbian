@@ -11,7 +11,7 @@ class Selectclients extends React.Component {
         <Container>
           <Row>
             <Col lg="6">
-              <h1>Select clients.</h1>
+              <h1 className="h1">Select clients.</h1>
               <span>
                 Our clients treat us like partners because we consistently show
                 that our priority is getting results for their business more

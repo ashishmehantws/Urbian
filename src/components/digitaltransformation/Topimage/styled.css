@@ -7,7 +7,6 @@
 }
 
 .top-image h1 {
-  font-size: 2.3em;
   font-weight: bold;
   color: #000;
   padding-top: 35px;
@@ -53,7 +52,11 @@
 .top-image a {
   text-decoration: none;
 }
-
+.proejct_head {
+  max-width: 700px;
+  width: 100%;
+  margin: 0px auto;
+}
 .proejct_head h2 {
   font-size: 1.9em;
   font-weight: 400;
@@ -63,7 +66,7 @@
 }
 
 .proejct_head span {
-  font-size: 14px;
+  font-size: 1.2em;
   display: block;
   line-height: 25px;
 }
@@ -87,6 +90,9 @@
   }
   .proejct_head h2 {
     font-size: 1.2em;
-    line-height: 1.7em!important;
+    line-height: 1.7em !important;
+  }
+  .proejct_head span {
+    font-size: 0.9em;
   }
 }

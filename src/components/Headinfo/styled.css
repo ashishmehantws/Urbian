@@ -18,7 +18,7 @@
 }
 
 .proejct-head2 span {
-  font-size: 14px;
+  font-size: 1.2em;
   display: block;
   line-height: 25px;
 }
@@ -26,10 +26,13 @@
 @media (max-width: 572px) {
   .proejct-head2 h2 {
     font-size: 1.2em;
-    line-height: 1.7em!important;
+    line-height: 1.7em !important;
   }
   .proejct-head2 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .proejct-head2 span {
+    font-size: 0.9em;
   }
 }

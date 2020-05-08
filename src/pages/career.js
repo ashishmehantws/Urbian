@@ -6,7 +6,7 @@ import Gettouch from '../components/Gettouch'
 class careers extends React.Component {
   render() {
     return (
-      <div className="">
+      <div className="career_min">
         <Layout>
           <Topsection></Topsection>
           <Ourculture></Ourculture>

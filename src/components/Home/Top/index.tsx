@@ -19,10 +19,10 @@ const SPRING_TRANSITION = {
 const Top: React.FC<ITop> = ({ headline, tagline }) => (
   <div className="home-top">
     <S.Wrapper className="homebanner container">
-      <h1>
+      <h1 className="h1">
         We{' '}
         <Link className="styled__Link-lfEBUk iUBhrC" to="#">
-          desgin, develop and ship digital products
+          design, develop and ship digital products
           <svg
             className="styled__Arrow-fdeFVt fRPwvC"
             width="14"
@@ -36,7 +36,7 @@ const Top: React.FC<ITop> = ({ headline, tagline }) => (
           </svg>
         </Link>
       </h1>
-      <span>
+      <span className="h1">
         for{' '}
         <Link className="styled__Link-lfEBUk iUBhrC" to="#">
           transformational companies
@@ -53,7 +53,7 @@ const Top: React.FC<ITop> = ({ headline, tagline }) => (
           </svg>
         </Link>
       </span>
-      <span className="mb-3">embracing the economy of the future.</span>
+      <span className="mb-3 h1">embracing the economy of the future.</span>
       <Link
         className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5 experic-a"
         to="/experienceurbian"

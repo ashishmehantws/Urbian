@@ -20,7 +20,7 @@
 }
 
 .Testimonials-slider span {
-  font-size: 1.15em;
+  font-size: 1.2em;
   padding-top: 35px;
   display: block;
   color: #040404;
@@ -45,7 +45,8 @@
   margin-bottom: 0px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   width: 62px;
 }
 
@@ -118,7 +119,8 @@
 }
 
 @media (max-width: 767px) {
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     display: none;
   }
 }

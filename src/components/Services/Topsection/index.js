@@ -10,7 +10,7 @@ class Topsection extends React.Component {
       <Container className="Topsection_min clearfix">
         <Row>
           <Col lg="6" className="text-left">
-            <h1>Shipping is believing.</h1>
+            <h1 className="h1">Shipping is believing.</h1>
             <p>
               We ask our clients to participate directly with us in an intensely
               collabrative process based on specific KPLs, rapid prototyping,

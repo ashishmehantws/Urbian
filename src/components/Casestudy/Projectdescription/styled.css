@@ -45,14 +45,14 @@
 
 .project-desp small {
   padding-top: 40px;
-  font-size: 1.05em;
+  font-size: 1.2em;
   display: block;
 }
 
 @media (max-width: 568px) {
   .project-desp h5 {
     font-size: 1.2em;
-    line-height: 1.7em!important;
+    line-height: 1.7em !important;
     padding-top: 50px;
   }
 }

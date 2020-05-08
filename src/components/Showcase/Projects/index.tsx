@@ -36,7 +36,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
         <Row>
           <Col>
             {' '}
-            <h1>Our work.</h1>
+            <h1 className="h1">Our work.</h1>
             <span>
               For over a decade we've helped ambitious companies re-imagine
               customer experiences, create new models for growth and build new

@@ -41,7 +41,7 @@
 
 .startupinvestements small {
   padding-top: 40px;
-  font-size: 1.05em;
+  font-size: 1.2em;
   display: block;
 }
 
@@ -61,7 +61,11 @@
 @media (max-width: 572px) {
   .startupinvestements h6 {
     font-size: 1.2em;
-    line-height: 1.7em!important;
+    line-height: 1.7em !important;
     padding-top: 80px;
+  }
+  .startupinvestements small {
+    font-size: 0.9em;
+    padding-top: 25px;
   }
 }

@@ -12,7 +12,7 @@ class Topimage extends React.Component {
         <Row>
           <Col lg="6">
             <Link to="">Incubators & Accelerators</Link>
-            <h1>
+            <h1 className="h2">
               Re-vitalising an african-centric social tech incubator program.
             </h1>
           </Col>
