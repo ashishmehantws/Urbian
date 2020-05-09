@@ -70,13 +70,13 @@
   position: relative;
   font-size: 1.125rem;
   line-height: 1;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   transition: color 200ms ease-in-out 0s;
   flex-direction: row-reverse;
 }
 
 .fAxqDr:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   text-decoration: none;
 }
 

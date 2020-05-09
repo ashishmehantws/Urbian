@@ -2,70 +2,48 @@
 body {
   font-family: 'Inter', sans-serif !important;
   line-height: 1.5 !important;
+  color: #030303;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-em,
-pre,
-small,
-sub,
-sup,
-b,
-strong,
-i {
+h1, h2, h3, h4, h5, h6, p, span, em, pre, small, sub, sup, b, strong, i {
   font-family: 'Inter', sans-serif !important;
 }
 
-b,
-strong {
+b, strong {
   font-weight: 700 !important;
 }
 
-address,
-dl,
-ol,
-ul {
+address, dl, ol, ul {
   margin-bottom: 1rem !important;
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
   box-sizing: border-box !important;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem !important;
   font-weight: 500;
   line-height: 1.2 !important;
 }
 
+em {
+  font-style: normal;
+}
+
 a {
   font-size: 1.1em;
+  color: #030303 !important;
 }
 
 p {
   margin-top: 0 !important;
   margin-bottom: 1rem !important;
   line-height: 1.7 !important;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .proejct-head {
@@ -115,26 +93,24 @@ p {
 }
 
 header a {
-  color: #000;
   font-weight: 500;
 }
 
-.bred-page:before,
-header a.active:before {
+.bred-page:before, header a.active:before {
   content: '';
   position: absolute;
-  height: 9px;
+  height: 11px;
   width: 100%;
   left: 0px;
-  bottom: 0px;
+  bottom: 5px;
   background-color: #ffff0082;
-  transform: skew(-30deg);
+  transform: skew(-35deg);
   border: 0px;
   z-index: -2;
 }
 
 header a.active {
-  color: #111314 !important;
+  color: #030303 !important;
   position: relative;
   z-index: 3;
 }
@@ -154,12 +130,12 @@ header a.active {
 }
 
 header nav a {
-  padding-left: 5px !important;
-  padding-right: 5px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
 }
 
 header nav a:hover {
-  color: #111314 !important;
+  color: #030303 !important;
 }
 
 header nav a.lgJjuq:before {
@@ -219,8 +195,7 @@ header nav a.lgJjuq:before {
   font-size: 1em;
 }
 
-.fromblog .gueQTJ,
-.fromblog .cmDES {
+.fromblog .gueQTJ, .fromblog .cmDES {
   background-color: #fefddf;
   border-color: #fefddf;
   padding: 5px 0;
@@ -230,8 +205,7 @@ header nav a.lgJjuq:before {
   margin-bottom: 0px;
 }
 
-.fromblog .cMbCbI,
-.fromblog .fdnxvr {
+.fromblog .cMbCbI, .fromblog .fdnxvr {
   font-size: 0.47rem;
   width: 100%;
   min-width: 59px !important;
@@ -243,22 +217,20 @@ header nav a.lgJjuq:before {
   margin-right: 2em;
 }
 
-.fromblog .gatsby-image-wrapper,
-.cMbCbI img {
+.fromblog .gatsby-image-wrapper, .cMbCbI img {
   width: 59px !important;
   height: 59px !important;
 }
 
 .fromblog .fMCkUL {
-  color: #000;
+  color: #030303;
 }
 
 .fromblog .kapeNq {
   border-color: #dbdabf;
 }
 
-.fromblog .NDCre,
-.fMqvyh {
+.fromblog .NDCre, .fMqvyh {
   font-weight: bold;
 }
 
@@ -272,8 +244,7 @@ header nav a.lgJjuq:before {
   padding-bottom: 10px;
 }
 
-.innovation_min header,
-.innovation_min .headroom-wrapper {
+.innovation_min header, .innovation_min .headroom-wrapper {
   background-color: #4a0053;
 }
 
@@ -285,20 +256,19 @@ header nav a.lgJjuq:before {
   display: none;
 }
 
-.clients-div header,
-.clients-div .headroom-wrapper {
+.clients-div header, .clients-div .headroom-wrapper {
   background-color: #fefc66;
 }
 
 .clients-div header a.active:before {
   content: '';
   position: absolute;
-  height: 9px;
+  height: 11px;
   width: 100%;
   left: 0px;
-  bottom: 0px;
+  bottom: 5px;
   background-color: #fff;
-  transform: skew(-30deg);
+  transform: skew(-35deg);
   border: 0px;
   z-index: -2;
 }
@@ -339,18 +309,11 @@ header nav a:hover {
   text-decoration: none;
 }
 
-.digitaltransformation,
-.experienceurbian,
-.services_min {
+.digitaltransformation, .experienceurbian, .services_min {
   background-color: #f6f5f7;
 }
 
-.digitaltransformation .headroom-wrapper,
-.digitaltransformation header,
-.experienceurbian .headroom-wrapper,
-.experienceurbian header,
-.services_min header,
-.services_min .headroom-wrapper {
+.digitaltransformation .headroom-wrapper, .digitaltransformation header, .experienceurbian .headroom-wrapper, .experienceurbian header, .services_min header, .services_min .headroom-wrapper {
   background-color: #f6f5f7;
 }
 
@@ -363,8 +326,7 @@ header nav a:hover {
   font-size: 1.2em !important;
 }
 
-.border-top,
-.border-bottom {
+.border-top, .border-bottom {
   border-color: #d4d3d4 !important;
 }
 
@@ -398,7 +360,6 @@ header nav a:hover {
     display: block;
     font-size: 1.25em;
     line-height: 1;
-    color: rgb(17, 19, 20);
     padding: 0.75em 0px;
     text-decoration: none;
   }
@@ -414,8 +375,7 @@ header nav a:hover {
   header a.active {
     display: inline;
   }
-  .clients-div header a.active::before,
-  header a.active::before {
+  .clients-div header a.active::before, header a.active::before {
     background-color: #fefc66;
     bottom: 15px;
   }
@@ -428,8 +388,7 @@ header nav a:hover {
   .proejct-head h2 {
     font-size: 1.3em;
   }
-  a,
-  .fYDdlr {
+  a, .fYDdlr {
     font-size: 13px;
   }
 }

@@ -10,32 +10,32 @@ class Startupinvestements extends React.Component {
       <div className="startupinvestements">
         <Container>
           <Row>
-            <Col lg="6">
+            <Col lg="6" className="pb-4">
               <h2>
                 Startup <br /> Investements
               </h2>
             </Col>
             <Col lg="6">
               <span>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. orem
-                Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Over the last 10 years Urbian has grown into a company where
+                like-minded, passionate people can work together, share unique
+                ideas and bring them to life. We do this by investing in new
+                disruptive businesses or launching our own. We selectively
+                partner with early-stage startups to build product roadmaps and
+                assemble internal teams. Engagements often begin during product
+                definition. They always result in a functioning beta or launched
+                product.
               </span>
             </Col>
           </Row>
           <Row>
-            <Col sm="4">
+            <Col lg="4" md="6">
               <h4>Hi5</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Hi5</em> was birthed inside of Urbian
+                form our own frustrations with HR software. After 2 years the
+                company grew enough to find it's own offices and continues to
+                grow to this day.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -52,22 +52,20 @@ class Startupinvestements extends React.Component {
                 </svg>
               </Link>
             </Col>
-            <Col sm="4">
+            <Col lg="4" md="6">
               <h4>Hive</h4>
               <p>
-                Why do we use it? It is a long established fact that a reader
-                will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters,
+                A partnership since 2019 to define, create the brand and built
+                the tech for a new low-cost property platform aimed at
+                reimagines how the new middle class live.
               </p>
             </Col>
-            <Col sm="4">
+            <Col lg="4" md="6">
               <h4>ManyHands</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                Defining, operating, creating the product and brand reinventing
+                a marketplace for SMB's to thrive while providing a reqular
+                source of income to proffessionals.
               </p>
             </Col>
           </Row>

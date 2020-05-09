@@ -33,7 +33,7 @@ class Servicesection extends React.Component {
                     height="10"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g stroke="#212529" fill="none" fillRule="evenodd">
+                    <g stroke="#030303" fill="none" fillRule="evenodd">
                       <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                       <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                     </g>
@@ -66,7 +66,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#212529" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -89,7 +89,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#212529" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -110,7 +110,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#212529" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -131,7 +131,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#212529" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -140,10 +140,10 @@ class Servicesection extends React.Component {
             </Col>
           </Row>
           <Row className="mt-5 pt-5">
-            <Col md="6" className="mt-5">
+            <Col lg="5" md="12" className="mt-lg-5">
               <h4>Everything we do is about building digital products</h4>
             </Col>
-            <Col md="6" className="mt-5">
+            <Col lg="5" md="12" className="mt-5">
               <p>
                 We're one of a very few agencies that can take a product idea
                 form end to end. From the first discovery meeting to a real
@@ -154,8 +154,8 @@ class Servicesection extends React.Component {
             </Col>
           </Row>
           <Row className="pt-3">
-            <Col md="1"></Col>
-            <Col md="10" className="d-flex flex-wrap justify-content-md-around">
+            <Col lg="1"></Col>
+            <Col lg="10" className="d-flex flex-wrap justify-content-md-around">
               <div className=" service-item mt-5">
                 <strong>PM &amp; Strategy </strong>
                 <ul>
@@ -192,13 +192,13 @@ class Servicesection extends React.Component {
                 </ul>
               </div>
             </Col>
-            <Col md="1"></Col>
+            <Col lg="1"></Col>
           </Row>
         </Container>
         <Container className="Producstrategy">
           <Row className="pb-5 ">
             <Col lg="6" className="mt-5">
-              <img src={serviceimg2} className="w-75 " alt="service" />
+              <img src={serviceimg2} className="w-75" alt="service" />
             </Col>
             <Col lg="6" className="mt-5">
               <h4>Product Strategy</h4>
@@ -218,7 +218,7 @@ class Servicesection extends React.Component {
                 <li>Post-launch capacity building</li>
               </ul>
               <span>Case Study</span>
-              <h6 className="pb-5">
+              <h6 className="pb-md-5">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
@@ -233,7 +233,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -241,8 +241,8 @@ class Servicesection extends React.Component {
               </Link>
             </Col>
           </Row>
-          <Row className="pb-5 mt-5 pt-5">
-            <Col lg="6" className="mt-5">
+          <Row className="pb-5 mt-lg-5 pt-5">
+            <Col lg="6" className="mt-lg-5">
               <h4>Product Design</h4>
               <div className="position-relative">
                 <p>
@@ -273,7 +273,7 @@ class Servicesection extends React.Component {
                 <li>Illustration </li>
               </ul>
               <span>Case Study</span>
-              <h6 className="pb-5">
+              <h6 className="pb-md-5">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
@@ -288,7 +288,7 @@ class Servicesection extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -307,7 +307,7 @@ class Servicesection extends React.Component {
         <div className="Softwaredevelopment ">
           <Container>
             <Row className="pb-5">
-              <Col lg="6" className="mt-5">
+              <Col lg="6" className="mt-lg-5">
                 <img src={serviceimg4} className="w-75 " alt="service" />
               </Col>
               <Col lg="6" className="mt-5">
@@ -375,10 +375,10 @@ class Servicesection extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col md="6"></Col>
-              <Col md="6" className="mt-5 pt-4">
+              <Col lg="6"></Col>
+              <Col lg="6" className="mt-5 pt-4">
                 <span>Case Study</span>
-                <h6 className="mb-5">
+                <h6 className="mb-md-5">
                   Clearing a 9 year old feature backlog in 6 months.
                 </h6>
                 <Link

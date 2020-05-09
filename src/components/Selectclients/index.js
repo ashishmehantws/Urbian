@@ -23,19 +23,21 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4>Sanlam</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                Expanding the brand beyond marketing into digital products with
+                various consumer and intermediary facing product strategy and
+                prototyping sprints.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4>Sanlam Private Wealth </h4>
               <p>
-                Why do we use it? It is a long established fact that a reader
-                will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters,
+                Ongoing digital transformation through the creation of a
+                <em className="underline"> Design System</em> used to deliver
+                the new{' '}
+                <em className="underline">
+                  Sanlam Private Wealth brand website
+                </em>{' '}
+                as well as a client service tool for portfolio managers.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -45,7 +47,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -55,29 +57,29 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4>Santam</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                We've been helping this 100 year old insurance giant find new
+                ways to deliver insurance for consumers and brokers by testing
+                various products strategies through rapid prototyping sessions
+                with end customers.
               </p>
             </Col>
 
             <Col lg="4" md="6">
               <h4>Distel</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4>Investec</h4>
               <p>
-                Why do we use it? It is a long established fact that a reader
-                will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters,
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -87,7 +89,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -97,10 +99,10 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4>Liberty Direct Insurance</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -110,7 +112,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -123,10 +125,10 @@ class Selectclients extends React.Component {
                 Diageo Trust <br /> South Africa
               </h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -136,7 +138,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -146,19 +148,19 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4>Stor-age</h4>
               <p>
-                Why do we use it? It is a long established fact that a reader
-                will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters,
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4>Barclays</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -168,7 +170,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>
@@ -179,28 +181,28 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4>SantaShoebox</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4>Vital Health Foods</h4>
               <p>
-                Why do we use it? It is a long established fact that a reader
-                will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters,
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4>Babylonstoren</h4>
               <p>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
               <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
                 See case study
@@ -210,7 +212,7 @@ class Selectclients extends React.Component {
                   height="10"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g stroke="#111314" fill="none" fillRule="evenodd">
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
                     <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
                     <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
                   </g>

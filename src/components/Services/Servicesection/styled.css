@@ -14,7 +14,6 @@
 
 .servicesection h2 a {
   display: inline-block;
-  color: #212529;
   font-size: 1em;
   position: relative;
   z-index: 2;
@@ -44,8 +43,9 @@
 }
 
 .servicesection a.servcclink {
-  font-size: 1em;
-  margin-top: 15px;
+  margin-top: 12px;
+  float: left;
+  font-weight: 500;
 }
 
 .servicesection p {
@@ -185,20 +185,38 @@
 }
 
 .Softwaredevelopment a {
-  color: #fff;
+  color: #fff !important;
 }
 
 @media (max-width: 769px) {
   .servicesection {
     padding-top: 90px;
   }
+  .Softwaredevelopment {
+    padding-bottom: 80px;
+  }
+  .Softwaredevelopment span {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .Producstrategy span {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .Softwaredevelopment {
+    padding-top: 0px;
+    margin-top: 20px;
+  }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 572px) {
   .servicesection h4 {
     padding-right: 0px;
   }
   .how-deliver {
     padding-top: 20px;
+  }
+  .service-item {
+    width: 100%;
   }
 }

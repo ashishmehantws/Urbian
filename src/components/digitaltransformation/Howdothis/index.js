@@ -11,7 +11,7 @@ class Howdothis extends React.Component {
     return (
       <Container className="howdo_this position-relative">
         <Row>
-          <Col>
+          <Col className="pb-lg-5 mb-lg-5">
             <h2>How we do this</h2>
           </Col>
         </Row>

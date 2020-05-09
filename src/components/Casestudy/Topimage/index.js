@@ -10,9 +10,9 @@ class Topimage extends React.Component {
     return (
       <Container className="topimage position-relative">
         <Row>
-          <Col lg="6">
+          <Col lg="7">
             <Link to="">Incubators & Accelerators</Link>
-            <h1 className="h2">
+            <h1 className="h1">
               Re-vitalising an african-centric social tech incubator program.
             </h1>
           </Col>

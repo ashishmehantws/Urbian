@@ -16,14 +16,12 @@
   font-size: 2.04em;
   font-weight: normal;
   line-height: 48px !important;
-  color: #040404;
 }
 
 .Testimonials-slider span {
   font-size: 1.2em;
   padding-top: 35px;
   display: block;
-  color: #040404;
 }
 
 .Testimonials-slider .carousel-indicators li {
@@ -45,8 +43,7 @@
   margin-bottom: 0px;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
   width: 62px;
 }
 
@@ -119,8 +116,7 @@
 }
 
 @media (max-width: 767px) {
-  .carousel-control-next,
-  .carousel-control-prev {
+  .carousel-control-next, .carousel-control-prev {
     display: none;
   }
 }

@@ -1,12 +1,10 @@
 .Selectclients {
   background-color: #fefc66;
   padding: 130px 0;
-  color: #000;
 }
 
 .Selectclients h1 {
   font-weight: bold;
-  color: #000;
 }
 
 .Selectclients span {
@@ -26,7 +24,7 @@
 
 .Selectclients h6 {
   font-size: 2.35em;
-  font-weight: 500;
+  font-weight: 400;
   padding-top: 180px;
   display: block;
   max-width: 750px;
