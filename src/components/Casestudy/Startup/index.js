@@ -68,7 +68,7 @@ class Startup extends React.Component {
               <span>Startup 2 of 5</span>
               <h6>Foonda</h6>
               <p>
-                Foonda makers applying to every bursary university, and
+                Foonda makes applying to every bursary university, and
                 government financial aid program simple using one form.
               </p>
               <strong>What we did:</strong>

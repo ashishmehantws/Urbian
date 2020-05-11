@@ -54,15 +54,15 @@ class Howdothis extends React.Component {
           <Col lg="6" className="mt-5 pright">
             <h4>Digtial Capability</h4>
             <p className="">
-              Every company is at a different stage in their digital journey.We
+              Every company is at a different stage in their digital journey. We
               work with both technology leaders as well as established brands
-              that are trying to redefine their value with digital means .We are
+              that are trying to redefine their value with digital means. We are
               as comfortable driving new growth for our clients as we are
-              showcasing new transparent ways of working .Our clients come to us
-              to help them assess the digital engagement of their talent and to
-              collaborate ,on new business models and ventures.Together,we
-              create unique ways of working that will inspire yours
-              organisation.
+              showcasing new transparent ways of working. Our clients come to us
+              to help them assess the digital readiness of their organisation,
+              to drive engagement of their talent and to collaborate ,on new
+              business models and ventures. Together,we create unique ways of
+              working that will inspire yours organisation.
             </p>
           </Col>
         </Row>

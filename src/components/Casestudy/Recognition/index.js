@@ -62,7 +62,7 @@ class Recognition extends React.Component {
                 </svg>
               </Link>
             </div>
-            <div className="border-bottom pb-5 mb-5">
+            <div className=" pb-5 mb-5">
               <img
                 src={img3}
                 className="img-fluid mb-3  position-relative"

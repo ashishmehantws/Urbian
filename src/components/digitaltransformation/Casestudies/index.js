@@ -21,7 +21,7 @@ class Casestudies extends React.Component {
                 </div>
                 <small className="light-blue">Sanlam Private wealth</small>
                 <h6>
-                  A design system led now brand home generates a 10x increase in
+                  A design system led new brand home generates a 10x increase in
                   business leads.
                 </h6>
                 <p>

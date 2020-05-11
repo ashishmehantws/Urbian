@@ -55,7 +55,7 @@ class Contentwrap extends React.Component {
             </h4>
             <p>
               Through group workshops and one on one sessions we helped our
-              cohort establish whether they have an actual product that prople
+              cohort establish whether they have an actual product that people
               need. We went about this process by teaching all the participants
               how to test their assumptions using user research through applying
               design thinking principles, completing a business model canvas,

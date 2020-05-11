@@ -18,7 +18,7 @@ class Whyurbian extends React.Component {
                 <p>
                   We don't pay lip service to Agile methodologies: we live and
                   breathe them everyday whether on client work or our own
-                  startups. Our prototype first approach helps us get tangible
+                  startups. Our prototype-first approach helps us get tangible
                   fast, mitigate risks, and quickly uncover new opportunities
                   and challenges. We understand how to make Agile practices work
                   within traditional and heavily regulated R&D processes and

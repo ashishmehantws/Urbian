@@ -27,7 +27,7 @@ class Topimage extends React.Component {
                 </g>
               </svg>
             </Link>
-            <h1 className="h1">Digital Transformation</h1>
+            <h1 className="h1">Digital Transformation.</h1>
             <p>
               We work alongside your teams to tackle the toughest challenges
               head on. The result is one combined team making things the right
