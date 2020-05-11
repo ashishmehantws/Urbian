@@ -4,3 +4,6 @@
 // export { default as Perks } from './Perks'
 export { default as Topsection } from './Topsection'
 export { default as Ourculture } from './Ourculture'
+export { default as Ourbenefits } from './Ourbenefits'
+export { default as Currentopenjob } from './Currentopenjob'
+export { default as Lookinside } from './Lookinside'

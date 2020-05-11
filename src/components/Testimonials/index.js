@@ -13,36 +13,27 @@ class Testimonials extends React.Component {
             <Carousel>
               <Carousel.Item>
                 <h2>
-                  "We have to get what Urbian are providing. With highly skilled
-                  teams, they are doing what the big consultancies who have been
-                  in here for years just can't do or translate into meaninfful
-                  outcomes. This is the first time in two decades of banking
-                  that l've seen a transformation actually look like it might
-                  succeed."
+                  "The secret to their success is there ability to assemble
+                  talented teams of people that care. I think of Urbian as a
+                  critical member of my team, not some outsourced function."
                 </h2>
-                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
+                <span>- Keith Elliott, CEO of Met-S Care</span>
               </Carousel.Item>
               <Carousel.Item>
                 <h2>
-                  "We have to get what Urbian are providing. With highly skilled
-                  teams, they are doing what the big consultancies who have been
-                  in here for years just can't do or translate into meaninfful
-                  outcomes. This is the first time in two decades of banking
-                  that l've seen a transformation actually look like it might
-                  succeed."
+                  "The secret to their success is there ability to assemble
+                  talented teams of people that care. I think of Urbian as a
+                  critical member of my team, not some outsourced function."
                 </h2>
-                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
+                <span>- Keith Elliott, CEO of Met-S Care</span>
               </Carousel.Item>
               <Carousel.Item>
                 <h2>
-                  "We have to get what Urbian are providing. With highly skilled
-                  teams, they are doing what the big consultancies who have been
-                  in here for years just can't do or translate into meaninfful
-                  outcomes. This is the first time in two decades of banking
-                  that l've seen a transformation actually look like it might
-                  succeed."
+                  "The secret to their success is there ability to assemble
+                  talented teams of people that care. I think of Urbian as a
+                  critical member of my team, not some outsourced function."
                 </h2>
-                <span>- Strategic Projects Lead, Sanlam Private Wealth</span>
+                <span>- Keith Elliott, CEO of Met-S Care</span>
               </Carousel.Item>
             </Carousel>
           </Row>

@@ -33,7 +33,7 @@
   line-height: 1;
   transition: color 200ms ease-in-out 0s;
   flex-direction: row-reverse;
-  color: #030303!important;
+  color: #030303 !important;
 }
 
 .digitaltransformation .top-image .fAxqDr:hover {
@@ -47,26 +47,6 @@
 
 .top-image a {
   text-decoration: none;
-}
-
-.proejct_head {
-  max-width: 700px;
-  width: 100%;
-  margin: 0px auto;
-}
-
-.proejct_head h2 {
-  font-size: 1.9em;
-  font-weight: 400;
-  text-align: center;
-  padding-bottom: 30px;
-  line-height: 45px !important;
-}
-
-.proejct_head span {
-  font-size: 1.2em;
-  display: block;
-  line-height: 25px;
 }
 
 @media (max-width: 1025px) {
@@ -85,12 +65,5 @@
 @media (max-width: 572px) {
   .top-image {
     padding-top: 0px;
-  }
-  .proejct_head h2 {
-    font-size: 1.2em;
-    line-height: 1.7em !important;
-  }
-  .proejct_head span {
-    font-size: 0.9em;
   }
 }

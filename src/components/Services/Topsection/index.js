@@ -15,7 +15,7 @@ class Topsection extends React.Component {
               We ask our clients to participate directly with us in an intensely
               collabrative process based on specific KPLs, rapid prototyping,
               and continuous testing and improvement. The result is one combined
-              team marking thinks the right way with fewer project hours
+              team marking things the right way with fewer project hours
               invested in presentations.
             </p>
           </Col>

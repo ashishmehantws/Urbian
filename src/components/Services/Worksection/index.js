@@ -37,14 +37,14 @@ class Worksection extends React.Component {
                   <p>
                     The best digital products are created by hands-on,
                     multidisciplinary teams of experts with experience crafting
-                    products and de[loying at scale.
+                    products and deploying at scale.
                   </p>
                 </Col>
                 <Col sm="6" className="mt-5">
                   <strong>Clear, ambitious KPLs</strong>
                   <p>
                     Our product stratrgists help create category-leading digital
-                    experiences by clarifying goals and friving consensus around
+                    experiences by clarifying goals and driving consensus around
                     a focused set of metrics.
                   </p>
                 </Col>
@@ -73,14 +73,14 @@ class Worksection extends React.Component {
                   <strong>Ongoing validation</strong>
                   <p>
                     Testing and validation takes place in every phase of our
-                    process. prototypes are tested frequently with uers. We stay
+                    process. Prototypes are tested frequently with uers. We stay
                     lean and help your product do one thing well.
                   </p>
                 </Col>
                 <Col sm="6" className="mt-5">
                   <strong>Zero big reveals</strong>
                   <p>
-                    Creating digital products at scals is challenging enough
+                    Creating digital products at scale is challenging enough
                     without investing excessive hours in creating one-off
                     presentations. We don't make you million rand decks. We
                     bulid, prototype, test and repeat.

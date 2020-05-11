@@ -12,7 +12,7 @@ class Topsection extends React.Component {
       <Container className="top-image position-relative">
         <Row>
           <Col sm="6">
-            <h1>Do the best work of your life.</h1>
+            <h1 className="h1">Do the best work of your life.</h1>
             <p>
               We're on a mission to launch products, services, and companies
               that have a meaningful impact on the world.
@@ -31,8 +31,7 @@ class Topsection extends React.Component {
           </Col>
         </Row>
         <Row className="mt-5 pt-4 pb-5 border-bottom">
-          <Col md="3"></Col>
-          <Col md="6" className="text-center proejcthead pb-5">
+          <Col md="12" className="text-center proejct_head pb-5">
             <h2>
               "I love that I can work from home in my inderpants. Thi Lockdown
               hasn't changed my work/life balance one bit, now all Urbian needs
@@ -41,7 +40,6 @@ class Topsection extends React.Component {
             </h2>
             <span>-Heinrich Colyn, full-stack developer</span>
           </Col>
-          <Col md="3"></Col>
         </Row>
       </Container>
     )

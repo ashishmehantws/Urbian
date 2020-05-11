@@ -2,13 +2,10 @@
   padding: 100px 0;
 }
 .top-image a {
-  color: #000;
 }
 
 .top-image h1 {
-  font-size: 2.3em;
   font-weight: bold;
-  color: #000;
   padding-top: 35px;
   padding-bottom: 45px;
 }
@@ -40,7 +37,7 @@
 }
 
 .top-image .fAxqDr:hover {
-  color: #000;
+  color: #030303;
   text-decoration: none;
 }
 
@@ -60,7 +57,7 @@
 }
 
 .proejcthead span {
-  font-size: 14px;
+  font-size: 1.1em;
   display: block;
   line-height: 25px;
 }

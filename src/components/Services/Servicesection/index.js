@@ -23,8 +23,8 @@ class Servicesection extends React.Component {
           <Row>
             <Col md="12" className="text-center">
               <h2>
-                We' re a new kind of consultancy. Our secret sauce is our
-                ability
+                We' re a new kind of consultancy. <br />
+                Our secret sauce is our ability
                 <Link to="" className="styled__Link-lfEBUk iUBhrC">
                   to bridge the strategy to delivery gap.
                   <svg
@@ -97,13 +97,13 @@ class Servicesection extends React.Component {
               </Link>
             </Col>
             <Col lg="3" md="6" className="mt-5">
-              <h6>Digital Transformations</h6>
+              <h6>Digital Transformation</h6>
               <p>
                 We work alongside your teams to tackle the toughest challenges
                 head on.
               </p>
               <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
-                More on transformations
+                More on transformation
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
                   width="14"
@@ -121,7 +121,7 @@ class Servicesection extends React.Component {
               <h6>New capabilities.</h6>
               <p>
                 We have built long-lasting capability inside copmanies through
-                hiring ,onboarding and coaching multi-disciplinary teams.
+                hiring, onboarding and coaching multi-disciplinary teams.
               </p>
               <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
                 More on this service
@@ -156,7 +156,7 @@ class Servicesection extends React.Component {
           <Row className="pt-3">
             <Col lg="1"></Col>
             <Col lg="10" className="d-flex flex-wrap justify-content-md-around">
-              <div className=" service-item mt-5">
+              <div className="service-item mt-5">
                 <strong>PM &amp; Strategy </strong>
                 <ul>
                   <li>Product strategy</li>
@@ -166,7 +166,7 @@ class Servicesection extends React.Component {
                   <li>Post-launch capacity building</li>
                 </ul>
               </div>
-              <div className=" service-item mt-5">
+              <div className="service-item mt-5">
                 <strong>Product Design</strong>
                 <ul>
                   <li>UX research &amp; testing</li>
@@ -179,7 +179,7 @@ class Servicesection extends React.Component {
                   <li>Motion &amp; Video</li>
                 </ul>
               </div>
-              <div className=" service-item mt-5">
+              <div className="service-item mt-5">
                 <strong>Development</strong>
                 <ul>
                   <li>Technical architecture</li>
@@ -189,6 +189,35 @@ class Servicesection extends React.Component {
                   <li>API &amp; CMS Development</li>
                   <li>Code auditing &amp; QA</li>
                   <li>DevOps</li>
+                </ul>
+              </div>
+            </Col>
+            <Col lg="1"></Col>
+          </Row>
+          <Row className="pt-3">
+            <Col lg="1"></Col>
+            <Col sm="4" className="">
+              <div className="service-item mt-5 pl-5">
+                <strong>Industry</strong>
+                <ul>
+                  <li>Health & Wellness</li>
+                  <li>Insurance</li>
+                  <li>Financial services</li>
+                  <li>E-Commerce</li>
+                  <li>Saas</li>
+                </ul>
+              </div>
+            </Col>
+            <Col sm="4" className="">
+              <div className="service-item mt-5 pl-3">
+                <strong>Teams & Process</strong>
+                <ul>
+                  <li>Level up your team</li>
+                  <li>Level up your remote team</li>
+                  <li>Code audit</li>
+                  <li>Mentoring</li>
+                  <li>Deployment</li>
+                  <li>Help hiring</li>
                 </ul>
               </div>
             </Col>
@@ -206,8 +235,8 @@ class Servicesection extends React.Component {
                 We focus on digital products that meet real customer needs, open
                 up markets and generate new sources of revenue. Breakthrough
                 digital strategy is built on powerful customer insights,
-                sensitivity to existing assets and operational impacet and the
-                rapid execuion of ideas to test and evolve the strategy.
+                sensitivity to existing assets and operational impact and the
+                rapid execution of ideas to test and evolve the strategy.
               </p>
               <strong>Our development services</strong>
               <ul>
@@ -248,10 +277,10 @@ class Servicesection extends React.Component {
                 <p>
                   We help you gain the creative confidence to excel at consumer
                   research and rapidly prototype your product idea continually
-                  testing with users in the wild. Our designers who-code are
+                  testing with users in the wild. Our designers-who-code are
                   able to exquisitely craft pixel perfect user experiences and
-                  most often go from prototype to product launch in under 100
-                  days.
+                  can most often go from prototype to product launch in under
+                  100 days.
                 </p>
                 <div className="kUmLiD">
                   <span className=" bzkOoc"></span>
@@ -271,6 +300,7 @@ class Servicesection extends React.Component {
                 <li>Brand development</li>
                 <li>Content & Writing</li>
                 <li>Illustration </li>
+                <li>Motion & Video</li>
               </ul>
               <span>Case Study</span>
               <h6 className="pb-md-5">
@@ -315,9 +345,9 @@ class Servicesection extends React.Component {
                 <p>
                   There's an obsession with detail when it comes to developing
                   what's envisioned and that's why we've adopted some of the
-                  industry's best practices for Code Review, Quality AssUrance &
-                  Continuous Deployment. Ract is or true workhorse and our
-                  unquestionsable tool of choice to develop almost anything.
+                  industry's best practices for Code Review, Quality Assurance &
+                  Continuous Deployment. React is or true workhorse and our
+                  unquestionable tool of choice to develop almost anything.
                 </p>
                 <strong>Our Development services</strong>
                 <ul>

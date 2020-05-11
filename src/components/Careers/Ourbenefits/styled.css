@@ -1,0 +1,16 @@
+.Ourbenefits_min {
+  padding: 0px 0 100px;
+}
+
+.Ourbenefits_min h4 {
+  font-size: 2.3em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.Ourbenefits_min strong {
+  font-size: 1.1em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: block;
+}

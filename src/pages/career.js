@@ -1,6 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { Topsection, Ourculture } from '../components/Careers'
+import {
+  Topsection,
+  Ourculture,
+  Ourbenefits,
+  Currentopenjob,
+  Lookinside,
+} from '../components/Careers'
 import Gettouch from '../components/Gettouch'
 
 class careers extends React.Component {
@@ -10,6 +16,9 @@ class careers extends React.Component {
         <Layout>
           <Topsection></Topsection>
           <Ourculture></Ourculture>
+          <Ourbenefits></Ourbenefits>
+          <Currentopenjob></Currentopenjob>
+          <Lookinside></Lookinside>
           <Gettouch></Gettouch>
         </Layout>
       </div>
