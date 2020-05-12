@@ -58,9 +58,9 @@ class Ourculture extends React.Component {
               For us Culture is not company values printed on our office walls
               nor a set of KPI's OKR's or belief statements reviewed once a
               year. Our
-              <mark className="yellowBackground">
+              <em className="yellowBackground">
                 culture is what we do, not what we say we do.
-              </mark>
+              </em>
             </p>
             <p>
               Below are a set of virtues we live out willingly everyday whether

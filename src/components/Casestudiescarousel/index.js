@@ -23,13 +23,13 @@ class Casestudiescarousel extends React.Component {
                     <span>Digital Transformation</span>
                     <h5>Liberty Insurance Direct</h5>
                     <p>
-                      <mark className="yellowBackground">
-                        Ongoing transformation{' '}
-                      </mark>{' '}
+                      <em className="yellowBackground">
+                        Ongoing transformation
+                      </em>
                       of the Liberty Direct Insurance digital self-service
                       customer-facing and employee-facing products, all enabled
                       by us launching their first ever
-                      <mark className="yellowBackground"> insurance API.</mark>
+                      <em className="yellowBackground"> insurance API.</em>
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
@@ -60,13 +60,13 @@ class Casestudiescarousel extends React.Component {
                     <span>Digital Transformation</span>
                     <h5>Liberty Insurance Direct</h5>
                     <p>
-                      <mark className="yellowBackground">
+                      <em className="yellowBackground">
                         Ongoing transformation{' '}
-                      </mark>{' '}
+                      </em>{' '}
                       of the Liberty Direct Insurance digital self-service
                       customer-facing and employee-facing products, all enabled
                       by us launching their first ever
-                      <mark className="yellowBackground"> insurance API.</mark>
+                      <em className="yellowBackground"> insurance API.</em>
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"

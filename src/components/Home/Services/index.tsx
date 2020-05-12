@@ -48,8 +48,8 @@ const Services: React.FC<IServicesContent> = ({
             We're one of the few agencies in the world that can take a product
             idea from end to end. From the first discovery meeting to a real
             shipped product. Have a great new product idea and nobody to start
-            building it?
-            <mark className="yellowBackground d-inline">We're your team.</mark>
+            building it?&nbsp;
+            <em className="yellowBackground d-inline">We're your team.</em>
           </p>
         </Col>
       </Row>
