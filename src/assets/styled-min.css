@@ -59,7 +59,7 @@ p {
 }
 
 .proejct-head h2 {
-  font-size: 1.75em;
+  font-size: 2.04em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
@@ -67,7 +67,7 @@ p {
 }
 
 .proejct-head span {
-  font-size: 14px;
+  font-size: 1.2em;
   display: block;
   line-height: 25px;
 }
@@ -408,9 +408,6 @@ header nav a:hover {
 @media (max-width: 568px) {
   .headroom-wrapper header {
     padding-bottom: 60px;
-  }
-  .proejct-head h2 {
-    font-size: 1.3em;
   }
   a, .fYDdlr {
     font-size: 13px;
