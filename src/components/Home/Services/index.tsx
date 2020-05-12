@@ -40,12 +40,10 @@ const Services: React.FC<IServicesContent> = ({
   <div>
     <Container className="pt-5 mt-5 pb-5">
       <Row>
-        <Col sm="5" className="pt-4">
-          <S.Title className="career-title-h">
-            We build digital products
-          </S.Title>
+        <Col lg="5" className="pt-4">
+          <h4 className="career-title-h pl-lg-5">We build digital products</h4>
         </Col>
-        <Col sm="7" className="pt-4">
+        <Col lg="6" className="pt-4">
           <p className="fz-2 d-inline">
             We're one of the few agencies in the world that can take a product
             idea from end to end. From the first discovery meeting to a real

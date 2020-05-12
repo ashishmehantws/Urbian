@@ -1,5 +1,5 @@
 .Ourculture_min {
-  padding: 0px 0 100px;
+  padding-bottom: 100px;
 }
 
 .Ourculture_min a {
@@ -27,6 +27,12 @@
   display: block;
 }
 
-/* .yellowBackground:before {
+.yellowBackground:before {
   background-color: #c9f9ff;
-} */
+}
+
+@media (max-width: 769px) {
+  .Ourculture_min {
+    padding-bottom: 60px;
+  }
+}

@@ -11,7 +11,7 @@ class Topsection extends React.Component {
     return (
       <Container className="top-image position-relative">
         <Row>
-          <Col sm="6">
+          <Col lg="6">
             <h1 className="h1">Do the best work of your life.</h1>
             <p>
               We're on a mission to launch products, services, and companies
@@ -19,7 +19,7 @@ class Topsection extends React.Component {
             </p>
           </Col>
         </Row>
-        <Row className="pt-5 pb-5 ">
+        <Row className="pt-lg-5 pb-5 ">
           <Col md="4">
             <img src={careerimg1} className="img-fluid mt-5" alt="careers" />
           </Col>

@@ -7,7 +7,7 @@ import './styled.css'
 class Ourbenefits extends React.Component {
   render() {
     return (
-      <Container className="Ourbenefits_min mt-5 pb-5">
+      <Container className="Ourbenefits_min mt-lg-5 pb-5">
         <Row>
           <Col lg="3">
             <h4>Our benefits</h4>

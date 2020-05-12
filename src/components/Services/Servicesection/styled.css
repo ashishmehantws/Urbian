@@ -188,6 +188,11 @@
   color: #fff !important;
 }
 
+.services-list-min {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
 @media (max-width: 769px) {
   .servicesection {
     padding-top: 90px;

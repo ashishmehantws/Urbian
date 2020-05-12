@@ -153,10 +153,9 @@ class Servicesection extends React.Component {
               </p>
             </Col>
           </Row>
-          <Row className="pt-3">
-            <Col lg="1"></Col>
-            <Col lg="10" className="d-flex flex-wrap justify-content-md-around">
-              <div className="service-item mt-5">
+          <div className="pt-3">
+            <div className="services-list-min row">
+              <div className="service-item mt-5 col-md-4">
                 <strong>PM &amp; Strategy </strong>
                 <ul>
                   <li>Product strategy</li>
@@ -166,7 +165,7 @@ class Servicesection extends React.Component {
                   <li>Post-launch capacity building</li>
                 </ul>
               </div>
-              <div className="service-item mt-5">
+              <div className="service-item mt-5  col-md-4">
                 <strong>Product Design</strong>
                 <ul>
                   <li>UX research &amp; testing</li>
@@ -179,7 +178,7 @@ class Servicesection extends React.Component {
                   <li>Motion &amp; Video</li>
                 </ul>
               </div>
-              <div className="service-item mt-5">
+              <div className="service-item mt-5  col-md-4">
                 <strong>Development</strong>
                 <ul>
                   <li>Technical architecture</li>
@@ -191,38 +190,32 @@ class Servicesection extends React.Component {
                   <li>DevOps</li>
                 </ul>
               </div>
-            </Col>
-            <Col lg="1"></Col>
-          </Row>
-          <Row className="pt-3">
-            <Col lg="1"></Col>
-            <Col sm="4" className="">
-              <div className="service-item mt-5 pl-5">
-                <strong>Industry</strong>
-                <ul>
-                  <li>Health & Wellness</li>
-                  <li>Insurance</li>
-                  <li>Financial services</li>
-                  <li>E-Commerce</li>
-                  <li>Saas</li>
-                </ul>
-              </div>
-            </Col>
-            <Col sm="4" className="">
-              <div className="service-item mt-5 pl-3">
-                <strong>Teams & Process</strong>
-                <ul>
-                  <li>Level up your team</li>
-                  <li>Level up your remote team</li>
-                  <li>Code audit</li>
-                  <li>Mentoring</li>
-                  <li>Deployment</li>
-                  <li>Help hiring</li>
-                </ul>
-              </div>
-            </Col>
-            <Col lg="1"></Col>
-          </Row>
+            </div>
+          </div>
+          <div className="services-list-min row">
+            <div className="service-item mt-5 col-md-4">
+              <strong>Industry</strong>
+              <ul>
+                <li>Health & Wellness</li>
+                <li>Insurance</li>
+                <li>Financial services</li>
+                <li>E-Commerce</li>
+                <li>Saas</li>
+              </ul>
+            </div>
+
+            <div className="service-item mt-5 col-md-4">
+              <strong>Teams & Process</strong>
+              <ul>
+                <li>Level up your team</li>
+                <li>Level up your remote team</li>
+                <li>Code audit</li>
+                <li>Mentoring</li>
+                <li>Deployment</li>
+                <li>Help hiring</li>
+              </ul>
+            </div>
+          </div>
         </Container>
         <Container className="Producstrategy">
           <Row className="pb-5 ">

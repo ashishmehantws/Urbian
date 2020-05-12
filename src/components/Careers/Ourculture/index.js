@@ -49,11 +49,11 @@ class Ourculture extends React.Component {
             <img src={careerimg8} className="img-fluid mt-5" alt="careers" />
           </Col>
         </Row>
-        <Row className="pt-5">
-          <Col md="5">
+        <Row className="pt-lg-5">
+          <Col lg="5">
             <h4>Our Culture</h4>
           </Col>
-          <Col md="6">
+          <Col lg="5">
             <p>
               For us Culture is not company values printed on our office walls
               nor a set of KPI's OKR's or belief statements reviewed once a
@@ -68,8 +68,8 @@ class Ourculture extends React.Component {
             </p>
           </Col>
         </Row>
-        <Row className="mt-5 pb-5">
-          <Col md="3">
+        <Row className="mt-lg-5 pb-5">
+          <Col lg="3" md="6">
             <strong>Ownership</strong>
             <p>
               We treat you like an adult which means we expect you to manage
@@ -79,7 +79,7 @@ class Ourculture extends React.Component {
               great products for them.
             </p>
           </Col>
-          <Col md="3">
+          <Col lg="3" md="6">
             <strong>Bias for action</strong>
             <p>
               Taking action is your default state. When most people do things,
@@ -88,7 +88,7 @@ class Ourculture extends React.Component {
               decision.
             </p>
           </Col>
-          <Col md="3">
+          <Col lg="3" md="6">
             <strong>Independant Thinking </strong>
             <p>
               We experct you to have an opinion on most things and not just go
@@ -97,7 +97,7 @@ class Ourculture extends React.Component {
               encouraged. We don't let ego get in the way.
             </p>
           </Col>
-          <Col md="3">
+          <Col lg="3" md="6">
             <strong>Always learning </strong>
             <p>
               We're curious. Our industry is fast paced and our clients expect

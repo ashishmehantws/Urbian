@@ -1,0 +1,69 @@
+.blog_post {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blog_post h1 {
+  font-weight: bold;
+  padding-bottom: 55px;
+}
+
+.blog_post .react-tabs__tab-list {
+  margin-bottom: 90px !important;
+}
+
+.blog_post .react-tabs__tab {
+  width: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 8px;
+  border: 0px;
+  border-bottom: 2px solid #fff !important;
+}
+
+.blog_post .react-tabs__tab-list .react-tabs__tab:nth-child(2) {
+  color: red;
+}
+
+.blog_post .react-tabs__tab--selected::before {
+  display: none;
+}
+
+.blog_post .react-tabs__tab--selected {
+  background-color: transparent !important;
+  color: #000 !important;
+  border-bottom: 2px solid #000 !important;
+}
+
+.blog_post .tab-top-sect {
+  background-color: transparent;
+  padding: 0px;
+  color: #030303;
+}
+
+.blog_post h4 {
+  font-size: 1.85em;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.top-post {
+  margin-top: -200px;
+  background-color: #fff;
+  margin-bottom: 0px;
+}
+
+.blog_post .card-deck {
+  padding-top: 30px;
+}
+
+.blog_post .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blog_post .card-title {
+  font-size: 1.85em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
