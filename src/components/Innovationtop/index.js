@@ -32,7 +32,7 @@ class Innovationtop extends React.Component {
               </span>
               <div className="clearfix"></div>
               <h1>Innovation readiness diagnostic.</h1>
-              <h6>
+              <h6 className="h4">
                 Is your company set up to take ideas into actual production fast
                 ?
               </h6>

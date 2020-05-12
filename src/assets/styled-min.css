@@ -46,6 +46,21 @@ p {
   line-height: 1.7 !important;
 }
 
+/* h2 {
+  font-size: 2.3em!important;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.2em!important;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2em!important;
+  font-weight: 700;
+} */
+
 .underline {
   text-decoration: underline;
 }
@@ -59,7 +74,6 @@ p {
 }
 
 .proejct-head h2 {
-  font-size: 2.04em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
@@ -77,9 +91,7 @@ p {
 }
 
 .experiencurbian-min h2 {
-  font-weight: bold;
   position: relative;
-  font-size: 2.2em;
   padding-bottom: 0px;
 }
 
@@ -133,6 +145,10 @@ header a.active {
   padding-right: 15px !important;
 }
 
+header button {
+  margin-top: -6px !important;
+}
+
 header nav a {
   padding-left: 7px !important;
   padding-right: 7px !important;
@@ -156,7 +172,6 @@ header nav a.lgJjuq:before {
 }
 
 .readinss-diagnostic h4 {
-  font-size: 1.75em;
   padding-top: 1.76em;
   font-weight: 700;
 }
@@ -188,7 +203,6 @@ header nav a.lgJjuq:before {
 }
 
 .will-run h6 {
-  font-size: 1.11em;
   font-weight: 600;
   display: block;
   padding-top: 6px;
@@ -196,7 +210,7 @@ header nav a.lgJjuq:before {
 }
 
 .will-run span {
-  font-size: 1em;
+  font-size: 0.95em;
 }
 
 .fromblog .gueQTJ, .fromblog .cmDES {

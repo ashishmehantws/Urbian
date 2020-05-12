@@ -12,7 +12,7 @@ class Howdothis extends React.Component {
       <Container className="howdo_this position-relative">
         <Row>
           <Col className="pb-lg-5 mb-lg-5">
-            <h2>How we do this</h2>
+            <h2 className="h2">How we do this</h2>
           </Col>
         </Row>
         <Row className="mb-lg-5 pb-5">
@@ -20,7 +20,7 @@ class Howdothis extends React.Component {
             <img src={img2} className="img-fluid" alt="img1" />
           </Col>
           <Col lg="6" className="mt-5 pright">
-            <h4>Prople First</h4>
+            <h4 className="h2">Prople First</h4>
             <p className="">
               Empowered prople and well-functioning teams are the foundation for
               great product development. While processes and methodologies like
@@ -36,7 +36,7 @@ class Howdothis extends React.Component {
             <img src={img2} className="img-fluid" alt="img1" />
           </Col>
           <Col lg="6" className="mt-5 pleft">
-            <h4>One Team</h4>
+            <h4 className="h2">One Team</h4>
             <p className="">
               We seamlessly fuse with our clients across disciplines, roles, and
               backgrounds. We empower every team member of this combined team to
@@ -52,7 +52,7 @@ class Howdothis extends React.Component {
             <img src={img3} className="img-fluid" alt="img1" />
           </Col>
           <Col lg="6" className="mt-5 pright">
-            <h4>Digtial Capability</h4>
+            <h4 className="h2">Digtial Capability</h4>
             <p className="">
               Every company is at a different stage in their digital journey. We
               work with both technology leaders as well as established brands

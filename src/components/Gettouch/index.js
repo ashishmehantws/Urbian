@@ -7,7 +7,7 @@ class Gettouch extends React.Component {
     return (
       <div className="getintouch-min">
         <div className="get-touch">
-          <h2>We can help you</h2>
+          <h2 className="h2">We can help you</h2>
           <div className="d-flex flex-wrap">
             <ul>
               <li>Create &amp; Validate new ideas</li>

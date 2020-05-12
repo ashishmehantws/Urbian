@@ -41,7 +41,7 @@ const Services: React.FC<IServicesContent> = ({
     <Container className="pt-5 mt-5 pb-5">
       <Row>
         <Col lg="5" className="pt-4">
-          <h4 className="career-title-h pl-lg-5">We build digital products</h4>
+          <h3 className=" pl-lg-5 h3">We build digital products</h3>
         </Col>
         <Col lg="6" className="pt-4">
           <p className="fz-2 d-inline">

@@ -12,7 +12,7 @@ class Recognition extends React.Component {
       <Container className="Recognition-min border-top mt-5 clearfix">
         <Row>
           <Col lg="6">
-            <h4 className="mb-4">Recognition</h4>
+            <h4 className="mb-4 h2">Recognition</h4>
           </Col>
           <Col lg="6">
             <div className="border-bottom pb-5 mb-5">

@@ -12,7 +12,7 @@ class Casestudies extends React.Component {
         <Container>
           <Row>
             <Col sm="12" className="pb-lg-5">
-              <h4>Case studies</h4>
+              <h4 className="h2">Case studies</h4>
             </Col>
             <Col sm="6" className="mt-5 pr-sm-5">
               <Link to="">
@@ -20,7 +20,7 @@ class Casestudies extends React.Component {
                   <img className="img-fluid" src={Work1} alt="#" />
                 </div>
                 <small className="light-blue">Sanlam Private wealth</small>
-                <h6>
+                <h6 className="h3">
                   A design system led new brand home generates a 10x increase in
                   business leads.
                 </h6>
@@ -36,7 +36,9 @@ class Casestudies extends React.Component {
                   <img className="img-fluid" src={work2} alt="#" />
                 </div>
                 <small>Standard Bank</small>
-                <h6>Clearing a 9-year old feature backlog in 6 months.</h6>
+                <h6 className="h3">
+                  Clearing a 9-year old feature backlog in 6 months.
+                </h6>
                 <p>
                   Product Management, Branding, UI/UX, Front-End Development,
                   Back-End Development

@@ -12,7 +12,7 @@ class Getintouch extends React.Component {
         <Container className="Getintouch border-top clearfix">
           <Row>
             <Col lg="6">
-              <h4>Get in touch</h4>
+              <h4 className="h2">Get in touch</h4>
             </Col>
             <Col lg="6">
               <p>
@@ -36,7 +36,9 @@ class Getintouch extends React.Component {
                 <span>Next up</span>
               </Col>
               <Col lg="6">
-                <h5>Clearing a 9-year old feature backlog in 6 months.</h5>
+                <h5 className="h2">
+                  Clearing a 9-year old feature backlog in 6 months.
+                </h5>
                 <p>
                   An agile development process was the key to delivering an
                   insurance API that allows any department to refer insurance

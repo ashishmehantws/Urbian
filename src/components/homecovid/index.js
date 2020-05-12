@@ -12,7 +12,7 @@ class Homecovid extends React.Component {
         <Container>
           <Row>
             <Col md="4" className="mb-4">
-              <h3>Important</h3>
+              <h3 className="h3">Important</h3>
             </Col>
             <Col md="6">
               <p>

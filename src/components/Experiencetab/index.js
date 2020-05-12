@@ -28,7 +28,7 @@ class Experiencetab extends React.Component {
 
               <TabPanel>
                 <div className="tab-top-sect">
-                  <h2>Let's meet 1</h2>
+                  <h2 className="h2">Let's meet 1</h2>
                   <span>
                     The best way to know if we're right for you is to meet up.
                   </span>
@@ -184,7 +184,7 @@ class Experiencetab extends React.Component {
               </TabPanel>
               <TabPanel>
                 <div className="tab-top-sect">
-                  <h2>Let's meet 2</h2>
+                  <h2 className="h2">Let's meet 2</h2>
                   <span>
                     The best way to know if we're right for you is to meet up.
                   </span>
@@ -340,7 +340,7 @@ class Experiencetab extends React.Component {
               </TabPanel>
               <TabPanel>
                 <div className="tab-top-sect">
-                  <h2>Let's meet 3</h2>
+                  <h2 className="h2">Let's meet 3</h2>
                   <span>
                     The best way to know if we're right for you is to meet up.
                   </span>
@@ -496,7 +496,7 @@ class Experiencetab extends React.Component {
               </TabPanel>
               <TabPanel>
                 <div className="tab-top-sect">
-                  <h2>Let's meet 4</h2>
+                  <h2 className="h2">Let's meet 4</h2>
                   <span>
                     The best way to know if we're right for you is to meet up.
                   </span>
@@ -652,7 +652,7 @@ class Experiencetab extends React.Component {
               </TabPanel>
               <TabPanel>
                 <div className="tab-top-sect">
-                  <h2>Let's meet 5</h2>
+                  <h2 className="h2">Let's meet 5</h2>
                   <span>
                     The best way to know if we're right for you is to meet up.
                   </span>

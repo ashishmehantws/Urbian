@@ -11,7 +11,7 @@ class Startupinvestements extends React.Component {
         <Container>
           <Row>
             <Col lg="6" className="pb-4">
-              <h2>
+              <h2 className="h2">
                 Startup <br /> Investements
               </h2>
             </Col>
@@ -30,7 +30,7 @@ class Startupinvestements extends React.Component {
           </Row>
           <Row>
             <Col lg="4" md="6">
-              <h4>Hi5</h4>
+              <h4 className="h2">Hi5</h4>
               <p>
                 <em className="underline">Hi5</em> was birthed inside of Urbian
                 form our own frustrations with HR software. After 2 years the
@@ -53,7 +53,7 @@ class Startupinvestements extends React.Component {
               </Link>
             </Col>
             <Col lg="4" md="6">
-              <h4>Hive</h4>
+              <h4 className="h2">Hive</h4>
               <p>
                 A partnership since 2019 to define, create the brand and built
                 the tech for a new low-cost property platform aimed at
@@ -61,7 +61,7 @@ class Startupinvestements extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>ManyHands</h4>
+              <h4 className="h2">ManyHands</h4>
               <p>
                 Defining, operating, creating the product and brand reinventing
                 a marketplace for SMB's to thrive while providing a reqular
@@ -71,7 +71,7 @@ class Startupinvestements extends React.Component {
           </Row>
           <Row>
             <Col className="text-center">
-              <h6>
+              <h6 className="h2">
                 "The team at Urnian have an infectious conidence that anthing is
                 possible. When we're with them the future doesn't feel 10 years
                 away, it feels 10 weeks away."

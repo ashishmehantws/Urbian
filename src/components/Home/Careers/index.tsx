@@ -22,7 +22,7 @@ const Careers: React.FC<ICareersContent> = ({
   <div className="careerPage">
     <S.Container className="mb-5">
       <S.Left>
-        <h4 className="career-title-h">
+        <h3 className="h3">
           {/* {textByLine(title).map(l => {
             return (
               <React.Fragment key={l}>
@@ -32,7 +32,7 @@ const Careers: React.FC<ICareersContent> = ({
             )
           })} */}
           Hey, <br /> We're hiring.
-        </h4>
+        </h3>
       </S.Left>
       <S.Right className="career">
         <S.Big className="pb-1">

@@ -19,7 +19,7 @@ class Innovationreadinessdiagnostic extends React.Component {
           <Container className="pt-3 mb-4 pb-4 readinss-diagnostic">
             <Row className="">
               <Col lg="6">
-                <h4 className="mt-4">What is it?</h4>
+                <h4 className="mt-4 h3">What is it?</h4>
                 <p>
                   In a one hour checkup, we'll take the temperature of your
                   organisation, asking: How innovation ready are you? What's
@@ -30,13 +30,13 @@ class Innovationreadinessdiagnostic extends React.Component {
                   organisational blockers, to help you move form idea to
                   production, at speed.
                 </p>
-                <h4 className="mt-4">Who is it for?</h4>
+                <h4 className="mt-4 h3">Who is it for?</h4>
                 <p>
                   Product Owners, Product Managers, Innovation leaders and
                   business function leaders who want to create innovative,
                   usercentric digital products.
                 </p>
-                <h4 className="mt-4">What will you learn?</h4>
+                <h4 className="mt-4 h3">What will you learn?</h4>
                 <ul>
                   <li>
                     Discover how every part of your organisation can work
@@ -56,12 +56,12 @@ class Innovationreadinessdiagnostic extends React.Component {
                 <div className="clearfix">
                   <div className="will-run mt-4 ">
                     <img src={Louisbester} alt="Louis bester" />
-                    <h6>Louis bester</h6>
+                    <h6 className="h6">Louis bester</h6>
                     <span>Product Owner</span>
                   </div>
                   <div className="will-run mt-4 ">
                     <img src={Stephangrobler} alt="Stephan Grobler" />
-                    <h6>Stephan Grobler</h6>
+                    <h6 className="h6">Stephan Grobler</h6>
                     <span>Delivery Lead</span>
                   </div>
                 </div>

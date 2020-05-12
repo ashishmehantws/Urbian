@@ -16,7 +16,9 @@ class Contentwrap extends React.Component {
         <Row>
           <Col lg="3" md="1"></Col>
           <Col lg="6" md="10" className="mb-4">
-            <h4>Asoftware-based people led accelerator program.</h4>
+            <h4 className="h2">
+              Asoftware-based people led accelerator program.
+            </h4>
             <p>
               The entire program was run from end-to-end on online cloud-based
               platform. By allowing the platform to handle all the adminstrative
@@ -49,7 +51,7 @@ class Contentwrap extends React.Component {
         <Row className="mt-5">
           <Col lg="3" md="1"></Col>
           <Col lg="6" md="10" className="mt-5">
-            <h4>
+            <h4 className="h2">
               We were hands-on and knee-deep taking 30 startups from validating
               business models to testing prototypes with users.
             </h4>

@@ -10,7 +10,7 @@ class Currentopenjob extends React.Component {
       <Container className="Currentopenjob mt-5 pt-lg-5 ">
         <Row>
           <Col lg="5" className="pt-4">
-            <h4>
+            <h4 className="h2">
               Current open <br /> position
             </h4>
           </Col>

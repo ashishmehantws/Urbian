@@ -5,7 +5,7 @@ class Headinfo extends React.Component {
   render() {
     return (
       <div className="proejct-head2">
-        <h2>
+        <h2 className="h2">
           "They took the time to become well-versed in the intricacies of our
           business, and instead of big reveals at set milestones, we were in
           constant communication throughout the process."

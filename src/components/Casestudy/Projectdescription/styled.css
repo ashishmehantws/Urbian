@@ -35,7 +35,6 @@
 }
 
 .project-desp h5 {
-  font-size: 2.25em;
   font-weight: 400;
   padding-top: 100px;
   display: block;
@@ -51,8 +50,11 @@
 
 @media (max-width: 568px) {
   .project-desp h5 {
-    font-size: 1.2em;
+    font-size: 1.2em!important;
     line-height: 1.7em !important;
     padding-top: 50px;
+  }
+  .project-desp small {
+    font-size: 0.9em;
   }
 }

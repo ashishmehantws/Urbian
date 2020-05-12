@@ -7,7 +7,6 @@
 }
 
 .proejct-head2 h2 {
-  font-size: 2.04em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
@@ -25,7 +24,7 @@
 
 @media (max-width: 572px) {
   .proejct-head2 h2 {
-    font-size: 1.2em;
+    font-size: 1.2em!important;
     line-height: 1.7em !important;
   }
   .proejct-head2 {

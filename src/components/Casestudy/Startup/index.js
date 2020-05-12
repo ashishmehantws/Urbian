@@ -16,7 +16,7 @@ class Startup extends React.Component {
           <Row>
             <Col lg="3" md="1"></Col>
             <Col lg="6" md="10">
-              <h4>
+              <h4 className="h2">
                 We designed, developed and launched 5 MVP's in market which
                 resulthed in a startup going live every 2 months.
               </h4>
@@ -33,7 +33,7 @@ class Startup extends React.Component {
             <Col lg="1"></Col>
             <Col lg="5" md="6" className="mt-5">
               <span>Startup 1 of 5</span>
-              <h6>Skillshift</h6>
+              <h6 className="h3">Skillshift</h6>
               <p>
                 Skillshift takes the hassle out of finding and managing skilled
                 shift workers throught and on-demand marketplace.
@@ -66,7 +66,7 @@ class Startup extends React.Component {
             </Col>
             <Col lg="5" md="6" className="mt-5">
               <span>Startup 2 of 5</span>
-              <h6>Foonda</h6>
+              <h6 className="h3">Foonda</h6>
               <p>
                 Foonda makes applying to every bursary university, and
                 government financial aid program simple using one form.
@@ -85,7 +85,7 @@ class Startup extends React.Component {
             <Col lg="1"></Col>
             <Col lg="5" md="6" className="mt-5">
               <span>Startup 3 of 5</span>
-              <h6>Balltalent</h6>
+              <h6 className="h3">Balltalent</h6>
               <p>
                 Balltalent is a soccer talent discovery tool helping scouts find
                 africa's future soccer star.
@@ -118,7 +118,7 @@ class Startup extends React.Component {
             </Col>
             <Col lg="5" md="6" className="mt-5">
               <span>Startup 4 of 5</span>
-              <h6>Jonga</h6>
+              <h6 className="h3">Jonga</h6>
               <p>
                 Jonga provides community-based security to low-income families.
               </p>
@@ -136,7 +136,7 @@ class Startup extends React.Component {
             <Col lg="1"></Col>
             <Col lg="5" md="6" className="mt-5">
               <span>Startup 5 of 5</span>
-              <h6>Ispani</h6>
+              <h6 className="h3">Ispani</h6>
               <p>
                 Ispani provides micro-jobbing for emerging markets through data
                 -driven market research.

@@ -18,7 +18,7 @@ class Demoday extends React.Component {
         <Row>
           <Col lg="3" md="1"></Col>
           <Col lg="6" md="10" className="mt-5">
-            <h4>
+            <h4 className="h2">
               Keeping stakeholders informed throughout the program journey.
             </h4>
             <p>
@@ -46,7 +46,7 @@ class Demoday extends React.Component {
         <Row>
           <Col lg="3" md="1"></Col>
           <Col lg="6" md="10" className="mt-5">
-            <h4>Demo Day.</h4>
+            <h4 className="h2">Demo Day.</h4>
             <p className="mb-4">
               18 months of had work culmintated the final pitch day. 15 of the
               top startups we provided the opportunity to engage with over 40

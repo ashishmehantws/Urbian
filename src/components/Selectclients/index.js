@@ -21,7 +21,7 @@ class Selectclients extends React.Component {
           </Row>
           <Row>
             <Col lg="4" md="6">
-              <h4>Sanlam</h4>
+              <h4 className="h2">Sanlam</h4>
               <p>
                 Expanding the brand beyond marketing into digital products with
                 various consumer and intermediary facing product strategy and
@@ -29,7 +29,7 @@ class Selectclients extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>Sanlam Private Wealth </h4>
+              <h4 className="h2">Sanlam Private Wealth </h4>
               <p>
                 Ongoing digital transformation through the creation of a
                 <em className="underline"> Design System</em> used to deliver
@@ -55,7 +55,7 @@ class Selectclients extends React.Component {
               </Link>
             </Col>
             <Col lg="4" md="6">
-              <h4>Santam</h4>
+              <h4 className="h2">Santam</h4>
               <p>
                 We've been helping this 100 year old insurance giant find new
                 ways to deliver insurance for consumers and brokers by testing
@@ -65,7 +65,7 @@ class Selectclients extends React.Component {
             </Col>
 
             <Col lg="4" md="6">
-              <h4>Distel</h4>
+              <h4 className="h2">Distel</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -74,7 +74,7 @@ class Selectclients extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>Investec</h4>
+              <h4 className="h2">Investec</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -97,7 +97,7 @@ class Selectclients extends React.Component {
               </Link>
             </Col>
             <Col lg="4" md="6">
-              <h4>Liberty Direct Insurance</h4>
+              <h4 className="h2">Liberty Direct Insurance</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -121,7 +121,7 @@ class Selectclients extends React.Component {
             </Col>
 
             <Col lg="4" md="6">
-              <h4>
+              <h4 className="h2">
                 Diageo Trust <br /> South Africa
               </h4>
               <p>
@@ -146,7 +146,7 @@ class Selectclients extends React.Component {
               </Link>
             </Col>
             <Col lg="4" md="6">
-              <h4>Stor-age</h4>
+              <h4 className="h2">Stor-age</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -155,7 +155,7 @@ class Selectclients extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>Barclays</h4>
+              <h4 className="h2">Barclays</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -179,7 +179,7 @@ class Selectclients extends React.Component {
             </Col>
 
             <Col lg="4" md="6">
-              <h4>SantaShoebox</h4>
+              <h4 className="h2">SantaShoebox</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -188,7 +188,7 @@ class Selectclients extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>Vital Health Foods</h4>
+              <h4 className="h2">Vital Health Foods</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -197,7 +197,7 @@ class Selectclients extends React.Component {
               </p>
             </Col>
             <Col lg="4" md="6">
-              <h4>Babylonstoren</h4>
+              <h4 className="h2">Babylonstoren</h4>
               <p>
                 <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
@@ -222,7 +222,7 @@ class Selectclients extends React.Component {
           </Row>
           <Row>
             <Col className="text-center">
-              <h6>
+              <h6 className="h2">
                 "The secret to their success is there ability to assemble
                 talented teams of people that care. I think of Urbian as a
                 critical member of my team, not some outsourced function."

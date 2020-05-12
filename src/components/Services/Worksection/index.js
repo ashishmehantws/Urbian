@@ -12,7 +12,9 @@ class Worksection extends React.Component {
         <Container className="border-top Worksection mt-5 pt-5 clearfix">
           <Row>
             <Col md="12" className="text-center">
-              <h2>We work in tight-knit cross functional teams.</h2>
+              <h2 className="h2">
+                We work in tight-knit cross functional teams.
+              </h2>
             </Col>
             <Col sm="4">
               <img src={teamimg1} className="img-fluid mt3" alt="Team" />
@@ -28,7 +30,7 @@ class Worksection extends React.Component {
         <Container className="how-deliver">
           <Row>
             <Col lg="4" className="mt-5">
-              <h3>How we deliver</h3>
+              <h3 className="h3">How we deliver</h3>
             </Col>
             <Col lg="8">
               <Row>

@@ -10,7 +10,7 @@ class Ourbenefits extends React.Component {
       <Container className="Ourbenefits_min mt-lg-5 pb-5">
         <Row>
           <Col lg="3">
-            <h4>Our benefits</h4>
+            <h4 className="h2">Our benefits</h4>
           </Col>
           <Col lg="9">
             <Row>

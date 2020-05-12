@@ -70,7 +70,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
                 <img className="img-fluid" src={Work1} alt="#" />
               </div>
               <small className="light-blue">Sanlam Private wealth</small>
-              <h6>
+              <h6 className="h3">
                 A design system led now brand home generates a 10x increase in
                 business leads.
               </h6>
@@ -86,7 +86,9 @@ const Projects: React.FC<Projects> = ({ projects }) => {
                 <img className="img-fluid" src={work2} alt="#" />
               </div>
               <small>Standard Bank</small>
-              <h6>Clearing a 9-year old feature backlog in 6 months.</h6>
+              <h6 className="h3">
+                Clearing a 9-year old feature backlog in 6 months.
+              </h6>
               <p>
                 Product Management, Branding, UI/UX, Front-End Development,
                 Back-End Development
@@ -99,7 +101,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
                 <img className="img-fluid" src={work3} alt="#" />
               </div>
               <small className="light-pink">Foonda</small>
-              <h6>
+              <h6 className="h3">
                 A new education funding platform venture launched in market in 3
                 months.
               </h6>
@@ -115,7 +117,7 @@ const Projects: React.FC<Projects> = ({ projects }) => {
                 <img className="img-fluid" src={work4} alt="#" />
               </div>
               <small className="pink">Diageo empowerment trust sa</small>
-              <h6>
+              <h6 className="h3">
                 Re-vitalising an african-centric social tech incubator program.
               </h6>
               <p>

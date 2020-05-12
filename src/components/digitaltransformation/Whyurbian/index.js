@@ -9,7 +9,7 @@ class Whyurbian extends React.Component {
       <Container className="why-urbian position-relative">
         <Row>
           <Col lg="4" className="pb-4">
-            <h2>Why use Urbian?</h2>
+            <h2 className="h2">Why use Urbian?</h2>
           </Col>
           <Col lg="8">
             <Row>

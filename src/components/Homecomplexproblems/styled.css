@@ -9,12 +9,6 @@
   font-weight: normal;
 }
 
-.complex-problems h3 {
-  font-weight: bold;
-  /* padding-bottom: 80px; */
-  font-size: 2.1em;
-}
-
 .complex-problems strong {
   font-size: 6.55em;
   font-weight: 500 !important;
@@ -99,7 +93,7 @@
     padding-right: 15px;
   }
   .complex-problems h3 {
-    font-size: 1.85em;
+    font-size: 1.85em !important;
   }
   .complex-problems h5, .complex-problems span {
     font-size: 1.34em;

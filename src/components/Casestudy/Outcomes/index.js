@@ -10,7 +10,7 @@ class Outcomes extends React.Component {
       <Container className="Outcomes-min border-top mt-5 pt-5  clearfix">
         <Row>
           <Col lg="5">
-            <h4>Outcomes</h4>
+            <h4 className="h2">Outcomes</h4>
           </Col>
           <Col lg="7" className="text-left">
             <Row>

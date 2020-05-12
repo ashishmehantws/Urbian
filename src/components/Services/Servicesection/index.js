@@ -22,7 +22,7 @@ class Servicesection extends React.Component {
         <Container className="border-top servicesection mt-5 clearfix">
           <Row>
             <Col md="12" className="text-center">
-              <h2>
+              <h2 className="h2">
                 We' re a new kind of consultancy. <br />
                 Our secret sauce is our ability
                 <Link to="" className="styled__Link-lfEBUk iUBhrC">
@@ -141,7 +141,9 @@ class Servicesection extends React.Component {
           </Row>
           <Row className="mt-5 pt-5">
             <Col lg="5" md="12" className="mt-lg-5">
-              <h4>Everything we do is about building digital products</h4>
+              <h4 className="h3">
+                Everything we do is about building digital products
+              </h4>
             </Col>
             <Col lg="5" md="12" className="mt-5">
               <p>
@@ -223,7 +225,7 @@ class Servicesection extends React.Component {
               <img src={serviceimg2} className="w-75" alt="service" />
             </Col>
             <Col lg="6" className="mt-5">
-              <h4>Product Strategy</h4>
+              <h4 className="h2">Product Strategy</h4>
               <p>
                 We focus on digital products that meet real customer needs, open
                 up markets and generate new sources of revenue. Breakthrough
@@ -240,7 +242,7 @@ class Servicesection extends React.Component {
                 <li>Post-launch capacity building</li>
               </ul>
               <span>Case Study</span>
-              <h6 className="pb-md-5">
+              <h6 className="pb-md-5 h4">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
@@ -265,7 +267,7 @@ class Servicesection extends React.Component {
           </Row>
           <Row className="pb-5 mt-lg-5 pt-5">
             <Col lg="6" className="mt-lg-5">
-              <h4>Product Design</h4>
+              <h4 className="h2">Product Design</h4>
               <div className="position-relative">
                 <p>
                   We help you gain the creative confidence to excel at consumer
@@ -296,7 +298,7 @@ class Servicesection extends React.Component {
                 <li>Motion & Video</li>
               </ul>
               <span>Case Study</span>
-              <h6 className="pb-md-5">
+              <h6 className="pb-md-5 h4">
                 A design system led new brand home generates a 10x increase in
                 business leads.
               </h6>
@@ -334,7 +336,7 @@ class Servicesection extends React.Component {
                 <img src={serviceimg4} className="w-75 " alt="service" />
               </Col>
               <Col lg="6" className="mt-5">
-                <h4>Software Development</h4>
+                <h4 className="h2">Software Development</h4>
                 <p>
                   There's an obsession with detail when it comes to developing
                   what's envisioned and that's why we've adopted some of the
@@ -401,7 +403,7 @@ class Servicesection extends React.Component {
               <Col lg="6"></Col>
               <Col lg="6" className="mt-5 pt-4">
                 <span>Case Study</span>
-                <h6 className="mb-md-5">
+                <h6 className="mb-md-5 h4">
                   Clearing a 9 year old feature backlog in 6 months.
                 </h6>
                 <Link

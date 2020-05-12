@@ -14,7 +14,7 @@ class FromTheBlog extends React.Component {
         <Container>
           <Row>
             <Col md="5">
-              <h4>Latest News.</h4>
+              <h3 className="h3">Latest News.</h3>
             </Col>
             <Col md="6">
               <ul>

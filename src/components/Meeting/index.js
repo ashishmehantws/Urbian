@@ -10,7 +10,7 @@ class Meeting extends React.Component {
   render() {
     return (
       <div className="meeting-min">
-        <h4>Want to set up a meeting ?</h4>
+        <h4 className="h3">Want to set up a meeting ?</h4>
         <span>
           Please enter your details here and we'll be in touch to arrange a time
         </span>

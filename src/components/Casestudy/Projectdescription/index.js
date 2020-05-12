@@ -87,7 +87,7 @@ class Projectdescription extends React.Component {
         </Row>
         <Row className="">
           <Col className="text-center border-top d-block mt-lg-5 ">
-            <h5>
+            <h5 className="h2">
               "They bring a sense of genius and of machiavallian change in terms
               of driving everything that we do. It's just been an absolute
               honour to work with them and we look forward to continue working

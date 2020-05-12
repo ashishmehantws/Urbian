@@ -51,7 +51,7 @@ class Ourculture extends React.Component {
         </Row>
         <Row className="pt-lg-5">
           <Col lg="5">
-            <h4>Our Culture</h4>
+            <h4 className="h2">Our Culture</h4>
           </Col>
           <Col lg="5">
             <p>
