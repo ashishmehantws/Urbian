@@ -14,7 +14,7 @@ class Ourculture extends React.Component {
   render() {
     return (
       <Container className="Ourculture_min position-relative">
-        <Row className="pt-2 pb-2 ">
+        <Row className="pt-2 ">
           <Col md="6">
             <Row>
               <Col sm="6">
@@ -57,7 +57,7 @@ class Ourculture extends React.Component {
             <p>
               For us Culture is not company values printed on our office walls
               nor a set of KPI's OKR's or belief statements reviewed once a
-              year. Our
+              year. Our&nbsp;
               <em className="yellowBackground">
                 culture is what we do, not what we say we do.
               </em>

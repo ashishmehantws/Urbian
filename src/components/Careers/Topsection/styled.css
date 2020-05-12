@@ -49,7 +49,6 @@
 }
 
 .proejcthead h2 {
-  font-size: 1.9em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
@@ -63,20 +62,23 @@
 }
 
 @media (max-width: 1025px) {
-  .top-image {
+  .career_min .top-image {
     padding-top: 65px;
     padding-bottom: 70px;
   }
 }
 
 @media (max-width: 769px) {
-  .top-image {
+  .career_min .top-image {
     padding-top: 30px;
   }
 }
 
 @media (max-width: 572px) {
-  .top-image {
+  .career_min .top-image {
+    padding-top: 0px;
+  }
+  .career_min .top-image h1 {
     padding-top: 0px;
   }
 }

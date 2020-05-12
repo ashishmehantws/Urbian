@@ -364,7 +364,6 @@ header nav a:hover {
 }
 
 .proejct_head h2 {
-  font-size: 1.9em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
@@ -427,7 +426,7 @@ header nav a:hover {
     font-size: 13px;
   }
   .proejct_head h2 {
-    font-size: 1.2em;
+    font-size: 1.2em !important;
     line-height: 1.7em !important;
   }
   .proejct_head span {
