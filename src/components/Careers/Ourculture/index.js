@@ -50,15 +50,15 @@ class Ourculture extends React.Component {
           </Col>
         </Row>
         <Row className="pt-lg-5">
-          <Col lg="5">
+          <Col lg="4">
             <h4 className="h2">Our Culture</h4>
           </Col>
-          <Col lg="5">
-            <p>
+          <Col lg="8">
+            <p className="d-inline">
               For us Culture is not company values printed on our office walls
               nor a set of KPI's OKR's or belief statements reviewed once a
               year. Our&nbsp;
-              <em className="yellowBackground">
+              <em className="yellowBackground d-inline">
                 culture is what we do, not what we say we do.
               </em>
             </p>

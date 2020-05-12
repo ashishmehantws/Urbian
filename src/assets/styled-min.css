@@ -416,6 +416,12 @@ header nav a:hover {
     background-color: #fefc66;
     bottom: 15px;
   }
+  .yellowBackground {
+    background-color: #fefc9e;
+  }
+  .career_min .Ourculture_min .yellowBackground {
+    background-color: #c9f9ff;
+  }
 }
 
 @media (max-width: 568px) {
