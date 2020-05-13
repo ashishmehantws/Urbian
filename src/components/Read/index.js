@@ -1,1 +1,1 @@
-export { default as Readcategories } from "./Readcategories";
+export { default as Readcategories } from './Readcategories'
