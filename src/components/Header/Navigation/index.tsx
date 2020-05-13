@@ -69,25 +69,53 @@ class Navigation extends React.Component<
                 itemsHeight={this.getItemsHeight()}
                 ref={this.menuWrapperRef}
               >
-                <Link to="/work" activeClassName="active">
+                <Link
+                  to="/work"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Work
                 </Link>
-                <Link to="/clients" activeClassName="active">
+                <Link
+                  to="/clients"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Clients
                 </Link>
-                <Link to="/services" activeClassName="active">
+                <Link
+                  to="/services"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Services
                 </Link>
-                <Link to="/about" activeClassName="active">
+                <Link
+                  to="/about"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   About
                 </Link>
-                <Link to="/career" activeClassName="active">
+                <Link
+                  to="/career"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Careers
                 </Link>
-                <Link to="/blog" activeClassName="active">
+                <Link
+                  to="/read"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Read
                 </Link>
-                <Link to="/contact" activeClassName="active">
+                <Link
+                  to="/contact"
+                  activeClassName="active"
+                  partiallyActive={true}
+                >
                   Contact
                 </Link>
                 {/* {this.renderLinks(items)} */}

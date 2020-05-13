@@ -270,8 +270,8 @@ header nav a.lgJjuq:before {
   fill: #fff !important;
 }
 
-.innovation_min header .nav-wrp {
-  display: none;
+.innovation_min header .nav-wrp, .innovation_min header .nav-wrp nav, .innovation_min header .nav-wrp nav button {
+  opacity: 0;
 }
 
 .clients-div header, .clients-div .headroom-wrapper {

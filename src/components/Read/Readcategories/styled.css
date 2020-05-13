@@ -1,0 +1,100 @@
+.blog_post {
+  padding-top: 123px;
+  padding-bottom: 100px;
+}
+
+.blog_post h1 {
+  font-weight: bold;
+  padding-bottom: 55px;
+}
+
+.blog_post .react-tabs__tab-list {
+  margin-bottom: 40px !important;
+}
+
+.blog_post .react-tabs__tab {
+  width: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 8px;
+  border: 0px;
+  border-bottom: 2px solid #fff !important;
+}
+
+.blog_post .react-tabs__tab-list .react-tabs__tab:nth-child(2) {
+  color: red;
+}
+
+.blog_post .react-tabs__tab--selected::before {
+  display: none;
+}
+
+.blog_post .react-tabs__tab--selected {
+  background-color: transparent !important;
+  color: #000 !important;
+  border-bottom: 2px solid #000 !important;
+}
+
+.blog_post .tab-top-sect {
+  background-color: transparent;
+  padding: 0px;
+  color: #030303;
+  padding-top: 40px;
+}
+
+.blog_post h4 {
+  font-size: 1.85em;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.top-post {
+  margin-top: -200px;
+  background-color: #fff;
+  margin-bottom: 0px;
+}
+
+.blog_post .card-deck {
+  padding-top: 30px;
+}
+
+.blog_post .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blog_post .card-title {
+  font-size: 1.85em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 1025px) {
+  .blog_post {
+    padding-top: 97px;
+    padding-bottom: 70px;
+  }
+  .blog_post .react-tabs__tab {
+    font-size: 0.90em;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .blog_post h1 {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 769px) {
+  .blog_post {
+    padding-top: 30px;
+  }
+  .top-post {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 572px) {
+  .blog_post {
+    padding-top: 0px;
+  }
+}
