@@ -12,6 +12,7 @@ import Postimg1 from '../../../assets/images/imgc-1.jpg'
 import Image1 from '../../../assets/images/img1.jpg'
 import Image2 from '../../../assets/images/img2.jpg'
 import Image3 from '../../../assets/images/img3.jpg'
+
 class Readcategories extends React.Component {
   render() {
     return (
