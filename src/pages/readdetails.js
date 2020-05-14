@@ -6,12 +6,10 @@ import Getintouchread from '../components/Read/Getintouchread'
 class readdetails extends React.Component {
   render() {
     return (
-      <div className="readdsetails">
-        <Layout>
-          <Readdetails></Readdetails>
-          <Getintouchread></Getintouchread>
-        </Layout>
-      </div>
+      <Layout>
+        <Readdetails></Readdetails>
+        <Getintouchread></Getintouchread>
+      </Layout>
     )
   }
 }

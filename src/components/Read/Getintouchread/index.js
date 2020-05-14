@@ -8,7 +8,7 @@ import './styled.css'
 class Getintouchread extends React.Component {
   render() {
     return (
-      <div className="Getintouch_min">
+      <div className="readdsetails">
         <div className="nextup">
           <Container>
             <Row>
