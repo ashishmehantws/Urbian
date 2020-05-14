@@ -1,0 +1,42 @@
+.readdsetails .nextup {
+  background-color: #fefc66;
+  color: #030303;
+}
+.readdsetails .nextup form {
+  border-bottom: 1px solid #03030321;
+}
+.readdsetails .nextup input[type='email'] {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  color: #030303 !important;
+}
+
+.readdsetails .nextup .form-control {
+  color: #030303 !important;
+}
+
+.readdsetails .nextup button {
+  background-color: transparent;
+  border: 0px;
+  color: #030303;
+}
+
+.readdsetails .nextup input::-webkit-input-placeholder {
+  color: #030303 !important;
+}
+
+.readdsetails .nextup input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #030303 !important;
+}
+
+.readdsetails .nextup input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #030303 !important;
+}
+
+.readdsetails .nextup input:-ms-input-placeholder {
+  color: #030303 !important;
+}

@@ -5,23 +5,55 @@ body {
   color: #030303;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, em, pre, small, sub, sup, b, strong, i {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+em,
+pre,
+small,
+sub,
+sup,
+b,
+strong,
+i {
   font-family: 'Inter', sans-serif !important;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700 !important;
 }
 
-address, dl, ol, ul {
+address,
+dl,
+ol,
+ul {
   margin-bottom: 1rem !important;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box !important;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.5rem !important;
   font-weight: 700;
   line-height: 1.2 !important;
@@ -112,7 +144,8 @@ header a {
   font-weight: 500;
 }
 
-.bred-page:before, header a.active:before {
+.bred-page:before,
+header a:before {
   content: '';
   position: absolute;
   height: 11px;
@@ -123,8 +156,14 @@ header a {
   transform: skew(-35deg);
   border: 0px;
   z-index: -2;
+  opacity: 0;
+  transition: all 0.3s;
 }
-
+header a:hover:before,
+header a.active:before {
+  opacity: 1;
+  transition: all 0.3s;
+}
 header a.active {
   color: #030303 !important;
   position: relative;
@@ -152,13 +191,15 @@ header button {
 header nav a {
   padding-left: 7px !important;
   padding-right: 7px !important;
+  position: relative;
+  z-index: 3;
 }
 
 header nav a:hover {
   color: #030303 !important;
 }
 
-header nav a.lgJjuq:before {
+/* header nav a.lgJjuq:before {
   content: '';
   position: absolute;
   height: 9px;
@@ -169,7 +210,7 @@ header nav a.lgJjuq:before {
   transform: skew(-30deg);
   border: 0px;
   z-index: -2;
-}
+} */
 
 .readinss-diagnostic h4 {
   padding-top: 1.76em;
@@ -213,7 +254,8 @@ header nav a.lgJjuq:before {
   font-size: 0.95em;
 }
 
-.fromblog .gueQTJ, .fromblog .cmDES {
+.fromblog .gueQTJ,
+.fromblog .cmDES {
   background-color: #fefddf;
   border-color: #fefddf;
   padding: 5px 0;
@@ -223,7 +265,8 @@ header nav a.lgJjuq:before {
   margin-bottom: 0px;
 }
 
-.fromblog .cMbCbI, .fromblog .fdnxvr {
+.fromblog .cMbCbI,
+.fromblog .fdnxvr {
   font-size: 0.47rem;
   width: 100%;
   min-width: 59px !important;
@@ -235,7 +278,8 @@ header nav a.lgJjuq:before {
   margin-right: 2em;
 }
 
-.fromblog .gatsby-image-wrapper, .cMbCbI img {
+.fromblog .gatsby-image-wrapper,
+.cMbCbI img {
   width: 59px !important;
   height: 59px !important;
 }
@@ -248,7 +292,8 @@ header nav a.lgJjuq:before {
   border-color: #dbdabf;
 }
 
-.fromblog .NDCre, .fMqvyh {
+.fromblog .NDCre,
+.fMqvyh {
   font-weight: bold;
 }
 
@@ -262,7 +307,8 @@ header nav a.lgJjuq:before {
   padding-bottom: 10px;
 }
 
-.innovation_min header, .innovation_min .headroom-wrapper {
+.innovation_min header,
+.innovation_min .headroom-wrapper {
   background-color: #4a0053;
 }
 
@@ -270,11 +316,14 @@ header nav a.lgJjuq:before {
   fill: #fff !important;
 }
 
-.innovation_min header .nav-wrp, .innovation_min header .nav-wrp nav, .innovation_min header .nav-wrp nav button {
+.innovation_min header .nav-wrp,
+.innovation_min header .nav-wrp nav,
+.innovation_min header .nav-wrp nav button {
   opacity: 0;
 }
 
-.clients-div header, .clients-div .headroom-wrapper {
+.clients-div header,
+.clients-div .headroom-wrapper {
   background-color: #fefc66;
 }
 
@@ -327,11 +376,18 @@ header nav a:hover {
   text-decoration: none;
 }
 
-.digitaltransformation, .experienceurbian, .services_min {
+.digitaltransformation,
+.experienceurbian,
+.services_min {
   background-color: #f6f5f7;
 }
 
-.digitaltransformation .headroom-wrapper, .digitaltransformation header, .experienceurbian .headroom-wrapper, .experienceurbian header, .services_min header, .services_min .headroom-wrapper {
+.digitaltransformation .headroom-wrapper,
+.digitaltransformation header,
+.experienceurbian .headroom-wrapper,
+.experienceurbian header,
+.services_min header,
+.services_min .headroom-wrapper {
   background-color: #f6f5f7;
 }
 
@@ -344,7 +400,8 @@ header nav a:hover {
   font-size: 1.2em !important;
 }
 
-.border-top, .border-bottom {
+.border-top,
+.border-bottom {
   border-color: #d4d3d4 !important;
 }
 
@@ -412,7 +469,8 @@ header nav a:hover {
   header a.active {
     display: inline;
   }
-  .clients-div header a.active::before, header a.active::before {
+  .clients-div header a.active::before,
+  header a.active::before {
     background-color: #fefc66;
     bottom: 15px;
   }
@@ -428,7 +486,8 @@ header nav a:hover {
   .headroom-wrapper header {
     padding-bottom: 60px;
   }
-  a, .fYDdlr {
+  a,
+  .fYDdlr {
     font-size: 13px;
   }
   .proejct_head h2 {

@@ -97,6 +97,16 @@ footer a.privacy-link {
   .ljPvsn > :first-child {
     min-width: 100%;
   }
+  footer a {
+    font-size: 0.95em !important;
+  }
+  .jgCqLu {
+    margin-bottom: 1em !important;
+  }
+  .footer-logo,
+  .ljPvsn > * {
+    margin-bottom: 2em;
+  }
 }
 
 @media (max-width: 568px) {
