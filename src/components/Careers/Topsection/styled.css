@@ -1,11 +1,12 @@
 .career_min .top-image {
-  padding-top: 89px;
+  padding-top: 125px;
   padding-bottom: 100px;
 }
 
 .career_min .top-image h1 {
   font-weight: bold;
   padding-bottom: 45px;
+  padding-top: 0px;
 }
 
 .top-image p {
@@ -63,14 +64,8 @@
 
 @media (max-width: 1025px) {
   .career_min .top-image {
-    padding-top: 65px;
+    padding-top: 60px;
     padding-bottom: 70px;
-  }
-}
-
-@media (max-width: 769px) {
-  .career_min .top-image {
-    padding-top: 30px;
   }
 }
 

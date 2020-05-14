@@ -21,24 +21,25 @@ class Readcategories extends React.Component {
         <Row class="experiencurbian-tab row">
           <Col className="">
             <Tabs>
-              <TabList>
-                <Tab>Everything</Tab>
-                <Tab>Covide-19</Tab>
-                <Tab>News</Tab>
-                <Tab>Strategy</Tab>
-                <Tab>Product Management</Tab>
-                <Tab>Design Development</Tab>
-                <Tab>Technology</Tab>
-                <Tab>Digital Transformation</Tab>
-              </TabList>
-
+              <div className="tablist-min">
+                <TabList>
+                  <Tab>Everything</Tab>
+                  <Tab>Covide-19</Tab>
+                  <Tab>News</Tab>
+                  <Tab>Strategy</Tab>
+                  <Tab>Product Management</Tab>
+                  <Tab>Design Development</Tab>
+                  <Tab>Technology</Tab>
+                  <Tab>Digital Transformation</Tab>
+                </TabList>
+              </div>
               <TabPanel>
                 <div className="tab-top-sect">
                   <img src={Postimg1} className="img-fluid" alt="News" />
                   <Row>
-                    <Col lg="10" className="pt-5 pb-5 top-post">
+                    <Col lg="10" className="pt-5 pb-5 top-post ">
                       <Row>
-                        <Col lg="6">
+                        <Col lg="5">
                           <h4>Disrupting The Traditional Consultancy Model.</h4>
                         </Col>
                         <Col lg="6">

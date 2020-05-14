@@ -145,7 +145,7 @@ header a {
 }
 
 .bred-page:before,
-header a:before {
+header nav a:before {
   content: '';
   position: absolute;
   height: 11px;
@@ -159,7 +159,7 @@ header a:before {
   opacity: 0;
   transition: all 0.3s;
 }
-header a:hover:before,
+header nav a:hover:before,
 header a.active:before {
   opacity: 1;
   transition: all 0.3s;
@@ -479,6 +479,9 @@ header nav a:hover {
   }
   .career_min .Ourculture_min .yellowBackground {
     background-color: #c9f9ff;
+  }
+  header nav a:hover:before {
+    opacity: 0;
   }
 }
 

@@ -94,6 +94,13 @@
   .top-post {
     margin-top: 0px;
   }
+  .tablist-min {
+    width: 100%;
+    overflow: scroll;
+  }
+  .tablist-min .react-tabs__tab-list {
+    width: 1024px;
+  }
 }
 
 @media (max-width: 572px) {
