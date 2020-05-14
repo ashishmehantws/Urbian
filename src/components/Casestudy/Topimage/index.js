@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 class Topimage extends React.Component {
   render() {
     return (
-      <Container className="topimage position-relative">
+      <Container className="topimage position-relative content-wrap">
         <Row>
           <Col lg="7">
             <Link to="">Incubators & Accelerators</Link>

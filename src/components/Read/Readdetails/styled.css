@@ -1,5 +1,4 @@
 .blog_post_details {
-  padding-top: 123px;
   padding-bottom: 50px;
 }
 
@@ -60,7 +59,6 @@
 
 @media (max-width: 1025px) {
   .blog_post_details {
-    padding-top: 97px;
     padding-bottom: 70px;
   }
   .blog_post_details h1 {
@@ -70,7 +68,6 @@
 
 @media (max-width: 769px) {
   .blog_post_details {
-    padding-top: 30px;
     padding-bottom: 0px;
   }
   .blog_post_details {
@@ -79,9 +76,6 @@
 }
 
 @media (max-width: 572px) {
-  .blog_post_details {
-    padding-top: 0px;
-  }
 }
 @media (max-width: 480px) {
   .post_d {

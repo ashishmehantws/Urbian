@@ -31,7 +31,7 @@ const ThumbHolder: React.FC<{}> = ({ children }) => {
 
 const Projects: React.FC<Projects> = ({ projects }) => {
   return (
-    <div className="work-min">
+    <div className="work-min content-wrap">
       <Container>
         <Row>
           <Col>

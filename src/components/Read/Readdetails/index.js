@@ -13,7 +13,7 @@ import linkdinicon from '../../../assets/images/linkdin.png'
 class Readdetails extends React.Component {
   render() {
     return (
-      <Container className="mb-5 blog_post_details">
+      <Container className="mb-5 blog_post_details content-wrap">
         <Row className="justify-content-center">
           <Col lg="7" className="text-center ">
             <h1 className="h1">

@@ -9,12 +9,15 @@ import Meeting from '../components/Meeting'
 import Innovationtop from '../components/Innovationtop'
 import Louisbester from '../assets/images/Louis-bester.jpg'
 import Stephangrobler from '../assets/images/Stephan-grobler.jpg'
-
+import { Helmet } from 'react-helmet'
 class Innovationreadinessdiagnostic extends React.Component {
   render() {
     return (
       <div className="innovation_min">
         <Layout>
+          <Helmet>
+            <title>Urbian Innovation readiness diagnostic</title>
+          </Helmet>
           <Innovationtop></Innovationtop>
           <Container className="pt-3 mb-4 pb-4 readinss-diagnostic">
             <Row className="">

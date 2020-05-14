@@ -7,11 +7,11 @@ import Bannerimg from '../../../assets/images/banner2-img.jpg'
 class Topimage extends React.Component {
   render() {
     return (
-      <Container className="top-image position-relative">
+      <Container className="top-image position-relative content-wrap">
         <Row>
           <Col lg="6">
             <Link
-              className="styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
+              className=" styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
               href="/services"
             >
               View all services
@@ -27,7 +27,7 @@ class Topimage extends React.Component {
                 </g>
               </svg>
             </Link>
-            <h1 className="h1">Digital Transformation.</h1>
+            <h1 className="h1 pt-4">Digital Transformation.</h1>
             <p>
               We work alongside your teams to tackle the toughest challenges
               head on. The result is one combined team making things the right

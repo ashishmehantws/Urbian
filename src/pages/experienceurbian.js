@@ -5,12 +5,15 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Experiencetab from '../components/Experiencetab'
 import Gettouch from '../components/Gettouch'
 import Headinfo from '../components/Headinfo'
-
+import { Helmet } from 'react-helmet'
 class experienceurbian extends React.Component {
   render() {
     return (
       <div className="experienceurbian">
         <Layout>
+          <Helmet>
+            <title>Urbian Experience Urbian</title>
+          </Helmet>
           <Container className="mt-sm-4 pt-sm-3 mb-4 experiencurbian-min">
             <Row>
               <Col sm="12" className="">

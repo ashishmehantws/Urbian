@@ -74,7 +74,7 @@ const Footer: React.FC<{}> = () => (
           <Link className="dbKpCb" to="/showcase">
             Work
           </Link>
-          <Link className="dbKpCb" to="/blog">
+          <Link className="dbKpCb" to="/read">
             Read
           </Link>
           <Link className="dbKpCb" to="/handbook">

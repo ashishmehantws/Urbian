@@ -9,7 +9,7 @@ import careerimg3 from '../../../assets/images/career-img3.jpg'
 class Topsection extends React.Component {
   render() {
     return (
-      <Container className="top-image position-relative">
+      <Container className="top-image position-relative content-wrap">
         <Row>
           <Col lg="6">
             <h1 className="h1">Do the best work of your life.</h1>

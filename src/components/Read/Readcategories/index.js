@@ -16,7 +16,7 @@ import Image3 from '../../../assets/images/img3.jpg'
 class Readcategories extends React.Component {
   render() {
     return (
-      <Container className="mb-5 blog_post">
+      <Container className="mb-5 blog_post content-wrap">
         <h1 className="h1">We write words too.</h1>
         <Row class="experiencurbian-tab row">
           <Col className="">

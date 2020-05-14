@@ -1,5 +1,4 @@
 .blog_post {
-  padding-top: 123px;
   padding-bottom: 100px;
 }
 
@@ -74,7 +73,6 @@
 
 @media (max-width: 1025px) {
   .blog_post {
-    padding-top: 97px;
     padding-bottom: 70px;
   }
   .blog_post .react-tabs__tab {
@@ -88,9 +86,6 @@
 }
 
 @media (max-width: 769px) {
-  .blog_post {
-    padding-top: 30px;
-  }
   .top-post {
     margin-top: 0px;
   }
@@ -104,7 +99,4 @@
 }
 
 @media (max-width: 572px) {
-  .blog_post {
-    padding-top: 0px;
-  }
 }

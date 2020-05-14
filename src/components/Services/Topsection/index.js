@@ -7,7 +7,7 @@ import bannerimg from '../../../assets/images/banner-img.jpg'
 class Topsection extends React.Component {
   render() {
     return (
-      <Container className="Topsection_min clearfix">
+      <Container className="Topsection_min content-wrap  clearfix">
         <Row>
           <Col lg="6" className="text-left">
             <h1 className="h1">Shipping is believing.</h1>

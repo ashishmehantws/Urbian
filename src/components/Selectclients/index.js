@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 class Selectclients extends React.Component {
   render() {
     return (
-      <div className="Selectclients">
+      <div className="Selectclients content-wrap ">
         <Container>
           <Row>
             <Col lg="6">
