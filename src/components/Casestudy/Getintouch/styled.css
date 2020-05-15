@@ -112,6 +112,11 @@ input:-ms-input-placeholder {
 @media (max-width: 769px) {
   .form-div {
     float: left;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .nextup .form-group {
+    width: 72%;
   }
   .Getintouch {
     border-top: 0px !important;

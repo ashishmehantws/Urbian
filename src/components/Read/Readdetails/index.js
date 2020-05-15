@@ -13,8 +13,27 @@ import linkdinicon from '../../../assets/images/linkdin.png'
 class Readdetails extends React.Component {
   render() {
     return (
-      <Container className="mb-5 blog_post_details content-wrap">
+      <Container className="mb-5 blog_post_details ">
         <Row className="justify-content-center">
+          <div className="pb-5 col-12">
+            <Link
+              className="mb-lg-4 styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
+              to="/read"
+            >
+              Back
+              <svg
+                className="styled__Arrow-d87459-0 bQLhSh"
+                width="14"
+                height="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g stroke="#030303" fill="none" fillRule="evenodd">
+                  <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+                  <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+                </g>
+              </svg>
+            </Link>
+          </div>
           <Col lg="7" className="text-center ">
             <h1 className="h1">
               Disrupting The Traditional Consultancy Model.
