@@ -58,7 +58,6 @@ const IndexPage: React.FC<IIndexPage> = ({ data }) => {
 
   return (
     <div className="home-page">
-      <COVIDbanner></COVIDbanner>
       <Layout>
         <SEO />
         <Top headline={content.headline} tagline={content.tagline} />

@@ -6,7 +6,7 @@ import * as S from './styled'
 import Navigation from './Navigation'
 
 import logos from './logos'
-
+import COVIDbanner from '../COVIDbanner'
 // Context to set a random logo on blog
 const Context = React.createContext<number | null>(null)
 
@@ -36,7 +36,8 @@ const Header: React.FC<{ isBlogPage?: boolean; children: React.ReactNode }> = ({
   }, [shouldClose])
 
   return (
-    <S.Header upTolerance={50} onUnpin={() => setShouldClose(true)}>
+    <S.Header>
+      <COVIDbanner></COVIDbanner>
       <S.Wrapper>
         <S.Container className="nav-container">
           <div>

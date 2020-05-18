@@ -5,13 +5,11 @@
   padding-right: 15px !important;
 }
 
-.home-top h1,
-.home-top span {
+.home-top h1, .home-top span {
   font-weight: bold;
 }
 
-.home-top h1 a,
-.home-top span a {
+.home-top h1 a, .home-top span a {
   color: #212529;
   position: relative;
   z-index: 2;
@@ -19,26 +17,25 @@
   padding-right: 10px;
 }
 
-.home-top h1 a:before,
-.home-top span a:before {
+.home-top h1 a:before, .home-top span a:before {
   content: '';
   position: absolute;
-  height: 19px;
+  height: 22px;
   width: 100%;
   left: 0px;
-  bottom: -3px;
+  bottom: 5px;
   background-color: #ffff0082;
-  transform: skew(-30deg);
+  transform: skew(-30deg, -1deg);
   border: 0px;
   z-index: -2;
 }
 
 .home-top span a:before {
   background-color: #c3f1ff;
+  transform: skew(-30deg, 1deg);
 }
 
-.home-top h1 a .fRPwvC,
-.home-top span .fRPwvC {
+.home-top h1 a .fRPwvC, .home-top span .fRPwvC {
   margin-top: 10px;
 }
 
@@ -49,13 +46,16 @@
 @media (max-width: 1025px) {
   .home-top .homebanner {
     height: 100% !important;
-    min-height: 320px !important;
+    min-height: 284px !important;
+  }
+  .home-top h1, .home-top span {
+    font-size: 2.1em;
+    display: inline;
   }
 }
 
 @media (max-width: 990px) {
-  .home-top h1,
-  .home-top span {
+  .home-top h1, .home-top span {
     font-size: 1.85em;
     display: inline;
   }
@@ -65,8 +65,7 @@
 }
 
 @media (max-width: 769px) {
-  .home-top h1,
-  .home-top span {
+  .home-top h1, .home-top span {
     font-size: 1.55em;
     display: inline;
   }
@@ -74,8 +73,7 @@
     height: 100% !important;
     min-height: 260px !important;
   }
-  .home-top h1 a:before,
-  .home-top span a:before {
+  .home-top h1 a:before, .home-top span a:before {
     display: none;
   }
   .home-top span a {
@@ -88,8 +86,7 @@
     padding-left: 5px;
     padding-right: 5px;
   }
-  .home-top h1 a .fRPwvC,
-  .home-top span .fRPwvC {
+  .home-top h1 a .fRPwvC, .home-top span .fRPwvC {
     margin-top: 0px;
   }
 }
@@ -102,8 +99,7 @@
 }
 
 @media (max-width: 572px) {
-  .home-top h1,
-  .home-top span {
+  .home-top h1, .home-top span {
     font-size: 1.7em;
     display: inline;
   }
