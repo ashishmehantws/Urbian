@@ -4,15 +4,20 @@ import { FluidObject } from 'gatsby-image'
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
+// import Testimonials from '../components/Testimonials'
+
 import {
-  Top,
-  Content,
-  Global,
-  Careers,
-  Team,
-  Services,
+  Topabout,
+  Facts,
+  Culture,
+  Handbookabout,
+  Joinus,
+  Review,
 } from '../components/About'
 
+import Headinfo from '../components/Headinfo'
+import Gettouch from '../components/Gettouch'
+// import Projecthead from '../components/Services/Projecthead'
 interface IAbout {
   data: {
     aboutYaml: {
@@ -37,19 +42,23 @@ interface IAbout {
 
 const Contact: React.FC<IAbout> = ({ data }) => {
   return (
-    <Layout theme="light">
-      <SEO
-        title={data.aboutYaml.seo.title}
-        description={data.aboutYaml.seo.description}
-      />
+    <div className="aboutBg">
+      <Layout>
+        <SEO
+          title={data.aboutYaml.seo.title}
+          description={data.aboutYaml.seo.description}
+        />
 
-      <Top />
-      <Content />
-      <Global />
-      <Careers />
-      <Team />
-      <Services />
-    </Layout>
+        <Topabout />
+        <Review />
+        <Facts />
+        <Culture />
+        <Handbookabout />
+        <Joinus />
+        <Headinfo></Headinfo>
+        <Gettouch></Gettouch>
+      </Layout>
+    </div>
   )
 }
 

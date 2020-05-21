@@ -1,0 +1,11 @@
+
+.facts { padding-top:50px; }
+
+.facts strong { font-size: 1.4em;  }
+.facts a { font-weight: 500 !important; }
+.factsTitle { font-size: 5.5em; }
+.facts h3 { font-size: 1.98em; font-weight: 700; }
+
+@media(max-width:568px) {
+	.factsTitle { font-size: 3.5em; }
+}

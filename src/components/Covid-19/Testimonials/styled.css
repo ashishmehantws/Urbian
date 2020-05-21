@@ -1,0 +1,138 @@
+.Testimonials-slider {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  max-width: 850px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.Testimonials-slider .container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.Testimonials-slider h2 {
+  font-weight: normal;
+  line-height: 48px !important;
+}
+
+.Testimonials-slider span {
+  font-size: 1.2em;
+  padding-top: 35px;
+  display: block;
+}
+
+.Testimonials-slider .carousel-indicators li {
+  background-color: #bdbbbb;
+  width: 11px;
+  height: 11px;
+  border-radius: 100px;
+  border: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.Testimonials-slider .carousel-indicators .active {
+  background-color: #ffff0082;
+}
+
+.Testimonials-slider .carousel-indicators {
+  bottom: -70px;
+  margin-bottom: 0px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 62px;
+}
+
+.Testimonials-slider .carousel-control-prev {
+  left: -205px;
+}
+
+.Testimonials-slider .carousel-control-next {
+  right: -205px;
+}
+
+.Testimonials-slider .carousel-control-next-icon {
+  background: url(../../../assets/images/arrow-right.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.Testimonials-slider .carousel-control-prev-icon {
+  background: url(../../../assets/images/arrow-left.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+  left: -124px;
+}
+
+.services_min .Testimonials-slider .carousel-control-next-icon {
+  background: url(../../../assets/images/arrow-right2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.services_min .Testimonials-slider .carousel-control-prev-icon {
+  background: url(../../../assets/images/arrow-left2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.covid-testimonial .carousel-control-prev {
+  display: none;
+}
+.covid-testimonial .carousel-control-next {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .Testimonials-slider .carousel-control-prev {
+    left: -70px;
+  }
+  .Testimonials-slider .carousel-control-next {
+    right: -70px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .Testimonials-slider {
+    max-width: 700px;
+  }
+  .Testimonials-slider h2 {
+    font-size: 1.65em;
+  }
+}
+
+@media (max-width: 990px) {
+  .Testimonials-slider {
+    max-width: 600px;
+    padding-bottom: 100px;
+  }
+  .Testimonials-slider h2 {
+    font-size: 1.4em;
+    line-height: 1.5em !important;
+  }
+  .Testimonials-slider .carousel-control-prev {
+    left: -69px;
+  }
+  .Testimonials-slider .carousel-control-next {
+    right: -69px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .Testimonials-slider h2 {
+    font-size: 1.2em !important;
+  }
+  .Testimonials-slider span {
+    font-size: 0.89em;
+  }
+}

@@ -1,0 +1,324 @@
+.redColor {
+  color: #ed220c !important;
+}
+.servicetext {
+  font-weight: 500;
+  line-height: 30px !important;
+}
+.offers_min h2 {
+  font-size: 3.5em;
+}
+.offers_min h3 {
+  font-size: 2em;
+  float: left;
+  width: 100%;
+}
+.servic_min h6 {
+  font-size: 19px;
+}
+
+.casestudy span {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.casestudy h5 {
+  font-size: 1.75em;
+  font-weight: 600;
+  padding-bottom: 28px;
+  letter-spacing: 0.5px;
+}
+
+.casestudy p {
+  letter-spacing: 0.5px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  padding-right: 9%;
+  line-height: 34px;
+}
+
+.covidinnovationtop {
+  background-color: #fff;
+  color: #000;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.covidinnovationtop span {
+  background-color: #000;
+  padding: 8px 17px 7px;
+  color: #fff;
+  font-weight: 600;
+  float: left;
+}
+
+.covidinnovationtop span svg {
+  margin-top: 3px;
+  float: left;
+}
+
+.covidinnovationtop h1 {
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 2.52em;
+}
+
+.covidinnovationtop h6 {
+  padding-top: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.covidinnovationtop ul {
+  margin-top: 45px;
+}
+
+.covidinnovationtop li img {
+  margin-right: 8px;
+  float: left;
+}
+
+.covidinnovationtop li {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.covidinnovationtop a {
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.covidinnovationtop .fAxqDr .styled__Arrow-d87459-0 {
+  margin-left: 0px;
+  margin-right: 0.5em;
+  transform: rotate(180deg);
+}
+
+.bQLhSh {
+  margin-left: 0.5em;
+  transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1) 0s;
+}
+
+.fAxqDr {
+  display: inline-flex;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 1;
+  color: rgb(255, 255, 255) !important;
+  transition: color 200ms ease-in-out 0s;
+  flex-direction: row-reverse;
+}
+
+.fAxqDr:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
+
+.fAxqDr:hover .styled__Arrow-d87459-0 {
+  transform: rotate(180deg) translateX(0.25em);
+}
+
+a {
+  text-decoration: none;
+}
+
+.proejct-head {
+  max-width: 1200px;
+  margin: 0px auto 0px;
+  padding: 80px 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.proejct-head h2 {
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 48px !important;
+  max-width: 760px;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 2rem !important;
+}
+
+.proejct-head span {
+  font-size: 1.2em;
+  display: block;
+  line-height: 25px;
+}
+.learn {
+  list-style: disc;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.will-run span {
+  background-color: #fff;
+  color: #000;
+}
+.offers_min .will-run span {
+  padding: 0;
+  background: transparent;
+  font-weight: 500;
+}
+.skyblue-bg {
+  background-color: #eff3f5;
+  padding: 100px 0;
+}
+.offeringList {
+  list-style: disc;
+}
+.rotatetext {
+  position: relative;
+}
+.rotate {
+  transform: rotate(-90deg);
+  left: -80px;
+  position: absolute;
+  top: 60px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*#applicationStatus {
+  position: relative;
+  width: auto;
+  height: 140px;
+  left: 40px; }*/
+
+.applicationStatus li {
+  /* Added this and moved much code to here */
+  position: relative; /* this was a key property missing from your code */
+  text-indent: 30px;
+  height: 86px;
+  width: 25%;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  /* Dirty IE Hack */
+  zoom: 1;
+  *display: inline;
+  /* margin-right: 30px; Eliminated this */
+  margin-left: 30px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 150px;
+}
+.applicationStatus h6 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 0 !important;
+}
+.applicationStatus p {
+  color: #000;
+  margin-bottom: 0 !important;
+  font-size: 16px;
+}
+.applicationStatus .greyColor {
+  color: #b5b5b5;
+  line-height: 16px !important;
+}
+ul.applicationStatus {
+  /* this is irrelevant with the HTML you gave, but I added the class */
+  list-style: none;
+}
+
+li.applicationStatus:after {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 85px;
+  right: -31px;
+  z-index: 99;
+  top: 0;
+  background: url('../../../assets/images/arrow-t.png') no-repeat;
+}
+
+.applicationStatus li:first-child {
+  border-right: 0;
+}
+.applicationStatus li:nth-child(2) {
+  border-right: 0;
+  border-left: 0;
+}
+.applicationStatus li:nth-child(3) {
+  border-right: 0;
+  border-left: 0;
+}
+li.applicationStatus {
+  padding-left: 10px;
+  margin-left: 0;
+}
+
+.ClearFix {
+  float: left;
+  width: 100%;
+}
+.applicationStatus {
+  margin-bottom: 20px;
+}
+.Two-div {
+  background-color: #faf4f9;
+}
+.Two-div .covidinnovationtop {
+  background-color: #faf4f9;
+}
+.Two-div .meeting-min {
+  background-color: #fff;
+}
+.covidinnovationtop {
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .offeringList {
+    padding-left: 20px;
+  }
+  .applicationStatus li {
+    width: 33%;
+  }
+}
+@media (max-width: 767px) {
+  li.applicationStatus:after {
+    background: none;
+  }
+  .applicationStatus li {
+    height: auto;
+    width: auto;
+    border: 1px solid #000 !important;
+  }
+}
+
+@media (max-width: 572px) {
+  /* .innovationtop {
+    padding-left: 15px;
+    padding-right: 15px;
+  } */
+  .covidinnovationtop {
+    padding-top: 0px;
+  }
+  .proejct-head h2 {
+    font-size: 1.2em !important;
+    line-height: 1.7em !important;
+  }
+  .proejct-head {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .proejct-head span {
+    font-size: 0.9em;
+  }
+  .offers_min h2 {
+    font-size: 2.5em;
+  }
+  .offers_min h3 {
+    font-size: 1.5em;
+  }
+  .applicationStatus li {
+    width: 100%;
+  }
+}

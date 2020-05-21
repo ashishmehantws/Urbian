@@ -1,0 +1,7 @@
+export { default as Topsection } from './Topsection'
+export { default as Downloadreport } from './Downloadreport'
+export { default as Testimonials } from './Testimonials'
+export { default as Strategy } from './Strategy'
+export { default as Blog } from './Blog'
+export { default as Overviewwork } from './Overviewwork'
+export { default as Offers } from './Offers'

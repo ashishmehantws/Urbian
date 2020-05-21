@@ -1,0 +1,11 @@
+
+.blackBg { background:#000; padding:150px 0; }
+.blackBg h2 { font-size: 2em; color:#fff; margin-bottom: 20px !important; }
+.blackBg p {  color:#fff; }
+.resultdes { max-width: 600px; margin:0px auto; width:100%; }
+
+@media(max-width:767px){
+	.blackBg img { width:100%; }
+}
+
+

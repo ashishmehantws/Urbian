@@ -1,0 +1,23 @@
+.downloadList {
+  padding-left: 20px;
+}
+.downloadList li {
+  font-size: 1em;
+  font-weight: 600;
+  list-style-type: disc;
+  margin: 7px 0;
+}
+.downloadBtn {
+  background-color: #ed220c;
+  padding: 20px 25px;
+  border-radius: 5px;
+  margin-top: 25px;
+  color: #fff !important;
+  float: left;
+}
+.hitechimg {
+  margin-top: -80px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+}

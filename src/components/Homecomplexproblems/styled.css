@@ -95,7 +95,8 @@
   .complex-problems h3 {
     font-size: 1.85em !important;
   }
-  .complex-problems h5, .complex-problems span {
+  .complex-problems h5,
+  .complex-problems span {
     font-size: 1.34em;
   }
 }
@@ -103,5 +104,8 @@
 @media (max-width: 568px) {
   .flex-container {
     flex: 1 auto;
+  }
+  .complex-problems strong {
+    font-size: 5.55em;
   }
 }

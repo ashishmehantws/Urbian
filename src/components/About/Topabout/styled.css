@@ -1,0 +1,38 @@
+.Topsection_min h1 {
+  font-weight: 700;
+}
+
+.Topsection_min p {
+  font-size: 1.3em;
+  padding-top: 40px;
+  line-height: 35px;
+}
+.Topsection_min a {
+  position: relative;
+  z-index: 2;
+  font-weight: normal !important;
+  font-size: 1em;
+}
+.Topsection_min a:before {
+  content: '';
+  position: absolute;
+  height: 19px;
+  width: 100%;
+  left: 0px;
+  bottom: -3px;
+  background-color: #ffff0082;
+  -webkit-transform: skew(-30deg);
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+.topText {
+  max-width: 12em;
+}
+
+@media (max-width: 769px) {
+  .Topsection_min a {
+    background-color: #fdfb66;
+  }
+}

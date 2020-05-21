@@ -70,6 +70,15 @@ class Navigation extends React.Component<
                 ref={this.menuWrapperRef}
               >
                 <Link
+                  to="/covid-19"
+                  activeClassName="active activec"
+                  partiallyActive={true}
+                  className="covid-menu"
+                >
+                  Low Touch Economy{' '}
+                  <span className="badge badge-danger">NEW</span>
+                </Link>
+                <Link
                   to="/work"
                   activeClassName="active"
                   partiallyActive={true}
