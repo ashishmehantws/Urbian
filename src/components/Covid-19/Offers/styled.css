@@ -4,17 +4,15 @@
 .servicetext {
   font-weight: 500;
   line-height: 30px !important;
+  font-size: 1.3em;
 }
 .offers_min h2 {
-  font-size: 3.5em;
+  font-size: 5.5em;
+  font-weight: 700;
 }
 .offers_min h3 {
-  font-size: 2em;
   float: left;
   width: 100%;
-}
-.servic_min h6 {
-  font-size: 19px;
 }
 
 .casestudy span {
@@ -23,7 +21,6 @@
 }
 
 .casestudy h5 {
-  font-size: 1.75em;
   font-weight: 600;
   padding-bottom: 28px;
   letter-spacing: 0.5px;
@@ -165,23 +162,32 @@ a {
 }
 .skyblue-bg {
   background-color: #eff3f5;
-  padding: 100px 0;
+  padding: 80px 0 130px;
 }
+
 .offeringList {
   list-style: disc;
+  padding-left: 15px;
 }
 .rotatetext {
   position: relative;
 }
+
+.border-bt {
+  border-bottom: 1px solid #000;
+}
+
 .rotate {
   transform: rotate(-90deg);
-  left: -80px;
+  left: -61px;
   position: absolute;
   top: 60px;
   font-size: 16px;
   font-weight: bold;
 }
-
+.rotate2 {
+  left: -47px;
+}
 /*#applicationStatus {
   position: relative;
   width: auto;
@@ -193,7 +199,7 @@ a {
   position: relative; /* this was a key property missing from your code */
   text-indent: 30px;
   height: 86px;
-  width: 25%;
+  width: 26%;
   background-color: #fff;
   border: 1px solid #000;
   display: inline-block;
@@ -212,6 +218,7 @@ a {
   color: #000;
   font-size: 18px;
   margin-bottom: 0 !important;
+  font-weight: bold;
 }
 .applicationStatus p {
   color: #000;
@@ -237,7 +244,9 @@ li.applicationStatus:after {
   top: 0;
   background: url('../../../assets/images/arrow-t.png') no-repeat;
 }
-
+li.applicationStatus:nth-child(3):after {
+  background: url('../../../assets/images/arrow-r.jpg') no-repeat;
+}
 .applicationStatus li:first-child {
   border-right: 0;
 }
@@ -262,10 +271,10 @@ li.applicationStatus {
   margin-bottom: 20px;
 }
 .Two-div {
-  background-color: #faf4f9;
+  background-color: #f6f5f7;
 }
 .Two-div .covidinnovationtop {
-  background-color: #faf4f9;
+  background-color: #f6f5f7;
 }
 .Two-div .meeting-min {
   background-color: #fff;
@@ -273,23 +282,66 @@ li.applicationStatus {
 .covidinnovationtop {
   align-items: flex-start;
 }
-
+.what-donext a {
+  margin-top: 20%;
+  display: inline-block;
+}
 @media (max-width: 1024px) {
-  .offeringList {
-    padding-left: 20px;
-  }
   .applicationStatus li {
     width: 33%;
   }
+  .what-donext .container {
+    max-width: 878px !important;
+    width: 100%;
+  }
 }
+@media (max-width: 992px) {
+  .applicationStatus li {
+    width: 32%;
+  }
+  .applicationStatus h6 {
+    font-size: 16px;
+  }
+  .applicationStatus p {
+    font-size: 14px;
+  }
+  .offeringList {
+    padding-top: 20px;
+  }
+  .rotate {
+    left: 0px;
+    top: 0px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    display: block;
+    position: relative;
+  }
+  .rotate2 {
+    left: 18px;
+  }
+  .what-donext a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 767px) {
-  li.applicationStatus:after {
+  li.applicationStatus:after,
+  li.applicationStatus:nth-child(3):after {
     background: none;
   }
+
   .applicationStatus li {
     height: auto;
     width: auto;
     border: 1px solid #000 !important;
+    text-indent: 0px;
+    width: 33%;
+  }
+  ul.applicationStatus {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -313,12 +365,18 @@ li.applicationStatus {
     font-size: 0.9em;
   }
   .offers_min h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   .offers_min h3 {
     font-size: 1.5em;
   }
   .applicationStatus li {
-    width: 100%;
+    width: 300px;
+    margin: 0px auto 10px;
+  }
+}
+@media (max-width: 480px) {
+  .applicationStatus li {
+    width: 253px;
   }
 }

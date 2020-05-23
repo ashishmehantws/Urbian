@@ -33,8 +33,11 @@
   margin-right: 6px;
 }
 
-.Testimonials-slider .carousel-indicators .active {
+/* .Testimonials-slider .carousel-indicators .active {
   background-color: #ffff0082;
+} */
+.covid-div .Testimonials-slider .carousel-indicators .active {
+  background-color: #000;
 }
 
 .Testimonials-slider .carousel-indicators {

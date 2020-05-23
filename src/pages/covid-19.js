@@ -26,7 +26,9 @@ class covidm extends React.Component {
           <Blog />
           <Overviewwork />
           <Offers />
-          <Headinfo> </Headinfo>
+          <div className="bggy pt-4">
+            <Headinfo> </Headinfo>
+          </div>
           <Gettouch> </Gettouch>
         </Layout>
       </div>

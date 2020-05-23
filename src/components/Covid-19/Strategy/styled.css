@@ -1,1 +1,9 @@
-.strategy { padding-top:100px; padding-bottom: 100px;}
+.strategy {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+@media (max-width: 1025px) {
+  .strategy {
+    padding-bottom: 0px;
+  }
+}

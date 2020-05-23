@@ -16,10 +16,10 @@ import stephen from '../../../assets/images/Stephan-grobler.jpg'
 class Offers extends React.Component {
   render() {
     return (
-      <div className="pt-5 pb-5 offers_min">
-        <div className="skyblue-bg">
+      <div className="pt-5 offers_min">
+        <div className="skyblue-bg what-donext">
           <Container>
-            <h3 className="text-center pb-5">What to do next.</h3>
+            <h3 className="text-center pb-5 h2">What to do next.</h3>
             <div className="mt-5">
               <div className="sixteen columns">
                 <div id="applicationStatus">
@@ -43,7 +43,7 @@ class Offers extends React.Component {
                 </div>
               </div>
             </div>
-            <Row className="border-bottom align-items-center ">
+            <Row className="border-bt">
               <Col lg="3">
                 <em className="rotatetext">
                   <span className="rotate">DEFENSE</span>
@@ -87,8 +87,7 @@ class Offers extends React.Component {
                   className="styled__Link-lfEBUk iUBhrC font-bold redColor"
                   to="#"
                 >
-                  {' '}
-                  View offering
+                  <b>View offering</b>
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
                     width="14"
@@ -105,7 +104,7 @@ class Offers extends React.Component {
             </Row>
             <Row className="pt-4">
               <em className="rotatetext">
-                <span className="rotate">OFFENSE</span>
+                <span className="rotate rotate2">OFFENSE</span>
               </em>
               <Col lg="3"></Col>
               <Col lg="3">
@@ -134,8 +133,7 @@ class Offers extends React.Component {
                   className="styled__Link-lfEBUk iUBhrC font-bold redColor"
                   to="#"
                 >
-                  {' '}
-                  View offering
+                  <b>View offering</b>
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
                     width="14"
@@ -155,7 +153,7 @@ class Offers extends React.Component {
         <Container className="mt-5">
           <Row className="pt-5 pb-5">
             <Col lg="6">
-              <h5 className="mb-4 servicetext">
+              <h5 className="mb-4 servicetext ">
                 We have put together a suit of services aimed at{' '}
                 <u className="redColor">ensuring business continuity</u> for
                 those companies able to and a{' '}
@@ -171,12 +169,12 @@ class Offers extends React.Component {
               <h2 className="mb-4 redColor">One</h2>
             </Col>
             <Col lg="8">
-              <h3 className="mb-4 pb-4 redColor">
+              <h3 className="redColor h2">
                 We're here to help you ensure business continuity
               </h3>
               <Row className="ClearFix">
                 <Col lg="4">
-                  <h6 className="mb-4">Remote Work Advisory</h6>
+                  <h6 className="pb-3 h6 pt-5">Remote Work Advisory</h6>
                   <p>
                     Urbian has extensive experience building remote teams
                     because we'e been working remotely in-house for over a
@@ -204,13 +202,13 @@ class Offers extends React.Component {
                   </Link>
                 </Col>
                 <Col lg="4">
-                  <h6 className="mb-4">Company Handbook</h6>
+                  <h6 className="pb-3 h6 pt-5">Company Handbook</h6>
                   <p>
                     The company handbook is a centralised easy to use tool for
                     employees to access their company' standard operating
                     procedures on all devices. Companies large and small
                     experience incredible gains in productivity and efficiency
-                    when the same information doesn' have to be repeated over
+                    when the same information doesn't have to be repeated over
                     and over again.
                   </p>
                   <Link className="styled__Link-lfEBUk iUBhrC font-bold" to="#">
@@ -230,7 +228,7 @@ class Offers extends React.Component {
                   </Link>
                 </Col>
                 <Col lg="4">
-                  <h6 className="mb-4">Level-up Delivery</h6>
+                  <h6 className="pb-3 h6 pt-5">Level-up Delivery</h6>
                   <p>
                     Most product problems are actually process and communication
                     problems. Even the most talented people are set up to fail
@@ -258,12 +256,14 @@ class Offers extends React.Component {
             </Col>
           </Row>
           <Row className="casestudy pt-5 pb-5 mt-5">
-            <Col sm="7">
+            <Col lg="7">
               <img className="img-fluid" src={Casestudies1} alt="#" />
             </Col>
-            <Col sm="5">
+            <Col lg="5">
               <span>Case Study</span>
-              <h5>Remote project delivery for Standard Bank Direct</h5>
+              <h5 className="h3">
+                Remote project delivery for Standard Bank Direct
+              </h5>
               <p>
                 <em className="yellowBackground">Ongoing transformation</em>
                 of the Liberty Direct Insurance digital self-service
@@ -308,7 +308,7 @@ class Offers extends React.Component {
                 &nbsp;&nbsp;1 hour
               </span>
 
-              <h3 className="mt-5 clearfix mb-3">What is it?</h3>
+              <h3 className="mt-5 clearfix mb-3 h3">What is it?</h3>
               <p className="mt-3 clearfix">
                 In a one hour videocall, we'll take the temprature of your
                 organisation, asking: How operational are you right now? What's
@@ -363,7 +363,7 @@ class Offers extends React.Component {
                   &nbsp;&nbsp; Video call
                 </li>
               </ul>
-              <h4 className="mt-4 h3">What will you learn?</h4>
+              <h4 className="mt-4 h3 ">What will you learn?</h4>
               <ul className="learn">
                 <li>
                   Learn how to better run remote teams from our 11 years of
@@ -378,7 +378,7 @@ class Offers extends React.Component {
                   potential to be used to manage the change.
                 </li>
               </ul>
-              <h4 className="mt-5 mb-4">Who will run it?</h4>
+              <h4 className="mt-5 mb-4 h3">Who will run it?</h4>
               <p>A Managing Partner, Product Owner or Delivery Lead.</p>
               <div className="clearfix">
                 <div className="will-run mt-4">
@@ -399,7 +399,7 @@ class Offers extends React.Component {
               </div>
             </Col>
             <Col lg="6" className="meeting-min">
-              <h3 className="redColor mb-4">
+              <h3 className="redColor pb-3 h2">
                 Set up a meeting to discuss your business continuity
               </h3>
               <p className="mb-4">
@@ -491,19 +491,19 @@ class Offers extends React.Component {
             <span>Sanlam Private Wealth</span>
           </div>
         </Container>
-        <div className="Two-div">
+        <div className="Two-div pt-2">
           <Container className="clearfix mt-5">
             <Row className="pt-5 pb-5 servic_min">
               <Col lg="4">
                 <h2 className="mb-4 redColor">Two</h2>
               </Col>
               <Col lg="8">
-                <h3 className="mb-4 pb-4 redColor">
+                <h3 className=" redColor h2">
                   Use digital to unlock new revenue streams in 100 days.
                 </h3>
                 <Row className="ClearFix">
                   <Col lg="4">
-                    <h6 className="mb-4">Rapid Prototyping</h6>
+                    <h6 className="mb-4 mt-5 h6">Rapid Prototyping</h6>
                     <p>
                       We use design thinking to develop a new product idea into
                       a prototype that can be tested with users to help us fill
@@ -530,7 +530,7 @@ class Offers extends React.Component {
                     </Link>
                   </Col>
                   <Col lg="4">
-                    <h6 className="mb-4">E-Commerce</h6>
+                    <h6 className="mb-4 mt-5 h6">E-Commerce</h6>
                     <p>
                       In many ways Covid-19 has brought a future forward. New
                       logistics models and product delivery lead by E-Commerce
@@ -558,7 +558,7 @@ class Offers extends React.Component {
                     </Link>
                   </Col>
                   <Col lg="4">
-                    <h6 className="mb-4">Self-service</h6>
+                    <h6 className="mb-4 mt-5 h6">Self-service</h6>
                     <p>
                       The world continues to be shaped by{' '}
                       <em className="yellowBackground">software and Saas</em>{' '}
@@ -589,12 +589,12 @@ class Offers extends React.Component {
               </Col>
             </Row>
             <Row className="casestudy pt-5 pb-5 mt-5">
-              <Col sm="7">
+              <Col lg="7">
                 <img className="img-fluid" src={bablytonstoren} alt="#" />
               </Col>
-              <Col sm="5">
+              <Col lg="5">
                 <span>Case Study</span>
-                <h5>
+                <h5 className="h3">
                   Bablytonstoren' Custom E-Commerce Implementation increased
                   sales by 150% in under 6 months.
                 </h5>
@@ -641,7 +641,7 @@ class Offers extends React.Component {
                   &nbsp;&nbsp;1 hour
                 </span>
 
-                <h3 className="mt-5 clearfix mb-3">What is it?</h3>
+                <h3 className="mt-5 clearfix mb-3 h3">What is it?</h3>
                 <p className="mt-3 clearfix">
                   In a one hour videocall, we'll take the temprature of your
                   organisation, asking a set of questions to determine how ready
@@ -711,7 +711,7 @@ class Offers extends React.Component {
                     leadership potential to be used to manage the change.
                   </li>
                 </ul>
-                <h4 className="mt-5 mb-4">Who will run it?</h4>
+                <h4 className="mt-5 mb-4 h3">Who will run it?</h4>
                 <p>A Managing Partner, Product Owner or Delivery Lead.</p>
                 <div className="clearfix">
                   <div className="will-run mt-4">
@@ -732,7 +732,7 @@ class Offers extends React.Component {
                 </div>
               </Col>
               <Col lg="6" className="meeting-min">
-                <h3 className="redColor mb-4">
+                <h3 className="redColor pb-3 h2">
                   Would you like to meet to discuss how digital can be used to
                   unlock new revenue?
                 </h3>

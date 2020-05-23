@@ -37,7 +37,6 @@ const Blog: React.FC<Projects> = ({ projects }) => {
           <Col>
             {' '}
             <h2 className="h2 text-center">Dive into our ongoing research</h2>
-           
           </Col>
         </Row>
       </Container>
@@ -60,58 +59,63 @@ const Blog: React.FC<Projects> = ({ projects }) => {
       </S.Container> */}
       <Container className="pb-5 pt-4">
         <Row>
-          <Col sm="6" className="mt-5 pr-sm-5">
+          <Col sm="6" className="mt-5 pr-sm-4">
             <Link to="">
               <div className="project-img">
                 <img className="img-fluid" src={Work1} alt="#" />
               </div>
-             
-              <h6 className="h3">
-                What is the Hi-Tech Low Touch Economy?
-              </h6>
+
+              <h6 className="h3">What is the Hi-Tech Low Touch Economy?</h6>
               <p>
-                How the Covid-19 crisis of 2020 is shaping a new generation of consumer behaviors.
+                How the Covid-19 crisis of 2020 is shaping a new generation of
+                consumer behaviors.
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5 pl-sm-6">
+          <Col sm="6" className="mt-5 pl-sm-4">
             <Link to="">
               <div className="project-img">
                 <img className="img-fluid" src={work2} alt="#" />
               </div>
-              
-              <h6 className="h3">
-                Join Our Upcoming Webinar
-              </h6>
+
+              <h6 className="h3">Join Our Upcoming Webinar</h6>
               <p>
-                During a 45-min interactive webinar, we will talk about the opportunities & white spaces to explore. We look at what companies can learn from other regions and from frontrunners of the hi-Tech Low Touch Economy.
+                During a 45-min interactive webinar, we will talk about the
+                opportunities & white spaces to explore. We look at what
+                companies can learn from other regions and from frontrunners of
+                the hi-Tech Low Touch Economy.
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5  pr-sm-5">
+          <Col sm="6" className="mt-5 pr-sm-4">
             <Link to="">
               <div className="project-img">
                 <img className="img-fluid" src={work3} alt="#" />
               </div>
               <h6 className="h3">
-                Video Interview: CEO of African safari Group About Travel and Tourism and Where to From Here.
+                Video Interview: CEO of African safari Group About Travel and
+                Tourism and Where to From Here.
               </h6>
               <p>
-                There are so many moving parts in this rapidly evolving crisis. With this mind map, we track a selection of shifts and how they influence each other.
+                There are so many moving parts in this rapidly evolving crisis.
+                With this mind map, we track a selection of shifts and how they
+                influence each other.
               </p>
             </Link>
           </Col>
-          <Col sm="6" className="mt-5  pl-sm-5">
+          <Col sm="6" className="mt-5 pl-sm-4">
             <Link to="">
               <div className="project-img">
                 <img className="img-fluid" src={work4} alt="#" />
               </div>
-             
+
               <h6 className="h3">
                 Business Model pivots in the Hi-Tech Low Touch Economy
               </h6>
               <p>
-                Plenty of companies are now shifting their focus. It's remarkable how many enterpreneurs are already building a new Low Touch Economy to get our society back up and running.
+                Plenty of companies are now shifting their focus. It's
+                remarkable how many enterpreneurs are already building a new Low
+                Touch Economy to get our society back up and running.
               </p>
             </Link>
           </Col>

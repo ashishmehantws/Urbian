@@ -1,6 +1,6 @@
 .czjCKq {
   padding: 4.5em 0px 5em;
-  background-color: rgb(255, 255, 255);
+  background-color: #fafafa;
 }
 
 .czjCKq a {
@@ -91,7 +91,7 @@ footer a.privacy-link {
   transition: opacity 200ms ease-in-out 0s;
 }
 .cls-1 {
-  fill: #ecfa00;
+  fill: #fefc66;
 }
 @media (max-width: 768px) {
   .ljPvsn > :first-child {
