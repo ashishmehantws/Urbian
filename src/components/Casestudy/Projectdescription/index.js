@@ -22,13 +22,13 @@ class Projectdescription extends React.Component {
             <span>South Africa</span>
             <strong className="mt-5">View Project</strong>
             <span>
-              <mark className="yellowBackground">Socialtechstartup.co.za</mark>
+              <mark className="yellowBackground">{data.projectLinkUrl}</mark>
             </span>
           </Col>
           <Col sm="6" className="pt-2">
             <p
               dangerouslySetInnerHTML={{
-                __html: data.fullDiscription.childMarkdownRemark.html,
+                __html: data.description.childContentfulRichText.html,
               }}
             />
           </Col>
@@ -78,7 +78,9 @@ class Projectdescription extends React.Component {
               />
               &quot;
             </h5>
-            <small>- Sinethemba Mafanya, GM Diageo Empowerment Trust SA</small>
+            <small>
+              - {data.testimonialPersonDetails.testimonialPersonDetails}
+            </small>
           </Col>
         </Row>
       </Container>

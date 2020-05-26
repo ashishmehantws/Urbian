@@ -24,11 +24,11 @@ const casestudy = ({ data }) => {
       <Topimage data={data.contentfulWork}></Topimage>
       <Projectdescription data={data.contentfulWork}></Projectdescription>
       <Outcomes></Outcomes>
-      <Contentwrap></Contentwrap>
-      <Startup></Startup>
+      <Contentwrap data={data.contentfulWork}></Contentwrap>
+      <Startup data={data.contentfulWork}></Startup>
       <Demoday></Demoday>
-      <Recognition></Recognition>
-      <Getintouch></Getintouch>
+      <Recognition data={data.contentfulWork}></Recognition>
+      <Getintouch data={data.contentfulWork}></Getintouch>
       <Gettouch></Gettouch>
     </Layout>
   )
@@ -44,22 +44,16 @@ export const query = graphql`
   query CaseStudyByID($id: String) {
     contentfulWork(id: { eq: $id }) {
       title
-      fullDiscription {
-        childMarkdownRemark {
+      chooseClient {
+        clientName
+      }
+      projectLinkUrl
+      description {
+        childContentfulRichText {
           html
         }
       }
       technologies {
-        childMarkdownRemark {
-          html
-        }
-      }
-      whatWeDid {
-        childMarkdownRemark {
-          html
-        }
-      }
-      sources {
         childMarkdownRemark {
           html
         }
@@ -69,13 +63,44 @@ export const query = graphql`
           html
         }
       }
+      sources {
+        childMarkdownRemark {
+          html
+        }
+      }
+      whatWeDid {
+        childMarkdownRemark {
+          html
+        }
+      }
       testimonialComments {
         childMarkdownRemark {
           html
         }
       }
-      chooseClient {
-        clientName
+      testimonialPersonDetails {
+        testimonialPersonDetails
+      }
+      fullDiscription {
+        childMarkdownRemark {
+          html
+        }
+      }
+      recognition {
+        images {
+          fluid {
+            src
+          }
+        }
+        text {
+          childMarkdownRemark {
+            html
+          }
+        }
+        readMoreLink
+      }
+      getInTouchClientName {
+        getInTouchClientName
       }
     }
   }
