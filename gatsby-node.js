@@ -51,20 +51,22 @@ exports.createPages = async ({ graphql, actions }) => {
   // Authors
   // TODO: uncomment when templates/blog-author.tsx is ready
 
-  // const authors = await graphql(`
-  //   {
-  //     allPrismicBlogAuthor {
-  //       nodes {
-  //         uid
-  //       }
-  //     }
-  //   }
-  // `)
-  // authors.data.allPrismicBlogAuthor.nodes.forEach(({ uid }) => {
-  //   createPage({
-  //     path: `/blog/author/${uid}`,
-  //     component: path.resolve(`./src/templates/blog-author.tsx`),
-  //     context: { uid },
-  //   })
-  // })
+  const works = await graphql(`
+    {
+      allContentfulWork(filter: {node_locale: {eq: "en-US"}}) {
+        nodes {
+          title
+          id
+        }
+      }
+    }
+  `)
+  works.data.allContentfulWork.nodes.forEach(({ title, id }) => {
+    var slug = title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+    createPage({
+      path: `/casestudy/${slug}`,
+      component: path.resolve(`./src/templates/casestudy.js`),
+      context: { id },
+    })
+  })
 }

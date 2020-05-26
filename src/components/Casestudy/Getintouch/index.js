@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import { Link } from 'gatsby'
@@ -6,7 +7,12 @@ import { Link } from 'gatsby'
 import Form from 'react-bootstrap/Form'
 import './styled.css'
 class Getintouch extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
+    const { data } = this.props
     return (
       <div className="Getintouch_min">
         <Container className="Getintouch border-top clearfix">
@@ -16,8 +22,9 @@ class Getintouch extends React.Component {
             </Col>
             <Col lg="6">
               <p>
-                Intersted in learning more about the Social Tech Startup
-                Challenge or any other projects?
+                Intersted in learning more about the{' '}
+                {data.getInTouchClientName.getInTouchClientName} or any other
+                projects?
               </p>
               <p>
                 Reach out to
@@ -80,6 +87,10 @@ class Getintouch extends React.Component {
       </div>
     )
   }
+}
+
+Getintouch.propTypes = {
+  data: PropTypes.object,
 }
 
 export default Getintouch

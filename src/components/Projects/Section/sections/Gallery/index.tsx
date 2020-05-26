@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Img from '../../../../PrismicImage'
+// import Img from '../../../../PrismicImage'
 
 import { GalleryType } from '../../types'
 
@@ -18,13 +18,7 @@ const Gallery: React.FC<GalleryType> = props => (
               tablet: image.span_tablet,
               mobile: image.span_mobile,
             }}
-          >
-            <Img
-              src={image.image.url}
-              fluid={image.image.fluid}
-              alt={image.image.alt}
-            />
-          </S.Item>
+          ></S.Item>
         )
       })}
     </S.Wrapper>
