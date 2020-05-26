@@ -18,6 +18,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    '@contentful/gatsby-transformer-contentful-richtext',
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -45,6 +46,13 @@ module.exports = {
       options: {
         name: 'content',
         path: `${__dirname}/content`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'p60zbx2spw4z',
+        accessToken: 'Yno51ZUXrLaW90j5_u7QwxFOcqFsppOOW-is1Ihf_A0',
       },
     },
     {
