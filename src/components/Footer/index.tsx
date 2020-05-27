@@ -44,7 +44,7 @@ const Footer: React.FC<{}> = () => (
           </svg>
         </Link>
         <small>© 2020 Urbian Group.</small>
-        <Link to="" className="privacy-link">
+        <Link to="#" className="privacy-link">
           Privacy Policy
         </Link>
       </div>
@@ -71,13 +71,13 @@ const Footer: React.FC<{}> = () => (
           <Link className="dbKpCb" to="/services">
             Services
           </Link>
-          <Link className="dbKpCb" to="/showcase">
+          <Link className="dbKpCb" to="/work">
             Work
           </Link>
           <Link className="dbKpCb" to="/read">
             Read
           </Link>
-          <Link className="dbKpCb" to="/handbook">
+          <Link className="dbKpCb" to="#">
             Handbook
           </Link>
         </div>

@@ -37,7 +37,7 @@ class Startupinvestements extends React.Component {
                 company grew enough to find it's own offices and continues to
                 grow to this day.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"

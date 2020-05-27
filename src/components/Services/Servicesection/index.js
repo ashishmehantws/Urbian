@@ -403,7 +403,7 @@ class Servicesection extends React.Component {
               <Col lg="6"></Col>
               <Col lg="6" className="mt-5 pt-4">
                 <span>Case Study</span>
-                <h6 className="mb-md-5 h4">
+                <h6 className="pb-md-5 h4">
                   Clearing a 9 year old feature backlog in 6 months.
                 </h6>
                 <Link
