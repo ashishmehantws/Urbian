@@ -365,6 +365,7 @@ header nav a:hover {
 .yellowBackground {
   position: relative;
   z-index: 2;
+  background-color: transparent;
 }
 
 .yellowBackground:before {
@@ -472,7 +473,9 @@ header nav a:hover {
 .bggy {
   background-color: #f6f5f7;
 }
-
+.headroom {
+  position: relative !important;
+}
 @media (max-width: 1025px) {
   header .nav-container {
     padding-left: 15px;

@@ -10,7 +10,7 @@ import aboutimg3 from '../../../assets/images/about-img-3.jpg'
 class Top extends React.Component {
   render() {
     return (
-      <Container className="Topsection_min clearfix content-wrap ">
+      <Container className="Topsection_min clearfix content-wrap about_top ">
         <Row>
           <Col lg="8" className="text-left">
             <h1 className="h1">We're a new kind of consulting company.</h1>

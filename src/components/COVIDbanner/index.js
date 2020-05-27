@@ -13,7 +13,7 @@ class COVIDbanner extends React.Component {
             <Col md="12" className="text-center">
               <Link
                 className="styled__Link-lfEBUk iUBhrC font-weight-normal"
-                to="/experienceurbian"
+                to="/covid-19"
               >
                 Our service offering response to Covid-19
                 <svg

@@ -1,81 +1,119 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { ProjectThumb } from '../../UI'
+import { Link } from 'gatsby'
+import * as S from './styled'
+import { Project } from '../../../pages/showcase'
+import useMeasure from '../../../hooks/useMeasure'
+import getThumbBgColor from '../../../utils/getThumbBgColor'
 import './styled.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import Work1 from '../../../assets/images/Screenshot-2020.jpg'
+import work2 from '../../../assets/images/296562873-copy-10498.jpg'
+import work3 from '../../../assets/images/Foonda_Website_2.0.jpg'
+import work4 from '../../../assets/images/DSC2108-10790.jpg'
+interface Projects {
+  projects: Project[]
+}
 
-// const Projects: React.FC<Projects> = ({ projects }) => {
-const ProjectsData = ({ data }) => (
-  <div className="work-min content-wrap">
-    <Container>
-      <Row>
-        <Col>
-          <h1 className="h1">Our work.</h1>
-          <span>
-            For over a decade we have helped ambitious companies re-imagine
-            customer experiences, create new models for growth and build new
-            capbilities.
-          </span>
-        </Col>
-      </Row>
-    </Container>
+const ThumbHolder: React.FC<{}> = ({ children }) => {
+  const ref = useRef<HTMLDivElement>(null)
+  const { height } = useMeasure(ref, 'a')
+  const rowSpan = Math.ceil(height / 4)
 
-    <Container className="pb-5">
-      <Row>
-        {data.allContentfulWork.edges.map(work => (
-          <Col sm="6" key={work.node.id} className="mt-5 pr-sm-5">
-            <Link
-              to={`/casestudy/${work.node.title
-                .toLowerCase()
-                .replace(/ /g, '-')
-                .replace(/[^\w-]+/g, '')}`}
-            >
-              <div className="project-img">
-                <img
-                  className="img-fluid"
-                  src={work.node.workImage.fluid.src}
-                  alt="#"
-                />
-              </div>
-              <small className="light-blue">
-                {work.node.chooseClient.clientName}
-              </small>
-              <h6 className="h3">{work.node.title}</h6>
-              <p>{work.node.shortDescription}</p>
-            </Link>
-          </Col>
-        ))}
-      </Row>
-    </Container>
-  </div>
-)
-
-export default function Projects(props) {
   return (
-    <StaticQuery
-      query={graphql`
-        query ProjectQuery {
-          allContentfulWork(filter: { node_locale: { eq: "en-US" } }) {
-            edges {
-              node {
-                id
-                title
-                shortDescription
-                workImage {
-                  fluid {
-                    src
-                  }
-                }
-                chooseClient {
-                  clientName
-                }
-              }
-            }
-          }
-        }
-      `}
-      render={data => <ProjectsData data={data} {...props} />}
-    />
+    <S.Holder ref={ref} rowAmount={rowSpan}>
+      {children}
+    </S.Holder>
   )
 }
+
+const Projects: React.FC<Projects> = ({ projects }) => {
+  return (
+    <div className="work-min content-wrap">
+      <Container>
+        <Row>
+          <Col>
+            {' '}
+            <h1 className="h1">Our work.</h1>
+            <span>
+              For over a decade we've helped ambitious companies re-imagine
+              customer experiences, create new models for growth and build new
+              capbilities.
+            </span>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="pb-5">
+        <Row>
+          <Col sm="6" className="mt-5 pr-sm-5">
+            <Link to="/casestudy">
+              <div className="project-img">
+                <img className="img-fluid" src={Work1} alt="#" />
+              </div>
+              <small className="light-blue">Sanlam Private wealth</small>
+              <h6 className="h3">
+                A design system led now brand home generates a 10x increase in
+                business leads.
+              </h6>
+              <p>
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
+              </p>
+            </Link>
+          </Col>
+          <Col sm="6" className="mt-5 pl-sm-6">
+            <Link to="/casestudy">
+              <div className="project-img">
+                <img className="img-fluid" src={work2} alt="#" />
+              </div>
+              <small>Standard Bank</small>
+              <h6 className="h3">
+                Clearing a 9-year old feature backlog in 6 months.
+              </h6>
+              <p>
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
+              </p>
+            </Link>
+          </Col>
+          <Col sm="6" className="mt-5  pr-sm-5">
+            <Link to="/casestudy">
+              <div className="project-img">
+                <img className="img-fluid" src={work3} alt="#" />
+              </div>
+              <small className="light-pink">Foonda</small>
+              <h6 className="h3">
+                A new education funding platform venture launched in market in 3
+                months.
+              </h6>
+              <p>
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
+              </p>
+            </Link>
+          </Col>
+          <Col sm="6" className="mt-5  pl-sm-5">
+            <Link to="/casestudy">
+              <div className="project-img">
+                <img className="img-fluid" src={work4} alt="#" />
+              </div>
+              <small className="pink">Diageo empowerment trust sa</small>
+              <h6 className="h3">
+                Re-vitalising an african-centric social tech incubator program.
+              </h6>
+              <p>
+                Product Management, Branding, UI/UX, Front-End Development,
+                Back-End Development
+              </p>
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  )
+}
+
+export default Projects

@@ -1,25 +1,20 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './styled.css'
 
 import ReactPlayer from 'react-player'
-
 class Topimage extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
-    const { data } = this.props
     return (
       <Container className="topimage position-relative content-wrap">
         <Row>
           <Col lg="7">
             <Link to="">Incubators & Accelerators</Link>
-            <h1 className="h1">{data.title}</h1>
+            <h1 className="h1 pt-4">
+              Re-vitalising an african-centric social tech incubator program.
+            </h1>
           </Col>
           <Col sm="12" className="mt-lg-5 pt-5">
             <div className="player-wrapper">
@@ -38,10 +33,6 @@ class Topimage extends React.Component {
       </Container>
     )
   }
-}
-
-Topimage.propTypes = {
-  data: PropTypes.object,
 }
 
 export default Topimage
