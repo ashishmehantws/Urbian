@@ -9,17 +9,21 @@
   font-weight: normal;
 }
 
-.complex-problems strong {
+.complex-problems strong,
+.complex-problems h4 {
   font-size: 6.55em;
   font-weight: 500 !important;
   display: block;
   text-align: center;
+  padding-top: 22px;
 }
 
-.complex-problems span {
+.complex-problems span,
+.complex-problems p {
   font-size: 1.35em;
   display: block;
   padding: 0px 17% 60px;
+  word-break: break-all;
 }
 
 .complex-problems h5 {
@@ -28,6 +32,7 @@
   padding-left: 17%;
   padding-right: 17%;
   padding-top: 40px;
+  word-break: break-all;
 }
 
 .flex-container {
