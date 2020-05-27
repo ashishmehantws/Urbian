@@ -185,7 +185,10 @@ class Offers extends React.Component {
                     complete software product development work remotely -
                     because it' how we operate.
                   </p>
-                  <Link className="styled__Link-lfEBUk iUBhrC font-bold" to="#">
+                  <Link
+                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    to="/services"
+                  >
                     {' '}
                     View service
                     <svg
@@ -211,7 +214,10 @@ class Offers extends React.Component {
                     when the same information doesn't have to be repeated over
                     and over again.
                   </p>
-                  <Link className="styled__Link-lfEBUk iUBhrC font-bold" to="#">
+                  <Link
+                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    to="/services"
+                  >
                     {' '}
                     View offering
                     <svg
@@ -236,7 +242,10 @@ class Offers extends React.Component {
                     processes. We help individuals and teams mature processes
                     and nurture a healthy and productive culture.
                   </p>
-                  <Link className="styled__Link-lfEBUk iUBhrC font-bold" to="#">
+                  <Link
+                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    to="/services"
+                  >
                     {' '}
                     View service
                     <svg
@@ -273,7 +282,7 @@ class Offers extends React.Component {
               </p>
               <Link
                 className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                to="/experienceurbian"
+                to="/casestudy"
               >
                 View case study
                 <svg
@@ -512,7 +521,7 @@ class Offers extends React.Component {
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-bold"
-                      to="#"
+                      to="/services"
                     >
                       {' '}
                       View service
@@ -540,7 +549,7 @@ class Offers extends React.Component {
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-bold"
-                      to="#"
+                      to="/services"
                     >
                       {' '}
                       View service
@@ -568,7 +577,7 @@ class Offers extends React.Component {
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-bold"
-                      to="#"
+                      to="/services"
                     >
                       {' '}
                       Read More
@@ -606,7 +615,7 @@ class Offers extends React.Component {
                 </p>
                 <Link
                   className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                  to="/experienceurbian"
+                  to="/casestudy"
                 >
                   View case study
                   <svg
