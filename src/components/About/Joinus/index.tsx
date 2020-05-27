@@ -32,19 +32,23 @@ class Joinus extends React.Component {
               </React.Fragment>
             )
           })} */}
-          Join us
-        </S.Title>
+              Join us
+            </S.Title>
           </S.Left>
           <S.Right className="career">
             <S.Big className="pb-1">
               <p>
-                Do more than design and buid incredible products. Help ship them,
-                too. Because for us, work is only as good as its impact in the wild.
-          </p>
+                Do more than design and buid incredible products. Help ship
+                them, too. Because for us, work is only as good as its impact in
+                the wild.
+              </p>
             </S.Big>
-            <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/careers">
+            <Link
+              className="styled__Link-d87459-1 fYDdlr colorblack"
+              to="/career"
+            >
               View current openings
-          <svg
+              <svg
                 className="styled__Arrow-d87459-0 bQLhSh"
                 width="14"
                 height="10"

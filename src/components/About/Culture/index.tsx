@@ -26,7 +26,10 @@ class Culture extends React.Component {
               </p>
               <ul className="mt-5">
                 <li className="border-bottom pt-3 pb-3">
-                  <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                  <a
+                    className="styled__Link-lfEBUk iUBhrC servcclink"
+                    href="/career"
+                  >
                     Ownership
                     <svg
                       className="styled__Arrow-fdeFVt fRPwvC"
@@ -42,7 +45,10 @@ class Culture extends React.Component {
                   </a>
                 </li>
                 <li className="border-bottom pt-3 pb-3">
-                  <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                  <a
+                    className="styled__Link-lfEBUk iUBhrC servcclink"
+                    href="/career"
+                  >
                     Bias for action
                     <svg
                       className="styled__Arrow-fdeFVt fRPwvC"
@@ -58,7 +64,10 @@ class Culture extends React.Component {
                   </a>
                 </li>
                 <li className="border-bottom pt-3 pb-3">
-                  <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                  <a
+                    className="styled__Link-lfEBUk iUBhrC servcclink"
+                    href="/career"
+                  >
                     Independent thinking
                     <svg
                       className="styled__Arrow-fdeFVt fRPwvC"
@@ -74,7 +83,10 @@ class Culture extends React.Component {
                   </a>
                 </li>
                 <li className="pt-3 pb-3">
-                  <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                  <a
+                    className="styled__Link-lfEBUk iUBhrC servcclink"
+                    href="/career"
+                  >
                     Always learning
                     <svg
                       className="styled__Arrow-fdeFVt fRPwvC"

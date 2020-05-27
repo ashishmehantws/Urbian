@@ -21,7 +21,10 @@ class Facts extends React.Component {
                   We have a 90% repeat business rate. Almost all of our clients
                   offer us additional projects
                 </p>
-                <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                <a
+                  className="styled__Link-lfEBUk iUBhrC servcclink"
+                  href="/clients"
+                >
                   View Clients
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
@@ -43,7 +46,10 @@ class Facts extends React.Component {
                   Has allowed us to expand in to increasingly more challenging
                   products and services
                 </p>
-                <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                <a
+                  className="styled__Link-lfEBUk iUBhrC servcclink"
+                  href="/casestudy"
+                >
                   View case studies
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
@@ -64,7 +70,10 @@ class Facts extends React.Component {
                 <h2 className="factsTitle">3</h2>
                 <strong>things we do well:</strong>
                 <p>product strategy, product design & development</p>
-                <a className="styled__Link-lfEBUk iUBhrC servcclink" href="/">
+                <a
+                  className="styled__Link-lfEBUk iUBhrC servcclink"
+                  href="/services"
+                >
                   View our services
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"

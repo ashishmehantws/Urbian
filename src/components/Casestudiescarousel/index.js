@@ -33,7 +33,7 @@ class Casestudiescarousel extends React.Component {
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                      to="/experienceurbian"
+                      to="/casestudy"
                     >
                       View case study
                       <svg
@@ -70,7 +70,7 @@ class Casestudiescarousel extends React.Component {
                     </p>
                     <Link
                       className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                      to="/work"
+                      to="/casestudy"
                     >
                       View case study
                       <svg
@@ -92,7 +92,7 @@ class Casestudiescarousel extends React.Component {
             <Col md="12" className="text-center pt-5 mt-5">
               <Link
                 className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                to="/work"
+                to="/casestudy"
               >
                 More case studies
                 <svg

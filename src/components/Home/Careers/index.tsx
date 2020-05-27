@@ -41,7 +41,7 @@ const Careers: React.FC<ICareersContent> = ({
             too. Because for us, work is only as good as its impact in the wild.
           </p>
         </S.Big>
-        <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/careers">
+        <Link className="styled__Link-d87459-1 fYDdlr colorblack" to="/career">
           View current openings
           <svg
             className="styled__Arrow-d87459-0 bQLhSh"

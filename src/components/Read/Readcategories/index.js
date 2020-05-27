@@ -50,7 +50,7 @@ class Readcategories extends React.Component {
                           </p>
                           <Link
                             className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-3 float-left"
-                            to="/contact"
+                            to="/readdetails"
                           >
                             Read more
                             <svg

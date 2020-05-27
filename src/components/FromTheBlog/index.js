@@ -44,7 +44,7 @@ class FromTheBlog extends React.Component {
               </ul>
               <Link
                 className="styled__Link-d87459-1 fYDdlr colorblack"
-                to="/blog"
+                to="/read"
               >
                 More news this way
                 <svg

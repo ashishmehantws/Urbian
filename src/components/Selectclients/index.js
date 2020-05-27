@@ -39,7 +39,7 @@ class Selectclients extends React.Component {
                 </em>{' '}
                 as well as a client service tool for portfolio managers.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -81,7 +81,7 @@ class Selectclients extends React.Component {
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -104,7 +104,7 @@ class Selectclients extends React.Component {
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -130,7 +130,7 @@ class Selectclients extends React.Component {
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -162,7 +162,7 @@ class Selectclients extends React.Component {
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -204,7 +204,7 @@ class Selectclients extends React.Component {
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC" to="/contact">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
