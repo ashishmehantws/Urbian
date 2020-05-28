@@ -34,6 +34,11 @@
   list-style-type: disc;
 }
 
+.project-desp li:not(:first-of-type) {
+  padding-top: 5px;
+}
+
+
 .project-desp h5 {
   font-weight: 400;
   padding-top: 100px;

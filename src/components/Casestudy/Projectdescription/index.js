@@ -10,16 +10,15 @@ class Projectdescription extends React.Component {
     return (
       <Container className="project-desp position-relative">
         <Row className="pb-4">
-          <Col sm="6" className="pt-2">
+          <Col sm="5" className="pt-2">
             <strong>Client</strong>
-            <span>Diageo Empowerment Trust</span>
-            <span>South Africa</span>
-            <strong className="mt-5">View Project</strong>
-            <span>
-              <mark className="yellowBackground">Socialtechstartup.co.za</mark>
-            </span>
+            <span>Diageo Empowerment Trust South Africa</span>
+            <strong className="mt-5">View project</strong>
+            <a href='https://www.socialtechstartup.co.za/' target="_blank" rel="noopener" title="Social Tech Startup Challenge">
+              <mark className="yellowBackground">socialtechstartup.co.za</mark>
+            </a>
           </Col>
-          <Col sm="6" className="pt-2">
+          <Col sm="6" className="offset-sm-1 pt-2">
             <p>
               We were approached to relaunch the Diageo Empowerment Trust South
               Africa's "Social Tech" incubation programme. The programe needed
