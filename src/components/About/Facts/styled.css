@@ -1,9 +1,12 @@
 
 .facts { padding-top:50px; }
-
+.facts a.iUBhrC {
+	margin-top: 30px;
+	display: inline-block;
+}
 .facts strong { font-size: 1.4em;  }
 .facts a { font-weight: 500 !important; }
-.factsTitle { font-size: 5.5em; }
+.factsTitle { font-size: 5.5em; font-weight: 600; }
 .facts h3 { font-size: 1.98em; font-weight: 700; }
 
 @media(max-width:568px) {

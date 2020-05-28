@@ -24,7 +24,7 @@ class Readcategories extends React.Component {
               <div className="tablist-min">
                 <TabList>
                   <Tab>Everything</Tab>
-                  <Tab>Covide-19</Tab>
+                  <Tab>Covid-19</Tab>
                   <Tab>News</Tab>
                   <Tab>Strategy</Tab>
                   <Tab>Product Management</Tab>

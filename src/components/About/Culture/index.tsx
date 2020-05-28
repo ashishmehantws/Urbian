@@ -28,7 +28,7 @@ class Culture extends React.Component {
                 <li className="border-bottom pt-3 pb-3">
                   <a
                     className="styled__Link-lfEBUk iUBhrC servcclink"
-                    href="/career"
+                    href="/career#our-culture"
                   >
                     Ownership
                     <svg
@@ -47,7 +47,7 @@ class Culture extends React.Component {
                 <li className="border-bottom pt-3 pb-3">
                   <a
                     className="styled__Link-lfEBUk iUBhrC servcclink"
-                    href="/career"
+                    href="/career#our-culture"
                   >
                     Bias for action
                     <svg
@@ -66,7 +66,7 @@ class Culture extends React.Component {
                 <li className="border-bottom pt-3 pb-3">
                   <a
                     className="styled__Link-lfEBUk iUBhrC servcclink"
-                    href="/career"
+                    href="/career#our-culture"
                   >
                     Independent thinking
                     <svg
@@ -82,10 +82,10 @@ class Culture extends React.Component {
                     </svg>
                   </a>
                 </li>
-                <li className="pt-3 pb-3">
+                <li className="pt-3">
                   <a
                     className="styled__Link-lfEBUk iUBhrC servcclink"
-                    href="/career"
+                    href="/career#our-culture"
                   >
                     Always learning
                     <svg

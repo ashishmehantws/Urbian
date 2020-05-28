@@ -4,18 +4,18 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './styled.css'
 
-import join from '../../../assets/images/join-slack.jpg'
+import join from '../../../assets/images/join-slack.svg'
 import googlesheet from '../../../assets/images/googlesheet.jpg'
 
-import downloadimg from '../../../assets/images/download.jpg'
-import slack from '../../../assets/images/slack.jpg'
+import downloadimg from '../../../assets/images/download-icon.svg'
+import slack from '../../../assets/images/join-slack.jpg'
 
 class Overviewwork extends React.Component {
   render() {
     return (
       <div className="pt-5 pb-5">
         <Container className="clearfix">
-          <Row className="pt-5 pb-5">
+          <Row className="pt-5 pb-5 align-items-center">
             <Col lg="6">
               <h6 className="mb-4 redColor">SLACK COMMUNITY</h6>
               <h2 className="h2">Join the discussion with others</h2>
@@ -24,21 +24,21 @@ class Overviewwork extends React.Component {
                 share all your thoughts on the Hi-tech Low Touch Economy,
                 provide new input or share any feedback.
               </p>
-              <Link className=" downloadBtn" to="/careers">
-                <img src={slack} className="float-left mr-4" alt="slack" />
+              <Link className=" downloadBtn slack" to="/careers">
+                <img src={join} alt="Join the Slack channel" />
                 Join the Slack channel
               </Link>
             </Col>
             <Col lg="6">
-              <img src={join} className="img-fluid mt-5" alt="join" />
+              <img src={slack} className="img-fluid mt-5" alt="join" />
             </Col>
           </Row>
-          <Row className="pt-5 pb-5">
+          <Row className="pt-5 pb-5 align-items-center">
             <Col lg="6">
               <img
                 src={googlesheet}
                 className="img-fluid mt-5"
-                alt="googlesheet"
+                alt="Download: Mindmap Cross Industry Ripple Effects"
               />
             </Col>
             <Col lg="6">
@@ -51,9 +51,9 @@ class Overviewwork extends React.Component {
                 how many enterpreneurs are already building a new Low touch
                 Economy to get our society back up and running.
               </p>
-              <Link className="downloadBtn" to="/careers">
-                View the Pivot Sheet&nbsp;&nbsp;
-                <img src={downloadimg} className="float-right" alt="Img" />
+              <Link className="downloadBtn sheet" to="/careers">
+                View the Pivot Sheet
+                <img src={downloadimg} alt="View the Pivot Sheet" />
               </Link>
             </Col>
           </Row>

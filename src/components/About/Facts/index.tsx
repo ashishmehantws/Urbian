@@ -7,14 +7,14 @@ import './styled.css'
 class Facts extends React.Component {
   render() {
     return (
-      <Container className="facts border-top">
+      <Container className="facts border-top pt-5">
         <Row>
-          <Col lg="4" className="mt-5">
+          <Col lg="4">
             <h3>Facts about us</h3>
           </Col>
           <Col lg="8">
             <Row>
-              <Col sm="6" className="mt-5">
+              <Col sm="6">
                 <h2 className="factsTitle">98</h2>
                 <strong>Digital products launched</strong>
                 <p>
@@ -25,7 +25,7 @@ class Facts extends React.Component {
                   className="styled__Link-lfEBUk iUBhrC servcclink"
                   href="/clients"
                 >
-                  View Clients
+                  View clients
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
                     width="14"
@@ -39,7 +39,7 @@ class Facts extends React.Component {
                   </svg>
                 </a>
               </Col>
-              <Col sm="6" className="mt-5">
+              <Col sm="6">
                 <h2 className="factsTitle">11</h2>
                 <strong>years in business</strong>
                 <p>
@@ -48,7 +48,7 @@ class Facts extends React.Component {
                 </p>
                 <a
                   className="styled__Link-lfEBUk iUBhrC servcclink"
-                  href="/casestudy"
+                  href="/work"
                 >
                   View case studies
                   <svg
@@ -68,7 +68,7 @@ class Facts extends React.Component {
             <Row>
               <Col sm="6" className="mt-5">
                 <h2 className="factsTitle">3</h2>
-                <strong>things we do well:</strong>
+                <strong>things we do well</strong>
                 <p>product strategy, product design & development</p>
                 <a
                   className="styled__Link-lfEBUk iUBhrC servcclink"
@@ -90,9 +90,7 @@ class Facts extends React.Component {
               </Col>
               <Col sm="6" className="mt-5">
                 <h2 className="factsTitle">0</h2>
-                <p>
-                  of our acquistion <br /> offers accepted
-                </p>
+                <p>of our acquistion offers accepted</p>
               </Col>
             </Row>
           </Col>

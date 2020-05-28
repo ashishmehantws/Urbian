@@ -11,7 +11,9 @@ class Casestudiescarousel extends React.Component {
     return (
       <div className="Casestudiescarousel">
         <Container>
-          <h4>Select projects we are currently working on...</h4>
+          <h3>
+            Select projects we are <br /> currently working on...
+          </h3>
           <Row>
             <Carousel>
               <Carousel.Item>

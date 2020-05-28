@@ -6,9 +6,9 @@ class Headinfo extends React.Component {
     return (
       <div className="proejct-head2">
         <h2 className="h2">
-          "They took the time to become well-versed in the intricacies of our
+          They took the time to become well-versed in the intricacies of our
           business, and instead of big reveals at set milestones, we were in
-          constant communication throughout the process."
+          constant communication throughout the process.
         </h2>
         <span>Reginald, Head of Special Project</span>
         <span>Sanlam Private Wealth</span>

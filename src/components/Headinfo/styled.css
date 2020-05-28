@@ -1,7 +1,7 @@
 .proejct-head2 {
   max-width: 1200px;
   margin: 0px auto 0px;
-  padding: 80px 100px;
+  padding: 100px 0;
   border-top: 1px solid #ddd;
   text-align: center;
 }
@@ -16,10 +16,18 @@
   margin: 0px auto;
 }
 
+.proejct-head2 h2:before, .proejct-head2 h2:after {
+  content: '"';
+}
+
 .proejct-head2 span {
   font-size: 1.2em;
   display: block;
   line-height: 25px;
+}
+
+.proejct-head2 span:last-of-type {
+  margin-top: 10px;
 }
 
 @media (max-width: 572px) {

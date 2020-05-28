@@ -30,7 +30,7 @@
 .jgCqLu {
   color: rgb(17, 19, 20);
   font-weight: 600;
-  font-size: 0.875em;
+  font-size: 0.9em;
   line-height: 1.428;
   letter-spacing: 0px;
   margin-bottom: 2em !important;
@@ -44,7 +44,7 @@
 
 .dbKpCb {
   position: relative;
-  font-size: 0.85em;
+  font-size: 0.9em;
   line-height: 1;
   color: rgb(17, 19, 20);
   text-decoration: underline;
@@ -54,18 +54,18 @@
 
 .cjuRPA a {
   display: inline-block;
-  padding: 0.5em 0px;
+  padding: 0.65em 0px;
 }
 
 footer small {
-  font-size: 1em;
+  font-size: 0.9em;
   display: block;
   padding-top: 25px !important;
 }
 
 footer a.privacy-link {
   text-decoration: underline;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .gIiDIb {

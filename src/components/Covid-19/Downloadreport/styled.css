@@ -1,26 +1,55 @@
 .downloadList {
   padding-left: 20px;
+  margin-bottom: 0;
 }
 .downloadList li {
   font-size: 1em;
   font-weight: 500;
   list-style-type: disc;
-  margin: 7px 0;
 }
+
+.downloadList li:not(:last-of-type) {
+  margin: 15px 0;
+}
+
 .downloadBtn {
   background-color: #ed220c;
-  padding: 217px 25px;
+  padding: 0 50px;
   border-radius: 5px;
-  margin-top: 25px;
+  line-height: 60px;
+  margin-top: 50px;
   color: #fff !important;
-  float: left;
+  display: inline-block;
+  font-weight: 500;
+  -webkit-transition: background 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  transition: background 500ms cubic-bezier(0.2, 1, 0.2, 1);
 }
+
+.downloadBtn:hover {
+  background: #c31d0b;
+  -webkit-transition: background 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  transition: background 500ms cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.downloadBtn img {
+  width: 19px;
+}
+
+.downloadBtn.sheet img {
+    margin-left: 15px;
+}
+
+.downloadBtn.slack img {
+    margin-right: 15px;
+}
+
 .hitechimg {
   margin-top: -80px;
   -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.3);
 }
+
 @media (max-width: 769px) {
   .hitechimg {
     width: 90%;

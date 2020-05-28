@@ -33,7 +33,7 @@ address,
 dl,
 ol,
 ul {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem;
 }
 
 *,
@@ -56,7 +56,7 @@ h5,
 h6 {
   margin-bottom: 0.5rem !important;
   font-weight: 700;
-  line-height: 1.2 !important;
+  line-height: 1.4 !important;
 }
 
 mark {
@@ -68,14 +68,22 @@ em {
 }
 
 a {
-  font-size: 1.1em !important;
-  color: #030303 !important;
+  font-size: 1.1em;
+  color: #030303;
 }
 
 p {
   margin-top: 0 !important;
+  line-height: 1.8 !important;
+  font-size: 1.1em;
+}
+
+p:not(:last-of-type) {
   margin-bottom: 1rem !important;
-  line-height: 1.7 !important;
+}
+
+p:last-of-type {
+  margin-bottom: 0 !important;
 }
 
 /* h2 {
@@ -142,6 +150,11 @@ h4 {
   padding-right: 8px;
 }
 
+.dosD {
+  margin-top: 30px;
+  display: inline-block;
+}
+
 .bred-page em {
   font-style: normal;
   position: relative;
@@ -149,7 +162,7 @@ h4 {
 }
 
 header a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .bred-page:before,
@@ -157,11 +170,12 @@ header nav a:before {
   content: '';
   position: absolute;
   height: 11px;
-  width: 100%;
-  left: 0px;
-  bottom: 7px;
+  width: 122%;
+  left: -10px;
+  bottom: 3px;
   background-color: #ffff0082;
-  transform: skew(-35deg, -4deg);
+  -webkit-transform: skew(-30deg);
+  transform: skew(-30deg);
   border: 0px;
   z-index: -2;
   opacity: 0;
@@ -178,10 +192,26 @@ header nav a.covid-menu {
 }
 .covid-div header nav a.covid-menu {
   display: block;
+  position: relative;
+  padding-right: 35px !important;
   color: #ed220c !important;
 }
-.covid-div header nav a.covid-menu .badge {
+.covid-div header nav a.covid-menu:after {
   background-color: #ed220c !important;
+  font-size: 0.6em;
+  display: inline-block;
+  padding: .25em .4em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  content: 'NEW';
+  color: white;
 }
 header a.active {
   color: #030303 !important;
@@ -215,6 +245,7 @@ header nav a {
   padding-right: 7px !important;
   position: relative;
   z-index: 3;
+  font-size: 1em;
 }
 
 header nav a:hover {
@@ -373,8 +404,8 @@ header nav a:hover {
   position: absolute;
   height: 10px;
   width: 100%;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 5px;
   background-color: #fefc9e;
   -webkit-transform: skew(-30deg);
   transform: skew(-30deg);
@@ -437,7 +468,7 @@ header nav a:hover {
 }
 
 .proejct_head {
-  max-width: 700px;
+  max-width: 65%;
   width: 100%;
   margin: 0px auto;
 }
@@ -449,10 +480,19 @@ header nav a:hover {
   line-height: 45px !important;
 }
 
+.proejct_head h2:before, .proejct_head h2:after {
+  content: '"';
+}
+
 .proejct_head span {
   font-size: 1.2em;
   display: block;
   line-height: 25px;
+}
+
+.proejct_head span:before {
+  content: "⁠—";
+  padding-right: 10px;
 }
 
 .content-wrap {
@@ -555,4 +595,13 @@ header nav a:hover {
   .proejct_head span {
     font-size: 0.9em;
   }
+}
+
+.Topsection_min p {
+  font-size: 1.2em;
+}
+
+
+.blog-min p {
+  font-size: 1em;
 }

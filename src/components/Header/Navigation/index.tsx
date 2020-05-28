@@ -76,7 +76,6 @@ class Navigation extends React.Component<
                   className="covid-menu"
                 >
                   Low Touch Economy{' '}
-                  <span className="badge badge-danger">NEW</span>
                 </Link>
                 <Link
                   to="/work"

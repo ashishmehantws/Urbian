@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import './styled.css'
 import Carousel from 'react-bootstrap/Carousel'
-import bloombergLogo from '../../../assets/images/bloomberg-logo.jpg'
+import bloombergLogo from '../../../assets/images/bloomberg-business.svg'
 
 class Testimonials extends React.Component {
   render() {

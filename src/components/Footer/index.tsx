@@ -44,7 +44,7 @@ const Footer: React.FC<{}> = () => (
           </svg>
         </Link>
         <small>© 2020 Urbian Group.</small>
-        <Link to="#" className="privacy-link">
+        <Link to="/privacy-policy" className="privacy-link">
           Privacy Policy
         </Link>
       </div>
@@ -54,7 +54,7 @@ const Footer: React.FC<{}> = () => (
           <Link className="dbKpCb" to="/about">
             About
           </Link>
-          <Link className="dbKpCb" to="/clients">
+          <Link className="dbKpCb" to="/c §flients">
             Client
           </Link>
           <Link className="dbKpCb" to="/career">
@@ -77,7 +77,7 @@ const Footer: React.FC<{}> = () => (
           <Link className="dbKpCb" to="/read">
             Read
           </Link>
-          <Link className="dbKpCb" to="#">
+          <Link className="dbKpCb" to="/handbook">
             Handbook
           </Link>
         </div>
@@ -86,10 +86,10 @@ const Footer: React.FC<{}> = () => (
         <h4 className="jgCqLu">Email us</h4>
         <div className="cjuRPA">
           <Link
-            to="#"
+            to="mailto:hello@urbian.co.za"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
           >
-            New Business
+            New business
           </Link>
           <Link
             to="#"
@@ -103,14 +103,14 @@ const Footer: React.FC<{}> = () => (
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
             target="_blank"
           >
-            General enquireis
+            General enquiries
           </Link>
           <Link
             to="#"
             className="styled__ExternalLink-hulXky bQTBkf styled__FooterLink-gcPBKg gIiDIb"
             target="_blank"
           >
-            Joint our team
+            Join our team
           </Link>
           <Link
             to="tel:+27(0)21 461 0185"
@@ -125,8 +125,8 @@ const Footer: React.FC<{}> = () => (
         <h4 className="jgCqLu">Follow us</h4>
         <div className="styled__Row-clzZZy oCRAR">
           <Link
-            to="#"
-            title="Go to instagram"
+            to="https://www.instagram.com/team.urbian/"
+            title="Find us on Instagram"
             target="_blank"
             rel="noopener noreferrer"
             className="styled__SocialLink-gWhCUO iObwtR"
@@ -148,8 +148,8 @@ const Footer: React.FC<{}> = () => (
             </svg>
           </Link>
           <Link
-            to="#"
-            title="Go to dribbble"
+            to="https://dribbble.com/Urbian"
+            title="Find us on Dribbble"
             target="_blank"
             rel="noopener noreferrer"
             className="styled__SocialLink-gWhCUO iObwtR"
@@ -169,7 +169,12 @@ const Footer: React.FC<{}> = () => (
               </g>
             </svg>
           </Link>
-          <Link to="#" title="Twitter" target="_blank" className="">
+          <Link
+            to="https://twitter.com/urbian"
+            title="Find us on Twitter"
+            target="_blank"
+            className=""
+          >
             <svg
               id="Bold"
               enableBackground="new 0 0 24 24"
