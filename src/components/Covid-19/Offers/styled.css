@@ -28,6 +28,7 @@
 
 .casestudy p {
   letter-spacing: 0.5px;
+  padding-bottom: 30px;
   font-size: 18px;
   padding-right: 9%;
   line-height: 34px;
@@ -134,7 +135,7 @@ a {
   text-align: center;
   padding-bottom: 30px;
   line-height: 48px !important;
-  max-width: 65%;
+  max-width: 760px;
   width: 100%;
   margin: 0px auto;
   font-size: 2rem !important;
