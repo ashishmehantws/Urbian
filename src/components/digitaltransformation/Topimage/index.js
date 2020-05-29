@@ -9,24 +9,26 @@ class Topimage extends React.Component {
     return (
       <Container className="top-image position-relative content-wrap">
         <Row>
-          <Col lg="6">
-            <Link
-              className=" styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
-              href="/services"
-            >
-              View all services
-              <svg
-                className="styled__Arrow-d87459-0 bQLhSh"
-                width="14"
-                height="10"
-                xmlns="http://www.w3.org/2000/svg"
+          <div className="pb-5 col-12">
+              <Link
+                className="mb-lg-4 styled__Link-d87459-1 fAxqDr styled__ArrowLink-sc-1a1di39-5 iHycSY"
+                to="/services"
               >
-                <g stroke="#030303" fill="none" fillRule="evenodd">
-                  <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
-                  <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
-                </g>
-              </svg>
-            </Link>
+                View all sevices
+                <svg
+                  className="styled__Arrow-d87459-0 bQLhSh"
+                  width="14"
+                  height="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g stroke="#030303" fill="none" fillRule="evenodd">
+                    <path d="M8.5.964L13.036 5.5 8.5 10.036"></path>
+                    <path d="M12.5 5.5H.5" strokeLinecap="square"></path>
+                  </g>
+                </svg>
+              </Link>
+          </div>
+          <Col lg="6">
             <h1 className="h1 pt-4">Digital Transformation.</h1>
             <p>
               We work alongside your teams to tackle the toughest challenges
@@ -45,9 +47,9 @@ class Topimage extends React.Component {
         <Row className="mt-5 pt-5 pb-5 border-bottom">
           <Col className="text-center proejct_head pb-5">
             <h2 className="h2">
-              "The secret to their success is there ability to assemble talented
+              The secret to their success is there ability to assemble talented
               teams of people that care. I think of Urbian as a critical member
-              of my team, not some outsourced function."
+              of my team, not some outsourced function.
             </h2>
             <span>Keith Elliott, CEO of Met-S Care</span>
           </Col>

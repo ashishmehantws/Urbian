@@ -7,6 +7,17 @@
   padding: 8px 15px;
   font-size: 0.75em;
   display: inline-block;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  background: none;
+  transition: border 0.3s, background 0.3s;
+}
+
+.topimage a:hover {
+  background: rgba(255,255,0,.51);
+  border: 1px solid rgba(255,255,0,.51);
+  transition: border 0.3s, background 0.3s;
 }
 
 .topimage h1 {

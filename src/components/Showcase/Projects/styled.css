@@ -59,12 +59,12 @@
   transition: opacity 200ms ease-in-out 0s;
 }
 
-.work-min a .project-img img {
+a .project-img img {
   transition: all 200ms ease-in-out 0s;
   will-change: all;
 }
 
-.work-min a:hover .project-img img {
+a:hover .project-img img {
   transform: all(1.03);
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;

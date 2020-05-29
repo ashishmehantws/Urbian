@@ -11,7 +11,7 @@ class Topimage extends React.Component {
       <Container className="topimage position-relative content-wrap">
         <Row>
           <Col lg="7">
-            <Link to="">Incubators &amp; Accelerators</Link>
+            <Link to="/digitaltransformation">Incubators &amp; Accelerators</Link>
             <h1 className="h1 pt-4">
               Revitalising an African-centered social tech incubator program.
             </h1>

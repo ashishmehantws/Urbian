@@ -15,7 +15,7 @@ class Casestudies extends React.Component {
               <h4 className="h2">Case studies</h4>
             </Col>
             <Col sm="6" className="mt-5 pr-sm-5">
-              <Link to="">
+              <Link to="/casestudy">
                 <div className="project-img">
                   <img className="img-fluid" src={Work1} alt="#" />
                 </div>
@@ -31,7 +31,7 @@ class Casestudies extends React.Component {
               </Link>
             </Col>
             <Col sm="6" className="mt-5 pl-sm-6">
-              <Link to="">
+              <Link to="/casestudy">
                 <div className="project-img">
                   <img className="img-fluid" src={work2} alt="#" />
                 </div>
