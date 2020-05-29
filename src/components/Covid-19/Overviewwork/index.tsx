@@ -7,7 +7,7 @@ import './styled.css'
 import join from '../../../assets/images/slack.jpg'
 import googlesheet from '../../../assets/images/googlesheet.jpg'
 
-import downloadimg from '../../../assets/images/download-icon.svg'
+import downloadimg from '../../../assets/images/download.jpg'
 import slack from '../../../assets/images/join-slack.jpg'
 
 class Overviewwork extends React.Component {
