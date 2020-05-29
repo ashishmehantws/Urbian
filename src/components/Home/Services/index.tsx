@@ -41,7 +41,7 @@ const Services: React.FC<IServicesContent> = ({
     <Container className="pt-5 mt-5 pb-5">
       <Row>
         <Col lg="5" className="pt-4">
-          <h3>
+          <h3 className="pl-lg-5 h3">
             We build digital
             <br /> products
           </h3>
@@ -52,9 +52,7 @@ const Services: React.FC<IServicesContent> = ({
             idea from end to end. From the first discovery meeting to a real
             shipped product. Have a great new product idea and nobody to start
             building it?&nbsp;
-            <em className="yellowBackground d-inline-block">
-              We're your team.
-            </em>
+            <em className="yellowBackground d-inline">We're your team.</em>
           </p>
         </Col>
       </Row>

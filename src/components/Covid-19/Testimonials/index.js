@@ -13,34 +13,37 @@ class Testimonials extends React.Component {
           <Row>
             <Carousel>
               <Carousel.Item>
-                <h2>
-                  The pandemic is leading not just to a partial economic
+                <h2 className="h2">
+                  "The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy.
+                  economy."
                 </h2>
-                <img width="127" height="40" src={bloombergLogo}
+                <img
+                  src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <h2>
-                  The pandemic is leading not just to a partial economic
+                <h2 className="h2">
+                  "The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy.
+                  economy."
                 </h2>
-                <img width="127" height="40" src={bloombergLogo}
+                <img
+                  src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <h2>
-                  The pandemic is leading not just to a partial economic
+                <h2 className="h2">
+                  "The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy.
+                  economy."
                 </h2>
-                <img width="127" height="40" src={bloombergLogo}
+                <img
+                  src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />

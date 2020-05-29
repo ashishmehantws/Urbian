@@ -49,16 +49,16 @@ class Ourculture extends React.Component {
             <img src={careerimg8} className="img-fluid mt-5" alt="careers" />
           </Col>
         </Row>
-        <Row className="pt-lg-5" id="our-culture">
+        <Row className="pt-lg-5">
           <Col lg="4">
-            <h2>Our culture</h2>
+            <h4 className="h2">Our Culture</h4>
           </Col>
-          <Col lg="7">
-            <p>
+          <Col lg="8">
+            <p className="d-inline">
               For us Culture is not company values printed on our office walls
               nor a set of KPI's OKR's or belief statements reviewed once a
               year. Our&nbsp;
-              <em className="yellowBackground d-inline-block">
+              <em className="yellowBackground d-inline">
                 culture is what we do, not what we say we do.
               </em>
             </p>
@@ -108,7 +108,7 @@ class Ourculture extends React.Component {
           </Col>
         </Row>
         <div className="text-center mt-4 mb-5">
-          <Link className="styled__Link-lfEBUk iUBhrC" to="/read">
+          <Link className="styled__Link-lfEBUk iUBhrC" to="">
             More on our culture
             <svg
               className="styled__Arrow-fdeFVt fRPwvC"

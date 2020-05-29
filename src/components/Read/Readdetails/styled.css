@@ -16,23 +16,17 @@
 }
 
 .post_d {
-  margin: 30px auto 0 auto;
+  max-width: 415px;
+  margin: 0px auto;
   text-align: left;
-  width: auto;
-  display: inline-block;
-}
-
-.post_d_i {
+  width: 100%;
+  padding-top: 8px;
   display: flex;
 }
 
 .post_d span {
   font-size: 0.92em;
-  margin: 0;
-}
-
-.post_d span:first-of-type {
-  margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 .postd-img {
@@ -79,7 +73,6 @@
 
 .blog_post_details .fAxqDr {
   color: #030303 !important;
-  margin-bottom: 0 !important;
 }
 
 .fAxqDr:hover {

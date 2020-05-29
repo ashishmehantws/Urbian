@@ -1,33 +1,25 @@
 .proejct-head2 {
   max-width: 1200px;
   margin: 0px auto 0px;
-  padding: 100px 0;
+  padding: 80px 100px;
   border-top: 1px solid #ddd;
   text-align: center;
 }
 
 .proejct-head2 h2 {
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
   line-height: 48px !important;
-  max-width: 65%;
+  max-width: 760px;
   width: 100%;
   margin: 0px auto;
-}
-
-.proejct-head2 h2:before, .proejct-head2 h2:after {
-  content: '"';
 }
 
 .proejct-head2 span {
   font-size: 1.2em;
   display: block;
   line-height: 25px;
-}
-
-.proejct-head2 span:last-of-type {
-  margin-top: 10px;
 }
 
 @media (max-width: 572px) {

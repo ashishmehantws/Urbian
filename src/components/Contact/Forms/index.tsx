@@ -17,8 +17,9 @@ class Forms extends React.Component {
             <div className="">
               <h1 className="h1">Hire us for your project</h1>
               <p className="mt-4 mb-5">
-                Or if you don't like forms get in touch with us on <a href="tel:+27214610185">+27(0)21 461
-                0185</a> or send us an email to <a href="mailto:newproject@urbian.co.za" className="underline">
+                Or if you don't like forms get in touch with us on +27(0)21 461
+                0185 or send us an email to{' '}
+                <a href="mailto:newproject@urbian.co.za" className="underline">
                   newproject@urbian.co.za
                 </a>
               </p>

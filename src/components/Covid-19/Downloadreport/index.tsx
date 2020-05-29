@@ -22,9 +22,9 @@ class Downloadreport extends React.Component {
               <li>Which industries are impacted the most?</li>
               <li>What to do now</li>
             </ul>
-            <Link className="downloadBtn sheet" to="/careers">
-              Download Report
-              <img src={downloadimg} alt="Download Report" />
+            <Link className="downloadBtn" to="/careers">
+              Download Report &nbsp;&nbsp;
+              <img src={downloadimg} className="float-right" alt="Img" />
             </Link>
           </Col>
           <Col lg="7">

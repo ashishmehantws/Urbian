@@ -16,23 +16,23 @@ class Homecovid extends React.Component {
             </Col>
             <Col md="6">
               <p>
-                If you&apos;re an organization struggling with the impact of
-                moviing your work and team remote due to the COVID&hyphen;19
-                outbreak, please reach out.
+                If you're an organization struggling with the impact of moviing
+                your work and team remote due to the COVID-19 outbreak, please
+                reach out.
               </p>
               <p className="mt-3">
                 We can help you minimize the impact of sudden remote work due to
                 COVID-19 on internal business operations.
               </p>
               <p className="mt-3">
-                As an organization, we&apos;ve been working remotely for over
-                ten years and have experience delivering high velocity and
+                As an organization, we've been working remotely for over ten
+                years and have experience delivering high velocity and
                 high-quality remote work for product, design, engineering and
                 testing teams. We can help you immediately manage the
                 transition.
               </p>
               <Link
-                className="styled__Link-lfEBUk iUBhrC float-left mt-3"
+                className="styled__Link-lfEBUk iUBhrC float-left font-weight-normal mt-3"
                 to="/covid-19"
               >
                 Read more on our Covid-19 service offering

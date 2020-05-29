@@ -7,33 +7,20 @@
   margin: 0px auto;
 }
 
-.Testimonials-slider img {
-  max-height: 40px;
-}
-
 .Testimonials-slider .container {
   width: 100%;
   max-width: 100%;
 }
 
 .Testimonials-slider h2 {
-  font-weight: 500;
+  font-weight: normal;
   line-height: 48px !important;
-}
-
-.Testimonials-slider h2:before, .Testimonials-slider h2:after {
-  content: '"';
 }
 
 .Testimonials-slider span {
   font-size: 1.2em;
   padding-top: 35px;
   display: block;
-}
-
-.Testimonials-slider span:before {
-    content: "\2060\2014";
-    padding-right: 10px;
 }
 
 .Testimonials-slider .carousel-indicators li {

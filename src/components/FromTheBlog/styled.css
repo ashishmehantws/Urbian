@@ -1,7 +1,7 @@
 .homeblog-list {
     background-color: #fefddf;
     border-color: #fefddf;
-    padding: 100px 0;
+    padding: 25px 0 120px !important;
 }
 
 .homeblog-list strong {
@@ -36,10 +36,9 @@
 
 .homeblog-list ul {
     padding-bottom: 50px;
-    margin: 0;
 }
 
-.homeblog-list li:not(:first-of-type) {
+.homeblog-list li {
     padding-top: 60px;
 }
 

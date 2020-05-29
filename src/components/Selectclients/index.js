@@ -12,11 +12,11 @@ class Selectclients extends React.Component {
           <Row>
             <Col lg="6">
               <h1 className="h1">Select clients.</h1>
-              <p>
+              <span>
                 Our clients treat us like partners because we consistently show
                 that our priority is getting results for their business more
                 than billing hours for us.
-              </p>
+              </span>
             </Col>
           </Row>
           <Row>
@@ -39,7 +39,7 @@ class Selectclients extends React.Component {
                 </em>{' '}
                 as well as a client service tool for portfolio managers.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC dosD" to="/casestudy">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -67,21 +67,21 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4 className="h2">Distel</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
-                Direct Insurances digital self-service customer- facing and
-                employee-facing products ,all enabled by us launching their
-                firstever <a>insurance API</a>.
+                <em className="underline">Ongoing trasformation</em> of Liberty
+                Direct Insurances digital self -service customer- facing and
+                employee- facing products ,all enabled by us launching their
+                firstever <em className="underline">insurance API</em>.
               </p>
             </Col>
             <Col lg="4" md="6">
               <h4 className="h2">Investec</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
-                firstever <a>insurance API</a>.
+                firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC dosD" to="/casestudy">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -99,12 +99,12 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4 className="h2">Liberty Direct Insurance</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC dosD" to="/casestudy">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -125,12 +125,12 @@ class Selectclients extends React.Component {
                 Diageo Trust <br /> South Africa
               </h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC dosD" to="/casestudy">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -148,7 +148,7 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4 className="h2">Stor-age</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
@@ -157,12 +157,12 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4 className="h2">Barclays</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
               </p>
-              <Link className="styled__Link-lfEBUk iUBhrC dosD" to="/casestudy">
+              <Link className="styled__Link-lfEBUk iUBhrC" to="/casestudy">
                 See case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -181,7 +181,7 @@ class Selectclients extends React.Component {
             <Col lg="4" md="6">
               <h4 className="h2">SantaShoebox</h4>
               <p>
-                <Link to="/casestudy">Ongoing trasformation</Link> of Liberty
+                <em className="underline">Ongoing trasformation</em> of Liberty
                 Direct Insurances digital self -service customer- facing and
                 employee- facing products ,all enabled by us launching their
                 firstever <em className="underline">insurance API</em>.
@@ -223,9 +223,9 @@ class Selectclients extends React.Component {
           <Row>
             <Col className="text-center">
               <h6 className="h2">
-                The secret to their success is there ability to assemble
+                "The secret to their success is there ability to assemble
                 talented teams of people that care. I think of Urbian as a
-                critical member of my team, not some outsourced function.
+                critical member of my team, not some outsourced function."
               </h6>
               <small>Keith Elliott, CEO Of Met-S Care</small>
             </Col>

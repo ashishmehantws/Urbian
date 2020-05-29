@@ -35,22 +35,20 @@ class Readdetails extends React.Component {
             </Link>
           </div>
           <Col lg="7" className="text-center ">
-            <h1>
+            <h1 className="h1">
               Disrupting The Traditional Consultancy Model.
             </h1>
             <p>
               A leading piece of copy of no more than about one or two lines
               just enough to give someone an idea of what the post is about.
             </p>
-            <div className="post_d">
-              <div className="post_d_i align-items-center">
+            <div className="post_d align-items-center">
               <div className="postd-img">
                 <img src={adminimg} alt="Admin" />
               </div>
-              <div>
+              <div className="">
                 <span>Anton Moulder, Managing Partner</span>
                 <span>Posted January, 2020 in Digital Transformation</span>
-              </div>
               </div>
             </div>
           </Col>
@@ -108,7 +106,7 @@ class Readdetails extends React.Component {
             </p>
           </Col>
         </Row>
-        <Row className="justify-content-center post-tag pt-5">
+        <Row className="justify-content-center post-tag pt-4">
           <Col lg="6">
             <ul>
               <li>Technology</li>

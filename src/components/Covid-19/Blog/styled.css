@@ -53,6 +53,10 @@
   color: #d15186 !important;
 }
 
+.blog-min p {
+  font-size: 17px;
+}
+
 .work-min:hover p, .work-min:hover small, .work-min:hover h6 {
   opacity: 0.6;
   transition: opacity 200ms ease-in-out 0s;

@@ -22,7 +22,6 @@
 .project-desp h6 {
   font-size: 1.1em;
   font-weight: 500;
-  font-weight: 700;
 }
 
 .project-desp ul {
@@ -35,32 +34,18 @@
   list-style-type: disc;
 }
 
-.project-desp li:not(:first-of-type) {
-  padding-top: 5px;
-}
-
-
 .project-desp h5 {
-  font-weight: 500;
+  font-weight: 400;
   padding-top: 100px;
   display: block;
-  max-width: 65%;
+  max-width: 750px;
   margin: 0px auto;
-}
-
-.tes-client h5:before, .tes-client h5:after {
-  content: '"';
 }
 
 .project-desp small {
   padding-top: 40px;
   font-size: 1.2em;
   display: block;
-}
-
-.tes-client small:before {
-  content: "\2060\2014";
-  padding-right: 10px;
 }
 
 @media (max-width: 568px) {

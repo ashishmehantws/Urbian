@@ -12,10 +12,11 @@ class Top extends React.Component {
     return (
       <Container className="Topsection_min clearfix content-wrap about_top ">
         <Row>
-          <Col lg="6" className="text-left">
+          <Col lg="8" className="text-left">
             <h1 className="h1">We're a new kind of consulting company.</h1>
             <p>
-              We listen, we challenge, we work collaboratively, we make things -
+              We listen, we challenge, we work collaboratively, <br /> we make
+              things -
               <Link className="styled__Link-lfEBUk iUBhrC" to="#">
                 {' '}
                 faster than you' believe.

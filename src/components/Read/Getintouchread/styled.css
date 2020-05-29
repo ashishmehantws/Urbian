@@ -2,22 +2,6 @@
   background-color: #fefc66;
   color: #030303;
 }
-
-.readdsetails .nextup .form-div p {
-  font-weight: 600;
-}
-
-.readdsetails .nextup a {
-  opacity: 1;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-.readdsetails .nextup a:hover {
-  opacity: 0.5;
-  transition: all 0.3s;
-}
-
 .readdsetails .nextup form {
   border-bottom: 1px solid #03030321;
 }

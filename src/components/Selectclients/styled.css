@@ -22,15 +22,17 @@
 }
 
 .Selectclients h6 {
-  font-weight: 500;
+  font-weight: 400;
   padding-top: 180px;
   display: block;
-  max-width: 65%;
+  max-width: 750px;
   margin: 0px auto;
 }
 
 .Selectclients p {
+  font-size: 1.15em;
   padding-top: 10px;
+  padding-right: 17%;
 }
 
 .Selectclients small {

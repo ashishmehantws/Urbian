@@ -33,7 +33,7 @@ address,
 dl,
 ol,
 ul {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 *,
@@ -56,7 +56,7 @@ h5,
 h6 {
   margin-bottom: 0.5rem !important;
   font-weight: 700;
-  line-height: 1.4 !important;
+  line-height: 1.2 !important;
 }
 
 mark {
@@ -68,22 +68,14 @@ em {
 }
 
 a {
-  font-size: 1.1em;
-  color: #030303;
+  font-size: 1.1em !important;
+  color: #030303 !important;
 }
 
 p {
   margin-top: 0 !important;
-  line-height: 1.8 !important;
-  font-size: 1.1em;
-}
-
-p:not(:last-of-type) {
   margin-bottom: 1rem !important;
-}
-
-p:last-of-type {
-  margin-bottom: 0 !important;
+  line-height: 1.7 !important;
 }
 
 /* h2 {
@@ -114,8 +106,9 @@ h4 {
 }
 
 .proejct-head {
+  max-width: 850px;
   margin: 120px auto 0px;
-  padding: 120px 0;
+  padding: 90px 100px;
   border-top: 1px solid #ddd;
   text-align: center;
 }
@@ -149,11 +142,6 @@ h4 {
   padding-right: 8px;
 }
 
-.dosD {
-  margin-top: 30px;
-  display: inline-block;
-}
-
 .bred-page em {
   font-style: normal;
   position: relative;
@@ -161,7 +149,7 @@ h4 {
 }
 
 header a {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bred-page:before,
@@ -169,12 +157,11 @@ header nav a:before {
   content: '';
   position: absolute;
   height: 11px;
-  width: 122%;
-  left: -10px;
-  bottom: 3px;
+  width: 100%;
+  left: 0px;
+  bottom: 7px;
   background-color: #ffff0082;
-  -webkit-transform: skew(-30deg);
-  transform: skew(-30deg);
+  transform: skew(-35deg, -4deg);
   border: 0px;
   z-index: -2;
   opacity: 0;
@@ -191,31 +178,10 @@ header nav a.covid-menu {
 }
 .covid-div header nav a.covid-menu {
   display: block;
-  position: relative;
-  padding-right: 30px !important;
   color: #ed220c !important;
 }
-
-.covid-div header nav a.covid-menu:before {
-  width: 100%;
-}
-
-.covid-div header nav a.covid-menu:after {
+.covid-div header nav a.covid-menu .badge {
   background-color: #ed220c !important;
-  font-size: 0.6em;
-  display: inline-block;
-  padding: .25em .4em;
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25rem;
-  content: 'NEW';
-  color: white;
 }
 header a.active {
   color: #030303 !important;
@@ -244,17 +210,11 @@ header button {
   margin-top: -6px !important;
 }
 
-.gdmTXY {
-   background: none;
-   height: auto !important;
-}
-
 header nav a {
   padding-left: 7px !important;
   padding-right: 7px !important;
   position: relative;
   z-index: 3;
-  font-size: 1em;
 }
 
 header nav a:hover {
@@ -390,11 +350,16 @@ header nav a:hover {
 }
 
 .clients-div header a.active:before {
+  content: '';
+  position: absolute;
+  height: 11px;
+  width: 100%;
+  left: 0px;
+  bottom: 5px;
   background-color: #fff;
-}
-
-.clients-div header a:hover:before {
-  background-color: #fff;
+  transform: skew(-35deg);
+  border: 0px;
+  z-index: -2;
 }
 
 .yellowBackground {
@@ -408,8 +373,8 @@ header nav a:hover {
   position: absolute;
   height: 10px;
   width: 100%;
-  left: 0;
-  bottom: 5px;
+  left: 0px;
+  bottom: 0px;
   background-color: #fefc9e;
   -webkit-transform: skew(-30deg);
   transform: skew(-30deg);
@@ -472,31 +437,22 @@ header nav a:hover {
 }
 
 .proejct_head {
-  max-width: 65%;
+  max-width: 700px;
   width: 100%;
   margin: 0px auto;
 }
 
 .proejct_head h2 {
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 30px;
   line-height: 45px !important;
-}
-
-.proejct_head h2:before, .proejct_head h2:after {
-  content: '"';
 }
 
 .proejct_head span {
   font-size: 1.2em;
   display: block;
   line-height: 25px;
-}
-
-.proejct_head span:before {
-  content: "⁠—";
-  padding-right: 10px;
 }
 
 .content-wrap {
@@ -563,18 +519,13 @@ header nav a:hover {
 
 @media (max-width: 769px) {
   header a.active {
-    display: inline-block;
+    display: inline;
   }
   .clients-div header a.active::before,
   header a.active::before {
     background-color: #fefc66;
-    bottom: 9px;
+    bottom: 15px;
   }
-
-  .clients-div .OCzDU, .clients-div .imfcrN {
-    background: #fefc66;
-  }
-
   .yellowBackground {
     background-color: #fefc9e;
   }
@@ -588,9 +539,11 @@ header nav a:hover {
 
 @media (max-width: 568px) {
   .content-wrap {
-    padding-top: 60px;
+    padding-top: 0px;
   }
- 
+  .headroom-wrapper header {
+    padding-bottom: 60px;
+  }
   a,
   .fYDdlr {
     font-size: 13px;
@@ -602,13 +555,4 @@ header nav a:hover {
   .proejct_head span {
     font-size: 0.9em;
   }
-}
-
-.Topsection_min p {
-  font-size: 1.2em;
-}
-
-
-.blog-min p {
-  font-size: 1em;
 }

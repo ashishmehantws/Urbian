@@ -16,9 +16,12 @@ class Howdothis extends React.Component {
           </Col>
         </Row>
         <Row className="mb-lg-5 pb-5">
-          <Col lg="5" className="mt-5 pright">
+          <Col lg="6" className="mt-5 order-lg-6">
+            <img src={img2} className="img-fluid" alt="img1" />
+          </Col>
+          <Col lg="6" className="mt-5 pright">
             <h4 className="h2">Prople First</h4>
-            <p>
+            <p className="">
               Empowered prople and well-functioning teams are the foundation for
               great product development. While processes and methodologies like
               desgin thinking and Agile are essential, following a tool set
@@ -27,17 +30,14 @@ class Howdothis extends React.Component {
               overlooked dimension in Agile and software development.
             </p>
           </Col>
-          <Col lg="6" className="mt-5 offset-sm-1">
-            <img src={img2} className="img-fluid" alt="img1" />
-          </Col>
         </Row>
         <Row className="mb-lg-5 pb-5 pt-lg-5">
           <Col lg="6" className="mt-5">
             <img src={img2} className="img-fluid" alt="img1" />
           </Col>
-          <Col lg="5" className="offset-sm-1 mt-5">
+          <Col lg="6" className="mt-5 pleft">
             <h4 className="h2">One Team</h4>
-            <p>
+            <p className="">
               We seamlessly fuse with our clients across disciplines, roles, and
               backgrounds. We empower every team member of this combined team to
               be both critical thinker and a pragmatic doer-unlocking the true
@@ -48,9 +48,12 @@ class Howdothis extends React.Component {
           </Col>
         </Row>
         <Row className="mb-lg-5 pb-5 pt-lg-5">
-          <Col lg="5" className="mt-5">
+          <Col lg="6" className="mt-5 order-lg-6">
+            <img src={img3} className="img-fluid" alt="img1" />
+          </Col>
+          <Col lg="6" className="mt-5 pright">
             <h4 className="h2">Digtial Capability</h4>
-            <p>
+            <p className="">
               Every company is at a different stage in their digital journey. We
               work with both technology leaders as well as established brands
               that are trying to redefine their value with digital means. We are
@@ -61,9 +64,6 @@ class Howdothis extends React.Component {
               business models and ventures. Together,we create unique ways of
               working that will inspire yours organisation.
             </p>
-          </Col>
-          <Col lg="6" className="offset-sm-1 mt-5 order-lg-6">
-            <img src={img3} className="img-fluid" alt="img1" />
           </Col>
         </Row>
       </Container>

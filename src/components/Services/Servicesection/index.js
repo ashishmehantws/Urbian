@@ -22,10 +22,10 @@ class Servicesection extends React.Component {
         <Container className="border-top servicesection mt-5 clearfix">
           <Row>
             <Col md="12" className="text-center">
-              <h2>
+              <h2 className="h2">
                 We' re a new kind of consultancy. <br />
                 Our secret sauce is our ability
-                <Link to="/read" className="styled__Link-lfEBUk iUBhrC">
+                <Link to="" className="styled__Link-lfEBUk iUBhrC">
                   to bridge the strategy to delivery gap.
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
@@ -58,10 +58,7 @@ class Servicesection extends React.Component {
                 learning about what works and what doesn't from running them
                 ourselves.
               </p>
-              <Link
-                to=""
-                className="styled__Link-lfEBUk iUBhrC servcclink dosD"
-              >
+              <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
                 More on our programs
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -84,10 +81,7 @@ class Servicesection extends React.Component {
                 able to get a new breakthrough product in your customers hands
                 in 100 days.
               </p>
-              <Link
-                to=""
-                className="styled__Link-lfEBUk iUBhrC servcclink dosD"
-              >
+              <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
                 More on digital products
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -108,10 +102,7 @@ class Servicesection extends React.Component {
                 We work alongside your teams to tackle the toughest challenges
                 head on.
               </p>
-              <Link
-                to=""
-                className="styled__Link-lfEBUk iUBhrC servcclink dosD"
-              >
+              <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
                 More on transformation
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -132,10 +123,7 @@ class Servicesection extends React.Component {
                 We have built long-lasting capability inside copmanies through
                 hiring, onboarding and coaching multi-disciplinary teams.
               </p>
-              <Link
-                to=""
-                className="styled__Link-lfEBUk iUBhrC servcclink dosD"
-              >
+              <Link to="" className="styled__Link-lfEBUk iUBhrC servcclink">
                 More on this service
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -211,15 +199,9 @@ class Servicesection extends React.Component {
               <strong>Industry</strong>
               <ul>
                 <li>Health & Wellness</li>
-                <li>
-                  <Link to="">Insurance</Link>
-                </li>
-                <li>
-                  <Link to="">Financial services</Link>
-                </li>
-                <li>
-                  <Link to="">E-Commerce</Link>
-                </li>
+                <li>Insurance</li>
+                <li>Financial services</li>
+                <li>E-Commerce</li>
                 <li>Saas</li>
               </ul>
             </div>

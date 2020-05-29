@@ -14,19 +14,21 @@ class Contacts extends React.Component {
               <Col lg="3" md="4">
                 <h5>New business</h5>
                 <ul>
-                  <li><a href="tel:+27214610185">+27(0)21 461 0185</a></li>
+                  <li><a href="callto:+27(0)21 461 0185">+27(0)21 461 0185</a></li>
                   <li><a href="mailto:newprojects@urbian.co.za" className="text-underline">newprojects@urbian.co.za</a></li>
                 </ul>
               </Col>
               <Col lg="3" md="4">
                 <h5>Press enquiries</h5>
-                <p>For media please email <a href="mailto:press@urbian.co.za" className="text-underline">press@urbian.co.za</a>
-                </p>
+                <ul>
+                  <li>For media please email</li>
+                  <li><a href="mailto:press@urbian.co.za" className="text-underline">press@urbian.co.za</a></li>
+                </ul>
               </Col>
               <Col lg="3" md="4">
                 <h5>General enquiries</h5>
                 <ul>
-                  <li><a href="tel:+27214610185">+27(0)21 461 0185</a></li>
+                  <li><a href="callto:+27(0)21 461 0185">+27(0)21 461 0185</a></li>
                   <li><a href="mailto:contact@urbian.co.za" className="text-underline">contact@urbian.co.za</a></li>
                 </ul>
               </Col>

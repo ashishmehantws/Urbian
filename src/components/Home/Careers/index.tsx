@@ -31,12 +31,12 @@ const Careers: React.FC<ICareersContent> = ({
               </React.Fragment>
             )
           })} */}
-          Hey, <br /> we're hiring.
+          Hey, <br /> We're hiring.
         </h3>
       </S.Left>
       <S.Right className="career">
         <S.Big className="pb-1">
-          <p>
+          <p className="fz-2">
             Do more than design and buid incredible products. Help ship them,
             too. Because for us, work is only as good as its impact in the wild.
           </p>

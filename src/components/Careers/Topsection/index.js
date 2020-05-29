@@ -32,13 +32,13 @@ class Topsection extends React.Component {
         </Row>
         <Row className="mt-5 pt-4 pb-5 border-bottom">
           <Col md="12" className="text-center proejct_head pb-5">
-            <h2>
-              I love that I can work from home in my underpants. This lockdown
+            <h2 className="h2">
+              "I love that I can work from home in my inderpants. Thi Lockdown
               hasn't changed my work/life balance one bit, now all Urbian needs
               to do is make food and have it delivered to my home and then we'll
-              be sorted.
+              be sorted."
             </h2>
-            <span>Heinrich Colyn, full-stack developer</span>
+            <span>-Heinrich Colyn, full-stack developer</span>
           </Col>
         </Row>
       </Container>

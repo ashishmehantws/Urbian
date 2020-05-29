@@ -3,15 +3,16 @@
   padding-bottom: 45px;
 }
 
-.Casestudiescarousel h3 {
+.Casestudiescarousel h4 {
   font-weight: bold;
   max-width: 400px;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
-.Casestudiescarousel .carousel-item a {
-  font-weight: 700 !important;
+.Casestudiescarousel a {
+  font-weight: 600 !important;
+  font-size: 1em;
 }
 
 .carousel-item {
@@ -95,9 +96,5 @@
   .Casestudiescarousel span {
     display: block;
     padding-top: 45px;
-  }
-
-  .Casestudiescarousel h3 br {
-    display: none;
   }
 }

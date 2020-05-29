@@ -14,13 +14,13 @@ class FromTheBlog extends React.Component {
         <Container>
           <Row>
             <Col md="5">
-              <h3 className="h3">Latest News</h3>
+              <h3 className="h3">Latest News.</h3>
             </Col>
             <Col md="6">
               <ul>
                 <li className="border-bottom pb-4">
                   <strong>
-                    Covid-19: Our candid view on the most crucial things
+                    Covide-19: Our candid view on the most crucial things
                     companies need to get right now.
                   </strong>
                   <div className="d-flex flex-wrap align-items-center justify-content-start">

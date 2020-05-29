@@ -10,15 +10,16 @@ class Projectdescription extends React.Component {
     return (
       <Container className="project-desp position-relative">
         <Row className="pb-4">
-          <Col sm="5" className="pt-2">
+          <Col sm="6" className="pt-2">
             <strong>Client</strong>
-            <span>Diageo Empowerment Trust South Africa</span>
-            <strong className="mt-5">View project</strong>
-            <a href='https://www.socialtechstartup.co.za/' target="_blank" rel="noopener" title="Social Tech Startup Challenge">
-              <mark className="yellowBackground">socialtechstartup.co.za</mark>
-            </a>
+            <span>Diageo Empowerment Trust</span>
+            <span>South Africa</span>
+            <strong className="mt-5">View Project</strong>
+            <span>
+              <mark className="yellowBackground">Socialtechstartup.co.za</mark>
+            </span>
           </Col>
-          <Col sm="6" className="offset-sm-1 pt-2">
+          <Col sm="6" className="pt-2">
             <p>
               We were approached to relaunch the Diageo Empowerment Trust South
               Africa's "Social Tech" incubation programme. The programe needed
@@ -84,15 +85,15 @@ class Projectdescription extends React.Component {
             </ul>
           </Col>
         </Row>
-        <Row className="tes-client">
+        <Row className="">
           <Col className="text-center border-top d-block mt-lg-5 ">
             <h5 className="h2">
-              They bring a sense of genius and of machiavallian change in terms
+              "They bring a sense of genius and of machiavallian change in terms
               of driving everything that we do. It's just been an absolute
               honour to work with them and we look forward to continue working
-              with them in the future.
+              with them in the future."
             </h5>
-            <small>Sinethemba Mafanya, GM Diageo Empowerment Trust SA</small>
+            <small>- Sinethemba Mafanya, GM Diageo Empowerment Trust SA</small>
           </Col>
         </Row>
       </Container>

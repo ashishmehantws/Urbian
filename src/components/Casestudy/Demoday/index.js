@@ -124,6 +124,7 @@ class Demoday extends React.Component {
                 url="https://player.vimeo.com/video/347119375?color=ef2200&byline=0&portrait=0"
                 width="100%"
                 height="100%"
+                playing
                 controls
                 loop
               />

@@ -44,8 +44,8 @@ class Joinus extends React.Component {
               </p>
             </S.Big>
             <Link
-              className="styled__Link-d87459-1 fYDdlr colorblack dosD"
-              to="/career#current-openings"
+              className="styled__Link-d87459-1 fYDdlr colorblack"
+              to="/career"
             >
               View current openings
               <svg

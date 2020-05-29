@@ -13,19 +13,16 @@ class Handbook extends React.Component {
           <div className="handbook">
             <div className="handbookDes">
               <h3 className="mb-5">
-                How we run our company <br /> and work on projects
+                How we run our company and work on projects
               </h3>
               <p className="mb-4">
                 Our Handbook is a glimpse into how we make successful web and
-                mobile products, and also how we run our company. It&apos;s
-                filled with things we'e learned from our own experience and the
-                study of others experiences. It's a living document that
-                everyone at Urbian contrubutes to continually.
+                mobile products, and also how we run our company. It's filled
+                with things we'e learned from our own experience and the study
+                of others experiences. It's a living document that everyone at
+                Urbian contrubutes to continually.
               </p>
-              <a
-                className="styled__Link-lfEBUk iUBhrC servcclink dosD"
-                href="/"
-              >
+              <a className="styled__Link-lfEBUk iUBhrC servcclink " href="/">
                 Browse our handbook
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -41,7 +38,7 @@ class Handbook extends React.Component {
               </a>
             </div>
           </div>
-          <div>
+          <div className="mt-5">
             <img src={handbookimg} className="img-fluid" alt="Img" />
           </div>
         </Row>
