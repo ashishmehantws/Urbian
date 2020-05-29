@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import './styled.css'
 import Carousel from 'react-bootstrap/Carousel'
-import bloombergLogo from '../../../assets/images/bloomberg-business.svg'
+import bloombergLogo from '../../../assets/images/bloomberg-logo.jpg'
 
 class Testimonials extends React.Component {
   render() {
@@ -13,10 +13,10 @@ class Testimonials extends React.Component {
           <Row>
             <Carousel>
               <Carousel.Item>
-                <h2 className="h2">
-                  "The pandemic is leading not just to a partial economic
+                <h2>
+                  The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy."
+                  economy.
                 </h2>
                 <img
                   src={bloombergLogo}
@@ -25,10 +25,10 @@ class Testimonials extends React.Component {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <h2 className="h2">
-                  "The pandemic is leading not just to a partial economic
+                <h2>
+                  The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy."
+                  economy.
                 </h2>
                 <img
                   src={bloombergLogo}
@@ -37,10 +37,10 @@ class Testimonials extends React.Component {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <h2 className="h2">
-                  "The pandemic is leading not just to a partial economic
+                <h2>
+                  The pandemic is leading not just to a partial economic
                   shutdown but to a shift: from a high-touch to a low-touch
-                  economy."
+                  economy.
                 </h2>
                 <img
                   src={bloombergLogo}

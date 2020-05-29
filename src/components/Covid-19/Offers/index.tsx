@@ -186,7 +186,7 @@ class Offers extends React.Component {
                     because it' how we operate.
                   </p>
                   <Link
-                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                     to="/services"
                   >
                     {' '}
@@ -215,7 +215,7 @@ class Offers extends React.Component {
                     and over again.
                   </p>
                   <Link
-                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                     to="/services"
                   >
                     {' '}
@@ -243,7 +243,7 @@ class Offers extends React.Component {
                     and nurture a healthy and productive culture.
                   </p>
                   <Link
-                    className="styled__Link-lfEBUk iUBhrC font-bold"
+                    className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                     to="/services"
                   >
                     {' '}
@@ -264,9 +264,9 @@ class Offers extends React.Component {
               </Row>
             </Col>
           </Row>
-          <Row className="casestudy pt-5 pb-5 mt-5">
+          <Row className="casestudy pt-5 pb-5 mt-5 align-items-center">
             <Col lg="7">
-              <img className="img-fluid" src={Casestudies1} alt="#" />
+              <img className="img-fluid" src={Casestudies1} alt="Remote project delivery for Standard Bank Direct" />
             </Col>
             <Col lg="5">
               <span>Case Study</span>
@@ -281,7 +281,7 @@ class Offers extends React.Component {
                 <em className="yellowBackground"> remote teams.</em>
               </p>
               <Link
-                className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
+                className="dosD styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
                 to="/casestudy"
               >
                 View case study
@@ -520,7 +520,7 @@ class Offers extends React.Component {
                       riskiest assumptions and guide future work.
                     </p>
                     <Link
-                      className="styled__Link-lfEBUk iUBhrC font-bold"
+                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                       to="/services"
                     >
                       {' '}
@@ -548,7 +548,7 @@ class Offers extends React.Component {
                       national e-commerce rollouts.
                     </p>
                     <Link
-                      className="styled__Link-lfEBUk iUBhrC font-bold"
+                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                       to="/services"
                     >
                       {' '}
@@ -576,7 +576,7 @@ class Offers extends React.Component {
                       with this pace but become a pace maker yourself.
                     </p>
                     <Link
-                      className="styled__Link-lfEBUk iUBhrC font-bold"
+                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                       to="/services"
                     >
                       {' '}
@@ -597,15 +597,14 @@ class Offers extends React.Component {
                 </Row>
               </Col>
             </Row>
-            <Row className="casestudy pt-5 pb-5 mt-5">
+            <Row className="casestudy pt-5 pb-5 mt-5 align-items-center">
               <Col lg="7">
-                <img className="img-fluid" src={bablytonstoren} alt="#" />
+                <img className="img-fluid" src={bablytonstoren} alt="Bablytonstoren' Custom E-Commerce Implementation increased sales by 150% in under 6 months." />
               </Col>
               <Col lg="5">
                 <span>Case Study</span>
                 <h5 className="h3">
-                  Bablytonstoren' Custom E-Commerce Implementation increased
-                  sales by 150% in under 6 months.
+                  Babylonstoren' Custom E-Commerce Implementation increased sales by 150% in under 6 months.
                 </h5>
 
                 <p>
@@ -614,7 +613,7 @@ class Offers extends React.Component {
                   the results they wanted, we agreed. So we did.
                 </p>
                 <Link
-                  className="styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
+                  className="dosD styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
                   to="/casestudy"
                 >
                   View case study

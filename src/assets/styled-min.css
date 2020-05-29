@@ -114,9 +114,8 @@ h4 {
 }
 
 .proejct-head {
-  max-width: 850px;
   margin: 120px auto 0px;
-  padding: 90px 100px;
+  padding: 120px 0;
   border-top: 1px solid #ddd;
   text-align: center;
 }
@@ -193,9 +192,14 @@ header nav a.covid-menu {
 .covid-div header nav a.covid-menu {
   display: block;
   position: relative;
-  padding-right: 35px !important;
+  padding-right: 30px !important;
   color: #ed220c !important;
 }
+
+.covid-div header nav a.covid-menu:before {
+  width: 100%;
+}
+
 .covid-div header nav a.covid-menu:after {
   background-color: #ed220c !important;
   font-size: 0.6em;
@@ -579,11 +583,9 @@ header nav a:hover {
 
 @media (max-width: 568px) {
   .content-wrap {
-    padding-top: 0px;
+    padding-top: 60px;
   }
-  .headroom-wrapper header {
-    padding-bottom: 60px;
-  }
+ 
   a,
   .fYDdlr {
     font-size: 13px;
