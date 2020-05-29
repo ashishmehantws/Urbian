@@ -185,10 +185,7 @@ class Offers extends React.Component {
                     complete software product development work remotely -
                     because it' how we operate.
                   </p>
-                  <Link
-                    className="dosD styled__Link-lfEBUk iUBhrC font-bold"
-                    to="/services"
-                  >
+                  <Link className="styled__Link-lfEBUk iUBhrC font-bold" to="#">
                     {' '}
                     View service
                     <svg
@@ -213,8 +210,7 @@ class Offers extends React.Component {
                     experience incredible gains in productivity and efficiency
                     when the same information doesn't have to be repeated over
                     and over again.
-                  </p>
-                  <Link
+                  </p><Link
                     className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                     to="/services"
                   >
@@ -241,8 +237,7 @@ class Offers extends React.Component {
                     if they aren' supported by a strong foundation around
                     processes. We help individuals and teams mature processes
                     and nurture a healthy and productive culture.
-                  </p>
-                  <Link
+                  </p><Link
                     className="dosD styled__Link-lfEBUk iUBhrC font-bold"
                     to="/services"
                   >
@@ -280,10 +275,7 @@ class Offers extends React.Component {
                 being delivered by
                 <em className="yellowBackground"> remote teams.</em>
               </p>
-              <Link
-                className="dosD styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                to="/casestudy"
-              >
+              <Link>
                 View case study
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
@@ -519,10 +511,7 @@ class Offers extends React.Component {
                       our riskiest knowledge gaps, validate or invalidate our
                       riskiest assumptions and guide future work.
                     </p>
-                    <Link
-                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
-                      to="/services"
-                    >
+                    <Link>
                       {' '}
                       View service
                       <svg
@@ -547,10 +536,7 @@ class Offers extends React.Component {
                       intersting niche subscription solutions to large scale
                       national e-commerce rollouts.
                     </p>
-                    <Link
-                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
-                      to="/services"
-                    >
+                    <Link>
                       {' '}
                       View service
                       <svg
@@ -575,10 +561,7 @@ class Offers extends React.Component {
                       deliver complex services. We help you not just keep up
                       with this pace but become a pace maker yourself.
                     </p>
-                    <Link
-                      className="dosD styled__Link-lfEBUk iUBhrC font-bold"
-                      to="/services"
-                    >
+                    <Link>
                       {' '}
                       Read More
                       <svg
@@ -612,10 +595,7 @@ class Offers extends React.Component {
                   needed to re-invent their entire e-commerce solution to get
                   the results they wanted, we agreed. So we did.
                 </p>
-                <Link
-                  className="dosD styled__Link-lfEBUk iUBhrC font-weight-normal mt-5"
-                  to="/casestudy"
-                >
+                <Link>
                   View case study
                   <svg
                     className="styled__Arrow-fdeFVt fRPwvC"
