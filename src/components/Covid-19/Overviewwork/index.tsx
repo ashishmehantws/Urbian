@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './styled.css'
 
-import join from '../../../assets/images/join-slack.svg'
+import join from '../../../assets/images/slack.jpg'
 import googlesheet from '../../../assets/images/googlesheet.jpg'
 
 import downloadimg from '../../../assets/images/download-icon.svg'

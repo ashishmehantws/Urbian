@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './styled.css'
 import hitechimg from '../../../assets/images/hi-texh.jpg'
-import downloadimg from '../../../assets/images/download-icon.svg'
+import downloadimg from '../../../assets/images/download.jpg'
 
 class Downloadreport extends React.Component {
   render() {
