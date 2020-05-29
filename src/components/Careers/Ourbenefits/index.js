@@ -10,12 +10,12 @@ class Ourbenefits extends React.Component {
       <Container className="Ourbenefits_min mt-lg-5 pb-5">
         <Row>
           <Col lg="3">
-            <h4 className="h2">Our benefits</h4>
+            <h2>Our benefits</h2>
           </Col>
           <Col lg="9">
             <Row>
               <Col md="4">
-                <strong>Flexible hours $location </strong>
+                <strong>Flexible hours &amp; location </strong>
                 <p>
                   placeholder text to be added once we're up and going and ready
                   like a boeing.

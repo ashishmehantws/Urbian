@@ -244,6 +244,11 @@ header button {
   margin-top: -6px !important;
 }
 
+.gdmTXY {
+   background: none;
+   height: auto !important;
+}
+
 header nav a {
   padding-left: 7px !important;
   padding-right: 7px !important;
@@ -385,16 +390,11 @@ header nav a:hover {
 }
 
 .clients-div header a.active:before {
-  content: '';
-  position: absolute;
-  height: 11px;
-  width: 100%;
-  left: 0px;
-  bottom: 5px;
   background-color: #fff;
-  transform: skew(-35deg);
-  border: 0px;
-  z-index: -2;
+}
+
+.clients-div header a:hover:before {
+  background-color: #fff;
 }
 
 .yellowBackground {
@@ -563,13 +563,18 @@ header nav a:hover {
 
 @media (max-width: 769px) {
   header a.active {
-    display: inline;
+    display: inline-block;
   }
   .clients-div header a.active::before,
   header a.active::before {
     background-color: #fefc66;
-    bottom: 15px;
+    bottom: 9px;
   }
+
+  .clients-div .OCzDU, .clients-div .imfcrN {
+    background: #fefc66;
+  }
+
   .yellowBackground {
     background-color: #fefc9e;
   }

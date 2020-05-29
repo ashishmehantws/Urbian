@@ -35,7 +35,7 @@ class Homecovid extends React.Component {
                 className="styled__Link-lfEBUk iUBhrC float-left mt-3"
                 to="/covid-19"
               >
-                Read more on our Covid&hyphen;19 service offering
+                Read more on our Covid-19 service offering
                 <svg
                   className="styled__Arrow-fdeFVt fRPwvC"
                   width="14"

@@ -108,7 +108,7 @@ class Ourculture extends React.Component {
           </Col>
         </Row>
         <div className="text-center mt-4 mb-5">
-          <Link className="styled__Link-lfEBUk iUBhrC" to="">
+          <Link className="styled__Link-lfEBUk iUBhrC" to="/read">
             More on our culture
             <svg
               className="styled__Arrow-fdeFVt fRPwvC"

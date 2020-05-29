@@ -40,17 +40,26 @@
 
 
 .project-desp h5 {
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 100px;
   display: block;
-  max-width: 750px;
+  max-width: 65%;
   margin: 0px auto;
+}
+
+.tes-client h5:before, .tes-client h5:after {
+  content: '"';
 }
 
 .project-desp small {
   padding-top: 40px;
   font-size: 1.2em;
   display: block;
+}
+
+.tes-client small:before {
+  content: "\2060\2014";
+  padding-right: 10px;
 }
 
 @media (max-width: 568px) {

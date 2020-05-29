@@ -31,24 +31,23 @@ class Getintouch extends React.Component {
         </Container>
         <div className="nextup">
           <Container>
-            <Row>
-              <Col sm="12">
-                <span>Next up</span>
+            <Row className="align-items-center">
+              <Col md="6" lg="6">
+                <Link to="/casestudy">
+                  <span>Next up</span>
+                  <h5 className="h2">
+                    Clearing a 9-year old feature backlog in 6 months.
+                  </h5>
+                  <p>
+                    An agile development process was the key to delivering an
+                    insurance API that allows any department to refer insurance
+                    leads or sell insurance directly to their client.
+                  </p>
+                </Link>
               </Col>
-              <Col lg="6">
-                <h5 className="h2">
-                  Clearing a 9-year old feature backlog in 6 months.
-                </h5>
-                <p>
-                  An agile development process was the key to delivering an
-                  insurance API that allows any department to refer insurance
-                  leads or sell insurance directly to their client.
-                </p>
-              </Col>
-              <Col lg="6">
+              <Col className="offset-lg-1" md="6" lg="5">
                 <div className="form-div">
-                  <p>Stay in the loop with our</p>
-                  <p>quarterly newsletter </p>
+                  <p>Stay in the loop with our quarterly newsletter </p>
                   <Form className="mt-5">
                     <Form.Group controlId="">
                       <Form.Control

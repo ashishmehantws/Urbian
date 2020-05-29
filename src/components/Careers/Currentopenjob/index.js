@@ -9,10 +9,10 @@ class Currentopenjob extends React.Component {
     return (
       <Container className="Currentopenjob mt-5 pt-lg-5 ">
         <Row>
-          <Col lg="5" className="pt-4">
-            <h4 className="h2">
-              Current open <br /> position
-            </h4>
+          <Col lg="5" className="pt-4" id="current-openings">
+            <h2>
+              Current open <br /> positions
+            </h2>
           </Col>
           <Col lg="5">
             <div className="w-100 border-bottom pb-4 pt-4">

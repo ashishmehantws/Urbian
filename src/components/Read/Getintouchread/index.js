@@ -11,24 +11,23 @@ class Getintouchread extends React.Component {
       <div className="readdsetails">
         <div className="nextup">
           <Container>
-            <Row>
-              <Col sm="12">
-                <span>Next up</span>
+            <Row className="align-items-center">
+              <Col md="6" lg="6">
+                <Link to="/readdetails">
+                  <span>Next up</span>
+                  <h2>
+                    A title of a blog post may or may not need to go as long as
+                    two lines but surely not three.
+                  </h2>
+                  <p>
+                    A leading piece of copy of no more than about one or two lines
+                    just enough to give someone an idea of what the post is about.
+                  </p>
+                  </Link>
               </Col>
-              <Col lg="6">
-                <h5 className="h2">
-                  A title of a blog post may or may not need to go as long as
-                  two lines but surely not three.
-                </h5>
-                <p>
-                  A leading piece of copy of no more than about one or two lines
-                  just enough to give someone an idea of what the post is about.
-                </p>
-              </Col>
-              <Col lg="6">
+              <Col className="offset-lg-1" md="6" lg="5">
                 <div className="form-div">
-                  <p>Stay in the loop with our</p>
-                  <p>quarterly newsletter </p>
+                  <p>Stay in the loop with our quarterly newsletter </p>
                   <Form className="mt-5">
                     <Form.Group controlId="">
                       <Form.Control
