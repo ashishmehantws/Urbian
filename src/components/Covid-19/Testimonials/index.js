@@ -18,8 +18,7 @@ class Testimonials extends React.Component {
                   shutdown but to a shift: from a high-touch to a low-touch
                   economy.
                 </h2>
-                <img
-                  src={bloombergLogo}
+                <img width="127" height="40" src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />
@@ -30,8 +29,7 @@ class Testimonials extends React.Component {
                   shutdown but to a shift: from a high-touch to a low-touch
                   economy.
                 </h2>
-                <img
-                  src={bloombergLogo}
+                <img width="127" height="40" src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />
@@ -42,8 +40,7 @@ class Testimonials extends React.Component {
                   shutdown but to a shift: from a high-touch to a low-touch
                   economy.
                 </h2>
-                <img
-                  src={bloombergLogo}
+                <img width="127" height="40" src={bloombergLogo}
                   className="img-fluid mt-5"
                   alt="Team"
                 />
